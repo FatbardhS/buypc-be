@@ -51,6 +51,12 @@ export interface CpuSpecs {
   tdpW: number;
   /** Peak package power (AMD PPT / Intel max turbo power), used for PSU sizing */
   maxPowerW: number;
+  /** Has built-in graphics, so the PC can run without a graphics card */
+  integratedGraphics: boolean;
+  /** Rough performance class 1 (entry) to 5 (enthusiast), for games */
+  gamingTier: number;
+  /** Rough performance class 1 to 5 for heavy work (rendering, CAD, video) — mostly core count */
+  workTier: number;
 }
 
 export interface CoolerSpecs {
@@ -71,6 +77,8 @@ export interface GpuSpecs {
   powerW: number;
   /** Manufacturer-recommended PSU */
   recommendedPsuW: number;
+  /** Rough performance class 1 (entry) to 5 (enthusiast) */
+  tier: number;
 }
 
 export interface PsuSpecs {

@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Build } from './build.entity';
 import { PartsService } from '../parts/parts.service';
-import { CATEGORIES } from '../parts/part.types';
+import { CATEGORIES, CpuSpecs } from '../parts/part.types';
 import { checkSelection, estimatePower, Selection } from '../compatibility/compatibility';
 
 @Injectable()
@@ -29,7 +29,9 @@ export class BuildsService {
   async create(ids: unknown, name?: string): Promise<Build> {
     const selection = await this.parts.resolveSelection(ids);
 
-    const missing = CATEGORIES.filter((c) => !selection[c]);
+    // A graphics card is optional when the processor has built-in graphics
+    const builtInGraphics = !!(selection.cpu?.specs as CpuSpecs | undefined)?.integratedGraphics;
+    const missing = CATEGORIES.filter((c) => !selection[c] && !(c === 'gpu' && builtInGraphics));
     if (missing.length) {
       throw new BadRequestException(`Pick a part for: ${missing.join(', ')}`);
     }
@@ -41,7 +43,7 @@ export class BuildsService {
 
     const build = this.builds.create({
       name: (typeof name === 'string' && name.trim().slice(0, 120)) || `My ${selection.cpu!.name} build`,
-      items: CATEGORIES.map((category) => {
+      items: CATEGORIES.filter((category) => selection[category]).map((category) => {
         const part = selection[category]!;
         return { category, partId: part.id, brand: part.brand, name: part.name, price: part.price };
       }),

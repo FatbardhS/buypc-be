@@ -2,8 +2,10 @@ import { BadRequestException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { In, Repository } from 'typeorm';
 import { Part } from './part.entity';
-import { CATEGORIES, Category, isCategory } from './part.types';
+import { CATEGORIES, Category, CpuSpecs, isCategory } from './part.types';
 import { Selection, estimatePower, issuesFor } from '../compatibility/compatibility';
+import { buildTargets, parseProfile } from '../recommend/profile';
+import { Fit, FitContext, bestCpuBySocket, builtInGraphicsFit, fitFor } from '../recommend/fit';
 
 /** What the client sends: the id of the part picked in each category */
 export type SelectionIds = Partial<Record<Category, number>>;
@@ -12,6 +14,8 @@ export interface PartOption {
   part: Part;
   compatible: boolean;
   issues: string[];
+  fit?: Fit;
+  recommended: boolean;
 }
 
 @Injectable()
@@ -50,8 +54,12 @@ export class PartsService {
     return selection;
   }
 
-  /** Every part in a category, marked compatible or not with the current picks (compatible first). */
-  async options(category: Category, ids: unknown) {
+  /**
+   * Every part in a category, marked compatible or not with the current picks (compatible first).
+   * With a profile ("what is this PC for?") each part also gets a plain-language fit, and the
+   * single best match is flagged `recommended` and moved to the top.
+   */
+  async options(category: Category, ids: unknown, rawProfile?: unknown) {
     const selection = await this.resolveSelection(ids);
     // Only parts picked in earlier steps constrain this step
     const earlier: Selection = {};
@@ -59,13 +67,53 @@ export class PartsService {
       if (selection[prev]) earlier[prev] = selection[prev];
     }
 
+    const profile = parseProfile(rawProfile);
+    const targets = profile && buildTargets(profile);
+
+    // The motherboard step looks ahead: a board is only as good as the processors it accepts
+    const ctx: FitContext = {};
+    if (targets && category === 'motherboard') {
+      ctx.bestCpuBySocket = bestCpuBySocket(await this.findByCategory('cpu'), targets);
+    }
+
     const parts = await this.findByCategory(category);
     const options: PartOption[] = parts.map((part) => {
       const issues = issuesFor(part, earlier);
-      return { part, compatible: issues.length === 0, issues };
+      return {
+        part,
+        compatible: issues.length === 0,
+        issues,
+        fit: targets && fitFor(part, targets, earlier, ctx),
+        recommended: false,
+      };
     });
     options.sort((a, b) => Number(b.compatible) - Number(a.compatible));
 
-    return { category, options, power: estimatePower(earlier) };
+    // "No graphics card" is a valid choice when the processor has built-in graphics
+    const cpu = earlier.cpu?.specs as CpuSpecs | undefined;
+    const builtInGraphics =
+      category === 'gpu' && cpu?.integratedGraphics
+        ? { available: true, fit: targets && builtInGraphicsFit(targets), recommended: false }
+        : undefined;
+
+    if (targets) {
+      const candidates = options.filter((o) => o.compatible && o.fit && o.fit.level !== 'weak');
+      const rank = (fit: Fit, price: number) => [fit.level === 'good' ? 0 : 1, fit.score, price];
+      const better = (a: number[], b: number[]) => a[0] - b[0] || a[1] - b[1] || a[2] - b[2];
+      let best: PartOption | undefined;
+      for (const o of candidates) {
+        if (!best || better(rank(o.fit!, o.part.price), rank(best.fit!, best.part.price)) < 0) best = o;
+      }
+
+      if (builtInGraphics?.fit?.level === 'good' && (!best || best.fit!.level !== 'good' || best.fit!.score > 0)) {
+        builtInGraphics.recommended = true;
+      } else if (best) {
+        best.recommended = true;
+        options.splice(options.indexOf(best), 1);
+        options.unshift(best);
+      }
+    }
+
+    return { category, options, power: estimatePower(earlier), builtInGraphics, useLabel: targets?.label };
   }
 }

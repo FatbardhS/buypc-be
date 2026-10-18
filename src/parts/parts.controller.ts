@@ -20,12 +20,12 @@ export class PartsController {
     return this.parts.findByCategory(category);
   }
 
-  /** POST /api/parts/options  { category: 'cpu', selection: { case: 1, motherboard: 9 } } */
+  /** POST /api/parts/options  { category: 'cpu', selection: { case: 1, motherboard: 9 }, profile?: { uses: ['gaming'], resolution: '1440p' } } */
   @Post('options')
-  options(@Body() body: { category?: string; selection?: unknown }) {
+  options(@Body() body: { category?: string; selection?: unknown; profile?: unknown }) {
     if (!isCategory(body?.category)) {
       throw new BadRequestException(`category must be one of: ${CATEGORIES.join(', ')}`);
     }
-    return this.parts.options(body.category, body.selection);
+    return this.parts.options(body.category, body.selection, body.profile);
   }
 }
