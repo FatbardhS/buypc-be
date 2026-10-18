@@ -11,7 +11,11 @@ import { BuildsModule } from './builds/builds.module';
       inject: [ConfigService],
       useFactory: (config: ConfigService) => ({
         type: 'postgres',
-        url: config.get('DATABASE_URL', 'postgres://buypc:buypc@localhost:5432/buypc'),
+        // DATABASE_URL locally; Vercel's Neon integration may provide POSTGRES_URL instead
+        url:
+          config.get('DATABASE_URL') ||
+          config.get('POSTGRES_URL') ||
+          'postgres://buypc:buypc@localhost:5432/buypc',
         autoLoadEntities: true,
         // Creates/updates tables from the entities. Fine for development; use migrations in production.
         synchronize: true,
