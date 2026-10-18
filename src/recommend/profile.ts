@@ -9,12 +9,17 @@ export type Resolution = (typeof RESOLUTIONS)[number];
 export const REFRESH_RATES = [60, 144, 240, 360, 500, 600] as const;
 export type RefreshRate = (typeof REFRESH_RATES)[number];
 
+/** Processor brand the buyer prefers (unset = either) */
+export const CPU_BRANDS = ['amd', 'intel'] as const;
+export type CpuBrand = (typeof CPU_BRANDS)[number];
+
 export interface Profile {
   uses: Use[];
   /** Screen resolution: asked for gaming, video & photo, and architecture */
   resolution?: Resolution;
   /** Monitor refresh rate in Hz: asked for gaming only */
   refreshHz?: RefreshRate;
+  cpuBrand?: CpuBrand;
 }
 
 /** A spec value is "weak" below min, "good" up to max, "overkill" above; ideal is the sweet spot. */
@@ -32,6 +37,8 @@ export interface Targets {
   minVramGb?: number;
   ramGb: Range;
   storageGb: Range;
+  /** Only recommend processors (and motherboards) of this brand */
+  cpuBrand?: CpuBrand;
   /** Plain-language description, e.g. "gaming at 1440p · 240Hz" */
   label: string;
 }
@@ -125,13 +132,18 @@ export function buildTargets(profile: Profile): Targets {
         };
   }
 
-  return { ...combined!, label: uses.map((u) => labelFor(u, resolution, hz)).join(' and ') };
+  const brand = profile.cpuBrand ? (profile.cpuBrand === 'amd' ? ' · AMD' : ' · Intel') : '';
+  return {
+    ...combined!,
+    cpuBrand: profile.cpuBrand,
+    label: uses.map((u) => labelFor(u, resolution, hz)).join(' and ') + brand,
+  };
 }
 
 /** Validates the profile sent by the client. Returns undefined when there is none. */
 export function parseProfile(raw: unknown): Profile | undefined {
   if (!raw || typeof raw !== 'object') return undefined;
-  const { uses, resolution, refreshHz } = raw as { uses?: unknown; resolution?: unknown; refreshHz?: unknown };
+  const { uses, resolution, refreshHz, cpuBrand } = raw as { uses?: unknown; resolution?: unknown; refreshHz?: unknown; cpuBrand?: unknown };
   if (!Array.isArray(uses)) return undefined;
   const valid = uses.filter((u): u is Use => (USES as readonly string[]).includes(u as string));
   if (!valid.length) return undefined;
@@ -139,5 +151,6 @@ export function parseProfile(raw: unknown): Profile | undefined {
     uses: [...new Set(valid)],
     resolution: (RESOLUTIONS as readonly string[]).includes(resolution as string) ? (resolution as Resolution) : undefined,
     refreshHz: (REFRESH_RATES as readonly number[]).includes(refreshHz as number) ? (refreshHz as RefreshRate) : undefined,
+    cpuBrand: (CPU_BRANDS as readonly string[]).includes(cpuBrand as string) ? (cpuBrand as CpuBrand) : undefined,
   };
 }

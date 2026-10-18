@@ -97,7 +97,7 @@ export class PartsService {
         : undefined;
 
     if (targets) {
-      const candidates = options.filter((o) => o.compatible && o.fit && o.fit.level !== 'weak');
+      const candidates = options.filter((o) => o.compatible && o.fit && o.fit.level !== 'weak' && o.fit.level !== 'other');
       const rank = (fit: Fit, price: number) => [fit.level === 'good' ? 0 : 1, fit.score, price];
       const better = (a: number[], b: number[]) => a[0] - b[0] || a[1] - b[1] || a[2] - b[2];
       let best: PartOption | undefined;

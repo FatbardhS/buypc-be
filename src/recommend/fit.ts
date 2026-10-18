@@ -17,8 +17,9 @@ import { Range, Targets } from './profile';
  * - good: right for the job
  * - overkill: works, but costs more than needed
  * - weak: works, but too slow / too small for the job
+ * - other: not the processor brand the buyer asked for
  */
-export type FitLevel = 'good' | 'overkill' | 'weak';
+export type FitLevel = 'good' | 'overkill' | 'weak' | 'other';
 
 export interface Fit {
   level: FitLevel;
@@ -35,6 +36,9 @@ function rate(value: number, range: Range): { level: FitLevel; score: number } {
   if (value > range.max) return { level: 'overkill', score: 50 + (value - range.max) };
   return { level: 'good', score: Math.abs(value - range.ideal) };
 }
+
+const BRAND_NAMES = { amd: 'AMD', intel: 'Intel' } as const;
+const socketBrand = (socket: string): 'amd' | 'intel' => (socket.startsWith('AM') ? 'amd' : 'intel');
 
 const gb = (n: number) => (n >= 1000 ? `${n / 1000}TB` : `${n}GB`);
 
@@ -80,6 +84,10 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
 
     case 'motherboard': {
       const m = specs<MotherboardSpecs>(part);
+      if (t.cpuBrand && socketBrand(m.socket) !== t.cpuBrand) {
+        const brand = BRAND_NAMES[socketBrand(m.socket)];
+        return { level: 'other', note: `For ${brand} processors; you chose ${BRAND_NAMES[t.cpuBrand]}`, score: 200 };
+      }
       if (m.maxMemoryGb < t.ramGb.ideal) {
         return { level: 'weak', note: `Holds at most ${m.maxMemoryGb}GB memory; ${job} works best with ${t.ramGb.ideal}GB`, score: 100 };
       }
@@ -101,6 +109,9 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
 
     case 'cpu': {
       const c = specs<CpuSpecs>(part);
+      if (t.cpuBrand && socketBrand(c.socket) !== t.cpuBrand) {
+        return { level: 'other', note: `An ${BRAND_NAMES[socketBrand(c.socket)]} processor; you chose ${BRAND_NAMES[t.cpuBrand]}`, score: 200 };
+      }
       const ratings = [
         t.cpuGaming && rate(c.gamingTier, t.cpuGaming),
         t.cpuWork && rate(c.workTier, t.cpuWork),
