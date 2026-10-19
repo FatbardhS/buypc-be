@@ -348,6 +348,9 @@ function storagePart(p, brand) {
 
 export const NORMALIZERS = { case: casePart, motherboard, cpu: cpuPart, cooler: coolerPart, gpu: gpuPart, psu: psuPart, ram: ramPart, storage: storagePart };
 
+/** The shop's image CDN resizes on request; cards never need more than 400px */
+const sized = (url) => (url.includes('50cdn.gjirafamall.tech') && !url.includes('?') ? `${url}?width=400` : url);
+
 // ---------- Matching shop listings to the hand-checked catalog ----------
 
 const STOP = new Set(['edition', 'the', 'gaming', 'wifi', 'with', 'and', 'black', 'white', 'reference', 'founders', 'low', 'profile', 'ssd', 'sata', 'nvme', 'oc']);
@@ -384,7 +387,7 @@ function matchCurated(curated, listings) {
       });
     }
     const best = hits.filter((p) => p.image).sort((a, b) => a.price - b.price)[0];
-    if (best) result[`${c.category}/${c.slug}`] = { price: best.price, imageUrl: best.image, sourceUrl: best.url };
+    if (best) result[`${c.category}/${c.slug}`] = { price: best.price, imageUrl: sized(best.image), sourceUrl: best.url };
   }
   return result;
 }
@@ -419,7 +422,7 @@ async function main() {
         name,
         price: Math.round(p.price * 100) / 100,
         specs: result.specs,
-        imageUrl: p.image,
+        imageUrl: sized(p.image),
         sourceUrl: p.url,
       });
       kept++;

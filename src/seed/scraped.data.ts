@@ -7,162 +7,162 @@ import type { SeedPart } from './parts.data';
 export const CURATED_FROM_SHOP: Record<string, { price: number; imageUrl: string; sourceUrl: string }> = {
   "case/nzxt-h5-flow": {
     "price": 102.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/3a0cb9c7-d44c-4e48-bc61-4b2d707e8334/3a0cb9c7-d44c-4e48-bc61-4b2d707e8334.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/3a0cb9c7-d44c-4e48-bc61-4b2d707e8334/3a0cb9c7-d44c-4e48-bc61-4b2d707e8334.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/kuti-kompjuteri-nzxt-h5-flow-mid-tower-xham-i-temperuar-e-bardhe"
   },
   "case/lian-li-o11-dynamic-evo": {
     "price": 208.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/5ed0a82f-fca6-460b-8a28-51f789074f76/5ed0a82f-fca6-460b-8a28-51f789074f76.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/5ed0a82f-fca6-460b-8a28-51f789074f76/5ed0a82f-fca6-460b-8a28-51f789074f76.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/kase-lian-li-o11-dynamic-evo-rgb-midi-tower"
   },
   "case/fractal-north": {
     "price": 134.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/54624e7e-2338-41b4-83cb-e222da225870/54624e7e-2338-41b4-83cb-e222da225870.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/54624e7e-2338-41b4-83cb-e222da225870/54624e7e-2338-41b4-83cb-e222da225870.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/kase-fractal-design-north-chalk-white-mid-tower-e-bardhe"
   },
   "motherboard/gigabyte-b550m-ds3h": {
     "price": 117.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/61510828-7540-472c-8b33-16416ed1a30c/61510828-7540-472c-8b33-16416ed1a30c.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/61510828-7540-472c-8b33-16416ed1a30c/61510828-7540-472c-8b33-16416ed1a30c.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b550m-ds3h-socket-am4-micro-atx-amd-b550-4"
   },
   "motherboard/asrock-b650m-hdv-m2": {
     "price": 133.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/c2111d3f-6428-4584-be2f-d37e278ccf21/c2111d3f-6428-4584-be2f-d37e278ccf21.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/c2111d3f-6428-4584-be2f-d37e278ccf21/c2111d3f-6428-4584-be2f-d37e278ccf21.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b650m-hdvm2-amd-b650-2"
   },
   "motherboard/asus-rog-strix-b550-f": {
     "price": 206.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/83de35f9-de0f-41bd-81af-bb6b872d64e0/83de35f9-de0f-41bd-81af-bb6b872d64e0.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/83de35f9-de0f-41bd-81af-bb6b872d64e0/83de35f9-de0f-41bd-81af-bb6b872d64e0.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-b550-f-gaming-wifi-ii-amd-b550-socket-am4-atx"
   },
   "motherboard/msi-b650-tomahawk": {
     "price": 259.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/1b70ce8b-fbf6-48af-9fcf-1c3cebc7d1f1/1b70ce8b-fbf6-48af-9fcf-1c3cebc7d1f1.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/1b70ce8b-fbf6-48af-9fcf-1c3cebc7d1f1/1b70ce8b-fbf6-48af-9fcf-1c3cebc7d1f1.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-mag-b650-tomahawk-wifi"
   },
   "motherboard/asus-tuf-z790-plus": {
     "price": 249.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/96462a2c-4101-496d-b546-9f919d5eecad/96462a2c-4101-496d-b546-9f919d5eecad.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/96462a2c-4101-496d-b546-9f919d5eecad/96462a2c-4101-496d-b546-9f919d5eecad.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-z790-plus-wifi-intel-z790-3"
   },
   "cpu/amd-ryzen-5-8600g": {
     "price": 195.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/9b9034d6-98d4-44a4-b8c8-c05c2ca289b8/9b9034d6-98d4-44a4-b8c8-c05c2ca289b8.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/9b9034d6-98d4-44a4-b8c8-c05c2ca289b8/9b9034d6-98d4-44a4-b8c8-c05c2ca289b8.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-8600g-100-100001237box-43-ghz-6-berthama-socket-am5-16-mb"
   },
   "cpu/intel-core-i5-14400": {
     "price": 279.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/1709a393-de2c-4716-bb58-8c2b357b6564/1709a393-de2c-4716-bb58-8c2b357b6564.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/1709a393-de2c-4716-bb58-8c2b357b6564/1709a393-de2c-4716-bb58-8c2b357b6564.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14400-2"
   },
   "cpu/amd-ryzen-5-5600x": {
     "price": 134.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/238d5a0f-1fa9-4376-a83f-3745be339382/238d5a0f-1fa9-4376-a83f-3745be339382.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/238d5a0f-1fa9-4376-a83f-3745be339382/238d5a0f-1fa9-4376-a83f-3745be339382.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-5600x-37ghz-32mb-l3-per-desktop"
   },
   "cpu/amd-ryzen-7-5800x3d": {
     "price": 412.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/61fe10d9-d6b6-4ff0-b831-4f9a3f3de7c5/61fe10d9-d6b6-4ff0-b831-4f9a3f3de7c5.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/61fe10d9-d6b6-4ff0-b831-4f9a3f3de7c5/61fe10d9-d6b6-4ff0-b831-4f9a3f3de7c5.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-5800x3d-8-berthama-34ghz-socket-am4"
   },
   "cpu/amd-ryzen-5-7600x": {
     "price": 177.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/13ad29b7-15e6-42d7-b25e-ced218b7be0e/13ad29b7-15e6-42d7-b25e-ced218b7be0e.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/13ad29b7-15e6-42d7-b25e-ced218b7be0e/13ad29b7-15e6-42d7-b25e-ced218b7be0e.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-7600x-3"
   },
   "cpu/amd-ryzen-7-7800x3d": {
     "price": 379,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/a567d321-b994-48a2-8cb5-5d50d3edaf01/a567d321-b994-48a2-8cb5-5d50d3edaf01.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/a567d321-b994-48a2-8cb5-5d50d3edaf01/a567d321-b994-48a2-8cb5-5d50d3edaf01.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-7800x3d-42ghz-baze-50ghz-boost-8-core-16-thread-96mb-cache-120w-tdp-am5-socket"
   },
   "cpu/amd-ryzen-9-9950x": {
     "price": 685.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/14753da1-9611-412a-94b7-81794e07d7dd/14753da1-9611-412a-94b7-81794e07d7dd.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/14753da1-9611-412a-94b7-81794e07d7dd/14753da1-9611-412a-94b7-81794e07d7dd.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-9950x"
   },
   "cpu/intel-core-i5-13400f": {
     "price": 241.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/da6bc2c7-bdf5-4b51-b69f-faa775c9d976/da6bc2c7-bdf5-4b51-b69f-faa775c9d976.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/da6bc2c7-bdf5-4b51-b69f-faa775c9d976/da6bc2c7-bdf5-4b51-b69f-faa775c9d976.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-13400f-25-ghz-20-mb-cache-10-berthama-oem"
   },
   "cpu/intel-core-i5-14600k": {
     "price": 299.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/eb3c0c9e-2afb-4b2c-a2fe-f01deb0a33a1/eb3c0c9e-2afb-4b2c-a2fe-f01deb0a33a1.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/eb3c0c9e-2afb-4b2c-a2fe-f01deb0a33a1/eb3c0c9e-2afb-4b2c-a2fe-f01deb0a33a1.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14600k-2"
   },
   "cpu/intel-core-i9-14900k": {
     "price": 539.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/7d4a58e1-2bfa-44ed-8b62-f18b3d86d595/7d4a58e1-2bfa-44ed-8b62-f18b3d86d595.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/7d4a58e1-2bfa-44ed-8b62-f18b3d86d595/7d4a58e1-2bfa-44ed-8b62-f18b3d86d595.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-intel-i9-14900k-2"
   },
   "cpu/intel-core-ultra-7-265k": {
     "price": 344.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/154ac163-039b-4fb6-b423-cd132fb7d5cb/154ac163-039b-4fb6-b423-cd132fb7d5cb.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/154ac163-039b-4fb6-b423-cd132fb7d5cb/154ac163-039b-4fb6-b423-cd132fb7d5cb.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-7-265k-oem"
   },
   "cooler/thermalright-peerless-assassin-120-se": {
     "price": 52.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/e2336117-2fcf-4f5b-87f3-c75648bc25ba/e2336117-2fcf-4f5b-87f3-c75648bc25ba.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/e2336117-2fcf-4f5b-87f3-c75648bc25ba/e2336117-2fcf-4f5b-87f3-c75648bc25ba.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/ftohes-thermalright-peerless-assassin-120-se-extrem-i-zi"
   },
   "cooler/cooler-master-hyper-212-black": {
     "price": 25.22,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/7769cc16-7955-4cf2-9f88-015540052a70/7769cc16-7955-4cf2-9f88-015540052a70.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/7769cc16-7955-4cf2-9f88-015540052a70/7769cc16-7955-4cf2-9f88-015540052a70.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/ftohes-cpu-cooler-master-hyper-212-spectrum-v3-120mm-argb-i-zi-2"
   },
   "cooler/noctua-nh-d15-g2": {
     "price": 219.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/9abfb181-0e59-4fe3-ba74-5885b6e13d9b/9abfb181-0e59-4fe3-ba74-5885b6e13d9b.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/9abfb181-0e59-4fe3-ba74-5885b6e13d9b/9abfb181-0e59-4fe3-ba74-5885b6e13d9b.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/ftohes-per-procesor-noctua-nh-d15-g2-hbc-14-cm"
   },
   "cooler/arctic-liquid-freezer-iii-280": {
     "price": 96.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/1dd73f52-4710-4e4d-b02c-129e4133e0d5/1dd73f52-4710-4e4d-b02c-129e4133e0d5.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/1dd73f52-4710-4e4d-b02c-129e4133e0d5/1dd73f52-4710-4e4d-b02c-129e4133e0d5.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/ftohes-uji-cpu-arctic-liquid-freezer-iii-pro-280-radiator-280mm-multi-compatible-i-zi"
   },
   "cooler/arctic-liquid-freezer-iii-360": {
     "price": 122.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/dccad3bb-719d-45d1-8f0d-9613f42fd020/dccad3bb-719d-45d1-8f0d-9613f42fd020.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/dccad3bb-719d-45d1-8f0d-9613f42fd020/dccad3bb-719d-45d1-8f0d-9613f42fd020.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/sistem-ftohes-me-uje-arctic-liquid-freezer-iii-pro-360-radiator-360mm-3-ventilatore-i-zi"
   },
   "cooler/nzxt-kraken-240": {
     "price": 128.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/359f409f-09a5-4f12-b4a3-d06f95bc063f/359f409f-09a5-4f12-b4a3-d06f95bc063f.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/359f409f-09a5-4f12-b4a3-d06f95bc063f/359f409f-09a5-4f12-b4a3-d06f95bc063f.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/ftohes-uji-procesori-nzxt-kraken-plus-rgb-240-aio-240mm-i-bardhe"
   },
   "gpu/nvidia-rtx-5070-fe": {
     "price": 819.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/4f4cf2ba-420f-4589-9997-dcaa64530710/4f4cf2ba-420f-4589-9997-dcaa64530710.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/4f4cf2ba-420f-4589-9997-dcaa64530710/4f4cf2ba-420f-4589-9997-dcaa64530710.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-prime-rtx5070-o12g-white-nvidia-geforce-rtx-5070-12gb-gddr7-e-bardhe"
   },
   "gpu/asus-rog-strix-rtx-4090": {
     "price": 2824.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/51c3fa3a-0e12-4511-9922-3b8b33051078/51c3fa3a-0e12-4511-9922-3b8b33051078.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/51c3fa3a-0e12-4511-9922-3b8b33051078/51c3fa3a-0e12-4511-9922-3b8b33051078.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-rog-strix-geforce-rtx-4090-btf-oc-24gb-gddr6x-2"
   },
   "gpu/nvidia-rtx-5090-fe": {
     "price": 5369.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/c919cbb5-37e0-42d2-8649-67858f5c3f5c/c919cbb5-37e0-42d2-8649-67858f5c3f5c.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/c919cbb5-37e0-42d2-8649-67858f5c3f5c/c919cbb5-37e0-42d2-8649-67858f5c3f5c.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-tuf-gaming-tuf-rtx5090-o32g-nvidia-geforce-rtx-5090-32gb-gddr7"
   },
   "psu/corsair-rm750e": {
     "price": 247.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/7c926c88-45e9-433b-922a-e4f95065908b/7c926c88-45e9-433b-922a-e4f95065908b.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/7c926c88-45e9-433b-922a-e4f95065908b/7c926c88-45e9-433b-922a-e4f95065908b.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/furnizues-energjie-corsair-rme-series-rm750e-750w-80-plus-gold-i-bardhe"
   },
   "storage/samsung-990-pro-1tb": {
     "price": 189,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/c9b2dc76-daed-4e22-b0da-536c1cd9fb6d/c9b2dc76-daed-4e22-b0da-536c1cd9fb6d.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/c9b2dc76-daed-4e22-b0da-536c1cd9fb6d/c9b2dc76-daed-4e22-b0da-536c1cd9fb6d.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/ssd-e-mbrendshme-samsung-990-pro-mz-v9p1t0bw-1tb-m2"
   },
   "storage/samsung-990-pro-2tb": {
     "price": 239,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/34b016ce-7d08-4e61-a2c3-cb7578319aef/34b016ce-7d08-4e61-a2c3-cb7578319aef.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/34b016ce-7d08-4e61-a2c3-cb7578319aef/34b016ce-7d08-4e61-a2c3-cb7578319aef.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/ssd-e-mbrendshme-samsung-990-pro-mz-v9p2t0bw-2tb-m2"
   },
   "storage/samsung-870-evo-1tb": {
     "price": 149,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/c8848971-c09e-4388-99bb-829973266d24/c8848971-c09e-4388-99bb-829973266d24.jpeg",
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/c8848971-c09e-4388-99bb-829973266d24/c8848971-c09e-4388-99bb-829973266d24.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/samsung-870-evo-1tb-25-internal-ssd"
   }
 };
@@ -189,7 +189,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8fae69e4-4774-41e0-ba41-81f2b14f4cef/8fae69e4-4774-41e0-ba41-81f2b14f4cef.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8fae69e4-4774-41e0-ba41-81f2b14f4cef/8fae69e4-4774-41e0-ba41-81f2b14f4cef.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-darkflash-ds900-air-e-zeze-midi-tower"
  },
  {
@@ -212,7 +212,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/397201d3-a77c-4c3c-a2da-f212dc692c25/397201d3-a77c-4c3c-a2da-f212dc692c25.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/397201d3-a77c-4c3c-a2da-f212dc692c25/397201d3-a77c-4c3c-a2da-f212dc692c25.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-zalman-s5-rgb-midi-tower"
  },
  {
@@ -235,7 +235,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/82edfdd2-3db4-4f85-9a7e-63eb436afcae/82edfdd2-3db4-4f85-9a7e-63eb436afcae.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/82edfdd2-3db4-4f85-9a7e-63eb436afcae/82edfdd2-3db4-4f85-9a7e-63eb436afcae.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-nzxt-h7-flow-rgb-e-bardhe-midi-tower"
  },
  {
@@ -258,7 +258,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c2cc36d5-d9bf-4b6f-a950-613ea19c964e/c2cc36d5-d9bf-4b6f-a950-613ea19c964e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c2cc36d5-d9bf-4b6f-a950-613ea19c964e/c2cc36d5-d9bf-4b6f-a950-613ea19c964e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-thermaltake-view-91-rgb-te-ndryshme"
  },
  {
@@ -281,7 +281,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f9592e11-60d7-4833-985a-1eed7221202d/f9592e11-60d7-4833-985a-1eed7221202d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f9592e11-60d7-4833-985a-1eed7221202d/f9592e11-60d7-4833-985a-1eed7221202d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-phanteks-xt-view-d-rgb-e-zeze-midi-tower"
  },
  {
@@ -305,7 +305,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/71512047-39c6-429f-a8d2-3d77e24a4727/71512047-39c6-429f-a8d2-3d77e24a4727.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/71512047-39c6-429f-a8d2-3d77e24a4727/71512047-39c6-429f-a8d2-3d77e24a4727.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-phanteks-enthoo-pro-2-server-full-tower"
  },
  {
@@ -327,7 +327,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d68a4a57-3efc-48a3-9af3-660d982866a8/d68a4a57-3efc-48a3-9af3-660d982866a8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d68a4a57-3efc-48a3-9af3-660d982866a8/d68a4a57-3efc-48a3-9af3-660d982866a8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-msi-mag-forge-m100a-rgb-e-zeze"
  },
  {
@@ -350,7 +350,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/43125015-18bb-43b2-9117-16c4847a9a1e/43125015-18bb-43b2-9117-16c4847a9a1e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/43125015-18bb-43b2-9117-16c4847a9a1e/43125015-18bb-43b2-9117-16c4847a9a1e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-per-pc-fury-shobo-sh4f-rgb-nfo-2154-e-zeze"
  },
  {
@@ -373,7 +373,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/65940105-3770-45e6-8102-605def294a09/65940105-3770-45e6-8102-605def294a09.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/65940105-3770-45e6-8102-605def294a09/65940105-3770-45e6-8102-605def294a09.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-adata-xpg-invader-x-rgb-e-zeze-midi-tower"
  },
  {
@@ -396,7 +396,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/92f57b3f-23a5-4f4a-9160-c7f41cb64dff/92f57b3f-23a5-4f4a-9160-c7f41cb64dff.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/92f57b3f-23a5-4f4a-9160-c7f41cb64dff/92f57b3f-23a5-4f4a-9160-c7f41cb64dff.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-nzxt-h7-flow-e-zeze-midi-tower"
  },
  {
@@ -419,7 +419,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d909936-a428-4c38-9397-259202661c54/7d909936-a428-4c38-9397-259202661c54.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d909936-a428-4c38-9397-259202661c54/7d909936-a428-4c38-9397-259202661c54.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-darkflash-aquarius-acrylic-midi-tower"
  },
  {
@@ -442,7 +442,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cfac3b95-d2ea-47c9-aba3-3791c687e8f4/cfac3b95-d2ea-47c9-aba3-3791c687e8f4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cfac3b95-d2ea-47c9-aba3-3791c687e8f4/cfac3b95-d2ea-47c9-aba3-3791c687e8f4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-fractal-design-north-midi-tower"
  },
  {
@@ -465,7 +465,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/79385faf-751a-4e68-86b9-d6767111c061/79385faf-751a-4e68-86b9-d6767111c061.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/79385faf-751a-4e68-86b9-d6767111c061/79385faf-751a-4e68-86b9-d6767111c061.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-hyte-y60-midi-tower-2"
  },
  {
@@ -488,7 +488,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/815c16c4-a05b-494a-8def-48d363764e93/815c16c4-a05b-494a-8def-48d363764e93.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/815c16c4-a05b-494a-8def-48d363764e93/815c16c4-a05b-494a-8def-48d363764e93.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-nzxt-h6-flow-midi-tower"
  },
  {
@@ -512,7 +512,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e2d61420-144c-4018-966d-4b2bd8365e6e/e2d61420-144c-4018-966d-4b2bd8365e6e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e2d61420-144c-4018-966d-4b2bd8365e6e/e2d61420-144c-4018-966d-4b2bd8365e6e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-lian-li-o11-dynamic-evo-xl-argb-o11dexl-x-e-zeze"
  },
  {
@@ -534,7 +534,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d5d34d8d-104c-4739-848e-5ff1d2057f50/d5d34d8d-104c-4739-848e-5ff1d2057f50.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d5d34d8d-104c-4739-848e-5ff1d2057f50/d5d34d8d-104c-4739-848e-5ff1d2057f50.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-darkflash-q15-mini-tower"
  },
  {
@@ -557,7 +557,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/15499fc6-ed7b-4a23-9609-7221a31f3a30/15499fc6-ed7b-4a23-9609-7221a31f3a30.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/15499fc6-ed7b-4a23-9609-7221a31f3a30/15499fc6-ed7b-4a23-9609-7221a31f3a30.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-thermaltake-view-270-tg-argb-e-bardhe-midi-tower"
  },
  {
@@ -580,7 +580,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/839f01f6-da19-4eca-9448-120ff0f84761/839f01f6-da19-4eca-9448-120ff0f84761.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/839f01f6-da19-4eca-9448-120ff0f84761/839f01f6-da19-4eca-9448-120ff0f84761.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-kompjuteri-deepcool-cg580-atx-xham-i-temperuar-e-zeze"
  },
  {
@@ -603,7 +603,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9ce9f5bc-338e-48da-bd87-01f2433b4588/9ce9f5bc-338e-48da-bd87-01f2433b4588.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9ce9f5bc-338e-48da-bd87-01f2433b4588/9ce9f5bc-338e-48da-bd87-01f2433b4588.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-msi-mpg-velox-100r-argb-midi-tower-2"
  },
  {
@@ -624,7 +624,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "SFX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0c050c78-7b46-4446-b2a0-60ef4b4eebac/0c050c78-7b46-4446-b2a0-60ef4b4eebac.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0c050c78-7b46-4446-b2a0-60ef4b4eebac/0c050c78-7b46-4446-b2a0-60ef4b4eebac.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-krux-scor-cube-tower"
  },
  {
@@ -645,7 +645,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "SFX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/98ed5ba7-3fcb-430b-b2d4-239927934259/98ed5ba7-3fcb-430b-b2d4-239927934259.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/98ed5ba7-3fcb-430b-b2d4-239927934259/98ed5ba7-3fcb-430b-b2d4-239927934259.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-chieftec-hunter-gs-01b-op-e-zeze"
  },
  {
@@ -668,7 +668,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9595a9ee-ac8b-4a3c-884b-9cd2763a2955/9595a9ee-ac8b-4a3c-884b-9cd2763a2955.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9595a9ee-ac8b-4a3c-884b-9cd2763a2955/9595a9ee-ac8b-4a3c-884b-9cd2763a2955.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-cooler-master-masterbox-600-lite-e-zeze-midi-tower"
  },
  {
@@ -692,7 +692,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cc5fb39c-aaba-4d93-a585-b11f50020f75/cc5fb39c-aaba-4d93-a585-b11f50020f75.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cc5fb39c-aaba-4d93-a585-b11f50020f75/cc5fb39c-aaba-4d93-a585-b11f50020f75.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-thermaltake-core-v71-tg-edition-full-tower"
  },
  {
@@ -715,7 +715,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/363864c1-87b4-45e2-b94d-8cad5c101a90/363864c1-87b4-45e2-b94d-8cad5c101a90.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/363864c1-87b4-45e2-b94d-8cad5c101a90/363864c1-87b4-45e2-b94d-8cad5c101a90.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-pc-deepcool-cl6600-mid-tower-aio-360mm-e-zeze"
  },
  {
@@ -738,7 +738,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c290d00a-19bc-4b46-aca4-8bd733d079b9/c290d00a-19bc-4b46-aca4-8bd733d079b9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c290d00a-19bc-4b46-aca4-8bd733d079b9/c290d00a-19bc-4b46-aca4-8bd733d079b9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-msi-mpg-gungnir-111r-argb-midi-tower"
  },
  {
@@ -761,7 +761,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9218c04e-1b13-4a21-9251-6809998b54de/9218c04e-1b13-4a21-9251-6809998b54de.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9218c04e-1b13-4a21-9251-6809998b54de/9218c04e-1b13-4a21-9251-6809998b54de.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-darkflash-aquariuscase-e-zeze-midi-tower"
  },
  {
@@ -784,7 +784,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/15fc644e-0239-4139-8727-084f33a0a7bc/15fc644e-0239-4139-8727-084f33a0a7bc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/15fc644e-0239-4139-8727-084f33a0a7bc/15fc644e-0239-4139-8727-084f33a0a7bc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-msi-mag-vampiric-300r-argb-midi-tower"
  },
  {
@@ -805,7 +805,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "SFX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/65b1842c-953f-4751-ae09-93a68bd7cd0b/65b1842c-953f-4751-ae09-93a68bd7cd0b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/65b1842c-953f-4751-ae09-93a68bd7cd0b/65b1842c-953f-4751-ae09-93a68bd7cd0b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-kompjuteri-krux-leda-krx0007-e-zeze"
  },
  {
@@ -827,7 +827,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f9731a5-05f4-4f8d-b75e-99c1a7843c46/5f9731a5-05f4-4f8d-b75e-99c1a7843c46.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f9731a5-05f4-4f8d-b75e-99c1a7843c46/5f9731a5-05f4-4f8d-b75e-99c1a7843c46.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-msi-mag-pano-m100r-pz-argb-e-zeze-mini-tower"
  },
  {
@@ -850,7 +850,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9014eed8-13c8-487a-bd3d-a245aa19efd0/9014eed8-13c8-487a-bd3d-a245aa19efd0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9014eed8-13c8-487a-bd3d-a245aa19efd0/9014eed8-13c8-487a-bd3d-a245aa19efd0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-nzxt-h5-flow-rgb-2024-e-zeze"
  },
  {
@@ -874,7 +874,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/04c6f46a-ffa4-4050-aa07-7619e74077d9/04c6f46a-ffa4-4050-aa07-7619e74077d9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/04c6f46a-ffa4-4050-aa07-7619e74077d9/04c6f46a-ffa4-4050-aa07-7619e74077d9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-be-quiet-dark-base-pro-901-full-tower"
  },
  {
@@ -897,7 +897,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f440cedd-257b-42f1-aebd-cdfb2e6ee301/f440cedd-257b-42f1-aebd-cdfb2e6ee301.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f440cedd-257b-42f1-aebd-cdfb2e6ee301/f440cedd-257b-42f1-aebd-cdfb2e6ee301.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-darkflash-dk100-e-zeze-midi-tower"
  },
  {
@@ -920,7 +920,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/81ccfc6d-f339-4052-b8a6-d3777b34a722/81ccfc6d-f339-4052-b8a6-d3777b34a722.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/81ccfc6d-f339-4052-b8a6-d3777b34a722/81ccfc6d-f339-4052-b8a6-d3777b34a722.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-pc-montech-x3-mesh-tg-rgb-midi-tower-6-ventilatore-rgb-e-bardhe"
  },
  {
@@ -944,7 +944,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f041cff-f66b-40d6-b8bb-e37758b89ab3/5f041cff-f66b-40d6-b8bb-e37758b89ab3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f041cff-f66b-40d6-b8bb-e37758b89ab3/5f041cff-f66b-40d6-b8bb-e37758b89ab3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-thermaltake-level-20-gt-argb-full-tower"
  },
  {
@@ -966,7 +966,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1e1558dd-9d5c-42dc-b58f-7efb0e277d98/1e1558dd-9d5c-42dc-b58f-7efb0e277d98.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1e1558dd-9d5c-42dc-b58f-7efb0e277d98/1e1558dd-9d5c-42dc-b58f-7efb0e277d98.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-msi-mag-forge-m100r-argb-mini-tower"
  },
  {
@@ -989,7 +989,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4e2cfe97-ee39-40ed-8a46-8dcfaebb790e/4e2cfe97-ee39-40ed-8a46-8dcfaebb790e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4e2cfe97-ee39-40ed-8a46-8dcfaebb790e/4e2cfe97-ee39-40ed-8a46-8dcfaebb790e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-chieftec-apex-air-midi-tower"
  },
  {
@@ -1011,7 +1011,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9339c04e-d143-4f16-b922-8c5e0569c1ba/9339c04e-d143-4f16-b922-8c5e0569c1ba.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9339c04e-d143-4f16-b922-8c5e0569c1ba/9339c04e-d143-4f16-b922-8c5e0569c1ba.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-deepcool-matrexx-40-3fs-argb-mini-tower"
  },
  {
@@ -1034,7 +1034,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0f1d638e-e475-40d5-9145-10d802603dc5/0f1d638e-e475-40d5-9145-10d802603dc5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0f1d638e-e475-40d5-9145-10d802603dc5/0f1d638e-e475-40d5-9145-10d802603dc5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-darkflash-ds900-e-zeze-midi-tower"
  },
  {
@@ -1057,7 +1057,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f410ae7b-f784-48c9-86e7-a1ef4025f921/f410ae7b-f784-48c9-86e7-a1ef4025f921.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f410ae7b-f784-48c9-86e7-a1ef4025f921/f410ae7b-f784-48c9-86e7-a1ef4025f921.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-lian-li-o11-dynamic-mini-x-midi-tower"
  },
  {
@@ -1079,7 +1079,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2dd1ff4-97d9-48e9-9aa5-d9ef499c130a/a2dd1ff4-97d9-48e9-9aa5-d9ef499c130a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2dd1ff4-97d9-48e9-9aa5-d9ef499c130a/a2dd1ff4-97d9-48e9-9aa5-d9ef499c130a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-cooler-master-masterbox-q300l-micro-tower-2"
  },
  {
@@ -1101,7 +1101,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c7f7739-2931-4d8b-b100-518c259623df/8c7f7739-2931-4d8b-b100-518c259623df.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c7f7739-2931-4d8b-b100-518c259623df/8c7f7739-2931-4d8b-b100-518c259623df.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-aerocool-cs-109-frgb-mini-tower"
  },
  {
@@ -1124,7 +1124,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/88993773-d55f-49ed-92fc-7eaa388c97b3/88993773-d55f-49ed-92fc-7eaa388c97b3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/88993773-d55f-49ed-92fc-7eaa388c97b3/88993773-d55f-49ed-92fc-7eaa388c97b3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-krux-nadir-midi-tower"
  },
  {
@@ -1147,7 +1147,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/41edf178-d42f-41b5-a795-e6c9f6b4409f/41edf178-d42f-41b5-a795-e6c9f6b4409f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/41edf178-d42f-41b5-a795-e6c9f6b4409f/41edf178-d42f-41b5-a795-e6c9f6b4409f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-aerocool-bolt-midi-tower"
  },
  {
@@ -1170,7 +1170,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7fc5a275-dd3f-4bcf-b872-2d6e7c12b550/7fc5a275-dd3f-4bcf-b872-2d6e7c12b550.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7fc5a275-dd3f-4bcf-b872-2d6e7c12b550/7fc5a275-dd3f-4bcf-b872-2d6e7c12b550.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-deepcool-ch370-e-zeze-midi-tower"
  },
  {
@@ -1193,7 +1193,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/31dc1058-7209-46ac-a5b8-357af7afa0d7/31dc1058-7209-46ac-a5b8-357af7afa0d7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/31dc1058-7209-46ac-a5b8-357af7afa0d7/31dc1058-7209-46ac-a5b8-357af7afa0d7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-phanteks-enthoo-pro-tempered-glass-e-zeze-midi-tower"
  },
  {
@@ -1216,7 +1216,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7ead2459-89fd-4a91-9fde-0770379f0f91/7ead2459-89fd-4a91-9fde-0770379f0f91.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7ead2459-89fd-4a91-9fde-0770379f0f91/7ead2459-89fd-4a91-9fde-0770379f0f91.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-deepcool-ch510-midi-tower-2"
  },
  {
@@ -1239,7 +1239,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/29f12451-73b8-4e8d-96a5-ae94864f56a6/29f12451-73b8-4e8d-96a5-ae94864f56a6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/29f12451-73b8-4e8d-96a5-ae94864f56a6/29f12451-73b8-4e8d-96a5-ae94864f56a6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-deepcool-cc360-argb-midi-tower-2"
  },
  {
@@ -1262,7 +1262,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/58c57171-1972-4adf-9f0e-d55e8840e1fd/58c57171-1972-4adf-9f0e-d55e8840e1fd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/58c57171-1972-4adf-9f0e-d55e8840e1fd/58c57171-1972-4adf-9f0e-d55e8840e1fd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-montech-king-95-argb-e-zeze-midi-tower"
  },
  {
@@ -1285,7 +1285,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5ed0a82f-fca6-460b-8a28-51f789074f76/5ed0a82f-fca6-460b-8a28-51f789074f76.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5ed0a82f-fca6-460b-8a28-51f789074f76/5ed0a82f-fca6-460b-8a28-51f789074f76.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-lian-li-o11-dynamic-evo-rgb-midi-tower"
  },
  {
@@ -1309,7 +1309,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5c2d2c55-6793-47fe-b9a6-f1b7e6469351/5c2d2c55-6793-47fe-b9a6-f1b7e6469351.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5c2d2c55-6793-47fe-b9a6-f1b7e6469351/5c2d2c55-6793-47fe-b9a6-f1b7e6469351.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-lian-li-o11-dynamic-evo-xl-argb-full-tower"
  },
  {
@@ -1333,7 +1333,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2c2ab0df-0c45-4a2c-9aee-17fb531c95d8/2c2ab0df-0c45-4a2c-9aee-17fb531c95d8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2c2ab0df-0c45-4a2c-9aee-17fb531c95d8/2c2ab0df-0c45-4a2c-9aee-17fb531c95d8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-phanteks-enthoo-pro-full-tower"
  },
  {
@@ -1356,7 +1356,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d4270611-046c-4bd8-9811-e92132b1f257/d4270611-046c-4bd8-9811-e92132b1f257.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d4270611-046c-4bd8-9811-e92132b1f257/d4270611-046c-4bd8-9811-e92132b1f257.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-phanteks-nv-serie-nv5-mk2-drgb-e-zeze-midi-tower"
  },
  {
@@ -1377,7 +1377,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "SFX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7559e294-cb35-4a13-97f3-64b81d95f198/7559e294-cb35-4a13-97f3-64b81d95f198.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7559e294-cb35-4a13-97f3-64b81d95f198/7559e294-cb35-4a13-97f3-64b81d95f198.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-thermaltake-core-p8-ca-1q2-00m1wn-00-e-zeze"
  },
  {
@@ -1400,7 +1400,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/714103ab-c4d6-479c-aa5b-705dc1055ed5/714103ab-c4d6-479c-aa5b-705dc1055ed5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/714103ab-c4d6-479c-aa5b-705dc1055ed5/714103ab-c4d6-479c-aa5b-705dc1055ed5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-deepcool-cc560-v2-e-zeze-midi-tower"
  },
  {
@@ -1422,7 +1422,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/43041a0e-9618-4a27-9fb1-13998d3c05cd/43041a0e-9618-4a27-9fb1-13998d3c05cd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/43041a0e-9618-4a27-9fb1-13998d3c05cd/43041a0e-9618-4a27-9fb1-13998d3c05cd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-asus-a21-plus-argb-e-zeze-mini-tower"
  },
  {
@@ -1445,7 +1445,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0312dc4f-d96f-45ae-bddc-5457dfc0bf32/0312dc4f-d96f-45ae-bddc-5457dfc0bf32.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0312dc4f-d96f-45ae-bddc-5457dfc0bf32/0312dc4f-d96f-45ae-bddc-5457dfc0bf32.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-darkflash-leocase-rgb-e-zeze"
  },
  {
@@ -1468,7 +1468,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/77d75def-352a-4c76-8759-5623df3370fc/77d75def-352a-4c76-8759-5623df3370fc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/77d75def-352a-4c76-8759-5623df3370fc/77d75def-352a-4c76-8759-5623df3370fc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-thermaltake-versa-t35-tg-rgb-midi-tower"
  },
  {
@@ -1492,7 +1492,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/98bb7f6e-669f-418e-a20a-c6ddb3cd8b21/98bb7f6e-669f-418e-a20a-c6ddb3cd8b21.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/98bb7f6e-669f-418e-a20a-c6ddb3cd8b21/98bb7f6e-669f-418e-a20a-c6ddb3cd8b21.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-deepcool-ch780-wh-full-tower"
  },
  {
@@ -1514,7 +1514,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e6bf98b6-30e4-458a-9541-5426881fa551/e6bf98b6-30e4-458a-9541-5426881fa551.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e6bf98b6-30e4-458a-9541-5426881fa551/e6bf98b6-30e4-458a-9541-5426881fa551.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-jonsbo-d31-screen-e-bardhe-mini-tower"
  },
  {
@@ -1537,7 +1537,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9855d2d1-bc4e-4a46-ae70-a49ad5889612/9855d2d1-bc4e-4a46-ae70-a49ad5889612.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9855d2d1-bc4e-4a46-ae70-a49ad5889612/9855d2d1-bc4e-4a46-ae70-a49ad5889612.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-lian-li-lancool-216-rgb-midi-tower"
  },
  {
@@ -1560,7 +1560,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/45d0bd53-2036-462b-98b8-059b7a66815e/45d0bd53-2036-462b-98b8-059b7a66815e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/45d0bd53-2036-462b-98b8-059b7a66815e/45d0bd53-2036-462b-98b8-059b7a66815e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-thermaltake-s300-tg-snow-edition-midi-tower"
  },
  {
@@ -1582,7 +1582,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4212352f-1f27-4c5d-9fa8-321596791f62/4212352f-1f27-4c5d-9fa8-321596791f62.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4212352f-1f27-4c5d-9fa8-321596791f62/4212352f-1f27-4c5d-9fa8-321596791f62.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-asus-prime-ap201-mini-tower-2"
  },
  {
@@ -1605,7 +1605,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/be8b18e0-3904-44f6-b2ce-0106287aab34/be8b18e0-3904-44f6-b2ce-0106287aab34.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/be8b18e0-3904-44f6-b2ce-0106287aab34/be8b18e0-3904-44f6-b2ce-0106287aab34.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-thermaltake-s300-tg-midi-tower"
  },
  {
@@ -1628,7 +1628,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/130f0a1b-992c-448c-9215-547b7a1bc8e9/130f0a1b-992c-448c-9215-547b7a1bc8e9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/130f0a1b-992c-448c-9215-547b7a1bc8e9/130f0a1b-992c-448c-9215-547b7a1bc8e9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-asus-tuf-gaming-gt302-tg-argb-e-zeze-midi-tower"
  },
  {
@@ -1651,7 +1651,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/98591e97-0c8e-47b5-9775-dac4f3103eed/98591e97-0c8e-47b5-9775-dac4f3103eed.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/98591e97-0c8e-47b5-9775-dac4f3103eed/98591e97-0c8e-47b5-9775-dac4f3103eed.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-cougar-uniface-rgb-e-bardhe-midi-tower"
  },
  {
@@ -1674,7 +1674,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/686d6d10-0032-48ab-8872-f1a3e4e058b5/686d6d10-0032-48ab-8872-f1a3e4e058b5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/686d6d10-0032-48ab-8872-f1a3e4e058b5/686d6d10-0032-48ab-8872-f1a3e4e058b5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-phanteks-xt-view-mid-tower-e-zeze"
  },
  {
@@ -1697,7 +1697,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cef9c1fa-4f78-4eb9-b947-883c837913eb/cef9c1fa-4f78-4eb9-b947-883c837913eb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cef9c1fa-4f78-4eb9-b947-883c837913eb/cef9c1fa-4f78-4eb9-b947-883c837913eb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-zalman-x3-tg-rgb-midi-tower"
  },
  {
@@ -1720,7 +1720,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4b09ac01-b2b3-4b0c-8127-cb33c0fe7ea2/4b09ac01-b2b3-4b0c-8127-cb33c0fe7ea2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4b09ac01-b2b3-4b0c-8127-cb33c0fe7ea2/4b09ac01-b2b3-4b0c-8127-cb33c0fe7ea2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-zalman-s3-tg-midi-tower"
  },
  {
@@ -1742,7 +1742,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ac2a36ca-66b4-4fd0-833f-2c08ca2e1482/ac2a36ca-66b4-4fd0-833f-2c08ca2e1482.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ac2a36ca-66b4-4fd0-833f-2c08ca2e1482/ac2a36ca-66b4-4fd0-833f-2c08ca2e1482.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-chieftec-bx-10b-m-op-mini-tower"
  },
  {
@@ -1765,7 +1765,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3412a0c0-d37f-4534-bd69-15c9eba864a4/3412a0c0-d37f-4534-bd69-15c9eba864a4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3412a0c0-d37f-4534-bd69-15c9eba864a4/3412a0c0-d37f-4534-bd69-15c9eba864a4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-kolink-observatory-hf-mesh-argb-e-bardhe-midi-tower"
  },
  {
@@ -1788,7 +1788,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/07d1cb9b-ece3-4c82-89ee-ccca92219764/07d1cb9b-ece3-4c82-89ee-ccca92219764.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/07d1cb9b-ece3-4c82-89ee-ccca92219764/07d1cb9b-ece3-4c82-89ee-ccca92219764.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-msi-mag-forge-100r-midi-tower"
  },
  {
@@ -1811,7 +1811,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8d01757b-4bd1-42d1-a20c-0f565b367a4c/8d01757b-4bd1-42d1-a20c-0f565b367a4c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8d01757b-4bd1-42d1-a20c-0f565b367a4c/8d01757b-4bd1-42d1-a20c-0f565b367a4c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-zalman-s2-midi-tower"
  },
  {
@@ -1835,7 +1835,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/20a24b7b-ee52-4731-93e9-ee6828704d35/20a24b7b-ee52-4731-93e9-ee6828704d35.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/20a24b7b-ee52-4731-93e9-ee6828704d35/20a24b7b-ee52-4731-93e9-ee6828704d35.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-sharkoon-rebel-c70m-rgb-full-tower"
  },
  {
@@ -1858,7 +1858,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/42d7a89f-034a-43d5-82ca-1938b3c1527e/42d7a89f-034a-43d5-82ca-1938b3c1527e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/42d7a89f-034a-43d5-82ca-1938b3c1527e/42d7a89f-034a-43d5-82ca-1938b3c1527e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-fury-shobo-sh4f-midi-tower"
  },
  {
@@ -1881,7 +1881,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c9ba5d7d-1bc4-4460-8bc2-35bcfe8d0e50/c9ba5d7d-1bc4-4460-8bc2-35bcfe8d0e50.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c9ba5d7d-1bc4-4460-8bc2-35bcfe8d0e50/c9ba5d7d-1bc4-4460-8bc2-35bcfe8d0e50.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-zalman-z9-iceberg-argb-e-zeze-midi-tower"
  },
  {
@@ -1904,7 +1904,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/24baa5fc-37c8-4369-b76c-5a8911cb8ce9/24baa5fc-37c8-4369-b76c-5a8911cb8ce9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/24baa5fc-37c8-4369-b76c-5a8911cb8ce9/24baa5fc-37c8-4369-b76c-5a8911cb8ce9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-fury-shobo-sh4-rgb-midi-tower"
  },
  {
@@ -1928,7 +1928,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bcd81b55-bbe3-4ee7-920c-355f856ad480/bcd81b55-bbe3-4ee7-920c-355f856ad480.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bcd81b55-bbe3-4ee7-920c-355f856ad480/bcd81b55-bbe3-4ee7-920c-355f856ad480.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-kolink-big-chungus-argb-full-tower"
  },
  {
@@ -1952,7 +1952,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6c965fda-64ba-4e12-b03e-a0d10b796fd3/6c965fda-64ba-4e12-b03e-a0d10b796fd3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6c965fda-64ba-4e12-b03e-a0d10b796fd3/6c965fda-64ba-4e12-b03e-a0d10b796fd3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-cougar-mx600-argb-e-zeze-full-tower"
  },
  {
@@ -1975,7 +1975,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab044c5b-accf-4d32-ace2-10ae633eb089/ab044c5b-accf-4d32-ace2-10ae633eb089.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab044c5b-accf-4d32-ace2-10ae633eb089/ab044c5b-accf-4d32-ace2-10ae633eb089.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-cougar-airface-rgb-e-bardhe-midi-tower"
  },
  {
@@ -1998,7 +1998,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/05c42c1d-463b-4068-8b18-ec1fc1388c79/05c42c1d-463b-4068-8b18-ec1fc1388c79.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/05c42c1d-463b-4068-8b18-ec1fc1388c79/05c42c1d-463b-4068-8b18-ec1fc1388c79.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-fractal-design-north-xl-clear-e-bardhe-midi-tower"
  },
  {
@@ -2021,7 +2021,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a59f2421-a6b5-42a7-98ad-1f46199a644c/a59f2421-a6b5-42a7-98ad-1f46199a644c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a59f2421-a6b5-42a7-98ad-1f46199a644c/a59f2421-a6b5-42a7-98ad-1f46199a644c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-sharkoon-rebel-c80m-rgb-e-zeze-midi-tower"
  },
  {
@@ -2045,7 +2045,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e3e7db12-c76a-46e7-9680-e678066fb835/e3e7db12-c76a-46e7-9680-e678066fb835.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e3e7db12-c76a-46e7-9680-e678066fb835/e3e7db12-c76a-46e7-9680-e678066fb835.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-gigabyte-aorus-c700-glass-argb-full-tower"
  },
  {
@@ -2068,7 +2068,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9490c0bc-d15c-4833-a69f-0c5cfb58c859/9490c0bc-d15c-4833-a69f-0c5cfb58c859.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9490c0bc-d15c-4833-a69f-0c5cfb58c859/9490c0bc-d15c-4833-a69f-0c5cfb58c859.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-fractal-design-meshify-2-rgb-tg-light-tint-midi-tower"
  },
  {
@@ -2090,7 +2090,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/04b9aa85-7804-4808-9fa7-b4c2c083af24/04b9aa85-7804-4808-9fa7-b4c2c083af24.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/04b9aa85-7804-4808-9fa7-b4c2c083af24/04b9aa85-7804-4808-9fa7-b4c2c083af24.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-deepcool-matrexx-30-mini-tower"
  },
  {
@@ -2112,7 +2112,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9c75dae5-4a77-4f4a-8529-99e58031fa7a/9c75dae5-4a77-4f4a-8529-99e58031fa7a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9c75dae5-4a77-4f4a-8529-99e58031fa7a/9c75dae5-4a77-4f4a-8529-99e58031fa7a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-aerocool-cs-107-frgb-mini-tower"
  },
  {
@@ -2135,7 +2135,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
     "ATX"
    ]
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8135781-7449-46fe-8815-4266cdc83416/f8135781-7449-46fe-8815-4266cdc83416.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8135781-7449-46fe-8815-4266cdc83416/f8135781-7449-46fe-8815-4266cdc83416.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kase-deepcool-cc560-argb-v2-midi-tower"
  },
  {
@@ -2154,7 +2154,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c07d8d5e-f80b-4e8b-8c91-c86e08eaacae/c07d8d5e-f80b-4e8b-8c91-c86e08eaacae.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c07d8d5e-f80b-4e8b-8c91-c86e08eaacae/c07d8d5e-f80b-4e8b-8c91-c86e08eaacae.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650-eagle-ax-3"
  },
  {
@@ -2173,7 +2173,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 3,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/198d241e-3ab0-4a29-9d59-0f6c6db0916a/198d241e-3ab0-4a29-9d59-0f6c6db0916a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/198d241e-3ab0-4a29-9d59-0f6c6db0916a/198d241e-3ab0-4a29-9d59-0f6c6db0916a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b760-plus-d4-ddr4-intel-b760-3"
  },
  {
@@ -2192,7 +2192,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f41f1e6-72ca-4033-8c3b-a1e2f71b67f2/4f41f1e6-72ca-4033-8c3b-a1e2f71b67f2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f41f1e6-72ca-4033-8c3b-a1e2f71b67f2/4f41f1e6-72ca-4033-8c3b-a1e2f71b67f2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650-eagle-amd-ryzen-9000-cpus-7600mhz"
  },
  {
@@ -2211,7 +2211,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1122c3b6-5683-4d96-8c5b-622058c34035/1122c3b6-5683-4d96-8c5b-622058c34035.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1122c3b6-5683-4d96-8c5b-622058c34035/1122c3b6-5683-4d96-8c5b-622058c34035.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-a520m-a-pro-socket-am4-2"
  },
  {
@@ -2230,7 +2230,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c274a443-d108-4ce7-abf7-66c330ff4c71/c274a443-d108-4ce7-abf7-66c330ff4c71.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c274a443-d108-4ce7-abf7-66c330ff4c71/c274a443-d108-4ce7-abf7-66c330ff4c71.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-b550-a-gaming-amd-b550-atx"
  },
  {
@@ -2249,7 +2249,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3e20c0ad-842a-421b-b25e-15fea2dd2920/3e20c0ad-842a-421b-b25e-15fea2dd2920.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3e20c0ad-842a-421b-b25e-15fea2dd2920/3e20c0ad-842a-421b-b25e-15fea2dd2920.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-b550-f-gaming-am4-atx"
  },
  {
@@ -2268,7 +2268,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d9b075ec-97f7-49a6-9bb1-a475f4f0eb37/d9b075ec-97f7-49a6-9bb1-a475f4f0eb37.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d9b075ec-97f7-49a6-9bb1-a475f4f0eb37/d9b075ec-97f7-49a6-9bb1-a475f4f0eb37.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-z690-a-wifi-ddr4"
  },
  {
@@ -2287,7 +2287,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/abefd90c-4bf1-4d5c-9969-8ee4ed705b87/abefd90c-4bf1-4d5c-9969-8ee4ed705b87.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/abefd90c-4bf1-4d5c-9969-8ee4ed705b87/abefd90c-4bf1-4d5c-9969-8ee4ed705b87.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650-gaming-x-ax-v2-2"
  },
  {
@@ -2306,7 +2306,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/69ba8511-864d-44b3-950f-cf96009455d2/69ba8511-864d-44b3-950f-cf96009455d2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/69ba8511-864d-44b3-950f-cf96009455d2/69ba8511-864d-44b3-950f-cf96009455d2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b760m-p-ddr4"
  },
  {
@@ -2325,7 +2325,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/801ba30f-73c1-4423-b2d7-80a1a08dbe82/801ba30f-73c1-4423-b2d7-80a1a08dbe82.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/801ba30f-73c1-4423-b2d7-80a1a08dbe82/801ba30f-73c1-4423-b2d7-80a1a08dbe82.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-h610m-g-intel-h610-socket-1700-2-slota-micro-atx"
  },
  {
@@ -2344,7 +2344,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1bbdf1df-2f7d-4649-8d7e-a8875c3a29e0/1bbdf1df-2f7d-4649-8d7e-a8875c3a29e0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1bbdf1df-2f7d-4649-8d7e-a8875c3a29e0/1bbdf1df-2f7d-4649-8d7e-a8875c3a29e0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-mb-amd-b650-chipset-amd-ryzen-9000-ddr5-pcie-50-e-zeze"
  },
  {
@@ -2363,7 +2363,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b4bbe692-4036-4eab-911b-b50c3e9d6aef/b4bbe692-4036-4eab-911b-b50c3e9d6aef.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b4bbe692-4036-4eab-911b-b50c3e9d6aef/b4bbe692-4036-4eab-911b-b50c3e9d6aef.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-h610m-r-si-lga-1700-matx-ddr5"
  },
  {
@@ -2382,7 +2382,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fdf1d7e9-aa22-4456-8fe1-9366d107f6f3/fdf1d7e9-aa22-4456-8fe1-9366d107f6f3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fdf1d7e9-aa22-4456-8fe1-9366d107f6f3/fdf1d7e9-aa22-4456-8fe1-9366d107f6f3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b840m-d2h-amd-ryzen-9000-ddr5-25gbe-lan"
  },
  {
@@ -2401,7 +2401,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d2885e9e-a739-4e18-b0c1-03215c8c11fb/d2885e9e-a739-4e18-b0c1-03215c8c11fb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d2885e9e-a739-4e18-b0c1-03215c8c11fb/d2885e9e-a739-4e18-b0c1-03215c8c11fb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b650m-b-ddr5-am5-matx"
  },
  {
@@ -2420,7 +2420,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dbf06bcf-9e9e-43cd-95f6-9e6ef2b925e3/dbf06bcf-9e9e-43cd-95f6-9e6ef2b925e3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dbf06bcf-9e9e-43cd-95f6-9e6ef2b925e3/dbf06bcf-9e9e-43cd-95f6-9e6ef2b925e3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-amd-b550-ryzen-am4-micro-atx-pcie-40"
  },
  {
@@ -2439,7 +2439,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/93dbdcc8-c5cf-4e66-a892-a727f5af1c26/93dbdcc8-c5cf-4e66-a892-a727f5af1c26.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/93dbdcc8-c5cf-4e66-a892-a727f5af1c26/93dbdcc8-c5cf-4e66-a892-a727f5af1c26.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-b550-gaming-wifi-socket-am4-ddr4-128gb-e-zeze"
  },
  {
@@ -2458,7 +2458,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ae106fdd-bf29-4a3c-b42b-cd9943709dc1/ae106fdd-bf29-4a3c-b42b-cd9943709dc1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ae106fdd-bf29-4a3c-b42b-cd9943709dc1/ae106fdd-bf29-4a3c-b42b-cd9943709dc1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-mag-b850-tomahawk-max-wifi-amd-b850-socket-am5-atx"
  },
  {
@@ -2477,7 +2477,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1ab07bb7-7ae6-49ce-8e73-3bb9bf8e3516/1ab07bb7-7ae6-49ce-8e73-3bb9bf8e3516.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1ab07bb7-7ae6-49ce-8e73-3bb9bf8e3516/1ab07bb7-7ae6-49ce-8e73-3bb9bf8e3516.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b650m-r-3"
  },
  {
@@ -2496,7 +2496,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/595b6775-1a0c-4f72-ad3d-d6792a14edf1/595b6775-1a0c-4f72-ad3d-d6792a14edf1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/595b6775-1a0c-4f72-ad3d-d6792a14edf1/595b6775-1a0c-4f72-ad3d-d6792a14edf1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllaka-ame-gigabyte-b550-gaming-x-v2"
  },
  {
@@ -2515,7 +2515,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/808201e5-046e-472d-8901-726c03dfbea8/808201e5-046e-472d-8901-726c03dfbea8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/808201e5-046e-472d-8901-726c03dfbea8/808201e5-046e-472d-8901-726c03dfbea8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-h610m-e-lga-1700-matx"
  },
  {
@@ -2534,7 +2534,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6d2d0029-389e-4a66-8df2-3a63bd53ead4/6d2d0029-389e-4a66-8df2-3a63bd53ead4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6d2d0029-389e-4a66-8df2-3a63bd53ead4/6d2d0029-389e-4a66-8df2-3a63bd53ead4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-x870-plus-wifi-amd-x870-socket-am5-atx"
  },
  {
@@ -2553,7 +2553,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/749f4c1a-e2d6-4b92-8cba-5371716dbe6a/749f4c1a-e2d6-4b92-8cba-5371716dbe6a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/749f4c1a-e2d6-4b92-8cba-5371716dbe6a/749f4c1a-e2d6-4b92-8cba-5371716dbe6a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b850m-pro-rs-wifi-amd-b850-socket-am5-micro-atx"
  },
  {
@@ -2572,7 +2572,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2b66186b-7569-4cf6-8aae-2219f1092e1d/2b66186b-7569-4cf6-8aae-2219f1092e1d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2b66186b-7569-4cf6-8aae-2219f1092e1d/2b66186b-7569-4cf6-8aae-2219f1092e1d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650m-gaming-plus-wf-micro-atx-ddr5-amd-am5-e-zeze"
  },
  {
@@ -2591,7 +2591,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2ea3c28c-8e33-4629-ab63-8fadfe8d83ac/2ea3c28c-8e33-4629-ab63-8fadfe8d83ac.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2ea3c28c-8e33-4629-ab63-8fadfe8d83ac/2ea3c28c-8e33-4629-ab63-8fadfe8d83ac.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllaka-ame-msi-b550m-pro-vdh"
  },
  {
@@ -2610,7 +2610,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bf8a61b1-7c09-4bab-b9f4-5825c5863eed/bf8a61b1-7c09-4bab-b9f4-5825c5863eed.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bf8a61b1-7c09-4bab-b9f4-5825c5863eed/bf8a61b1-7c09-4bab-b9f4-5825c5863eed.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b550m-plus"
  },
  {
@@ -2629,7 +2629,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c0fd28b-1c4c-4b9a-b158-d2ff526c0e05/8c0fd28b-1c4c-4b9a-b158-d2ff526c0e05.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c0fd28b-1c4c-4b9a-b158-d2ff526c0e05/8c0fd28b-1c4c-4b9a-b158-d2ff526c0e05.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b550-phantom-gaming-4"
  },
  {
@@ -2648,7 +2648,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/119d7314-7e30-4604-aba9-551f4fc69ae0/119d7314-7e30-4604-aba9-551f4fc69ae0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/119d7314-7e30-4604-aba9-551f4fc69ae0/119d7314-7e30-4604-aba9-551f4fc69ae0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b850m-p-wifi-per-amd-ryzen-700080009000"
  },
  {
@@ -2667,7 +2667,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8ebc3256-fa56-4111-bec7-b2ae3d761ff9/8ebc3256-fa56-4111-bec7-b2ae3d761ff9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8ebc3256-fa56-4111-bec7-b2ae3d761ff9/8ebc3256-fa56-4111-bec7-b2ae3d761ff9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b450m-k-ii-amd-b450-3"
  },
  {
@@ -2686,7 +2686,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/98e87bf9-c7ab-441c-8969-de4efa209903/98e87bf9-c7ab-441c-8969-de4efa209903.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/98e87bf9-c7ab-441c-8969-de4efa209903/98e87bf9-c7ab-441c-8969-de4efa209903.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-a520m-a-ii"
  },
  {
@@ -2705,7 +2705,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2d516e76-ec58-4436-96e3-9a1dd68d2c5e/2d516e76-ec58-4436-96e3-9a1dd68d2c5e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2d516e76-ec58-4436-96e3-9a1dd68d2c5e/2d516e76-ec58-4436-96e3-9a1dd68d2c5e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650m-gaming-wifi6e-amd-am5-ddr5-wifi-6e"
  },
  {
@@ -2724,7 +2724,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a48c471f-4927-403b-9e83-cddca4493980/a48c471f-4927-403b-9e83-cddca4493980.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a48c471f-4927-403b-9e83-cddca4493980/a48c471f-4927-403b-9e83-cddca4493980.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-biostar-b850mt2-e-dj-am5-micro-atx-e-zeze"
  },
  {
@@ -2743,7 +2743,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/15fe06ed-018d-486d-aa02-7842cdd24bee/15fe06ed-018d-486d-aa02-7842cdd24bee.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/15fe06ed-018d-486d-aa02-7842cdd24bee/15fe06ed-018d-486d-aa02-7842cdd24bee.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-gigabyte-b760m-ds3h-gen5-ddr5-2x-m2-pcie-40-25gbe-lan"
  },
  {
@@ -2762,7 +2762,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/263fbb78-6db1-4ca0-981d-f4bbf89f4359/263fbb78-6db1-4ca0-981d-f4bbf89f4359.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/263fbb78-6db1-4ca0-981d-f4bbf89f4359/263fbb78-6db1-4ca0-981d-f4bbf89f4359.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b860m-a-csm-intel-b860-ddr5-matx-3"
  },
  {
@@ -2781,7 +2781,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/24e71bb4-9976-416e-a942-f317424e7a30/24e71bb4-9976-416e-a942-f317424e7a30.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/24e71bb4-9976-416e-a942-f317424e7a30/24e71bb4-9976-416e-a942-f317424e7a30.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-z790-d-ddr5-25gbe-lan-atx"
  },
  {
@@ -2800,7 +2800,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8e91d01d-7a5e-4776-a101-b2b365887711/8e91d01d-7a5e-4776-a101-b2b365887711.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8e91d01d-7a5e-4776-a101-b2b365887711/8e91d01d-7a5e-4776-a101-b2b365887711.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870e-aorus-elite-wifi-7-atx-am5-ddr5-8000-mhz-e-zeze"
  },
  {
@@ -2819,7 +2819,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/02797c55-8a70-4ce9-b3af-dc8a99ad68d8/02797c55-8a70-4ce9-b3af-dc8a99ad68d8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/02797c55-8a70-4ce9-b3af-dc8a99ad68d8/02797c55-8a70-4ce9-b3af-dc8a99ad68d8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870e-aorus-elite-x3d-ddr5-pcie-50-e-zeze-2"
  },
  {
@@ -2838,7 +2838,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/78a49bb4-0aa3-4b61-90f7-4123383c2b45/78a49bb4-0aa3-4b61-90f7-4123383c2b45.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/78a49bb4-0aa3-4b61-90f7-4123383c2b45/78a49bb4-0aa3-4b61-90f7-4123383c2b45.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-a520m-r-amd-a520-socket-am4-micro-atx"
  },
  {
@@ -2857,7 +2857,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/62813eda-2727-45c5-86d0-deb57af50437/62813eda-2727-45c5-86d0-deb57af50437.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/62813eda-2727-45c5-86d0-deb57af50437/62813eda-2727-45c5-86d0-deb57af50437.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-z790-eagle-ax-intel-z790-socket-1700-4-slota-bluetooth-wi-fi-6-atx"
  },
  {
@@ -2876,7 +2876,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/264e5034-43f4-402d-b8ce-36648d385a3b/264e5034-43f4-402d-b8ce-36648d385a3b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/264e5034-43f4-402d-b8ce-36648d385a3b/264e5034-43f4-402d-b8ce-36648d385a3b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b840m-b"
  },
  {
@@ -2895,7 +2895,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f176a00-f6ab-4bfc-bc3b-299394f5ed79/4f176a00-f6ab-4bfc-bc3b-299394f5ed79.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f176a00-f6ab-4bfc-bc3b-299394f5ed79/4f176a00-f6ab-4bfc-bc3b-299394f5ed79.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b650m-hm2-amd-b650-socket-am5-2-slota-micro-atx"
  },
  {
@@ -2914,7 +2914,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ea196f75-0574-494b-ac3f-a39a1e759c73/ea196f75-0574-494b-ac3f-a39a1e759c73.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ea196f75-0574-494b-ac3f-a39a1e759c73/ea196f75-0574-494b-ac3f-a39a1e759c73.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-x870e-e-gaming-wifi-amd-x870e-socket-am5-atx-2"
  },
  {
@@ -2933,7 +2933,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/90a81438-0b6d-484f-99e8-50b8302ca563/90a81438-0b6d-484f-99e8-50b8302ca563.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/90a81438-0b6d-484f-99e8-50b8302ca563/90a81438-0b6d-484f-99e8-50b8302ca563.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-crosshair-viii-impact-amd-x570"
  },
  {
@@ -2952,7 +2952,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/24af47d8-07d9-4a4d-9199-1c5ce74ae661/24af47d8-07d9-4a4d-9199-1c5ce74ae661.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/24af47d8-07d9-4a4d-9199-1c5ce74ae661/24af47d8-07d9-4a4d-9199-1c5ce74ae661.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-mag-b850-tomahawk-wifi-atx-ddr5-e-zeze"
  },
  {
@@ -2971,7 +2971,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0d7c7b82-de19-4971-916d-c94924f1fb62/0d7c7b82-de19-4971-916d-c94924f1fb62.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0d7c7b82-de19-4971-916d-c94924f1fb62/0d7c7b82-de19-4971-916d-c94924f1fb62.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-z790-a-gaming-wifi-ddr4-lga1700-atx"
  },
  {
@@ -2990,7 +2990,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cdabbcec-deca-4b1e-825e-70a08fed5c66/cdabbcec-deca-4b1e-825e-70a08fed5c66.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cdabbcec-deca-4b1e-825e-70a08fed5c66/cdabbcec-deca-4b1e-825e-70a08fed5c66.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-mb-x870e-gaming-plus-wifi"
  },
  {
@@ -3009,7 +3009,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb3949da-c85e-4535-a397-a52e6648b975/fb3949da-c85e-4535-a397-a52e6648b975.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb3949da-c85e-4535-a397-a52e6648b975/fb3949da-c85e-4535-a397-a52e6648b975.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870e-aero-x3d-wood-socket-am5-ddr5-atx"
  },
  {
@@ -3028,7 +3028,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3f217b8-7f8d-4951-9fa7-f6b0bf067d90/f3f217b8-7f8d-4951-9fa7-f6b0bf067d90.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3f217b8-7f8d-4951-9fa7-f6b0bf067d90/f3f217b8-7f8d-4951-9fa7-f6b0bf067d90.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870e-aorus-master-x3d-ice-ddr5-pcie-50-e-bardhe-2"
  },
  {
@@ -3047,7 +3047,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2e38dcc-b94e-4dc2-9ba1-7adb39a13f38/a2e38dcc-b94e-4dc2-9ba1-7adb39a13f38.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2e38dcc-b94e-4dc2-9ba1-7adb39a13f38/a2e38dcc-b94e-4dc2-9ba1-7adb39a13f38.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b650e-plus-wifi-amd-b650-socket-am5-atx"
  },
  {
@@ -3066,7 +3066,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c5ebe220-e976-4130-9fe1-cbe82c309b36/c5ebe220-e976-4130-9fe1-cbe82c309b36.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c5ebe220-e976-4130-9fe1-cbe82c309b36/c5ebe220-e976-4130-9fe1-cbe82c309b36.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870-gaming-wf6-atx-am5-ddr5-wi-fi-e-zeze"
  },
  {
@@ -3085,7 +3085,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/62f018ea-dbd2-46a5-8728-e9d3fcaa089e/62f018ea-dbd2-46a5-8728-e9d3fcaa089e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/62f018ea-dbd2-46a5-8728-e9d3fcaa089e/62f018ea-dbd2-46a5-8728-e9d3fcaa089e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b550m-hdv-3"
  },
  {
@@ -3104,7 +3104,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/81fa44b5-a54b-4ca2-974f-00a4d4768c08/81fa44b5-a54b-4ca2-974f-00a4d4768c08.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/81fa44b5-a54b-4ca2-974f-00a4d4768c08/81fa44b5-a54b-4ca2-974f-00a4d4768c08.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b550m-pro4-socket-am4-micro-atx-amd-b550"
  },
  {
@@ -3123,7 +3123,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/371b0eb7-5b40-4c61-a52d-af91ba410719/371b0eb7-5b40-4c61-a52d-af91ba410719.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/371b0eb7-5b40-4c61-a52d-af91ba410719/371b0eb7-5b40-4c61-a52d-af91ba410719.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b550m-acsm-amd-b550-3"
  },
  {
@@ -3142,7 +3142,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bb4563ea-623a-467b-97fb-1024b956e23c/bb4563ea-623a-467b-97fb-1024b956e23c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bb4563ea-623a-467b-97fb-1024b956e23c/bb4563ea-623a-467b-97fb-1024b956e23c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b650m-pro-rs-amd-b650-3"
  },
  {
@@ -3161,7 +3161,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dfefe87f-1bae-41f3-9783-2d28fa08b0c0/dfefe87f-1bae-41f3-9783-2d28fa08b0c0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dfefe87f-1bae-41f3-9783-2d28fa08b0c0/dfefe87f-1bae-41f3-9783-2d28fa08b0c0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b550-aorus-elite-ax-v2-3"
  },
  {
@@ -3180,7 +3180,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/51bd740c-0a24-472c-9266-7fa2b44d1b28/51bd740c-0a24-472c-9266-7fa2b44d1b28.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/51bd740c-0a24-472c-9266-7fa2b44d1b28/51bd740c-0a24-472c-9266-7fa2b44d1b28.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b760-ds3h-ddr4-lga-1700-atx"
  },
  {
@@ -3199,7 +3199,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e78cb881-6e07-4c3c-8c41-23cdf74a8d00/e78cb881-6e07-4c3c-8c41-23cdf74a8d00.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e78cb881-6e07-4c3c-8c41-23cdf74a8d00/e78cb881-6e07-4c3c-8c41-23cdf74a8d00.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870-gaming-wifi6-ddr5-am5-atx-2"
  },
  {
@@ -3218,7 +3218,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4fa3b833-363c-4d16-8e2d-6c441c041a39/4fa3b833-363c-4d16-8e2d-6c441c041a39.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4fa3b833-363c-4d16-8e2d-6c441c041a39/4fa3b833-363c-4d16-8e2d-6c441c041a39.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b840m-p-wifi6e-ddr5-am5-matx"
  },
  {
@@ -3237,7 +3237,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2a4dc2a2-efb3-4765-9603-f3efa8207457/2a4dc2a2-efb3-4765-9603-f3efa8207457.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2a4dc2a2-efb3-4765-9603-f3efa8207457/2a4dc2a2-efb3-4765-9603-f3efa8207457.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b860m-pro-rs-intel-b860-ddr5-micro-atx"
  },
  {
@@ -3256,7 +3256,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/98601a2d-d905-4d46-9f9c-87a2708502d5/98601a2d-d905-4d46-9f9c-87a2708502d5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/98601a2d-d905-4d46-9f9c-87a2708502d5/98601a2d-d905-4d46-9f9c-87a2708502d5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b650m-k-96gb"
  },
  {
@@ -3275,7 +3275,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5de3c67d-b9b6-404b-9cbe-8cf4d6bbe30f/5de3c67d-b9b6-404b-9cbe-8cf4d6bbe30f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5de3c67d-b9b6-404b-9cbe-8cf4d6bbe30f/5de3c67d-b9b6-404b-9cbe-8cf4d6bbe30f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650i-ax-amd-b650-socket-am5-2-slotabluetooth-wi-fi-6-mini-itx"
  },
  {
@@ -3294,7 +3294,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/62e21571-3d03-4a07-a7ba-b5ea2fae4cf8/62e21571-3d03-4a07-a7ba-b5ea2fae4cf8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/62e21571-3d03-4a07-a7ba-b5ea2fae4cf8/62e21571-3d03-4a07-a7ba-b5ea2fae4cf8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-gigabyte-b650m-aorus-elite-socket-am5-ddr5-matx"
  },
  {
@@ -3313,7 +3313,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/29c8968a-a6ad-4488-81fc-ebbc0b66c64e/29c8968a-a6ad-4488-81fc-ebbc0b66c64e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/29c8968a-a6ad-4488-81fc-ebbc0b66c64e/29c8968a-a6ad-4488-81fc-ebbc0b66c64e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-b550m-pro-vdh-wifi-amd-b550-3"
  },
  {
@@ -3332,7 +3332,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1c3f94b3-f7ed-4f1b-9334-af91dc190585/1c3f94b3-f7ed-4f1b-9334-af91dc190585.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1c3f94b3-f7ed-4f1b-9334-af91dc190585/1c3f94b3-f7ed-4f1b-9334-af91dc190585.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650m-s2h-am5-ddr5-micro-atx-e-zeze"
  },
  {
@@ -3351,7 +3351,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b05462c4-9d33-407f-a069-85a8def9b7b5/b05462c4-9d33-407f-a069-85a8def9b7b5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b05462c4-9d33-407f-a069-85a8def9b7b5/b05462c4-9d33-407f-a069-85a8def9b7b5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b760m-b760-3"
  },
  {
@@ -3370,7 +3370,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3947475-93e3-4144-a544-56d30fc3e7b0/b3947475-93e3-4144-a544-56d30fc3e7b0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3947475-93e3-4144-a544-56d30fc3e7b0/b3947475-93e3-4144-a544-56d30fc3e7b0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-h610m-r-d4-intel-h610-lga-1700-micro-atx"
  },
  {
@@ -3389,7 +3389,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a5f1cac3-eaac-49a1-b64e-90b4111a6447/a5f1cac3-eaac-49a1-b64e-90b4111a6447.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a5f1cac3-eaac-49a1-b64e-90b4111a6447/a5f1cac3-eaac-49a1-b64e-90b4111a6447.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b850-e-wifi-socket-am5-atx"
  },
  {
@@ -3408,7 +3408,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d21ee5ba-1872-4550-ad54-737bf2314506/d21ee5ba-1872-4550-ad54-737bf2314506.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d21ee5ba-1872-4550-ad54-737bf2314506/d21ee5ba-1872-4550-ad54-737bf2314506.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870-gaming-wifi-6-ddr5-pcie-50-atx"
  },
  {
@@ -3427,7 +3427,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1b70ce8b-fbf6-48af-9fcf-1c3cebc7d1f1/1b70ce8b-fbf6-48af-9fcf-1c3cebc7d1f1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1b70ce8b-fbf6-48af-9fcf-1c3cebc7d1f1/1b70ce8b-fbf6-48af-9fcf-1c3cebc7d1f1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-mag-b650-tomahawk-wifi"
  },
  {
@@ -3446,7 +3446,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d96dbc78-aa73-47b8-86c1-48158b242271/d96dbc78-aa73-47b8-86c1-48158b242271.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d96dbc78-aa73-47b8-86c1-48158b242271/d96dbc78-aa73-47b8-86c1-48158b242271.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b550m-plus-wifi-ii"
  },
  {
@@ -3465,7 +3465,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/872da2aa-f828-47ae-bad1-f771b4388ec1/872da2aa-f828-47ae-bad1-f771b4388ec1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/872da2aa-f828-47ae-bad1-f771b4388ec1/872da2aa-f828-47ae-bad1-f771b4388ec1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-maximus-z890-hero-btf"
  },
  {
@@ -3484,7 +3484,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d039ec9-af11-4d10-9ecc-8937f612dfa9/7d039ec9-af11-4d10-9ecc-8937f612dfa9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d039ec9-af11-4d10-9ecc-8937f612dfa9/7d039ec9-af11-4d10-9ecc-8937f612dfa9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/plaka-ame-gigabyte-b850m-force-amd-am5-micro-atx-ddr5"
  },
  {
@@ -3503,7 +3503,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/532d9d27-3bb0-4285-b096-9abd714619bf/532d9d27-3bb0-4285-b096-9abd714619bf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/532d9d27-3bb0-4285-b096-9abd714619bf/532d9d27-3bb0-4285-b096-9abd714619bf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b840m-ds3h-wifi6-am5-ddr5-matx"
  },
  {
@@ -3522,7 +3522,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f04280c7-eefb-4a59-834a-b51389650612/f04280c7-eefb-4a59-834a-b51389650612.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f04280c7-eefb-4a59-834a-b51389650612/f04280c7-eefb-4a59-834a-b51389650612.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-crosshair-x870e-hero"
  },
  {
@@ -3541,7 +3541,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/533cbd28-e5e4-43de-8ca8-4970745fa16c/533cbd28-e5e4-43de-8ca8-4970745fa16c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/533cbd28-e5e4-43de-8ca8-4970745fa16c/533cbd28-e5e4-43de-8ca8-4970745fa16c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-h610m-s2h-v2lga-1700"
  },
  {
@@ -3560,7 +3560,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/135b6a03-c58f-4c16-a706-8f9963bd86bc/135b6a03-c58f-4c16-a706-8f9963bd86bc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/135b6a03-c58f-4c16-a706-8f9963bd86bc/135b6a03-c58f-4c16-a706-8f9963bd86bc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-h610m-h2m2-d5-2"
  },
  {
@@ -3579,7 +3579,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a88d6084-0e07-460a-8d02-fa63600e8c02/a88d6084-0e07-460a-8d02-fa63600e8c02.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a88d6084-0e07-460a-8d02-fa63600e8c02/a88d6084-0e07-460a-8d02-fa63600e8c02.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-b650-a-gaming-wifi-amd-b650-4"
  },
  {
@@ -3598,7 +3598,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/89fd4420-ffb1-4177-bc23-09f318ecc7e1/89fd4420-ffb1-4177-bc23-09f318ecc7e1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/89fd4420-ffb1-4177-bc23-09f318ecc7e1/89fd4420-ffb1-4177-bc23-09f318ecc7e1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-h610m-s2h-v2-ddr5-socket-lga1700-e-zeze"
  },
  {
@@ -3617,7 +3617,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/936bff1d-10b7-4fa4-918e-9eb7486b919c/936bff1d-10b7-4fa4-918e-9eb7486b919c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/936bff1d-10b7-4fa4-918e-9eb7486b919c/936bff1d-10b7-4fa4-918e-9eb7486b919c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b760m-a-wifi-d4-intel-b760-lga-1700-micro-atx"
  },
  {
@@ -3636,7 +3636,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/88b52ae9-89c8-4fbe-8671-8f2c1cb9d6f5/88b52ae9-89c8-4fbe-8671-8f2c1cb9d6f5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/88b52ae9-89c8-4fbe-8671-8f2c1cb9d6f5/88b52ae9-89c8-4fbe-8671-8f2c1cb9d6f5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870-aorus-elite-wifi7-atx-am5-ddr5-wi-fi-7-e-zeze"
  },
  {
@@ -3655,7 +3655,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0e5375ac-93d4-4ab3-bffa-da59a7f2537b/0e5375ac-93d4-4ab3-bffa-da59a7f2537b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0e5375ac-93d4-4ab3-bffa-da59a7f2537b/0e5375ac-93d4-4ab3-bffa-da59a7f2537b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b850m-p-wifi-amd-b850-socket-am5-micro-atx-2"
  },
  {
@@ -3674,7 +3674,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bf00a844-a32c-44b0-9c6c-515a4ed054bd/bf00a844-a32c-44b0-9c6c-515a4ed054bd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bf00a844-a32c-44b0-9c6c-515a4ed054bd/bf00a844-a32c-44b0-9c6c-515a4ed054bd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b550m-aorus-elite-ax-amd-b550-socket-am4-4-slota-bluetooth-wi-fi-6-micro-atx"
  },
  {
@@ -3693,7 +3693,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b17513d6-8744-4c43-8a40-8f7839a1fdf2/b17513d6-8744-4c43-8a40-8f7839a1fdf2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b17513d6-8744-4c43-8a40-8f7839a1fdf2/b17513d6-8744-4c43-8a40-8f7839a1fdf2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b660m-a-wifi-d4-ddr4-intel-b660-2"
  },
  {
@@ -3712,7 +3712,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/19832cf2-2509-4fd1-95d4-ab54e1bdd84e/19832cf2-2509-4fd1-95d4-ab54e1bdd84e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/19832cf2-2509-4fd1-95d4-ab54e1bdd84e/19832cf2-2509-4fd1-95d4-ab54e1bdd84e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-a620i-ax-am5-mitx-2"
  },
  {
@@ -3731,7 +3731,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9b37cc85-b1e4-4232-90fb-a0b6ac36caae/9b37cc85-b1e4-4232-90fb-a0b6ac36caae.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9b37cc85-b1e4-4232-90fb-a0b6ac36caae/9b37cc85-b1e4-4232-90fb-a0b6ac36caae.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b550m-a-amd-b550-2"
  },
  {
@@ -3750,7 +3750,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/29213347-3c19-41ac-8b05-738a316e702b/29213347-3c19-41ac-8b05-738a316e702b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/29213347-3c19-41ac-8b05-738a316e702b/29213347-3c19-41ac-8b05-738a316e702b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-a520m-hdv-socket-am4-micro-atx"
  },
  {
@@ -3769,7 +3769,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8027726d-69a9-4476-9709-38494b1c1d8f/8027726d-69a9-4476-9709-38494b1c1d8f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8027726d-69a9-4476-9709-38494b1c1d8f/8027726d-69a9-4476-9709-38494b1c1d8f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-proart-z890-creator-wifi"
  },
  {
@@ -3788,7 +3788,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6f673cab-3c48-4066-9999-c80bfcd0568d/6f673cab-3c48-4066-9999-c80bfcd0568d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6f673cab-3c48-4066-9999-c80bfcd0568d/6f673cab-3c48-4066-9999-c80bfcd0568d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllaka-ame-asrock-b850-pro-rs-amd-b850-ddr5-atx"
  },
  {
@@ -3807,7 +3807,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4d306bce-5bc9-4e0a-902a-5ed139347dfc/4d306bce-5bc9-4e0a-902a-5ed139347dfc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4d306bce-5bc9-4e0a-902a-5ed139347dfc/4d306bce-5bc9-4e0a-902a-5ed139347dfc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b850-plus-wifi-socket-am5-atx-me-wifi"
  },
  {
@@ -3826,7 +3826,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e83b1053-bb63-4ff1-b36d-e50b8b435887/e83b1053-bb63-4ff1-b36d-e50b8b435887.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e83b1053-bb63-4ff1-b36d-e50b8b435887/e83b1053-bb63-4ff1-b36d-e50b8b435887.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-mb-z890-eagle-intel-core-ultra-4ddr5-pcie-50"
  },
  {
@@ -3845,7 +3845,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cd50b2b8-ce73-4808-8500-12d910dc58a6/cd50b2b8-ce73-4808-8500-12d910dc58a6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cd50b2b8-ce73-4808-8500-12d910dc58a6/cd50b2b8-ce73-4808-8500-12d910dc58a6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-x870-a-gaming-wifi"
  },
  {
@@ -3864,7 +3864,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9a0333d8-20fe-4bf2-8a85-edd0a0b058c7/9a0333d8-20fe-4bf2-8a85-edd0a0b058c7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9a0333d8-20fe-4bf2-8a85-edd0a0b058c7/9a0333d8-20fe-4bf2-8a85-edd0a0b058c7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-a520m-k-v2-micro-atx-am4-ddr4-e-zeze"
  },
  {
@@ -3883,7 +3883,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0b192586-f2fa-459d-8c22-b54c7ab5c650/0b192586-f2fa-459d-8c22-b54c7ab5c650.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0b192586-f2fa-459d-8c22-b54c7ab5c650/0b192586-f2fa-459d-8c22-b54c7ab5c650.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-x570d4u-amd-x570-2"
  },
  {
@@ -3902,7 +3902,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/95448845-fd46-45f0-9ff2-13f7a016796a/95448845-fd46-45f0-9ff2-13f7a016796a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/95448845-fd46-45f0-9ff2-13f7a016796a/95448845-fd46-45f0-9ff2-13f7a016796a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b650-pro-rs"
  },
  {
@@ -3921,7 +3921,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2b36e7b7-14ac-4159-89db-c74ba838cf69/2b36e7b7-14ac-4159-89db-c74ba838cf69.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2b36e7b7-14ac-4159-89db-c74ba838cf69/2b36e7b7-14ac-4159-89db-c74ba838cf69.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-h610m-hvs-2"
  },
  {
@@ -3940,7 +3940,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6890502e-f292-4748-b575-272298c223a5/6890502e-f292-4748-b575-272298c223a5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6890502e-f292-4748-b575-272298c223a5/6890502e-f292-4748-b575-272298c223a5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-h610m-r-d4-si-ddr4-intel-h610-2"
  },
  {
@@ -3959,7 +3959,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/881b9f3d-5760-44ff-8920-01f5afc11f02/881b9f3d-5760-44ff-8920-01f5afc11f02.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/881b9f3d-5760-44ff-8920-01f5afc11f02/881b9f3d-5760-44ff-8920-01f5afc11f02.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-gigabyte-x870e-aorus-master-am5-ddr5-wi-fi"
  },
  {
@@ -3978,7 +3978,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/33d1541d-b5e3-4b68-885c-247be470fe93/33d1541d-b5e3-4b68-885c-247be470fe93.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/33d1541d-b5e3-4b68-885c-247be470fe93/33d1541d-b5e3-4b68-885c-247be470fe93.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-a520m-hvs-amd-a520-micro-atx-socket-am4"
  },
  {
@@ -3997,7 +3997,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e0d75e4c-93b1-44a5-b9f4-3d09d8693a68/e0d75e4c-93b1-44a5-b9f4-3d09d8693a68.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e0d75e4c-93b1-44a5-b9f4-3d09d8693a68/e0d75e4c-93b1-44a5-b9f4-3d09d8693a68.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-h610m-k-ddr5-v2"
  },
  {
@@ -4016,7 +4016,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d5ec11c8-502e-4fc4-b9fd-0f4f8e247087/d5ec11c8-502e-4fc4-b9fd-0f4f8e247087.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d5ec11c8-502e-4fc4-b9fd-0f4f8e247087/d5ec11c8-502e-4fc4-b9fd-0f4f8e247087.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b650m-plus-amd-b650-3"
  },
  {
@@ -4035,7 +4035,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d48c687b-aee4-484d-bfbe-b03d8f037030/d48c687b-aee4-484d-bfbe-b03d8f037030.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d48c687b-aee4-484d-bfbe-b03d8f037030/d48c687b-aee4-484d-bfbe-b03d8f037030.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/plake-ame-gigabyte-b650m-d3hp-ax-522-faza-vrm-ddr5-expoxmp-7600-mhz-wi-fi-6e-e-zeze-2"
  },
  {
@@ -4054,7 +4054,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/10e81f11-ab71-45a6-b704-aec8e041dc57/10e81f11-ab71-45a6-b704-aec8e041dc57.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/10e81f11-ab71-45a6-b704-aec8e041dc57/10e81f11-ab71-45a6-b704-aec8e041dc57.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b550-plus-amd-b550-socket-am4-atx"
  },
  {
@@ -4073,7 +4073,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f9962703-007f-48dc-ad3d-08be723a4e17/f9962703-007f-48dc-ad3d-08be723a4e17.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f9962703-007f-48dc-ad3d-08be723a4e17/f9962703-007f-48dc-ad3d-08be723a4e17.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-gigabyte-b850-gaming-x-wifi-6e-amd-ryzen-9000-ddr5-atx"
  },
  {
@@ -4092,7 +4092,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b110b1f0-75ef-4409-865d-7ff9316bb184/b110b1f0-75ef-4409-865d-7ff9316bb184.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b110b1f0-75ef-4409-865d-7ff9316bb184/b110b1f0-75ef-4409-865d-7ff9316bb184.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b860m-k-intel-b860-ddr5-matx"
  },
  {
@@ -4111,7 +4111,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/83de35f9-de0f-41bd-81af-bb6b872d64e0/83de35f9-de0f-41bd-81af-bb6b872d64e0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/83de35f9-de0f-41bd-81af-bb6b872d64e0/83de35f9-de0f-41bd-81af-bb6b872d64e0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-b550-f-gaming-wifi-ii-amd-b550-socket-am4-atx"
  },
  {
@@ -4130,7 +4130,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a1019725-4d7b-441d-99ef-940d775f67b2/a1019725-4d7b-441d-99ef-940d775f67b2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a1019725-4d7b-441d-99ef-940d775f67b2/a1019725-4d7b-441d-99ef-940d775f67b2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-z890-aorus-elite-wifi7-atx-lga-1851-ddr5-9200-mts-pcie-50-e-zeze"
  },
  {
@@ -4149,7 +4149,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c691b9a3-d069-4a78-9cf7-56a839f6148a/c691b9a3-d069-4a78-9cf7-56a839f6148a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c691b9a3-d069-4a78-9cf7-56a839f6148a/c691b9a3-d069-4a78-9cf7-56a839f6148a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650-ud-ax-10-ddr5-am5-atx"
  },
  {
@@ -4168,7 +4168,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/89178b56-6f6d-4bb1-9183-b4b4334b28c8/89178b56-6f6d-4bb1-9183-b4b4334b28c8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/89178b56-6f6d-4bb1-9183-b4b4334b28c8/89178b56-6f6d-4bb1-9183-b4b4334b28c8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b760m-e-10-ddr5-lga1700-matx"
  },
  {
@@ -4187,7 +4187,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb00c9bc-c7ec-4f98-b100-ad0de967e84a/fb00c9bc-c7ec-4f98-b100-ad0de967e84a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb00c9bc-c7ec-4f98-b100-ad0de967e84a/fb00c9bc-c7ec-4f98-b100-ad0de967e84a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b860m-eagle-v2-intel-core-ultra-ddr5-25gbe-lan"
  },
  {
@@ -4206,7 +4206,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/626f809f-1e19-46e2-84e4-30a92a951271/626f809f-1e19-46e2-84e4-30a92a951271.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/626f809f-1e19-46e2-84e4-30a92a951271/626f809f-1e19-46e2-84e4-30a92a951271.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-ga-b840-gaming-x-wf6e-atx-ddr5-am5"
  },
  {
@@ -4225,7 +4225,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4c2f98b6-429e-416d-a4c9-208cdf9c306e/4c2f98b6-429e-416d-a4c9-208cdf9c306e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4c2f98b6-429e-416d-a4c9-208cdf9c306e/4c2f98b6-429e-416d-a4c9-208cdf9c306e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b550-plus-wifi-ii-amd-b550-socket-am4-atx"
  },
  {
@@ -4244,7 +4244,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a849aa01-3259-4336-8ef5-799b643361a4/a849aa01-3259-4336-8ef5-799b643361a4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a849aa01-3259-4336-8ef5-799b643361a4/a849aa01-3259-4336-8ef5-799b643361a4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-mb-a620m-e-pro"
  },
  {
@@ -4263,7 +4263,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/08e980e8-2717-45a3-bc94-67b1ee52c940/08e980e8-2717-45a3-bc94-67b1ee52c940.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/08e980e8-2717-45a3-bc94-67b1ee52c940/08e980e8-2717-45a3-bc94-67b1ee52c940.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b840-p-wifi-amd-b840-socket-am5-atx-2"
  },
  {
@@ -4282,7 +4282,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2b050a6-e711-4adb-98bb-dbf669c261eb/a2b050a6-e711-4adb-98bb-dbf669c261eb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2b050a6-e711-4adb-98bb-dbf669c261eb/a2b050a6-e711-4adb-98bb-dbf669c261eb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-biostar-b760mx2-e-ddr5-pcie-40-m2-e-zeze"
  },
  {
@@ -4301,7 +4301,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7e869969-1a38-4c12-ab1a-2b6dcf50da87/7e869969-1a38-4c12-ab1a-2b6dcf50da87.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7e869969-1a38-4c12-ab1a-2b6dcf50da87/7e869969-1a38-4c12-ab1a-2b6dcf50da87.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650m-d3hp-rev-10-micro-atx-ddr5-amd-am5"
  },
  {
@@ -4320,7 +4320,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/60f1f41b-624a-49b6-91e4-193e0fa9adeb/60f1f41b-624a-49b6-91e4-193e0fa9adeb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/60f1f41b-624a-49b6-91e4-193e0fa9adeb/60f1f41b-624a-49b6-91e4-193e0fa9adeb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-b550-a-pro-amd-b550-2"
  },
  {
@@ -4339,7 +4339,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2b073a0a-3a3d-4f55-8058-44b2ab632cbb/2b073a0a-3a3d-4f55-8058-44b2ab632cbb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2b073a0a-3a3d-4f55-8058-44b2ab632cbb/2b073a0a-3a3d-4f55-8058-44b2ab632cbb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-a520m-k-v2"
  },
  {
@@ -4358,7 +4358,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/812e404d-f238-4069-bc8f-1ea293bcd6ac/812e404d-f238-4069-bc8f-1ea293bcd6ac.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/812e404d-f238-4069-bc8f-1ea293bcd6ac/812e404d-f238-4069-bc8f-1ea293bcd6ac.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b550m-a-wifi-ii-amd-b550-socket-am4-micro-atx"
  },
  {
@@ -4377,7 +4377,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ccd28300-b190-4677-996c-03ed6ee86619/ccd28300-b190-4677-996c-03ed6ee86619.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ccd28300-b190-4677-996c-03ed6ee86619/ccd28300-b190-4677-996c-03ed6ee86619.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-z890-eagle-wifi7-2"
  },
  {
@@ -4396,7 +4396,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c2111d3f-6428-4584-be2f-d37e278ccf21/c2111d3f-6428-4584-be2f-d37e278ccf21.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c2111d3f-6428-4584-be2f-d37e278ccf21/c2111d3f-6428-4584-be2f-d37e278ccf21.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b650m-hdvm2-amd-b650-2"
  },
  {
@@ -4415,7 +4415,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c4db5979-e7f1-490e-b4ed-5d349df17a6e/c4db5979-e7f1-490e-b4ed-5d349df17a6e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c4db5979-e7f1-490e-b4ed-5d349df17a6e/c4db5979-e7f1-490e-b4ed-5d349df17a6e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-amd-b850m-gaming-x-matx-wi-fi-6e-2"
  },
  {
@@ -4434,7 +4434,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d9f2bb48-239d-4a7f-ad2b-9b0551e0707e/d9f2bb48-239d-4a7f-ad2b-9b0551e0707e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d9f2bb48-239d-4a7f-ad2b-9b0551e0707e/d9f2bb48-239d-4a7f-ad2b-9b0551e0707e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-h610m-h2m2-intel-h610-lga-1700-micro-atx"
  },
  {
@@ -4453,7 +4453,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0bfe424a-64a0-4806-a778-4aef988ff57b/0bfe424a-64a0-4806-a778-4aef988ff57b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0bfe424a-64a0-4806-a778-4aef988ff57b/0bfe424a-64a0-4806-a778-4aef988ff57b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-baze-gigabyte-b850-aorus-elite-wifi7-am5-ddr5-8200-mhz-e-zeze"
  },
  {
@@ -4472,7 +4472,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/25610b49-76a6-4aec-ab18-c3d1472a9dd8/25610b49-76a6-4aec-ab18-c3d1472a9dd8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/25610b49-76a6-4aec-ab18-c3d1472a9dd8/25610b49-76a6-4aec-ab18-c3d1472a9dd8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-a520m-a-iicsm-amd-a520-socket-am4-4-slota-micro-atx"
  },
  {
@@ -4491,7 +4491,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/793600dd-75c6-4171-9a5d-04aed6b4f4b0/793600dd-75c6-4171-9a5d-04aed6b4f4b0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/793600dd-75c6-4171-9a5d-04aed6b4f4b0/793600dd-75c6-4171-9a5d-04aed6b4f4b0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870e-aorus-elite-wifi7-ice-ddr5-am5"
  },
  {
@@ -4510,7 +4510,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/19582c5c-d9d8-4e70-859d-cc5accd1faf2/19582c5c-d9d8-4e70-859d-cc5accd1faf2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/19582c5c-d9d8-4e70-859d-cc5accd1faf2/19582c5c-d9d8-4e70-859d-cc5accd1faf2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b660m-ds3h-ax-ddr4"
  },
  {
@@ -4529,7 +4529,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/afba8aec-6ba2-43e1-a850-e146a2d3b976/afba8aec-6ba2-43e1-a850-e146a2d3b976.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/afba8aec-6ba2-43e1-a850-e146a2d3b976/afba8aec-6ba2-43e1-a850-e146a2d3b976.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b840m-d3hp-amd-ryzen-9000-ddr5-micro-atx-e-zeze"
  },
  {
@@ -4548,7 +4548,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2aa39cc6-ea07-4ec2-8ce5-da07eb948daa/2aa39cc6-ea07-4ec2-8ce5-da07eb948daa.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2aa39cc6-ea07-4ec2-8ce5-da07eb948daa/2aa39cc6-ea07-4ec2-8ce5-da07eb948daa.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b840m-aorus-elite-wifi-6e-ddr5-2x-m2-pcie-40-wi-fi-6e"
  },
  {
@@ -4567,7 +4567,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fdd18484-901d-405b-9e30-a86343e2f0df/fdd18484-901d-405b-9e30-a86343e2f0df.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fdd18484-901d-405b-9e30-a86343e2f0df/fdd18484-901d-405b-9e30-a86343e2f0df.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/plake-ame-asus-tuf-gaming-b760-plus-wifi-e-zeze"
  },
  {
@@ -4586,7 +4586,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9c965264-3656-4365-9f75-8d6bd7f1f31a/9c965264-3656-4365-9f75-8d6bd7f1f31a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9c965264-3656-4365-9f75-8d6bd7f1f31a/9c965264-3656-4365-9f75-8d6bd7f1f31a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-a620am-b-evoamd-a620a-socket-am5-atx"
  },
  {
@@ -4605,7 +4605,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/23a24142-a981-4c66-85cd-38c63d878b36/23a24142-a981-4c66-85cd-38c63d878b36.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/23a24142-a981-4c66-85cd-38c63d878b36/23a24142-a981-4c66-85cd-38c63d878b36.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b850-gaming-wifi-6"
  },
  {
@@ -4624,7 +4624,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2791639-eb3a-4465-ad89-f2559947a8fa/a2791639-eb3a-4465-ad89-f2559947a8fa.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2791639-eb3a-4465-ad89-f2559947a8fa/a2791639-eb3a-4465-ad89-f2559947a8fa.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-mb-intel-z790-chipset-intel-core-14th-ddr5-25gbe-lan-e-zeze"
  },
  {
@@ -4643,7 +4643,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5c2682a5-c530-4fc2-8d29-1f7b2682fe80/5c2682a5-c530-4fc2-8d29-1f7b2682fe80.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5c2682a5-c530-4fc2-8d29-1f7b2682fe80/5c2682a5-c530-4fc2-8d29-1f7b2682fe80.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870i-aorus-pro-ice-amd-x870-am5-mini-itx-e-zeze"
  },
  {
@@ -4662,7 +4662,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4688c97b-e7bd-4907-852e-e06017803ddc/4688c97b-e7bd-4907-852e-e06017803ddc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4688c97b-e7bd-4907-852e-e06017803ddc/4688c97b-e7bd-4907-852e-e06017803ddc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-h610m-hdvm2-d5"
  },
  {
@@ -4681,7 +4681,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c7108944-7c36-4b4f-860c-f66507eaf8c6/c7108944-7c36-4b4f-860c-f66507eaf8c6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c7108944-7c36-4b4f-860c-f66507eaf8c6/c7108944-7c36-4b4f-860c-f66507eaf8c6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-a620am-x-wifi-socket-am5-ddr5-wi-fi-e-zeze"
  },
  {
@@ -4700,7 +4700,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2d61b19e-f5b4-426a-b23c-619df7c731e8/2d61b19e-f5b4-426a-b23c-619df7c731e8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2d61b19e-f5b4-426a-b23c-619df7c731e8/2d61b19e-f5b4-426a-b23c-619df7c731e8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-h610m-h2-m2-lga1700-ddr4"
  },
  {
@@ -4719,7 +4719,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/52ba14c4-8b0b-4bf9-b158-cbf3809a742c/52ba14c4-8b0b-4bf9-b158-cbf3809a742c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/52ba14c4-8b0b-4bf9-b158-cbf3809a742c/52ba14c4-8b0b-4bf9-b158-cbf3809a742c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b860-aorus-elite-wifi7-ice-atx-lga-1851-ddr5-e-bardhe"
  },
  {
@@ -4738,7 +4738,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c0fa82ee-d343-4148-a51b-d4df56427b25/c0fa82ee-d343-4148-a51b-d4df56427b25.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c0fa82ee-d343-4148-a51b-d4df56427b25/c0fa82ee-d343-4148-a51b-d4df56427b25.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b550-pro4-amd-b550-2"
  },
  {
@@ -4757,7 +4757,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6ba2ab71-4e8a-4470-9e2b-0bb99f656937/6ba2ab71-4e8a-4470-9e2b-0bb99f656937.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6ba2ab71-4e8a-4470-9e2b-0bb99f656937/6ba2ab71-4e8a-4470-9e2b-0bb99f656937.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-mag-x870e-tomahawk-max-wifi-amd-x870e-socket-am5-atx"
  },
  {
@@ -4776,7 +4776,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2686c17c-2384-43c2-b624-d3d15d6cf8b0/2686c17c-2384-43c2-b624-d3d15d6cf8b0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2686c17c-2384-43c2-b624-d3d15d6cf8b0/2686c17c-2384-43c2-b624-d3d15d6cf8b0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870-eagle-wifi7"
  },
  {
@@ -4795,7 +4795,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e7c8ed72-e937-40e8-b424-0ec5167d52f6/e7c8ed72-e937-40e8-b424-0ec5167d52f6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e7c8ed72-e937-40e8-b424-0ec5167d52f6/e7c8ed72-e937-40e8-b424-0ec5167d52f6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-z790-p-wifi-3"
  },
  {
@@ -4814,7 +4814,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/474068dd-1594-4101-9c03-8d88e2805f1c/474068dd-1594-4101-9c03-8d88e2805f1c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/474068dd-1594-4101-9c03-8d88e2805f1c/474068dd-1594-4101-9c03-8d88e2805f1c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-z890-pro-a-intel-z890-lga-1851-atx"
  },
  {
@@ -4833,7 +4833,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab8f0095-e72e-453a-80cc-b433cb5d9943/ab8f0095-e72e-453a-80cc-b433cb5d9943.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab8f0095-e72e-453a-80cc-b433cb5d9943/ab8f0095-e72e-453a-80cc-b433cb5d9943.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-msi-pro-h610m-e-ddr4-intel-h610-matx"
  },
  {
@@ -4852,7 +4852,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c90e1f60-a0c9-4180-a779-74af3f992800/c90e1f60-a0c9-4180-a779-74af3f992800.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c90e1f60-a0c9-4180-a779-74af3f992800/c90e1f60-a0c9-4180-a779-74af3f992800.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b650-e-wifi"
  },
  {
@@ -4871,7 +4871,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3e179f6-091f-4b61-a962-f1d27333946b/b3e179f6-091f-4b61-a962-f1d27333946b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3e179f6-091f-4b61-a962-f1d27333946b/b3e179f6-091f-4b61-a962-f1d27333946b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b650-plus-wifi-amd-b650-socket-am5-atx"
  },
  {
@@ -4890,7 +4890,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/34c66454-cb7c-4688-bcf1-a40848529d41/34c66454-cb7c-4688-bcf1-a40848529d41.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/34c66454-cb7c-4688-bcf1-a40848529d41/34c66454-cb7c-4688-bcf1-a40848529d41.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-z890-aorus-elite-x-ice-2"
  },
  {
@@ -4909,7 +4909,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4d9b64a4-9539-49d9-bd23-36a0e25018fa/4d9b64a4-9539-49d9-bd23-36a0e25018fa.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4d9b64a4-9539-49d9-bd23-36a0e25018fa/4d9b64a4-9539-49d9-bd23-36a0e25018fa.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-a520m-k-e-zeze"
  },
  {
@@ -4928,7 +4928,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/41c499cf-022f-43b3-933d-720325181be0/41c499cf-022f-43b3-933d-720325181be0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/41c499cf-022f-43b3-933d-720325181be0/41c499cf-022f-43b3-933d-720325181be0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-gigabyte-x870e-aorus-pro-amd-ryzen-9000-ddr5-wi-fi-7-i-zi"
  },
  {
@@ -4947,7 +4947,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ae632b3b-3bd4-410a-9846-e13d6c5e65eb/ae632b3b-3bd4-410a-9846-e13d6c5e65eb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ae632b3b-3bd4-410a-9846-e13d6c5e65eb/ae632b3b-3bd4-410a-9846-e13d6c5e65eb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b760m-gaming-plus-wifi-lga-1700-ddr4-m2-wifi-6"
  },
  {
@@ -4966,7 +4966,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e351dd2c-e2ea-4716-b637-e2b45599f4ca/e351dd2c-e2ea-4716-b637-e2b45599f4ca.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e351dd2c-e2ea-4716-b637-e2b45599f4ca/e351dd2c-e2ea-4716-b637-e2b45599f4ca.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-z790-d-ax"
  },
  {
@@ -4985,7 +4985,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3da4877c-b902-4d31-8d01-56d82c01a7df/3da4877c-b902-4d31-8d01-56d82c01a7df.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3da4877c-b902-4d31-8d01-56d82c01a7df/3da4877c-b902-4d31-8d01-56d82c01a7df.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-x870e-taichi-lite-ddr5-e-atx-socket-am5-e-zeze"
  },
  {
@@ -5004,7 +5004,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/812658b2-5d0e-41e5-b7e1-d551b2090b2d/812658b2-5d0e-41e5-b7e1-d551b2090b2d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/812658b2-5d0e-41e5-b7e1-d551b2090b2d/812658b2-5d0e-41e5-b7e1-d551b2090b2d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-pro-h610m-c-csm-64gb"
  },
  {
@@ -5023,7 +5023,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 4,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/96462a2c-4101-496d-b546-9f919d5eecad/96462a2c-4101-496d-b546-9f919d5eecad.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/96462a2c-4101-496d-b546-9f919d5eecad/96462a2c-4101-496d-b546-9f919d5eecad.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-z790-plus-wifi-intel-z790-3"
  },
  {
@@ -5042,7 +5042,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b56be9f7-50b3-49c3-bece-2b0155b3a30d/b56be9f7-50b3-49c3-bece-2b0155b3a30d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b56be9f7-50b3-49c3-bece-2b0155b3a30d/b56be9f7-50b3-49c3-bece-2b0155b3a30d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-x870-p-amd-x870-socket-am5-atx"
  },
  {
@@ -5061,7 +5061,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3f0b8267-dd01-4b7a-a7d2-3ca41688cee8/3f0b8267-dd01-4b7a-a7d2-3ca41688cee8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3f0b8267-dd01-4b7a-a7d2-3ca41688cee8/3f0b8267-dd01-4b7a-a7d2-3ca41688cee8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-amd-b850m-aorus-elite-ice-wi-fi-6e-matx"
  },
  {
@@ -5080,7 +5080,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8879b09c-aad3-40b1-a604-84e07d9f702f/8879b09c-aad3-40b1-a604-84e07d9f702f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8879b09c-aad3-40b1-a604-84e07d9f702f/8879b09c-aad3-40b1-a604-84e07d9f702f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-x870-p-amd-x870-socket-am5-atx-2"
  },
  {
@@ -5099,7 +5099,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1387e6b5-6037-4f99-b152-f2a1c5619701/1387e6b5-6037-4f99-b152-f2a1c5619701.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1387e6b5-6037-4f99-b152-f2a1c5619701/1387e6b5-6037-4f99-b152-f2a1c5619701.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b850m-pro-rs-socket-am5-ddr5-micro-atx"
  },
  {
@@ -5118,7 +5118,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/79ac154d-d838-45d2-b6cd-628868edc78b/79ac154d-d838-45d2-b6cd-628868edc78b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/79ac154d-d838-45d2-b6cd-628868edc78b/79ac154d-d838-45d2-b6cd-628868edc78b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b760m-ds3h-ax"
  },
  {
@@ -5137,7 +5137,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9f955c90-378c-40a4-a9b6-e3e25af4a05e/9f955c90-378c-40a4-a9b6-e3e25af4a05e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9f955c90-378c-40a4-a9b6-e3e25af4a05e/9f955c90-378c-40a4-a9b6-e3e25af4a05e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b550i-aorus-pro-ax-amd-b550-am4-socket-mini-itx-2"
  },
  {
@@ -5156,7 +5156,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/96d1a2eb-78c1-4f2e-96e5-b634bf1f0cf9/96d1a2eb-78c1-4f2e-96e5-b634bf1f0cf9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/96d1a2eb-78c1-4f2e-96e5-b634bf1f0cf9/96d1a2eb-78c1-4f2e-96e5-b634bf1f0cf9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b760m-aorus-elite-wifi-6e-gen5-ddr5-2x-m2-pcie-40"
  },
  {
@@ -5175,7 +5175,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1d705317-ddeb-4607-94af-5eb1d7427f10/1d705317-ddeb-4607-94af-5eb1d7427f10.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1d705317-ddeb-4607-94af-5eb1d7427f10/1d705317-ddeb-4607-94af-5eb1d7427f10.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b650-pg-lightning-amd-b650-2"
  },
  {
@@ -5194,7 +5194,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/04a029a3-c586-4488-98e8-e4d9c0b71c12/04a029a3-c586-4488-98e8-e4d9c0b71c12.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/04a029a3-c586-4488-98e8-e4d9c0b71c12/04a029a3-c586-4488-98e8-e4d9c0b71c12.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-x870e-h-gaming-wifi7-amd-x870e-socket-am5-atx"
  },
  {
@@ -5213,7 +5213,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/71426d8b-3c36-4b7f-a346-05e17889d52b/71426d8b-3c36-4b7f-a346-05e17889d52b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/71426d8b-3c36-4b7f-a346-05e17889d52b/71426d8b-3c36-4b7f-a346-05e17889d52b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-proart-x870e-creator-wifi-amd-socket-am5-ddr5-deri-192gb-e-zeze"
  },
  {
@@ -5232,7 +5232,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/43b255bf-1c5e-4061-b98f-0b10d7d9f87d/43b255bf-1c5e-4061-b98f-0b10d7d9f87d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/43b255bf-1c5e-4061-b98f-0b10d7d9f87d/43b255bf-1c5e-4061-b98f-0b10d7d9f87d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-mk-x870e-nova-wifi-socket-am5-ddr5-atx"
  },
  {
@@ -5251,7 +5251,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fe7a4584-5997-4417-a6e3-b5e000d4b4d6/fe7a4584-5997-4417-a6e3-b5e000d4b4d6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fe7a4584-5997-4417-a6e3-b5e000d4b4d6/fe7a4584-5997-4417-a6e3-b5e000d4b4d6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b840m-ds3h-amd-ryzen-9000-ddr5-deri-8200mhz-2x-m2-pcie-40"
  },
  {
@@ -5270,7 +5270,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4d2c4cad-dac8-4ebf-a48d-319ab915f37c/4d2c4cad-dac8-4ebf-a48d-319ab915f37c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4d2c4cad-dac8-4ebf-a48d-319ab915f37c/4d2c4cad-dac8-4ebf-a48d-319ab915f37c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b760m-h2m2"
  },
  {
@@ -5289,7 +5289,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0607790b-9213-41e1-846a-6899592c1cf5/0607790b-9213-41e1-846a-6899592c1cf5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0607790b-9213-41e1-846a-6899592c1cf5/0607790b-9213-41e1-846a-6899592c1cf5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b760-plus-d4-intel-b760-lga-1700-atx"
  },
  {
@@ -5308,7 +5308,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8fbd3374-64ad-44f2-9bf0-dcf5359e2acd/8fbd3374-64ad-44f2-9bf0-dcf5359e2acd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8fbd3374-64ad-44f2-9bf0-dcf5359e2acd/8fbd3374-64ad-44f2-9bf0-dcf5359e2acd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b850-steel-legend-wifi-socket-am5-ddr5-atx"
  },
  {
@@ -5327,7 +5327,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2fa14501-67c9-45ce-9703-62ebc63e81ee/2fa14501-67c9-45ce-9703-62ebc63e81ee.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2fa14501-67c9-45ce-9703-62ebc63e81ee/2fa14501-67c9-45ce-9703-62ebc63e81ee.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b550m-ds3h-ac-r2-socket-am4-ddr4-wi-fi-5"
  },
  {
@@ -5346,7 +5346,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e29628a7-3ff9-44eb-9005-c722db4a54e2/e29628a7-3ff9-44eb-9005-c722db4a54e2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e29628a7-3ff9-44eb-9005-c722db4a54e2/e29628a7-3ff9-44eb-9005-c722db4a54e2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/msi-b840m-gaming-plus-wifi6e-micro-atx-pllake-ame"
  },
  {
@@ -5365,7 +5365,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a00aa6ae-418b-42d2-92b8-76604e9525b4/a00aa6ae-418b-42d2-92b8-76604e9525b4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a00aa6ae-418b-42d2-92b8-76604e9525b4/a00aa6ae-418b-42d2-92b8-76604e9525b4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-asrock-b860-steel-legend-wifi-lga1851-ddr5-atx"
  },
  {
@@ -5384,7 +5384,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/eaf83baa-e27e-41ad-96bd-7b0bfc5d4c4d/eaf83baa-e27e-41ad-96bd-7b0bfc5d4c4d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/eaf83baa-e27e-41ad-96bd-7b0bfc5d4c4d/eaf83baa-e27e-41ad-96bd-7b0bfc5d4c4d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b840m-ds3h-rev-10-ddr5-am5-matx"
  },
  {
@@ -5403,7 +5403,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/411b0fa1-db5e-40be-ad7f-fb85e4096e39/411b0fa1-db5e-40be-ad7f-fb85e4096e39.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/411b0fa1-db5e-40be-ad7f-fb85e4096e39/411b0fa1-db5e-40be-ad7f-fb85e4096e39.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b650m-pg-riptide-ddr5-socket-am5-amd-b650-matx"
  },
  {
@@ -5422,7 +5422,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5a183bf8-3cfb-4391-99c8-def997e95d74/5a183bf8-3cfb-4391-99c8-def997e95d74.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5a183bf8-3cfb-4391-99c8-def997e95d74/5a183bf8-3cfb-4391-99c8-def997e95d74.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-crosshair-x870e-hero-btf-amd-x870e-socket-am5-atx"
  },
  {
@@ -5441,7 +5441,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/252190c2-34fc-49ef-ad54-056652a427e2/252190c2-34fc-49ef-ad54-056652a427e2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/252190c2-34fc-49ef-ad54-056652a427e2/252190c2-34fc-49ef-ad54-056652a427e2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-crosshair-x870e-apex-amd-x870e-socket-am5-atx"
  },
  {
@@ -5460,7 +5460,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a86d1989-2b2f-4e07-bde9-b49bfb91dd2e/a86d1989-2b2f-4e07-bde9-b49bfb91dd2e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a86d1989-2b2f-4e07-bde9-b49bfb91dd2e/a86d1989-2b2f-4e07-bde9-b49bfb91dd2e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-z890-ud-wifi6e-atx-lga-1851-ddr5-9200-mts-pcie-50-e-zeze"
  },
  {
@@ -5479,7 +5479,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a80cb5fd-5cac-4531-877e-a13dbc13e9fb/a80cb5fd-5cac-4531-877e-a13dbc13e9fb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a80cb5fd-5cac-4531-877e-a13dbc13e9fb/a80cb5fd-5cac-4531-877e-a13dbc13e9fb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-z890-a-gaming-wifi-ddr5-pcie-50-atx"
  },
  {
@@ -5498,7 +5498,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2584ab62-fe94-4d8d-bf51-0cacee7dc0bf/2584ab62-fe94-4d8d-bf51-0cacee7dc0bf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2584ab62-fe94-4d8d-bf51-0cacee7dc0bf/2584ab62-fe94-4d8d-bf51-0cacee7dc0bf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-mpg-mini-itx-intel-b760-wi-fi-6"
  },
  {
@@ -5517,7 +5517,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3dd89b97-bac1-4aad-b46c-965d03cc79dc/3dd89b97-bac1-4aad-b46c-965d03cc79dc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3dd89b97-bac1-4aad-b46c-965d03cc79dc/3dd89b97-bac1-4aad-b46c-965d03cc79dc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-asrock-b760m-pro-rs-lga1700-ddr5-matx"
  },
  {
@@ -5536,7 +5536,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c6910508-9b3c-4dab-a55a-d4145c1e0baa/c6910508-9b3c-4dab-a55a-d4145c1e0baa.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c6910508-9b3c-4dab-a55a-d4145c1e0baa/c6910508-9b3c-4dab-a55a-d4145c1e0baa.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-b760m-gaming-plus-wifi-intel-b760-lga-1700-micro-atx"
  },
  {
@@ -5555,7 +5555,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4e59678e-2320-400c-864c-c08fbe945f34/4e59678e-2320-400c-864c-c08fbe945f34.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4e59678e-2320-400c-864c-c08fbe945f34/4e59678e-2320-400c-864c-c08fbe945f34.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b860-pro-rs-wifi-ddr5-wi-fi-6e-atx"
  },
  {
@@ -5574,7 +5574,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c5dfc6d-6687-4ca7-b2c8-94059cba070e/8c5dfc6d-6687-4ca7-b2c8-94059cba070e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c5dfc6d-6687-4ca7-b2c8-94059cba070e/8c5dfc6d-6687-4ca7-b2c8-94059cba070e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-gigabyte-ga-b840-eagle-wf6e-atx-ddr5-socket-am5"
  },
  {
@@ -5593,7 +5593,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/93103483-3c6a-4d8a-9bdd-c5e3281fba17/93103483-3c6a-4d8a-9bdd-c5e3281fba17.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/93103483-3c6a-4d8a-9bdd-c5e3281fba17/93103483-3c6a-4d8a-9bdd-c5e3281fba17.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-h610m-h-v3-ddr4-intel-h610-socket-1700-2-slota-micro-atx"
  },
  {
@@ -5612,7 +5612,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4e03c4ad-48d7-4689-ad0c-0e8f0402b9bd/4e03c4ad-48d7-4689-ad0c-0e8f0402b9bd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4e03c4ad-48d7-4689-ad0c-0e8f0402b9bd/4e03c4ad-48d7-4689-ad0c-0e8f0402b9bd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b850m-eagle-wifi6e-ice-ddr5-wifi-6e-matx"
  },
  {
@@ -5631,7 +5631,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/edad4985-1afe-4906-8824-d8b299ff09df/edad4985-1afe-4906-8824-d8b299ff09df.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/edad4985-1afe-4906-8824-d8b299ff09df/edad4985-1afe-4906-8824-d8b299ff09df.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-b850-gaming-plus-wifi-6e-socket-am5-atx"
  },
  {
@@ -5650,7 +5650,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/17ac87d6-b3a3-4c1a-8753-e7e84dd7a280/17ac87d6-b3a3-4c1a-8753-e7e84dd7a280.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/17ac87d6-b3a3-4c1a-8753-e7e84dd7a280/17ac87d6-b3a3-4c1a-8753-e7e84dd7a280.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b760m-ds3h-ddr4"
  },
  {
@@ -5669,7 +5669,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bdd49493-5c1c-447e-b80c-8dc053ce43d5/bdd49493-5c1c-447e-b80c-8dc053ce43d5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bdd49493-5c1c-447e-b80c-8dc053ce43d5/bdd49493-5c1c-447e-b80c-8dc053ce43d5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-proart-z890-creator-wifi-intel-z890-lga-1851-atx-e-zeze"
  },
  {
@@ -5688,7 +5688,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/607ebce1-d9de-4cb3-8c9a-99bca0cb1a79/607ebce1-d9de-4cb3-8c9a-99bca0cb1a79.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/607ebce1-d9de-4cb3-8c9a-99bca0cb1a79/607ebce1-d9de-4cb3-8c9a-99bca0cb1a79.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-b760-g-gaming-wifi"
  },
  {
@@ -5707,7 +5707,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ddc79b6d-81bf-4555-992b-f3e2cf03ccbd/ddc79b6d-81bf-4555-992b-f3e2cf03ccbd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ddc79b6d-81bf-4555-992b-f3e2cf03ccbd/ddc79b6d-81bf-4555-992b-f3e2cf03ccbd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870-aorus-elite-wifi7-ice-socket-am5-ddr5-atx-e-bardhe"
  },
  {
@@ -5726,7 +5726,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/39632e47-ac59-4cb9-a34a-2a848d8d2828/39632e47-ac59-4cb9-a34a-2a848d8d2828.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/39632e47-ac59-4cb9-a34a-2a848d8d2828/39632e47-ac59-4cb9-a34a-2a848d8d2828.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b850m-d3hp-am5-ddr5-micro-atx-e-zeze"
  },
  {
@@ -5745,7 +5745,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f463f876-ea0a-464e-a5d8-d9ae5c375480/f463f876-ea0a-464e-a5d8-d9ae5c375480.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f463f876-ea0a-464e-a5d8-d9ae5c375480/f463f876-ea0a-464e-a5d8-d9ae5c375480.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b840-gaming-x-wf6e-am5-ddr5-wifi-6e-2"
  },
  {
@@ -5764,7 +5764,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ec54939d-e2c7-4d47-8e62-9eb73b351ee4/ec54939d-e2c7-4d47-8e62-9eb73b351ee4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ec54939d-e2c7-4d47-8e62-9eb73b351ee4/ec54939d-e2c7-4d47-8e62-9eb73b351ee4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b550m-gaming-x-wifi6-amd-ryzen-ddr4-128gb"
  },
  {
@@ -5783,7 +5783,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f5060096-cae9-4972-9dc9-808bb609431a/f5060096-cae9-4972-9dc9-808bb609431a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f5060096-cae9-4972-9dc9-808bb609431a/f5060096-cae9-4972-9dc9-808bb609431a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b850m-k-amd-b850-socket-am5-micro-atx"
  },
  {
@@ -5802,7 +5802,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/41cacf08-1d94-4612-8b4e-a89e3eda5def/41cacf08-1d94-4612-8b4e-a89e3eda5def.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/41cacf08-1d94-4612-8b4e-a89e3eda5def/41cacf08-1d94-4612-8b4e-a89e3eda5def.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/gigabyte-b650m-d3hp-10-motherboard-micro-atx"
  },
  {
@@ -5821,7 +5821,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dad5b5e0-8eb1-4ecf-8cb7-fc3dcb8c1305/dad5b5e0-8eb1-4ecf-8cb7-fc3dcb8c1305.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dad5b5e0-8eb1-4ecf-8cb7-fc3dcb8c1305/dad5b5e0-8eb1-4ecf-8cb7-fc3dcb8c1305.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b850-pro-a-atx-ddr5-e-zeze"
  },
  {
@@ -5840,7 +5840,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/40ad0580-5b29-4a83-bf10-d309d5a9a8f3/40ad0580-5b29-4a83-bf10-d309d5a9a8f3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/40ad0580-5b29-4a83-bf10-d309d5a9a8f3/40ad0580-5b29-4a83-bf10-d309d5a9a8f3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b860m-a-wifi-intel-b860-ddr5-micro-atx"
  },
  {
@@ -5859,7 +5859,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/66a80f0b-7d84-433e-9796-afc00860ec83/66a80f0b-7d84-433e-9796-afc00860ec83.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/66a80f0b-7d84-433e-9796-afc00860ec83/66a80f0b-7d84-433e-9796-afc00860ec83.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-mb-ga-a620m-h-micro-atx-am5-2"
  },
  {
@@ -5878,7 +5878,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/52103271-9b28-4a18-9746-885c7751b87a/52103271-9b28-4a18-9746-885c7751b87a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/52103271-9b28-4a18-9746-885c7751b87a/52103271-9b28-4a18-9746-885c7751b87a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b850i-aorus-pro-amd-am5-mini-itx-ddr5-wifi-7"
  },
  {
@@ -5897,7 +5897,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a8d9ebba-3a92-45ac-9e8a-2ffb8ea0faea/a8d9ebba-3a92-45ac-9e8a-2ffb8ea0faea.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a8d9ebba-3a92-45ac-9e8a-2ffb8ea0faea/a8d9ebba-3a92-45ac-9e8a-2ffb8ea0faea.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-h610m-d-2"
  },
  {
@@ -5916,7 +5916,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/89bf5749-61b2-42f1-9337-dfe6ebe95402/89bf5749-61b2-42f1-9337-dfe6ebe95402.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/89bf5749-61b2-42f1-9337-dfe6ebe95402/89bf5749-61b2-42f1-9337-dfe6ebe95402.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-a520m-ecsm"
  },
  {
@@ -5935,7 +5935,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8b322cfb-f5ff-401c-a8e5-61e02e7db579/8b322cfb-f5ff-401c-a8e5-61e02e7db579.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8b322cfb-f5ff-401c-a8e5-61e02e7db579/8b322cfb-f5ff-401c-a8e5-61e02e7db579.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-h610m-a-wifi-d4-lga-1700-matx"
  },
  {
@@ -5954,7 +5954,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fbe556aa-b024-4f23-b9b0-86cbdd58f271/fbe556aa-b024-4f23-b9b0-86cbdd58f271.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fbe556aa-b024-4f23-b9b0-86cbdd58f271/fbe556aa-b024-4f23-b9b0-86cbdd58f271.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-a620m-plus-amd-a620-2"
  },
  {
@@ -5973,7 +5973,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6aa4f31a-9fff-47bc-847d-e10cdd12e73d/6aa4f31a-9fff-47bc-847d-e10cdd12e73d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6aa4f31a-9fff-47bc-847d-e10cdd12e73d/6aa4f31a-9fff-47bc-847d-e10cdd12e73d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-a620m-4-amd-a620-socket-am5-2-slota-micro-atx"
  },
  {
@@ -5992,7 +5992,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ae5db44e-d3f5-4fa2-833b-ad8cce8db8f5/ae5db44e-d3f5-4fa2-833b-ad8cce8db8f5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ae5db44e-d3f5-4fa2-833b-ad8cce8db8f5/ae5db44e-d3f5-4fa2-833b-ad8cce8db8f5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650m-d3hp-amd-b650-2"
  },
  {
@@ -6011,7 +6011,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/59ab8f4d-92e8-4121-ab5b-53a4e35e842b/59ab8f4d-92e8-4121-ab5b-53a4e35e842b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/59ab8f4d-92e8-4121-ab5b-53a4e35e842b/59ab8f4d-92e8-4121-ab5b-53a4e35e842b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b850-aorus-elite-wifi7-ice-ddr5-deri-8200mhz-pcie-50-e-bardhe"
  },
  {
@@ -6030,7 +6030,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/61510828-7540-472c-8b33-16416ed1a30c/61510828-7540-472c-8b33-16416ed1a30c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/61510828-7540-472c-8b33-16416ed1a30c/61510828-7540-472c-8b33-16416ed1a30c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b550m-ds3h-socket-am4-micro-atx-amd-b550-4"
  },
  {
@@ -6049,7 +6049,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e86c827c-8340-4979-93e9-41d86da57045/e86c827c-8340-4979-93e9-41d86da57045.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e86c827c-8340-4979-93e9-41d86da57045/e86c827c-8340-4979-93e9-41d86da57045.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-a520m-pro-amd-am4-matx-gaming"
  },
  {
@@ -6068,7 +6068,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/247851f8-0ad6-413c-8efb-7b800024c0f5/247851f8-0ad6-413c-8efb-7b800024c0f5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/247851f8-0ad6-413c-8efb-7b800024c0f5/247851f8-0ad6-413c-8efb-7b800024c0f5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b760m-plus-wifi-ii"
  },
  {
@@ -6087,7 +6087,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ce62a14c-e10c-429e-a006-8a6cb249e273/ce62a14c-e10c-429e-a006-8a6cb249e273.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ce62a14c-e10c-429e-a006-8a6cb249e273/ce62a14c-e10c-429e-a006-8a6cb249e273.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-x870-gaming-x-wifi7-atx-am5-ddr5-wi-fi-7-e-zeze"
  },
  {
@@ -6106,7 +6106,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb40ea60-f0d8-4f5c-a1ea-072ab285fc71/fb40ea60-f0d8-4f5c-a1ea-072ab285fc71.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb40ea60-f0d8-4f5c-a1ea-072ab285fc71/fb40ea60-f0d8-4f5c-a1ea-072ab285fc71.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-z890-pro-wifi-intel-z890-lga-1851-socket-v1-atx"
  },
  {
@@ -6125,7 +6125,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/466560c1-fc33-40f9-b1f3-3cb0d6280216/466560c1-fc33-40f9-b1f3-3cb0d6280216.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/466560c1-fc33-40f9-b1f3-3cb0d6280216/466560c1-fc33-40f9-b1f3-3cb0d6280216.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b850m-e-wifi-socket-am5-ddr5-micro-atx"
  },
  {
@@ -6144,7 +6144,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ee897522-dd0e-4ac1-8a2e-711bbaede8a8/ee897522-dd0e-4ac1-8a2e-711bbaede8a8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ee897522-dd0e-4ac1-8a2e-711bbaede8a8/ee897522-dd0e-4ac1-8a2e-711bbaede8a8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-a620ai-wifi-amd-am5-mini-itx-ddr5-wifi"
  },
  {
@@ -6163,7 +6163,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8dfbd4ae-b548-46f2-925f-6527b716855b/8dfbd4ae-b548-46f2-925f-6527b716855b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8dfbd4ae-b548-46f2-925f-6527b716855b/8dfbd4ae-b548-46f2-925f-6527b716855b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-h810m-x-wifi-intel-h810-ddr5-micro-atx"
  },
  {
@@ -6182,7 +6182,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6268fc09-611b-4d22-9dda-a7b65542c732/6268fc09-611b-4d22-9dda-a7b65542c732.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6268fc09-611b-4d22-9dda-a7b65542c732/6268fc09-611b-4d22-9dda-a7b65542c732.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b850m-gaming-x-wifi6e-2"
  },
  {
@@ -6201,7 +6201,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bebb706a-e35e-4a6b-b26d-0143e56b14e1/bebb706a-e35e-4a6b-b26d-0143e56b14e1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bebb706a-e35e-4a6b-b26d-0143e56b14e1/bebb706a-e35e-4a6b-b26d-0143e56b14e1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-h610m-a-wifi-lga-1700-matx"
  },
  {
@@ -6220,7 +6220,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6b762036-6b87-48f0-aac6-6d84c43306b1/6b762036-6b87-48f0-aac6-6d84c43306b1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6b762036-6b87-48f0-aac6-6d84c43306b1/6b762036-6b87-48f0-aac6-6d84c43306b1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-tuf-gaming-b760m-plus-ii-intel-ddr5-atx"
  },
  {
@@ -6239,7 +6239,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6ae8297a-3182-45f2-b3f4-973f193df9db/6ae8297a-3182-45f2-b3f4-973f193df9db.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6ae8297a-3182-45f2-b3f4-973f193df9db/6ae8297a-3182-45f2-b3f4-973f193df9db.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-asus-tuf-gaming-a620m-plus-amd-a620-ddr5-micro-atx"
  },
  {
@@ -6258,7 +6258,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/806dd7d5-976c-4947-a588-6627f356c4fb/806dd7d5-976c-4947-a588-6627f356c4fb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/806dd7d5-976c-4947-a588-6627f356c4fb/806dd7d5-976c-4947-a588-6627f356c4fb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b840m-p-wifi6e-amd-b840-socket-am5-micro-atx"
  },
  {
@@ -6277,7 +6277,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a5a917cd-583f-4d03-b11d-57e16e035121/a5a917cd-583f-4d03-b11d-57e16e035121.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a5a917cd-583f-4d03-b11d-57e16e035121/a5a917cd-583f-4d03-b11d-57e16e035121.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-msi-pro-b840-s-evo-wifi6e-socket-am5-ddr5-e-zeze"
  },
  {
@@ -6296,7 +6296,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/11e7293d-54bb-4dc7-9a02-7cbe379da732/11e7293d-54bb-4dc7-9a02-7cbe379da732.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/11e7293d-54bb-4dc7-9a02-7cbe379da732/11e7293d-54bb-4dc7-9a02-7cbe379da732.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b550m-itxac-mini-itx-ddr4-e-zeze"
  },
  {
@@ -6315,7 +6315,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5d2f9969-e45e-4c53-8df8-351698062897/5d2f9969-e45e-4c53-8df8-351698062897.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5d2f9969-e45e-4c53-8df8-351698062897/5d2f9969-e45e-4c53-8df8-351698062897.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b660m-a-d4-csm"
  },
  {
@@ -6334,7 +6334,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bf95a455-d591-4a96-a0b4-b3e7b135141b/bf95a455-d591-4a96-a0b4-b3e7b135141b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bf95a455-d591-4a96-a0b4-b3e7b135141b/bf95a455-d591-4a96-a0b4-b3e7b135141b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-h810m-h-ddr5-6400mhz-pcie-40-m2-e-zeze"
  },
  {
@@ -6353,7 +6353,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/54900535-96ec-49ef-afc5-2efa90c77483/54900535-96ec-49ef-afc5-2efa90c77483.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/54900535-96ec-49ef-afc5-2efa90c77483/54900535-96ec-49ef-afc5-2efa90c77483.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllaka-ame-gigabyte-b550m-aorus-elite"
  },
  {
@@ -6372,7 +6372,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c4724d1d-16cc-40ad-8543-541530fa793a/c4724d1d-16cc-40ad-8543-541530fa793a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c4724d1d-16cc-40ad-8543-541530fa793a/c4724d1d-16cc-40ad-8543-541530fa793a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asrock-b860m-x-intel-b860-lga-1851-micro-atx"
  },
  {
@@ -6391,7 +6391,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/68c1c0d1-4564-4845-85b7-36ff7212d927/68c1c0d1-4564-4845-85b7-36ff7212d927.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/68c1c0d1-4564-4845-85b7-36ff7212d927/68c1c0d1-4564-4845-85b7-36ff7212d927.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-sapphire-a520m-e-socket-am4-ddr4-micro-atx-2"
  },
  {
@@ -6410,7 +6410,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 1,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4dc95bd8-b50c-4c1f-a7f5-b4e017f284a0/4dc95bd8-b50c-4c1f-a7f5-b4e017f284a0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4dc95bd8-b50c-4c1f-a7f5-b4e017f284a0/4dc95bd8-b50c-4c1f-a7f5-b4e017f284a0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-a620am-k-amd-a620a-ddr5-micro-atx"
  },
  {
@@ -6429,7 +6429,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bbd397da-3958-418b-9346-c78c1da24bb0/bbd397da-3958-418b-9346-c78c1da24bb0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bbd397da-3958-418b-9346-c78c1da24bb0/bbd397da-3958-418b-9346-c78c1da24bb0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-prime-b760m-k-2"
  },
  {
@@ -6448,7 +6448,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "m2Slots": 2,
    "sataPorts": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/abdd6806-beb4-4ba4-b371-ac5beb923282/abdd6806-beb4-4ba4-b371-ac5beb923282.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/abdd6806-beb4-4ba4-b371-ac5beb923282/abdd6806-beb4-4ba4-b371-ac5beb923282.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/motherboard-msi-mpg-z890-edge-ti-wifi-intel-lga1851-atx-e-bardhe"
  },
  {
@@ -6468,7 +6468,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 5,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2a471f9e-ca7f-4b1e-8d65-0d63382ae999/2a471f9e-ca7f-4b1e-8d65-0d63382ae999.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2a471f9e-ca7f-4b1e-8d65-0d63382ae999/2a471f9e-ca7f-4b1e-8d65-0d63382ae999.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-7800x3d-42-ghz-2"
  },
  {
@@ -6488,7 +6488,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/25636c55-c552-434b-bd64-7d83542ab4c3/25636c55-c552-434b-bd64-7d83542ab4c3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/25636c55-c552-434b-bd64-7d83542ab4c3/25636c55-c552-434b-bd64-7d83542ab4c3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-7500x3d-tray"
  },
  {
@@ -6508,7 +6508,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 5,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0b776231-9310-4d1e-bf1d-accec025aec0/0b776231-9310-4d1e-bf1d-accec025aec0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0b776231-9310-4d1e-bf1d-accec025aec0/0b776231-9310-4d1e-bf1d-accec025aec0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-9900x3d-box"
  },
  {
@@ -6528,7 +6528,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 5,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3786600b-176a-4251-a705-43eb438e773d/3786600b-176a-4251-a705-43eb438e773d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3786600b-176a-4251-a705-43eb438e773d/3786600b-176a-4251-a705-43eb438e773d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-9950x3d-2"
  },
  {
@@ -6548,7 +6548,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 5,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ac8a0e7a-a0c2-45a2-9a02-efb025d5a58e/ac8a0e7a-a0c2-45a2-9a02-efb025d5a58e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ac8a0e7a-a0c2-45a2-9a02-efb025d5a58e/ac8a0e7a-a0c2-45a2-9a02-efb025d5a58e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9950x3d2-dual-edition"
  },
  {
@@ -6568,7 +6568,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/733900d1-f9a1-4e16-ad01-9439b44d086a/733900d1-f9a1-4e16-ad01-9439b44d086a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/733900d1-f9a1-4e16-ad01-9439b44d086a/733900d1-f9a1-4e16-ad01-9439b44d086a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-9600x-39-ghz-32-mb"
  },
  {
@@ -6588,7 +6588,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f267f993-56bf-40a3-b774-14edef41bfd8/f267f993-56bf-40a3-b774-14edef41bfd8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f267f993-56bf-40a3-b774-14edef41bfd8/f267f993-56bf-40a3-b774-14edef41bfd8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-14700kf-2"
  },
  {
@@ -6608,7 +6608,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/13ad29b7-15e6-42d7-b25e-ced218b7be0e/13ad29b7-15e6-42d7-b25e-ced218b7be0e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/13ad29b7-15e6-42d7-b25e-ced218b7be0e/13ad29b7-15e6-42d7-b25e-ced218b7be0e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-7600x-3"
  },
  {
@@ -6628,7 +6628,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d4a58e1-2bfa-44ed-8b62-f18b3d86d595/7d4a58e1-2bfa-44ed-8b62-f18b3d86d595.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d4a58e1-2bfa-44ed-8b62-f18b3d86d595/7d4a58e1-2bfa-44ed-8b62-f18b3d86d595.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-i9-14900k-2"
  },
  {
@@ -6648,7 +6648,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d03d3b63-ba26-42a1-898e-c2ee7e3504fe/d03d3b63-ba26-42a1-898e-c2ee7e3504fe.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d03d3b63-ba26-42a1-898e-c2ee7e3504fe/d03d3b63-ba26-42a1-898e-c2ee7e3504fe.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-14700kf-cm8071504820722-34-ghz-20-berthama-socket-1700-33-mb-oem"
  },
  {
@@ -6668,7 +6668,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b7a7d825-6270-407c-99e2-61716f3606e5/b7a7d825-6270-407c-99e2-61716f3606e5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b7a7d825-6270-407c-99e2-61716f3606e5/b7a7d825-6270-407c-99e2-61716f3606e5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-5600x-37-ghz-32-mb-oem"
  },
  {
@@ -6688,7 +6688,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/43c9375a-b53b-4948-85f2-b8b2252ac048/43c9375a-b53b-4948-85f2-b8b2252ac048.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/43c9375a-b53b-4948-85f2-b8b2252ac048/43c9375a-b53b-4948-85f2-b8b2252ac048.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-5-225f-20-mb"
  },
  {
@@ -6708,7 +6708,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f315bcf-c6cd-4e9a-ab48-bc654d12d8ce/4f315bcf-c6cd-4e9a-ab48-bc654d12d8ce.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f315bcf-c6cd-4e9a-ab48-bc654d12d8ce/4f315bcf-c6cd-4e9a-ab48-bc654d12d8ce.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-5800x-38ghz-32mb"
  },
  {
@@ -6728,7 +6728,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d51f41eb-b8a6-45b7-8b33-c61647734c61/d51f41eb-b8a6-45b7-8b33-c61647734c61.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d51f41eb-b8a6-45b7-8b33-c61647734c61/d51f41eb-b8a6-45b7-8b33-c61647734c61.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-7500f"
  },
  {
@@ -6748,7 +6748,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/68fe4d34-1cb9-4ece-85e0-347327ce13b2/68fe4d34-1cb9-4ece-85e0-347327ce13b2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/68fe4d34-1cb9-4ece-85e0-347327ce13b2/68fe4d34-1cb9-4ece-85e0-347327ce13b2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-5500-36-ghz-16-mb-box-100-100000457box"
  },
  {
@@ -6768,7 +6768,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1e4a4fa7-ebd8-4ef1-bf4e-0b64ee1eb49b/1e4a4fa7-ebd8-4ef1-bf4e-0b64ee1eb49b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1e4a4fa7-ebd8-4ef1-bf4e-0b64ee1eb49b/1e4a4fa7-ebd8-4ef1-bf4e-0b64ee1eb49b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-5600-35-ghz-32-mb-100-100000927box"
  },
  {
@@ -6788,7 +6788,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 5,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b190129d-b78a-48b2-8e6e-6012f206209a/b190129d-b78a-48b2-8e6e-6012f206209a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b190129d-b78a-48b2-8e6e-6012f206209a/b190129d-b78a-48b2-8e6e-6012f206209a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-7950x3d-7"
  },
  {
@@ -6808,7 +6808,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/14753da1-9611-412a-94b7-81794e07d7dd/14753da1-9611-412a-94b7-81794e07d7dd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/14753da1-9611-412a-94b7-81794e07d7dd/14753da1-9611-412a-94b7-81794e07d7dd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-9950x"
  },
  {
@@ -6828,7 +6828,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f44adcaa-304a-402b-a0c4-bf8dd238e70b/f44adcaa-304a-402b-a0c4-bf8dd238e70b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f44adcaa-304a-402b-a0c4-bf8dd238e70b/f44adcaa-304a-402b-a0c4-bf8dd238e70b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-5700x-tray"
  },
  {
@@ -6848,7 +6848,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/30e902a5-7bd1-4821-9b4c-e7f7625ed3c3/30e902a5-7bd1-4821-9b4c-e7f7625ed3c3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/30e902a5-7bd1-4821-9b4c-e7f7625ed3c3/30e902a5-7bd1-4821-9b4c-e7f7625ed3c3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-7600-2"
  },
  {
@@ -6868,7 +6868,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dcdb07b5-c297-4b64-a2d2-0300b47e3dae/dcdb07b5-c297-4b64-a2d2-0300b47e3dae.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dcdb07b5-c297-4b64-a2d2-0300b47e3dae/dcdb07b5-c297-4b64-a2d2-0300b47e3dae.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-9900x"
  },
  {
@@ -6888,7 +6888,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a747161a-ab68-4b27-ad2f-b35697136c67/a747161a-ab68-4b27-ad2f-b35697136c67.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a747161a-ab68-4b27-ad2f-b35697136c67/a747161a-ab68-4b27-ad2f-b35697136c67.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-5700x-34ghz-32mb"
  },
  {
@@ -6908,7 +6908,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a00ed4f0-2fe1-4c17-afde-9f5bb498fdf7/a00ed4f0-2fe1-4c17-afde-9f5bb498fdf7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a00ed4f0-2fe1-4c17-afde-9f5bb498fdf7/a00ed4f0-2fe1-4c17-afde-9f5bb498fdf7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-5900x-2"
  },
  {
@@ -6928,7 +6928,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2f6d5a11-e665-4378-b4b2-85390fb32e48/2f6d5a11-e665-4378-b4b2-85390fb32e48.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2f6d5a11-e665-4378-b4b2-85390fb32e48/2f6d5a11-e665-4378-b4b2-85390fb32e48.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-14900kf-2"
  },
  {
@@ -6948,7 +6948,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e2143d13-6688-4a36-9791-fb4ab2e51336/e2143d13-6688-4a36-9791-fb4ab2e51336.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e2143d13-6688-4a36-9791-fb4ab2e51336/e2143d13-6688-4a36-9791-fb4ab2e51336.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-12700kf-12-berthama-36ghz-lga1700"
  },
  {
@@ -6968,7 +6968,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a91a124d-0d7f-491c-81d9-62b5334ffeac/a91a124d-0d7f-491c-81d9-62b5334ffeac.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a91a124d-0d7f-491c-81d9-62b5334ffeac/a91a124d-0d7f-491c-81d9-62b5334ffeac.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesoramd-ryzen-9-5950x-34-ghz-64-mb-box"
  },
  {
@@ -6988,7 +6988,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5a834cce-c40d-4034-9c13-f45f9c687805/5a834cce-c40d-4034-9c13-f45f9c687805.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5a834cce-c40d-4034-9c13-f45f9c687805/5a834cce-c40d-4034-9c13-f45f9c687805.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-7700x-45ghz-2"
  },
  {
@@ -7008,7 +7008,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9b9034d6-98d4-44a4-b8c8-c05c2ca289b8/9b9034d6-98d4-44a4-b8c8-c05c2ca289b8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9b9034d6-98d4-44a4-b8c8-c05c2ca289b8/9b9034d6-98d4-44a4-b8c8-c05c2ca289b8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-8600g-100-100001237box-43-ghz-6-berthama-socket-am5-16-mb"
  },
  {
@@ -7028,7 +7028,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ee32a2f8-9047-4b56-a4df-a46597f5c74f/ee32a2f8-9047-4b56-a4df-a46597f5c74f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ee32a2f8-9047-4b56-a4df-a46597f5c74f/ee32a2f8-9047-4b56-a4df-a46597f5c74f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/processor-amd-ryzen-5-9600x-tray"
  },
  {
@@ -7048,7 +7048,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/317dac10-c759-4fdf-a164-db3b0055c9b3/317dac10-c759-4fdf-a164-db3b0055c9b3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/317dac10-c759-4fdf-a164-db3b0055c9b3/317dac10-c759-4fdf-a164-db3b0055c9b3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-7900x-3"
  },
  {
@@ -7068,7 +7068,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6e766be2-bf07-45f3-aa98-24a5ad7acda8/6e766be2-bf07-45f3-aa98-24a5ad7acda8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6e766be2-bf07-45f3-aa98-24a5ad7acda8/6e766be2-bf07-45f3-aa98-24a5ad7acda8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14600kf-3"
  },
  {
@@ -7088,7 +7088,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 5,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1bb63343-c3da-4285-a089-d236dc7e2805/1bb63343-c3da-4285-a089-d236dc7e2805.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1bb63343-c3da-4285-a089-d236dc7e2805/1bb63343-c3da-4285-a089-d236dc7e2805.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-9850x3d-47ghz"
  },
  {
@@ -7108,7 +7108,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a61dcd89-fd0e-442e-8b48-524afa511994/a61dcd89-fd0e-442e-8b48-524afa511994.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a61dcd89-fd0e-442e-8b48-524afa511994/a61dcd89-fd0e-442e-8b48-524afa511994.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14400f-6"
  },
  {
@@ -7128,7 +7128,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7df4afe7-32a5-487d-9441-42158cde8e75/7df4afe7-32a5-487d-9441-42158cde8e75.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7df4afe7-32a5-487d-9441-42158cde8e75/7df4afe7-32a5-487d-9441-42158cde8e75.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-7950x-100-000000514-45-ghz-16-berthama-socket-am5-64-mb-oem"
  },
  {
@@ -7148,7 +7148,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1849fa31-a967-4123-b5bc-9b26fa2b2a36/1849fa31-a967-4123-b5bc-9b26fa2b2a36.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1849fa31-a967-4123-b5bc-9b26fa2b2a36/1849fa31-a967-4123-b5bc-9b26fa2b2a36.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-9-285k-32-ghz-36-mb-box"
  },
  {
@@ -7168,7 +7168,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3445320e-506c-41d1-a4a4-33b82e8b1002/3445320e-506c-41d1-a4a4-33b82e8b1002.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3445320e-506c-41d1-a4a4-33b82e8b1002/3445320e-506c-41d1-a4a4-33b82e8b1002.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-5700-37-ghz-16-mb-box"
  },
  {
@@ -7188,7 +7188,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/817d6896-78dc-47cd-b59a-64eb933ba6d1/817d6896-78dc-47cd-b59a-64eb933ba6d1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/817d6896-78dc-47cd-b59a-64eb933ba6d1/817d6896-78dc-47cd-b59a-64eb933ba6d1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-12400f-6-berthama-25ghz-lga1700"
  },
  {
@@ -7208,7 +7208,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/89f3b05d-d298-4ca5-83dd-fde1e299249d/89f3b05d-d298-4ca5-83dd-fde1e299249d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/89f3b05d-d298-4ca5-83dd-fde1e299249d/89f3b05d-d298-4ca5-83dd-fde1e299249d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-12900kf-32-ghz"
  },
  {
@@ -7228,7 +7228,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 5,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/708574bd-89f0-4606-b0f5-bcc4ce72b112/708574bd-89f0-4606-b0f5-bcc4ce72b112.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/708574bd-89f0-4606-b0f5-bcc4ce72b112/708574bd-89f0-4606-b0f5-bcc4ce72b112.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-9850x3d-tray"
  },
  {
@@ -7248,7 +7248,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/61f9851b-2871-487a-8d2e-466cb2e75c5e/61f9851b-2871-487a-8d2e-466cb2e75c5e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/61f9851b-2871-487a-8d2e-466cb2e75c5e/61f9851b-2871-487a-8d2e-466cb2e75c5e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/processor-amd-ryzen-7-9700x-tray"
  },
  {
@@ -7268,7 +7268,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/598fa1c7-72d6-4ecb-aba7-40ae66d27939/598fa1c7-72d6-4ecb-aba7-40ae66d27939.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/598fa1c7-72d6-4ecb-aba7-40ae66d27939/598fa1c7-72d6-4ecb-aba7-40ae66d27939.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-7600-100-000001015-6-berthama-socket-am5-38-ghz-32-mb-oem"
  },
  {
@@ -7288,7 +7288,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1c1d9785-af24-42ec-9b74-ddb9cc0ee49b/1c1d9785-af24-42ec-9b74-ddb9cc0ee49b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1c1d9785-af24-42ec-9b74-ddb9cc0ee49b/1c1d9785-af24-42ec-9b74-ddb9cc0ee49b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-14700-4"
  },
  {
@@ -7308,7 +7308,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8fd594c7-682c-4be4-b2e0-9905e33d0c22/8fd594c7-682c-4be4-b2e0-9905e33d0c22.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8fd594c7-682c-4be4-b2e0-9905e33d0c22/8fd594c7-682c-4be4-b2e0-9905e33d0c22.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-9700x-38-ghz-32-mb"
  },
  {
@@ -7328,7 +7328,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/619dbe93-8e19-4ae3-93c3-b602287ec700/619dbe93-8e19-4ae3-93c3-b602287ec700.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/619dbe93-8e19-4ae3-93c3-b602287ec700/619dbe93-8e19-4ae3-93c3-b602287ec700.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/processor-amd-ryzen-5-7600x-tray"
  },
  {
@@ -7348,7 +7348,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/eb3c0c9e-2afb-4b2c-a2fe-f01deb0a33a1/eb3c0c9e-2afb-4b2c-a2fe-f01deb0a33a1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/eb3c0c9e-2afb-4b2c-a2fe-f01deb0a33a1/eb3c0c9e-2afb-4b2c-a2fe-f01deb0a33a1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14600k-2"
  },
  {
@@ -7368,7 +7368,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1c122d07-2937-4a05-a4c2-f2b44f156811/1c122d07-2937-4a05-a4c2-f2b44f156811.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1c122d07-2937-4a05-a4c2-f2b44f156811/1c122d07-2937-4a05-a4c2-f2b44f156811.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-5500-tray"
  },
  {
@@ -7388,7 +7388,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fd54c605-2a75-45f6-bce7-287d42a7ff73/fd54c605-2a75-45f6-bce7-287d42a7ff73.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fd54c605-2a75-45f6-bce7-287d42a7ff73/fd54c605-2a75-45f6-bce7-287d42a7ff73.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-13600kf"
  },
  {
@@ -7408,7 +7408,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e2129791-f1b6-4c5e-bda8-19bd27b034e5/e2129791-f1b6-4c5e-bda8-19bd27b034e5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e2129791-f1b6-4c5e-bda8-19bd27b034e5/e2129791-f1b6-4c5e-bda8-19bd27b034e5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i3-14100f-cm8071505092207-35-ghz-4-berthama-socket-1700-12-mb-oem"
  },
  {
@@ -7428,7 +7428,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/238d5a0f-1fa9-4376-a83f-3745be339382/238d5a0f-1fa9-4376-a83f-3745be339382.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/238d5a0f-1fa9-4376-a83f-3745be339382/238d5a0f-1fa9-4376-a83f-3745be339382.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-5600x-37ghz-32mb-l3-per-desktop"
  },
  {
@@ -7448,7 +7448,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/37e58dde-60f2-4811-960b-194a47d64f03/37e58dde-60f2-4811-960b-194a47d64f03.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/37e58dde-60f2-4811-960b-194a47d64f03/37e58dde-60f2-4811-960b-194a47d64f03.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-5-245kf-oem"
  },
  {
@@ -7468,7 +7468,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9fdb42e8-c515-401c-8eac-c4682a4e5fa3/9fdb42e8-c515-401c-8eac-c4682a4e5fa3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9fdb42e8-c515-401c-8eac-c4682a4e5fa3/9fdb42e8-c515-401c-8eac-c4682a4e5fa3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14500-4"
  },
  {
@@ -7488,7 +7488,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f47f2ce-58e7-4df6-9477-4c166d526312/5f47f2ce-58e7-4df6-9477-4c166d526312.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f47f2ce-58e7-4df6-9477-4c166d526312/5f47f2ce-58e7-4df6-9477-4c166d526312.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-9-285-36-mb"
  },
  {
@@ -7508,7 +7508,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ca0b6c5a-bcf2-4b72-bfc3-d37f994bfed2/ca0b6c5a-bcf2-4b72-bfc3-d37f994bfed2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ca0b6c5a-bcf2-4b72-bfc3-d37f994bfed2/ca0b6c5a-bcf2-4b72-bfc3-d37f994bfed2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i3-13100f-4-berthama-34ghz-lga1700"
  },
  {
@@ -7528,7 +7528,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/17ce7177-9866-41bf-a752-1ed9159f5b9f/17ce7177-9866-41bf-a752-1ed9159f5b9f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/17ce7177-9866-41bf-a752-1ed9159f5b9f/17ce7177-9866-41bf-a752-1ed9159f5b9f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-14700-cm8071504820817-21-ghz-20-berthama-socket-1700-33-mb-oem"
  },
  {
@@ -7548,7 +7548,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/84b01372-4f66-42d7-ab34-54c4279b31a6/84b01372-4f66-42d7-ab34-54c4279b31a6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/84b01372-4f66-42d7-ab34-54c4279b31a6/84b01372-4f66-42d7-ab34-54c4279b31a6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-7700-38-ghz-32-mb-cache-i-zi"
  },
  {
@@ -7568,7 +7568,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/daf10b1a-ef4c-4a3b-9bad-8ba71818349b/daf10b1a-ef4c-4a3b-9bad-8ba71818349b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/daf10b1a-ef4c-4a3b-9bad-8ba71818349b/daf10b1a-ef4c-4a3b-9bad-8ba71818349b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-8400f"
  },
  {
@@ -7588,7 +7588,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6112f99e-57ef-4fc0-a94c-a496f6a0593c/6112f99e-57ef-4fc0-a94c-a496f6a0593c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6112f99e-57ef-4fc0-a94c-a496f6a0593c/6112f99e-57ef-4fc0-a94c-a496f6a0593c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-4500-36ghz-8mb"
  },
  {
@@ -7608,7 +7608,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/51ba956a-6790-46ed-b1cb-22121a791f40/51ba956a-6790-46ed-b1cb-22121a791f40.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/51ba956a-6790-46ed-b1cb-22121a791f40/51ba956a-6790-46ed-b1cb-22121a791f40.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-14700k-3"
  },
  {
@@ -7628,7 +7628,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2e86ccdc-9f57-4fe0-b956-715c33c6936a/2e86ccdc-9f57-4fe0-b956-715c33c6936a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2e86ccdc-9f57-4fe0-b956-715c33c6936a/2e86ccdc-9f57-4fe0-b956-715c33c6936a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-13700f-3"
  },
  {
@@ -7648,7 +7648,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f936ee83-a38b-4c96-9b42-cd6c95696305/f936ee83-a38b-4c96-9b42-cd6c95696305.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f936ee83-a38b-4c96-9b42-cd6c95696305/f936ee83-a38b-4c96-9b42-cd6c95696305.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/processor-intel-core-i9-12900kf-tray"
  },
  {
@@ -7668,7 +7668,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a1b2d726-1217-49b1-840c-0601603bac27/a1b2d726-1217-49b1-840c-0601603bac27.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a1b2d726-1217-49b1-840c-0601603bac27/a1b2d726-1217-49b1-840c-0601603bac27.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-12400f-cm8071504650609-25-ghz-6-berthama-socket-1700-18-mb-oem"
  },
  {
@@ -7688,7 +7688,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fcdcf5f9-8d33-4a59-aa06-417665f382ea/fcdcf5f9-8d33-4a59-aa06-417665f382ea.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fcdcf5f9-8d33-4a59-aa06-417665f382ea/fcdcf5f9-8d33-4a59-aa06-417665f382ea.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-5-245k-oem"
  },
  {
@@ -7708,7 +7708,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2ce14193-d206-4a2e-90b0-b42a353ae342/2ce14193-d206-4a2e-90b0-b42a353ae342.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2ce14193-d206-4a2e-90b0-b42a353ae342/2ce14193-d206-4a2e-90b0-b42a353ae342.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-14700f-4"
  },
  {
@@ -7728,7 +7728,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1709a393-de2c-4716-bb58-8c2b357b6564/1709a393-de2c-4716-bb58-8c2b357b6564.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1709a393-de2c-4716-bb58-8c2b357b6564/1709a393-de2c-4716-bb58-8c2b357b6564.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14400-2"
  },
  {
@@ -7748,7 +7748,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/637f97f2-d20f-4804-b754-7150527a6f32/637f97f2-d20f-4804-b754-7150527a6f32.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/637f97f2-d20f-4804-b754-7150527a6f32/637f97f2-d20f-4804-b754-7150527a6f32.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-12700f-21ghz-25mb-oem"
  },
  {
@@ -7768,7 +7768,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/115e62cc-203e-4aa4-b996-089521770675/115e62cc-203e-4aa4-b996-089521770675.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/115e62cc-203e-4aa4-b996-089521770675/115e62cc-203e-4aa4-b996-089521770675.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-12700k-36-ghz-25-mb-oem"
  },
  {
@@ -7788,7 +7788,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cda029b0-181f-4ae4-afda-7c8885293b41/cda029b0-181f-4ae4-afda-7c8885293b41.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cda029b0-181f-4ae4-afda-7c8885293b41/cda029b0-181f-4ae4-afda-7c8885293b41.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-14900ks-3"
  },
  {
@@ -7808,7 +7808,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/137e5d01-ae30-45c7-b87b-ae641065d9eb/137e5d01-ae30-45c7-b87b-ae641065d9eb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/137e5d01-ae30-45c7-b87b-ae641065d9eb/137e5d01-ae30-45c7-b87b-ae641065d9eb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/processor-tray-amd-ryzen-9-9950x-43-ghz"
  },
  {
@@ -7828,7 +7828,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9bbb57bf-63bf-44d2-91fc-f32831591fb1/9bbb57bf-63bf-44d2-91fc-f32831591fb1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9bbb57bf-63bf-44d2-91fc-f32831591fb1/9bbb57bf-63bf-44d2-91fc-f32831591fb1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-12900f-2"
  },
  {
@@ -7848,7 +7848,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a164390d-4506-44cb-a0c6-673831e241c6/a164390d-4506-44cb-a0c6-673831e241c6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a164390d-4506-44cb-a0c6-673831e241c6/a164390d-4506-44cb-a0c6-673831e241c6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i3-12100-cm8071504651012-33-ghz-4-berthama-socket-1700-12-mb-oem"
  },
  {
@@ -7868,7 +7868,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9268f5c1-5d2b-49ee-8d2b-c31e84ab0e8c/9268f5c1-5d2b-49ee-8d2b-c31e84ab0e8c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9268f5c1-5d2b-49ee-8d2b-c31e84ab0e8c/9268f5c1-5d2b-49ee-8d2b-c31e84ab0e8c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14600-cm8071504821018-27-ghz-14-berthama-socket-1700-24-mb-oem"
  },
  {
@@ -7888,7 +7888,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/527ea3a5-31f4-428c-bf5e-a736f8c7dd92/527ea3a5-31f4-428c-bf5e-a736f8c7dd92.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/527ea3a5-31f4-428c-bf5e-a736f8c7dd92/527ea3a5-31f4-428c-bf5e-a736f8c7dd92.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-12600-6-berthama-33ghz-lga1700"
  },
  {
@@ -7908,7 +7908,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b69c5f6b-ba53-4427-b6b9-7a8dafb54d5b/b69c5f6b-ba53-4427-b6b9-7a8dafb54d5b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b69c5f6b-ba53-4427-b6b9-7a8dafb54d5b/b69c5f6b-ba53-4427-b6b9-7a8dafb54d5b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-12600kf-37-ghz-20-mb-box"
  },
  {
@@ -7928,7 +7928,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/423ee3c8-1eb5-4bc6-a3a8-208238c734b3/423ee3c8-1eb5-4bc6-a3a8-208238c734b3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/423ee3c8-1eb5-4bc6-a3a8-208238c734b3/423ee3c8-1eb5-4bc6-a3a8-208238c734b3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-7-265f-30-mb"
  },
  {
@@ -7948,7 +7948,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/71d4312c-d152-4036-ab9e-4e6b26a56476/71d4312c-d152-4036-ab9e-4e6b26a56476.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/71d4312c-d152-4036-ab9e-4e6b26a56476/71d4312c-d152-4036-ab9e-4e6b26a56476.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-12700-cm8071504555019-21-ghz-12-berthama-socket-1700-25-mb-oem"
  },
  {
@@ -7968,7 +7968,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/da6bc2c7-bdf5-4b51-b69f-faa775c9d976/da6bc2c7-bdf5-4b51-b69f-faa775c9d976.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/da6bc2c7-bdf5-4b51-b69f-faa775c9d976/da6bc2c7-bdf5-4b51-b69f-faa775c9d976.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-13400f-25-ghz-20-mb-cache-10-berthama-oem"
  },
  {
@@ -7988,7 +7988,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ae68b90e-b51e-4aa9-b54c-dd66818a1c22/ae68b90e-b51e-4aa9-b54c-dd66818a1c22.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ae68b90e-b51e-4aa9-b54c-dd66818a1c22/ae68b90e-b51e-4aa9-b54c-dd66818a1c22.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-7-265kf-box"
  },
  {
@@ -8008,7 +8008,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e4d2e1c8-5aa5-4a80-bc2b-ffc7160526b4/e4d2e1c8-5aa5-4a80-bc2b-ffc7160526b4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e4d2e1c8-5aa5-4a80-bc2b-ffc7160526b4/e4d2e1c8-5aa5-4a80-bc2b-ffc7160526b4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-5700g-38-ghz-16-mb-oem"
  },
  {
@@ -8028,7 +8028,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/08bd3fd6-992b-44fd-99fe-4d4fa2a45764/08bd3fd6-992b-44fd-99fe-4d4fa2a45764.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/08bd3fd6-992b-44fd-99fe-4d4fa2a45764/08bd3fd6-992b-44fd-99fe-4d4fa2a45764.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-14900f-4"
  },
  {
@@ -8048,7 +8048,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c23232b8-c444-44f2-87b9-d9bdf61ea305/c23232b8-c444-44f2-87b9-d9bdf61ea305.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c23232b8-c444-44f2-87b9-d9bdf61ea305/c23232b8-c444-44f2-87b9-d9bdf61ea305.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-13900kf"
  },
  {
@@ -8068,7 +8068,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1050f7f9-cf17-4399-86ee-0daf268f0044/1050f7f9-cf17-4399-86ee-0daf268f0044.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1050f7f9-cf17-4399-86ee-0daf268f0044/1050f7f9-cf17-4399-86ee-0daf268f0044.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/prcesor-amd-ryzen-7-5800xt-38-ghz-32-mb-box-100-100001582box"
  },
  {
@@ -8088,7 +8088,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/52fdcfce-b8fb-4410-83b6-c78baf0c9b88/52fdcfce-b8fb-4410-83b6-c78baf0c9b88.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/52fdcfce-b8fb-4410-83b6-c78baf0c9b88/52fdcfce-b8fb-4410-83b6-c78baf0c9b88.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-desktop-amd-ryzen-7-8700f-8-berthama-16-fije-50-ghz-max-boost-pcie-40"
  },
  {
@@ -8108,7 +8108,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0ed39b97-7be6-4dcc-a7aa-b73a1cddc7d8/0ed39b97-7be6-4dcc-a7aa-b73a1cddc7d8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0ed39b97-7be6-4dcc-a7aa-b73a1cddc7d8/0ed39b97-7be6-4dcc-a7aa-b73a1cddc7d8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-12700k-25mb"
  },
  {
@@ -8128,7 +8128,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3c89995-a41c-4aff-b94c-9ac96dbe9ff3/f3c89995-a41c-4aff-b94c-9ac96dbe9ff3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3c89995-a41c-4aff-b94c-9ac96dbe9ff3/f3c89995-a41c-4aff-b94c-9ac96dbe9ff3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-3-4100-8-x-38-ghz-amd-am4-65w"
  },
  {
@@ -8148,7 +8148,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3b77a2a5-7839-42e7-91c3-df86aed1432e/3b77a2a5-7839-42e7-91c3-df86aed1432e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3b77a2a5-7839-42e7-91c3-df86aed1432e/3b77a2a5-7839-42e7-91c3-df86aed1432e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/intel-core-i5-i5-14400f-25-ghz-processor-oem"
  },
  {
@@ -8168,7 +8168,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/da75ec8d-3938-4e83-a35e-4403853f1923/da75ec8d-3938-4e83-a35e-4403853f1923.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/da75ec8d-3938-4e83-a35e-4403853f1923/da75ec8d-3938-4e83-a35e-4403853f1923.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-12400-6-berthama-25ghz-lga1700"
  },
  {
@@ -8188,7 +8188,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e6265411-3193-4820-98cb-e6f158e6c9c7/e6265411-3193-4820-98cb-e6f158e6c9c7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e6265411-3193-4820-98cb-e6f158e6c9c7/e6265411-3193-4820-98cb-e6f158e6c9c7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-desktop-amd-ryzen-5-5600xt-6-berthama-12-thread-37ghz-47ghz-max-boost-socket-am4-argjendte"
  },
  {
@@ -8208,7 +8208,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e8a3f694-649e-4055-8372-1f7bda543047/e8a3f694-649e-4055-8372-1f7bda543047.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e8a3f694-649e-4055-8372-1f7bda543047/e8a3f694-649e-4055-8372-1f7bda543047.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i3-14100-3"
  },
  {
@@ -8228,7 +8228,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d2928844-f291-4a60-8725-72f994f85317/d2928844-f291-4a60-8725-72f994f85317.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d2928844-f291-4a60-8725-72f994f85317/d2928844-f291-4a60-8725-72f994f85317.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-5-desktop-245k"
  },
  {
@@ -8248,7 +8248,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/14c6475b-d063-48ca-9ebf-d2495dac9f09/14c6475b-d063-48ca-9ebf-d2495dac9f09.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/14c6475b-d063-48ca-9ebf-d2495dac9f09/14c6475b-d063-48ca-9ebf-d2495dac9f09.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-12700f-2"
  },
  {
@@ -8268,7 +8268,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/947b5fbd-c0a8-4f1c-9ff9-b9746b2ea8ae/947b5fbd-c0a8-4f1c-9ff9-b9746b2ea8ae.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/947b5fbd-c0a8-4f1c-9ff9-b9746b2ea8ae/947b5fbd-c0a8-4f1c-9ff9-b9746b2ea8ae.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-12600k-20mb"
  },
  {
@@ -8288,7 +8288,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0399e2fe-413f-400d-a315-400adf61d40c/0399e2fe-413f-400d-a315-400adf61d40c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0399e2fe-413f-400d-a315-400adf61d40c/0399e2fe-413f-400d-a315-400adf61d40c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-5-desktop-245kf"
  },
  {
@@ -8308,7 +8308,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8fa7d90-c2a3-4558-82ef-60950e1e514c/f8fa7d90-c2a3-4558-82ef-60950e1e514c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8fa7d90-c2a3-4558-82ef-60950e1e514c/f8fa7d90-c2a3-4558-82ef-60950e1e514c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i3-12100-4-berthama-33ghz-lga1700"
  },
  {
@@ -8328,7 +8328,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb81f8d5-12bb-4c6f-bb6f-3f1cc4581e15/fb81f8d5-12bb-4c6f-bb6f-3f1cc4581e15.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb81f8d5-12bb-4c6f-bb6f-3f1cc4581e15/fb81f8d5-12bb-4c6f-bb6f-3f1cc4581e15.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/processor-tray-amd-ryzen-7-8700f-41-ghz"
  },
  {
@@ -8348,7 +8348,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a08403be-609e-4acb-bb77-701234249ce0/a08403be-609e-4acb-bb77-701234249ce0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a08403be-609e-4acb-bb77-701234249ce0/a08403be-609e-4acb-bb77-701234249ce0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-8500g-100-100000931box-35-ghz-socket-am5-16-mb-box"
  },
  {
@@ -8368,7 +8368,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e74eb8b9-2bb8-4aab-a45a-cc0e708544a1/e74eb8b9-2bb8-4aab-a45a-cc0e708544a1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e74eb8b9-2bb8-4aab-a45a-cc0e708544a1/e74eb8b9-2bb8-4aab-a45a-cc0e708544a1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-5700g-38-ghz-16-mb-box"
  },
  {
@@ -8388,7 +8388,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/30fd09cd-d56c-4a66-81d8-3d1c4d77fc9a/30fd09cd-d56c-4a66-81d8-3d1c4d77fc9a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/30fd09cd-d56c-4a66-81d8-3d1c4d77fc9a/30fd09cd-d56c-4a66-81d8-3d1c4d77fc9a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-13400-10-core-25ghz"
  },
  {
@@ -8408,7 +8408,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ff164f4b-cf57-4b9f-8197-2df2e07d717a/ff164f4b-cf57-4b9f-8197-2df2e07d717a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ff164f4b-cf57-4b9f-8197-2df2e07d717a/ff164f4b-cf57-4b9f-8197-2df2e07d717a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-12900k-2"
  },
  {
@@ -8428,7 +8428,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/beda6929-6f19-4eba-8611-90c9595e2b7b/beda6929-6f19-4eba-8611-90c9595e2b7b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/beda6929-6f19-4eba-8611-90c9595e2b7b/beda6929-6f19-4eba-8611-90c9595e2b7b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-14700f-cm8071504820816-21-ghz-20-berthama-socket-1700-33-mb-oem"
  },
  {
@@ -8448,7 +8448,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/18074d00-3a1e-4ff5-bd43-eb8b575a5b2b/18074d00-3a1e-4ff5-bd43-eb8b575a5b2b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/18074d00-3a1e-4ff5-bd43-eb8b575a5b2b/18074d00-3a1e-4ff5-bd43-eb8b575a5b2b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i3-14100f-bx8071514100f-35-ghz-4-berthama-socket-1700-12-mb-box"
  },
  {
@@ -8468,7 +8468,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1601ce7-6b94-4691-85dd-b320dffbbe5e/c1601ce7-6b94-4691-85dd-b320dffbbe5e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1601ce7-6b94-4691-85dd-b320dffbbe5e/c1601ce7-6b94-4691-85dd-b320dffbbe5e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/porcesor-intel-core-i5-12600k-oem"
  },
  {
@@ -8488,7 +8488,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/227dd427-9c62-4580-a269-f7ad1633b3a9/227dd427-9c62-4580-a269-f7ad1633b3a9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/227dd427-9c62-4580-a269-f7ad1633b3a9/227dd427-9c62-4580-a269-f7ad1633b3a9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-9-7900-3"
  },
  {
@@ -8508,7 +8508,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/572bb514-1b2d-4be4-85c6-97217049131f/572bb514-1b2d-4be4-85c6-97217049131f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/572bb514-1b2d-4be4-85c6-97217049131f/572bb514-1b2d-4be4-85c6-97217049131f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-12700-21-ghz-25-mb-box"
  },
  {
@@ -8528,7 +8528,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/38cc96c0-4485-4312-a4c6-0a602802556e/38cc96c0-4485-4312-a4c6-0a602802556e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/38cc96c0-4485-4312-a4c6-0a602802556e/38cc96c0-4485-4312-a4c6-0a602802556e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i3-14100-35-ghz-12-mb-oem"
  },
  {
@@ -8548,7 +8548,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7e5a4df0-019b-48dc-97c2-7ed94e9a6efe/7e5a4df0-019b-48dc-97c2-7ed94e9a6efe.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7e5a4df0-019b-48dc-97c2-7ed94e9a6efe/7e5a4df0-019b-48dc-97c2-7ed94e9a6efe.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-7-265-lga-1851-20-berthama-53-ghz"
  },
  {
@@ -8568,7 +8568,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/657ee733-ad03-4775-a10e-274fc49ec426/657ee733-ad03-4775-a10e-274fc49ec426.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/657ee733-ad03-4775-a10e-274fc49ec426/657ee733-ad03-4775-a10e-274fc49ec426.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-14400-cm8071504821112-25-ghz-10-berthama-socket-1700-20-mb-oem"
  },
  {
@@ -8588,7 +8588,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d8070bbf-1a9f-4fde-a705-f317bfb1a76f/d8070bbf-1a9f-4fde-a705-f317bfb1a76f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d8070bbf-1a9f-4fde-a705-f317bfb1a76f/d8070bbf-1a9f-4fde-a705-f317bfb1a76f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-3-4100-100-000000510-38-ghz-4-mb-oem"
  },
  {
@@ -8608,7 +8608,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/19658172-0b8d-4a0d-9904-e9c5001a13bc/19658172-0b8d-4a0d-9904-e9c5001a13bc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/19658172-0b8d-4a0d-9904-e9c5001a13bc/19658172-0b8d-4a0d-9904-e9c5001a13bc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-12500-3-ghz-18-mb-oem"
  },
  {
@@ -8628,7 +8628,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b4d41efe-6fc6-414a-abef-514a7d4b175e/b4d41efe-6fc6-414a-abef-514a7d4b175e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b4d41efe-6fc6-414a-abef-514a7d4b175e/b4d41efe-6fc6-414a-abef-514a7d4b175e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-5-225-20-mb-smart-cache-box-2"
  },
  {
@@ -8648,7 +8648,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 2,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9e654ac3-8fc3-4aa9-a42a-8790660b727a/9e654ac3-8fc3-4aa9-a42a-8790660b727a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9e654ac3-8fc3-4aa9-a42a-8790660b727a/9e654ac3-8fc3-4aa9-a42a-8790660b727a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-8700g-100-100001236box-42-ghz-8-berthama-socket-am5-16-mb-box"
  },
  {
@@ -8668,7 +8668,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/154ac163-039b-4fb6-b423-cd132fb7d5cb/154ac163-039b-4fb6-b423-cd132fb7d5cb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/154ac163-039b-4fb6-b423-cd132fb7d5cb/154ac163-039b-4fb6-b423-cd132fb7d5cb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-ultra-7-265k-oem"
  },
  {
@@ -8688,7 +8688,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/eb8f03b9-5967-4fea-9024-82d8b88773a0/eb8f03b9-5967-4fea-9024-82d8b88773a0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/eb8f03b9-5967-4fea-9024-82d8b88773a0/eb8f03b9-5967-4fea-9024-82d8b88773a0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i7-13700-cm8071504820805-16-berthama-socket-1700-15-ghz-30-mb-oem"
  },
  {
@@ -8708,7 +8708,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 5,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a567d321-b994-48a2-8cb5-5d50d3edaf01/a567d321-b994-48a2-8cb5-5d50d3edaf01.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a567d321-b994-48a2-8cb5-5d50d3edaf01/a567d321-b994-48a2-8cb5-5d50d3edaf01.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-7800x3d-42ghz-baze-50ghz-boost-8-core-16-thread-96mb-cache-120w-tdp-am5-socket"
  },
  {
@@ -8728,7 +8728,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/61fe10d9-d6b6-4ff0-b831-4f9a3f3de7c5/61fe10d9-d6b6-4ff0-b831-4f9a3f3de7c5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/61fe10d9-d6b6-4ff0-b831-4f9a3f3de7c5/61fe10d9-d6b6-4ff0-b831-4f9a3f3de7c5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-7-5800x3d-8-berthama-34ghz-socket-am4"
  },
  {
@@ -8748,7 +8748,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/345d64b1-e07f-4959-86b7-7465a2272ecf/345d64b1-e07f-4959-86b7-7465a2272ecf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/345d64b1-e07f-4959-86b7-7465a2272ecf/345d64b1-e07f-4959-86b7-7465a2272ecf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/processor-amd-ryzen-7-7700x-tray"
  },
  {
@@ -8768,7 +8768,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cbbed7bb-e0ff-409d-8f08-458474a8201b/cbbed7bb-e0ff-409d-8f08-458474a8201b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cbbed7bb-e0ff-409d-8f08-458474a8201b/cbbed7bb-e0ff-409d-8f08-458474a8201b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-3-3200g-2"
  },
  {
@@ -8788,7 +8788,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c88bca65-d70e-484f-be92-a9e8e3f21d3e/c88bca65-d70e-484f-be92-a9e8e3f21d3e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c88bca65-d70e-484f-be92-a9e8e3f21d3e/c88bca65-d70e-484f-be92-a9e8e3f21d3e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-13900-4"
  },
  {
@@ -8808,7 +8808,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 4,
    "workTier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c55f6984-a5f6-4040-b06d-d4e06e104ba7/c55f6984-a5f6-4040-b06d-d4e06e104ba7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c55f6984-a5f6-4040-b06d-d4e06e104ba7/c55f6984-a5f6-4040-b06d-d4e06e104ba7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-14900-3"
  },
  {
@@ -8828,7 +8828,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3d09f1ec-f57a-4b72-b45b-03c40f740032/3d09f1ec-f57a-4b72-b45b-03c40f740032.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3d09f1ec-f57a-4b72-b45b-03c40f740032/3d09f1ec-f57a-4b72-b45b-03c40f740032.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i3-12100f-4-berthama-33ghz-lga1700"
  },
  {
@@ -8848,7 +8848,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 1,
    "workTier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3c9f7bb-01c0-4428-bfd7-a937b2174add/b3c9f7bb-01c0-4428-bfd7-a937b2174add.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3c9f7bb-01c0-4428-bfd7-a937b2174add/b3c9f7bb-01c0-4428-bfd7-a937b2174add.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-amd-ryzen-5-5500gt-36-ghz-16-mb-cache-box"
  },
  {
@@ -8868,7 +8868,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/83bf9952-746c-4ef8-b75c-d075d81b8601/83bf9952-746c-4ef8-b75c-d075d81b8601.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/83bf9952-746c-4ef8-b75c-d075d81b8601/83bf9952-746c-4ef8-b75c-d075d81b8601.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-13600k-35-ghz-24-mb-oem"
  },
  {
@@ -8888,7 +8888,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d18e8d84-c8ee-4e1b-9bcc-834055fd807a/d18e8d84-c8ee-4e1b-9bcc-834055fd807a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d18e8d84-c8ee-4e1b-9bcc-834055fd807a/d18e8d84-c8ee-4e1b-9bcc-834055fd807a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-12900f-16-berthama-24ghz-lga1700"
  },
  {
@@ -8908,7 +8908,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3bd702a-b674-4d06-a0a2-b36c277317ec/f3bd702a-b674-4d06-a0a2-b36c277317ec.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3bd702a-b674-4d06-a0a2-b36c277317ec/f3bd702a-b674-4d06-a0a2-b36c277317ec.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i9-12900-4"
  },
  {
@@ -8928,7 +8928,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ee2f3374-2f65-4760-ae74-cf7e9cca8641/ee2f3374-2f65-4760-ae74-cf7e9cca8641.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ee2f3374-2f65-4760-ae74-cf7e9cca8641/ee2f3374-2f65-4760-ae74-cf7e9cca8641.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/procesor-intel-core-i5-13600kf-35-ghz-24-mb-oem"
  },
  {
@@ -8948,7 +8948,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "gamingTier": 3,
    "workTier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/46650aaf-fc1b-4c57-9ece-87f91e536841/46650aaf-fc1b-4c57-9ece-87f91e536841.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/46650aaf-fc1b-4c57-9ece-87f91e536841/46650aaf-fc1b-4c57-9ece-87f91e536841.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/amd-ryzen-5-7500x3d-45-ghz-processor-pibwof"
  },
  {
@@ -8968,7 +8968,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "heightMm": 152,
    "tdpRatingW": 150
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7769cc16-7955-4cf2-9f88-015540052a70/7769cc16-7955-4cf2-9f88-015540052a70.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7769cc16-7955-4cf2-9f88-015540052a70/7769cc16-7955-4cf2-9f88-015540052a70.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-cpu-cooler-master-hyper-212-spectrum-v3-120mm-argb-i-zi-2"
  },
  {
@@ -8986,7 +8986,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "heightMm": 66,
    "tdpRatingW": 65
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0609c17d-96d9-40df-a9fb-b9b01fc84bc7/0609c17d-96d9-40df-a9fb-b9b01fc84bc7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0609c17d-96d9-40df-a9fb-b9b01fc84bc7/0609c17d-96d9-40df-a9fb-b9b01fc84bc7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-cpu-thermaltake-ux100-argb-120mm-15-led-argb-i-zi"
  },
  {
@@ -9006,7 +9006,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bca72e5e-abfb-4c18-b062-c1bcc934d4c1/bca72e5e-abfb-4c18-b062-c1bcc934d4c1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bca72e5e-abfb-4c18-b062-c1bcc934d4c1/bca72e5e-abfb-4c18-b062-c1bcc934d4c1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-thermalright-frozen-infinity-240-i-zi"
  },
  {
@@ -9026,7 +9026,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 420,
    "tdpRatingW": 320
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5709aff6-68bc-4846-a977-e400c8bb1cde/5709aff6-68bc-4846-a977-e400c8bb1cde.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5709aff6-68bc-4846-a977-e400c8bb1cde/5709aff6-68bc-4846-a977-e400c8bb1cde.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-likuid-cpu-arctic-liquid-freezer-iii-pro-420-420mm-pa-rgb-i-zi"
  },
  {
@@ -9046,7 +9046,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7fe57112-1c59-43d4-a090-9a1d83ea1ee1/7fe57112-1c59-43d4-a090-9a1d83ea1ee1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7fe57112-1c59-43d4-a090-9a1d83ea1ee1/7fe57112-1c59-43d4-a090-9a1d83ea1ee1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-me-uje-thermalright-aqua-elite-360-argbv6"
  },
  {
@@ -9066,7 +9066,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/359f409f-09a5-4f12-b4a3-d06f95bc063f/359f409f-09a5-4f12-b4a3-d06f95bc063f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/359f409f-09a5-4f12-b4a3-d06f95bc063f/359f409f-09a5-4f12-b4a3-d06f95bc063f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-procesori-nzxt-kraken-plus-rgb-240-aio-240mm-i-bardhe"
  },
  {
@@ -9086,7 +9086,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/07339168-7ee8-4fa3-b7ce-73bdef1c4824/07339168-7ee8-4fa3-b7ce-73bdef1c4824.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/07339168-7ee8-4fa3-b7ce-73bdef1c4824/07339168-7ee8-4fa3-b7ce-73bdef1c4824.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-aio-cooler-master-masterliquid-360-atmos-2-vrm-radiator-360mm-rgb-i-bardhe"
  },
  {
@@ -9106,7 +9106,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d0cf0804-80ed-4d72-b34a-3b4cce7cfacb/d0cf0804-80ed-4d72-b34a-3b4cce7cfacb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d0cf0804-80ed-4d72-b34a-3b4cce7cfacb/d0cf0804-80ed-4d72-b34a-3b4cce7cfacb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-me-uje-thermalright-frozen-prism-360-argb"
  },
  {
@@ -9126,7 +9126,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/79785cb4-6562-4c38-9120-df4e9822aa1d/79785cb4-6562-4c38-9120-df4e9822aa1d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/79785cb4-6562-4c38-9120-df4e9822aa1d/79785cb4-6562-4c38-9120-df4e9822aa1d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-arctic-liquid-freezer-iii-pro-360-a-rgb-i-zi"
  },
  {
@@ -9146,7 +9146,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b7cbe9e0-26d1-4ab5-871f-6017ab2dd2a7/b7cbe9e0-26d1-4ab5-871f-6017ab2dd2a7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b7cbe9e0-26d1-4ab5-871f-6017ab2dd2a7/b7cbe9e0-26d1-4ab5-871f-6017ab2dd2a7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-ujor-cpu-arctic-liquid-freezer-iii-pro-240-aio-a-rgb-i-bardhe"
  },
  {
@@ -9166,7 +9166,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/af303198-bb45-4139-b9e3-b89017c7a188/af303198-bb45-4139-b9e3-b89017c7a188.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/af303198-bb45-4139-b9e3-b89017c7a188/af303198-bb45-4139-b9e3-b89017c7a188.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-procesori-nzxt-kraken-plus-240-aio-me-uje-240-mm-i-zi"
  },
  {
@@ -9186,7 +9186,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/375cbd80-deb1-477d-a768-95d24baa9453/375cbd80-deb1-477d-a768-95d24baa9453.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/375cbd80-deb1-477d-a768-95d24baa9453/375cbd80-deb1-477d-a768-95d24baa9453.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-likuid-aio-per-procesor-asus-rog-ryuo-iv-slc-360-argb-360mm-ekran-667-amoled-i-zi"
  },
  {
@@ -9206,7 +9206,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7b288b9f-3d5e-46a6-9cfe-824d621d0442/7b288b9f-3d5e-46a6-9cfe-824d621d0442.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7b288b9f-3d5e-46a6-9cfe-824d621d0442/7b288b9f-3d5e-46a6-9cfe-824d621d0442.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-thermalright-frozen-warframe-360-argb-i-zi"
  },
  {
@@ -9226,7 +9226,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "heightMm": 133,
    "tdpRatingW": 100
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6d96cb28-c406-4460-9f10-3bf45e5712fe/6d96cb28-c406-4460-9f10-3bf45e5712fe.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6d96cb28-c406-4460-9f10-3bf45e5712fe/6d96cb28-c406-4460-9f10-3bf45e5712fe.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-per-procesor-deepcool-ag200-r-ag200-bknnmn-g-100w-11501151115511561200am417001851am5"
  },
  {
@@ -9246,7 +9246,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dccad3bb-719d-45d1-8f0d-9613f42fd020/dccad3bb-719d-45d1-8f0d-9613f42fd020.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dccad3bb-719d-45d1-8f0d-9613f42fd020/dccad3bb-719d-45d1-8f0d-9613f42fd020.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/sistem-ftohes-me-uje-arctic-liquid-freezer-iii-pro-360-radiator-360mm-3-ventilatore-i-zi"
  },
  {
@@ -9266,7 +9266,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 280,
    "tdpRatingW": 280
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/91a362ff-fc0b-45b7-95c6-0f273869cc48/91a362ff-fc0b-45b7-95c6-0f273869cc48.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/91a362ff-fc0b-45b7-95c6-0f273869cc48/91a362ff-fc0b-45b7-95c6-0f273869cc48.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-me-uje-nzxt-kraken-elite-280-rgb-rl-kr28e-b1-2"
  },
  {
@@ -9286,7 +9286,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/37acf2d0-67c6-434f-8230-30a3a277c2ba/37acf2d0-67c6-434f-8230-30a3a277c2ba.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/37acf2d0-67c6-434f-8230-30a3a277c2ba/37acf2d0-67c6-434f-8230-30a3a277c2ba.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-cpu-asus-rog-ryuo-iv-360-argb-aio-i-bardhe"
  },
  {
@@ -9306,7 +9306,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "heightMm": 158,
    "tdpRatingW": 150
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/02267b80-b233-4212-af91-b5b52f35277b/02267b80-b233-4212-af91-b5b52f35277b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/02267b80-b233-4212-af91-b5b52f35277b/02267b80-b233-4212-af91-b5b52f35277b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-procesori-cooler-master-hyper-212-3dhp-argb-argb-i-zi"
  },
  {
@@ -9326,7 +9326,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "heightMm": 155,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/373f604c-2929-4242-8ee4-ea566137e3a5/373f604c-2929-4242-8ee4-ea566137e3a5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/373f604c-2929-4242-8ee4-ea566137e3a5/373f604c-2929-4242-8ee4-ea566137e3a5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-per-cpu-be-quiet-pure-rock-pro-3-lx-argb-250w-tdp-i-zi"
  },
  {
@@ -9346,7 +9346,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d40a3513-bd03-4a26-964d-61fe17f826c3/d40a3513-bd03-4a26-964d-61fe17f826c3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d40a3513-bd03-4a26-964d-61fe17f826c3/d40a3513-bd03-4a26-964d-61fe17f826c3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-cooler-master-masterliquid-240-atmos-ii-pixel-240mm-argb-i-zi"
  },
  {
@@ -9366,7 +9366,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/49eaf57e-c57c-4ec8-b89c-d19127441324/49eaf57e-c57c-4ec8-b89c-d19127441324.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/49eaf57e-c57c-4ec8-b89c-d19127441324/49eaf57e-c57c-4ec8-b89c-d19127441324.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-liquid-per-cpu-arctic-liquid-freezer-iii-240-e-zeze"
  },
  {
@@ -9386,7 +9386,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e1666486-542e-4480-929d-b22f54e89c0a/e1666486-542e-4480-929d-b22f54e89c0a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e1666486-542e-4480-929d-b22f54e89c0a/e1666486-542e-4480-929d-b22f54e89c0a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/sistem-ftohes-uji-cooler-master-masterliquid-240-core-ii-240mm-argb-i-bardhe"
  },
  {
@@ -9406,7 +9406,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8434a431-7301-491f-b9e3-702ca563fc88/8434a431-7301-491f-b9e3-702ca563fc88.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8434a431-7301-491f-b9e3-702ca563fc88/8434a431-7301-491f-b9e3-702ca563fc88.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-per-cpu-cooler-master-masterliquid-240-atmos-ii-radiator-240mm-argb-i-zi"
  },
  {
@@ -9426,7 +9426,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/65b930c5-7e40-4406-993d-35eedc71ca12/65b930c5-7e40-4406-993d-35eedc71ca12.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/65b930c5-7e40-4406-993d-35eedc71ca12/65b930c5-7e40-4406-993d-35eedc71ca12.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-aio-cpu-deepcool-mystique-360-360mm-argb-ekran-lcd-i-zi"
  },
  {
@@ -9446,7 +9446,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/44cf03c6-ef88-41ae-9372-c21412e7dc80/44cf03c6-ef88-41ae-9372-c21412e7dc80.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/44cf03c6-ef88-41ae-9372-c21412e7dc80/44cf03c6-ef88-41ae-9372-c21412e7dc80.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-me-uje-thermalright-aqua-elite-240-argb-v6"
  },
  {
@@ -9466,7 +9466,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/eb8f0062-8158-45ff-a7f7-5028c4326d39/eb8f0062-8158-45ff-a7f7-5028c4326d39.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/eb8f0062-8158-45ff-a7f7-5028c4326d39/eb8f0062-8158-45ff-a7f7-5028c4326d39.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-me-uje-asus-tuf-gaming-lc-ii-240-argb-12-cm-i-zi"
  },
  {
@@ -9486,7 +9486,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9a4e8626-57a2-4938-bfd2-7290b47e5855/9a4e8626-57a2-4938-bfd2-7290b47e5855.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9a4e8626-57a2-4938-bfd2-7290b47e5855/9a4e8626-57a2-4938-bfd2-7290b47e5855.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-cpu-xpg-levante-ii-360-radiator-360-mm-rgb-i-bardhe"
  },
  {
@@ -9506,7 +9506,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/31cb33d4-112c-415e-8847-1d574d35eeb4/31cb33d4-112c-415e-8847-1d574d35eeb4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/31cb33d4-112c-415e-8847-1d574d35eeb4/31cb33d4-112c-415e-8847-1d574d35eeb4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-per-procesor-cooler-master-masterliquid-360-core-ii-radiator-360mm-3x-12cm-i-zi"
  },
  {
@@ -9526,7 +9526,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/93030aa8-4e92-4b72-9d8e-4022918bbd8d/93030aa8-4e92-4b72-9d8e-4022918bbd8d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/93030aa8-4e92-4b72-9d8e-4022918bbd8d/93030aa8-4e92-4b72-9d8e-4022918bbd8d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-cpu-cooler-master-masterliquid-360-atmos-ii-radiator-360mm-argb-i-zi"
  },
  {
@@ -9546,7 +9546,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 280,
    "tdpRatingW": 280
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1dd73f52-4710-4e4d-b02c-129e4133e0d5/1dd73f52-4710-4e4d-b02c-129e4133e0d5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1dd73f52-4710-4e4d-b02c-129e4133e0d5/1dd73f52-4710-4e4d-b02c-129e4133e0d5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-cpu-arctic-liquid-freezer-iii-pro-280-radiator-280mm-multi-compatible-i-zi"
  },
  {
@@ -9564,7 +9564,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/42f7535f-8ffd-47a5-bbf2-d655321fea72/42f7535f-8ffd-47a5-bbf2-d655321fea72.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/42f7535f-8ffd-47a5-bbf2-d655321fea72/42f7535f-8ffd-47a5-bbf2-d655321fea72.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohese-me-uje-asus-rog-strix-lc-iii-360-argb-360-mm-e-zeze"
  },
  {
@@ -9584,7 +9584,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 280,
    "tdpRatingW": 280
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/16d36fba-c3c9-4872-a440-a508c49ef095/16d36fba-c3c9-4872-a440-a508c49ef095.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/16d36fba-c3c9-4872-a440-a508c49ef095/16d36fba-c3c9-4872-a440-a508c49ef095.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-arctic-liquid-freezer-iii-280-a-rgb-i-bardhe"
  },
  {
@@ -9604,7 +9604,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/74b2b4ac-effe-4ded-bb7f-1c04f90b2c7f/74b2b4ac-effe-4ded-bb7f-1c04f90b2c7f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/74b2b4ac-effe-4ded-bb7f-1c04f90b2c7f/74b2b4ac-effe-4ded-bb7f-1c04f90b2c7f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/montimi-gratis-arctic-liquid-freezer-iii-240-a-rgb-white-liquid-cpu-cooler"
  },
  {
@@ -9624,7 +9624,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ca267f52-4d46-4777-8a61-fa09a4923eee/ca267f52-4d46-4777-8a61-fa09a4923eee.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ca267f52-4d46-4777-8a61-fa09a4923eee/ca267f52-4d46-4777-8a61-fa09a4923eee.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-per-cpu-lian-li-galahad-240-sl-v2-radiator-240mm-argb-i-bardhe"
  },
  {
@@ -9644,7 +9644,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f326470-fdde-486f-9746-3609ba02c2a8/5f326470-fdde-486f-9746-3609ba02c2a8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f326470-fdde-486f-9746-3609ba02c2a8/5f326470-fdde-486f-9746-3609ba02c2a8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-aio-gigabyte-aorus-waterforce-ii-360-radiator-360mm-3-ventilatore-i-zi"
  },
  {
@@ -9664,7 +9664,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "heightMm": 159,
    "tdpRatingW": 150
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/37bd9da4-108c-4549-9cd7-c1645d7dedc2/37bd9da4-108c-4549-9cd7-c1645d7dedc2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/37bd9da4-108c-4549-9cd7-c1645d7dedc2/37bd9da4-108c-4549-9cd7-c1645d7dedc2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-cpu-arctic-freezer-36-a-rgb-120mm-a-rgb-i-zi"
  },
  {
@@ -9684,7 +9684,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f556710-198c-45e1-a4ed-b64e412a585b/4f556710-198c-45e1-a4ed-b64e412a585b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f556710-198c-45e1-a4ed-b64e412a585b/4f556710-198c-45e1-a4ed-b64e412a585b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-procesori-uji-cooler-master-masterliquid-360-ion-radiator-360-mm-3x-12-cm-argb-i-zi"
  },
  {
@@ -9704,7 +9704,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6bbfcd3c-26de-4136-bddf-9d8860c24e73/6bbfcd3c-26de-4136-bddf-9d8860c24e73.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6bbfcd3c-26de-4136-bddf-9d8860c24e73/6bbfcd3c-26de-4136-bddf-9d8860c24e73.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-me-uje-nzxt-kraken-elite-240-rgb-rl-kr24e-w1"
  },
  {
@@ -9724,7 +9724,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d7c4198e-1f0b-4d95-b6be-af34a9c43f83/d7c4198e-1f0b-4d95-b6be-af34a9c43f83.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d7c4198e-1f0b-4d95-b6be-af34a9c43f83/d7c4198e-1f0b-4d95-b6be-af34a9c43f83.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-me-uje-thermalright-aqua-elite-360-argb-v6-i-bardhe"
  },
  {
@@ -9744,7 +9744,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "heightMm": 160,
    "tdpRatingW": 260
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/719464fa-a3db-419b-87ab-722628cc576d/719464fa-a3db-419b-87ab-722628cc576d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/719464fa-a3db-419b-87ab-722628cc576d/719464fa-a3db-419b-87ab-722628cc576d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-per-procesor-deepcool-ak620-i-bardhe-4"
  },
  {
@@ -9764,7 +9764,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 280,
    "tdpRatingW": 280
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1caa5200-e320-46a5-8a85-f843c88b8ce1/1caa5200-e320-46a5-8a85-f843c88b8ce1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1caa5200-e320-46a5-8a85-f843c88b8ce1/1caa5200-e320-46a5-8a85-f843c88b8ce1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-nzxt-kraken-280-rgb-liquid-cpu-280mm-radiator"
  },
  {
@@ -9784,7 +9784,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 240,
    "tdpRatingW": 250
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dd3a5778-7bc7-42a8-8633-6a1def94672f/dd3a5778-7bc7-42a8-8633-6a1def94672f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dd3a5778-7bc7-42a8-8633-6a1def94672f/dd3a5778-7bc7-42a8-8633-6a1def94672f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-per-procesor-msi-mag-coreliquid-a13-240-240-mm-argb-i-zi"
  },
  {
@@ -9804,7 +9804,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0f28480c-ffd3-474d-a677-ec2c2e4f8241/0f28480c-ffd3-474d-a677-ec2c2e4f8241.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0f28480c-ffd3-474d-a677-ec2c2e4f8241/0f28480c-ffd3-474d-a677-ec2c2e4f8241.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-uji-cpu-nzxt-kraken-core-360-radiator-360mm-rgb-i-zi"
  },
  {
@@ -9824,7 +9824,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4eb4ad4e-fbd6-4813-9e02-953bf339a53e/4eb4ad4e-fbd6-4813-9e02-953bf339a53e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4eb4ad4e-fbd6-4813-9e02-953bf339a53e/4eb4ad4e-fbd6-4813-9e02-953bf339a53e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-me-uje-nzxt-kraken-elite-360-rgb-radiator-360-mm-i-zi"
  },
  {
@@ -9844,7 +9844,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "radiatorMm": 360,
    "tdpRatingW": 300
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dc12aa0c-8cb9-402f-bea8-2fc6533ab82e/dc12aa0c-8cb9-402f-bea8-2fc6533ab82e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dc12aa0c-8cb9-402f-bea8-2fc6533ab82e/dc12aa0c-8cb9-402f-bea8-2fc6533ab82e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ftohes-cpu-lian-li-hydroshift-ii-lcd-c-360-aio-360mm-fanless-i-bardhe"
  },
  {
@@ -9861,7 +9861,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5d48edfb-e670-4f13-9edb-3eefee0e344c/5d48edfb-e670-4f13-9edb-3eefee0e344c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5d48edfb-e670-4f13-9edb-3eefee0e344c/5d48edfb-e670-4f13-9edb-3eefee0e344c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-prime-rtx5070-o12g-12gb-gddr7-2"
  },
  {
@@ -9878,7 +9878,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/809074aa-0b15-44af-98f9-cb2971d90a75/809074aa-0b15-44af-98f9-cb2971d90a75.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/809074aa-0b15-44af-98f9-cb2971d90a75/809074aa-0b15-44af-98f9-cb2971d90a75.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-dual-nvidia-geforce-rtx-5060-ti-16gb-gddr7"
  },
  {
@@ -9895,7 +9895,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7a31769d-f82e-447d-a5fe-29798fda1754/7a31769d-f82e-447d-a5fe-29798fda1754.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7a31769d-f82e-447d-a5fe-29798fda1754/7a31769d-f82e-447d-a5fe-29798fda1754.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-dual-nvidia-geforce-rtx-5050-8-gb-oc-2"
  },
  {
@@ -9912,7 +9912,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1f6728e7-15a4-4938-84df-8a4888420aff/1f6728e7-15a4-4938-84df-8a4888420aff.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1f6728e7-15a4-4938-84df-8a4888420aff/1f6728e7-15a4-4938-84df-8a4888420aff.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-vga-nvidia-geforce-gt-1030-brk-2gb-gddr5-2"
  },
  {
@@ -9929,7 +9929,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a29fa071-39eb-4759-b243-6a421a316d31/a29fa071-39eb-4759-b243-6a421a316d31.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a29fa071-39eb-4759-b243-6a421a316d31/a29fa071-39eb-4759-b243-6a421a316d31.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-rtx-5060-ventus-2x-oc-8gb-gddr7-pci-express"
  },
  {
@@ -9946,7 +9946,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8b14c4ab-3b07-4108-aa6a-3f9ce9b9990d/8b14c4ab-3b07-4108-aa6a-3f9ce9b9990d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8b14c4ab-3b07-4108-aa6a-3f9ce9b9990d/8b14c4ab-3b07-4108-aa6a-3f9ce9b9990d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-dual-nvidia-geforce-rtx-5060-ti-8gb-gddr7-2"
  },
  {
@@ -9963,7 +9963,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6885b61d-683e-4b74-8025-ea9f4a40a2fb/6885b61d-683e-4b74-8025-ea9f4a40a2fb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6885b61d-683e-4b74-8025-ea9f4a40a2fb/6885b61d-683e-4b74-8025-ea9f4a40a2fb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-aorus-geforce-rtx-5070-ti-master-16gb-gddr7-pci-e-50"
  },
  {
@@ -9980,7 +9980,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f1ca9f7-837b-4cd0-a7f9-cb28c925dfd6/4f1ca9f7-837b-4cd0-a7f9-cb28c925dfd6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f1ca9f7-837b-4cd0-a7f9-cb28c925dfd6/4f1ca9f7-837b-4cd0-a7f9-cb28c925dfd6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-prime-radeon-rx-9060-xt-oc-edition-16gb"
  },
  {
@@ -9997,7 +9997,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ea1beaf5-6acb-47e7-8a45-7f358ad808ad/ea1beaf5-6acb-47e7-8a45-7f358ad808ad.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ea1beaf5-6acb-47e7-8a45-7f358ad808ad/ea1beaf5-6acb-47e7-8a45-7f358ad808ad.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-4060-windforce-oc-8g-8gb-gddr6-128-bit"
  },
  {
@@ -10014,7 +10014,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f2267c0d-45dd-4bab-aacc-00301499ee3f/f2267c0d-45dd-4bab-aacc-00301499ee3f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f2267c0d-45dd-4bab-aacc-00301499ee3f/f2267c0d-45dd-4bab-aacc-00301499ee3f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-xfx-speedster-qick-309-radeon-rx-7600-xt-16gb-gddr6"
  },
  {
@@ -10031,7 +10031,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c669a62c-924f-4beb-948e-7006e450e1fc/c669a62c-924f-4beb-948e-7006e450e1fc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c669a62c-924f-4beb-948e-7006e450e1fc/c669a62c-924f-4beb-948e-7006e450e1fc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-rtx-5070-12g-ventus-2x-oc-nvidia-12-gb-gddr7-2"
  },
  {
@@ -10048,7 +10048,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e7570efb-2c61-4afd-8fe8-b229bbcc6e43/e7570efb-2c61-4afd-8fe8-b229bbcc6e43.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e7570efb-2c61-4afd-8fe8-b229bbcc6e43/e7570efb-2c61-4afd-8fe8-b229bbcc6e43.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-vga-nvidia-geforce-rtx-4060-ti-eagle-8gb-gddr6"
  },
  {
@@ -10065,7 +10065,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/12504681-32c8-4e98-89be-8a4121118447/12504681-32c8-4e98-89be-8a4121118447.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/12504681-32c8-4e98-89be-8a4121118447/12504681-32c8-4e98-89be-8a4121118447.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-aorus-radeon-rx-9070-xt-elite-16gb-gddr6-256bit-e-zeze"
  },
  {
@@ -10082,7 +10082,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/133243cc-7a5c-46ee-ae9b-05c14fe1242b/133243cc-7a5c-46ee-ae9b-05c14fe1242b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/133243cc-7a5c-46ee-ae9b-05c14fe1242b/133243cc-7a5c-46ee-ae9b-05c14fe1242b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-aorus-geforce-rtx-5070-master-12gb-gddr7-2715-mhz-e-zeze"
  },
  {
@@ -10099,7 +10099,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c179106d-2fb4-4feb-8250-0563e6da6547/c179106d-2fb4-4feb-8250-0563e6da6547.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c179106d-2fb4-4feb-8250-0563e6da6547/c179106d-2fb4-4feb-8250-0563e6da6547.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5060-ti-eagle-oc-ice-8gb-gddr7-pci-e-50"
  },
  {
@@ -10116,7 +10116,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d84a222c-63c9-4060-9b61-d87e1c18e0cf/d84a222c-63c9-4060-9b61-d87e1c18e0cf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d84a222c-63c9-4060-9b61-d87e1c18e0cf/d84a222c-63c9-4060-9b61-d87e1c18e0cf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-sapphire-amd-radeon-rx-9070-pulse-16gb-gddr6-rdna-4"
  },
  {
@@ -10133,7 +10133,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 350,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0c5af27c-b870-46cd-8992-928d9fad8e9a/0c5af27c-b870-46cd-8992-928d9fad8e9a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0c5af27c-b870-46cd-8992-928d9fad8e9a/0c5af27c-b870-46cd-8992-928d9fad8e9a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-radeon-rx-6400-phoenix-4gb-gddr6-2"
  },
  {
@@ -10150,7 +10150,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4fd0b1b4-96c3-424f-a48f-bc41601641fe/4fd0b1b4-96c3-424f-a48f-bc41601641fe.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4fd0b1b4-96c3-424f-a48f-bc41601641fe/4fd0b1b4-96c3-424f-a48f-bc41601641fe.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-radeon-rx-9070-xt-gaming-16g"
  },
  {
@@ -10167,7 +10167,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/04776019-de64-4754-99ac-eda30aa2a393/04776019-de64-4754-99ac-eda30aa2a393.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/04776019-de64-4754-99ac-eda30aa2a393/04776019-de64-4754-99ac-eda30aa2a393.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-dual-geforce-rtx-3060-gaming-oc-12-12gb-gddr6"
  },
  {
@@ -10184,7 +10184,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1b57f61a-299c-4fd8-be43-75e9e815ae0c/1b57f61a-299c-4fd8-be43-75e9e815ae0c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1b57f61a-299c-4fd8-be43-75e9e815ae0c/1b57f61a-299c-4fd8-be43-75e9e815ae0c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-rtx-5060-ti-16g-ventus-2x-oc-plus-16gb-gddr7-dual-fan-pcie-50"
  },
  {
@@ -10201,7 +10201,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5cc8863d-c816-4224-8f7a-a32bccc2d617/5cc8863d-c816-4224-8f7a-a32bccc2d617.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5cc8863d-c816-4224-8f7a-a32bccc2d617/5cc8863d-c816-4224-8f7a-a32bccc2d617.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-dual-rtx5060-o8g-nvidia-geforce-rtx-5060-8-gb-gddr7-2"
  },
  {
@@ -10218,7 +10218,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5e6d6319-ca7d-4864-a71c-28e1bfc58d99/5e6d6319-ca7d-4864-a71c-28e1bfc58d99.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5e6d6319-ca7d-4864-a71c-28e1bfc58d99/5e6d6319-ca7d-4864-a71c-28e1bfc58d99.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-geforce-gtx-1050-ti-4gb-gddr5"
  },
  {
@@ -10235,7 +10235,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bd6f5e99-4853-4533-87d5-51e29eedf647/bd6f5e99-4853-4533-87d5-51e29eedf647.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bd6f5e99-4853-4533-87d5-51e29eedf647/bd6f5e99-4853-4533-87d5-51e29eedf647.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-biostar-nvidia-geforce-gtx-1660-super-6-gb-gddr6"
  },
  {
@@ -10252,7 +10252,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5fdf3ae8-d6e2-452a-bca2-4c57d27bbe89/5fdf3ae8-d6e2-452a-bca2-4c57d27bbe89.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5fdf3ae8-d6e2-452a-bca2-4c57d27bbe89/5fdf3ae8-d6e2-452a-bca2-4c57d27bbe89.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/inno3d-rtx-5070-twin-x2-12gb-12gb-gddr7-kartele-grafike"
  },
  {
@@ -10269,7 +10269,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d63888c7-25c0-4215-a39e-7e9c0f0151a7/d63888c7-25c0-4215-a39e-7e9c0f0151a7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d63888c7-25c0-4215-a39e-7e9c0f0151a7/d63888c7-25c0-4215-a39e-7e9c0f0151a7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-radeon-rx-9070-xt-gaming-oc-16gb-gddr6-pcie-40"
  },
  {
@@ -10286,7 +10286,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/84da1d1d-571e-44b1-a0df-d10d75bb13a4/84da1d1d-571e-44b1-a0df-d10d75bb13a4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/84da1d1d-571e-44b1-a0df-d10d75bb13a4/84da1d1d-571e-44b1-a0df-d10d75bb13a4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-xfx-mercury-amd-radeon-rx-9060-xt-oc-gaming-16gb"
  },
  {
@@ -10303,7 +10303,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/99ec8835-b476-421b-85c2-5d2631df66cd/99ec8835-b476-421b-85c2-5d2631df66cd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/99ec8835-b476-421b-85c2-5d2631df66cd/99ec8835-b476-421b-85c2-5d2631df66cd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-radeon-rx-9070-xt-gaming-oc-ice-16gb-gddr6-e-bardhe"
  },
  {
@@ -10320,7 +10320,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1895ef78-e02b-4641-ba6b-fb8b0e5ea8dd/1895ef78-e02b-4641-ba6b-fb8b0e5ea8dd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1895ef78-e02b-4641-ba6b-fb8b0e5ea8dd/1895ef78-e02b-4641-ba6b-fb8b0e5ea8dd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/xfx-speedster-swft210-rx-7600-core-edition-8gb-gddr6-graphics-card"
  },
  {
@@ -10337,7 +10337,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4322b20b-d521-40dc-8f12-c39b85f71a72/4322b20b-d521-40dc-8f12-c39b85f71a72.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4322b20b-d521-40dc-8f12-c39b85f71a72/4322b20b-d521-40dc-8f12-c39b85f71a72.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-xfx-radeon-rx-6700-xt-speedster-qick-319-black-12gb-gddr6"
  },
  {
@@ -10354,7 +10354,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1b6e2e67-447a-458c-83de-465e9c3ee92a/1b6e2e67-447a-458c-83de-465e9c3ee92a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1b6e2e67-447a-458c-83de-465e9c3ee92a/1b6e2e67-447a-458c-83de-465e9c3ee92a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-amd-radeon-rx-9070xt-taichi-16gb-gddr6"
  },
  {
@@ -10371,7 +10371,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/223761/223761.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/223761/223761.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-sapphire-radeon-rx6700-xt-pulse-12gb-gddr6-11306-02-20g"
  },
  {
@@ -10388,7 +10388,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/60553dc1-4ff5-4c97-b51b-8d622dfbc10a/60553dc1-4ff5-4c97-b51b-8d622dfbc10a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/60553dc1-4ff5-4c97-b51b-8d622dfbc10a/60553dc1-4ff5-4c97-b51b-8d622dfbc10a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-dual-radeo-rx9060xt-8gb-gddr6"
  },
  {
@@ -10405,7 +10405,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b616db72-b343-434a-a667-e74a90405df0/b616db72-b343-434a-a667-e74a90405df0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b616db72-b343-434a-a667-e74a90405df0/b616db72-b343-434a-a667-e74a90405df0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-3050-windforce-oc-v2-g6-6gb-gddr6-2"
  },
  {
@@ -10422,7 +10422,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9830b2ad-4b98-4f47-866a-c0e67b817df5/9830b2ad-4b98-4f47-866a-c0e67b817df5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9830b2ad-4b98-4f47-866a-c0e67b817df5/9830b2ad-4b98-4f47-866a-c0e67b817df5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asrock-amd-radeon-rx-9070-challenger-16gb-gddr6-e-zeze"
  },
  {
@@ -10439,7 +10439,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a3391d29-28af-4d95-90d8-b7e48425d720/a3391d29-28af-4d95-90d8-b7e48425d720.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a3391d29-28af-4d95-90d8-b7e48425d720/a3391d29-28af-4d95-90d8-b7e48425d720.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-biostar-nvidia-geforce-rtx-3070-8-gb-gddr6-vn3706rm82"
  },
  {
@@ -10456,7 +10456,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0e802147-d501-4578-9d98-cab5e3bd7f80/0e802147-d501-4578-9d98-cab5e3bd7f80.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0e802147-d501-4578-9d98-cab5e3bd7f80/0e802147-d501-4578-9d98-cab5e3bd7f80.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/palit-rtx-5060-infinity-2-oc-8gb-gddr7-graphics-card"
  },
  {
@@ -10473,7 +10473,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/87ede0b2-7fcd-4c1c-96c0-f4c353d6a555/87ede0b2-7fcd-4c1c-96c0-f4c353d6a555.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/87ede0b2-7fcd-4c1c-96c0-f4c353d6a555/87ede0b2-7fcd-4c1c-96c0-f4c353d6a555.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-3050-eco-solo-8gb-gddr6"
  },
  {
@@ -10490,7 +10490,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1b8eeeb4-2254-41b8-a2fe-a4a6ae540512/1b8eeeb4-2254-41b8-a2fe-a4a6ae540512.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1b8eeeb4-2254-41b8-a2fe-a4a6ae540512/1b8eeeb4-2254-41b8-a2fe-a4a6ae540512.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-sapphire-nitro-radeon-rx-9070-xt-crimson-desert-edition-16gb-gddr6-e-zeze"
  },
  {
@@ -10507,7 +10507,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/91f28c2c-6dd3-42e3-bf8a-d044b2eb2b31/91f28c2c-6dd3-42e3-bf8a-d044b2eb2b31.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/91f28c2c-6dd3-42e3-bf8a-d044b2eb2b31/91f28c2c-6dd3-42e3-bf8a-d044b2eb2b31.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-intel-arc-b580-challenger-12gb-oc-gddr6-pci-express"
  },
  {
@@ -10524,7 +10524,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b1b1567d-d608-4abb-9096-b2e6716aed3a/b1b1567d-d608-4abb-9096-b2e6716aed3a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b1b1567d-d608-4abb-9096-b2e6716aed3a/b1b1567d-d608-4abb-9096-b2e6716aed3a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5060-ti-windforce-8g-8gb-gddr7-pci-e-50-e-zeze"
  },
  {
@@ -10541,7 +10541,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5647b6fa-f897-4941-b10e-86fc483d7712/5647b6fa-f897-4941-b10e-86fc483d7712.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5647b6fa-f897-4941-b10e-86fc483d7712/5647b6fa-f897-4941-b10e-86fc483d7712.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-radeon-rx-7600-gaming-oc-8gb-gddr6"
  },
  {
@@ -10558,7 +10558,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/249d573a-fc40-488c-b9f8-aeb50d3192a0/249d573a-fc40-488c-b9f8-aeb50d3192a0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/249d573a-fc40-488c-b9f8-aeb50d3192a0/249d573a-fc40-488c-b9f8-aeb50d3192a0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-displayport-hdmi-e-zeze"
  },
  {
@@ -10575,7 +10575,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/63983b72-331b-4bdb-8fec-0aaecb4ec239/63983b72-331b-4bdb-8fec-0aaecb4ec239.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/63983b72-331b-4bdb-8fec-0aaecb4ec239/63983b72-331b-4bdb-8fec-0aaecb4ec239.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-biostar-nvidia-geforce-gtx-1050-ti-4-gb-gddr5-vn1055tf41"
  },
  {
@@ -10592,7 +10592,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9c9b44f2-c62a-470d-bb1d-5e42edb14b41/9c9b44f2-c62a-470d-bb1d-5e42edb14b41.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9c9b44f2-c62a-470d-bb1d-5e42edb14b41/9c9b44f2-c62a-470d-bb1d-5e42edb14b41.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-rtx-3050-ventus-2x-e-6g-oc-6gb-gddr6"
  },
  {
@@ -10609,7 +10609,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d9a7c58b-7db4-4139-89a7-15aa3cf9f788/d9a7c58b-7db4-4139-89a7-15aa3cf9f788.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d9a7c58b-7db4-4139-89a7-15aa3cf9f788/d9a7c58b-7db4-4139-89a7-15aa3cf9f788.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-intel-arc-a380-challenger-itx-oc-6gb-gddr6"
  },
  {
@@ -10626,7 +10626,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f6bc0d4d-1828-4974-8071-80b6eb28a251/f6bc0d4d-1828-4974-8071-80b6eb28a251.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f6bc0d4d-1828-4974-8071-80b6eb28a251/f6bc0d4d-1828-4974-8071-80b6eb28a251.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-powercolor-reaper-rx9070xt-16g-a-radeon-rx-9070-xt"
  },
  {
@@ -10643,7 +10643,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3b96c168-8dde-4763-b8da-593125633b8b/3b96c168-8dde-4763-b8da-593125633b8b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3b96c168-8dde-4763-b8da-593125633b8b/3b96c168-8dde-4763-b8da-593125633b8b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-challenger-rx9070xt-16gb"
  },
  {
@@ -10660,7 +10660,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/19345825-82b4-424a-a20c-3ea78096da99/19345825-82b4-424a-a20c-3ea78096da99.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/19345825-82b4-424a-a20c-3ea78096da99/19345825-82b4-424a-a20c-3ea78096da99.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-radeon-rx-7600-challenger-oc-8gb-gddr6"
  },
  {
@@ -10677,7 +10677,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c6ab772a-e56b-4a86-af39-a6c3e59cf307/c6ab772a-e56b-4a86-af39-a6c3e59cf307.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c6ab772a-e56b-4a86-af39-a6c3e59cf307/c6ab772a-e56b-4a86-af39-a6c3e59cf307.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-gt-710-2gb-gddr5-2"
  },
  {
@@ -10694,7 +10694,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/24fc9264-191a-43ed-97a1-f2c456082ba1/24fc9264-191a-43ed-97a1-f2c456082ba1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/24fc9264-191a-43ed-97a1-f2c456082ba1/24fc9264-191a-43ed-97a1-f2c456082ba1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-rtx-3050-lp-oc-6gb-gddr6-2"
  },
  {
@@ -10711,7 +10711,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7f8182b5-aa5a-4c5f-a3bb-2bc2e854d769/7f8182b5-aa5a-4c5f-a3bb-2bc2e854d769.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7f8182b5-aa5a-4c5f-a3bb-2bc2e854d769/7f8182b5-aa5a-4c5f-a3bb-2bc2e854d769.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-nvidia-geforce-gt-730-brk-2gb-gddr5-1xhdmi-1xvga-1xdvi"
  },
  {
@@ -10728,7 +10728,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4865c737-0de1-4785-99d8-7810bdd74750/4865c737-0de1-4785-99d8-7810bdd74750.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4865c737-0de1-4785-99d8-7810bdd74750/4865c737-0de1-4785-99d8-7810bdd74750.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/gigabyte-rtx-5060-eagle-oc-ice-8g-8gb-gddr7-graphics-card"
  },
  {
@@ -10745,7 +10745,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2d4f9877-228b-4933-96e5-107ad833317d/2d4f9877-228b-4933-96e5-107ad833317d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2d4f9877-228b-4933-96e5-107ad833317d/2d4f9877-228b-4933-96e5-107ad833317d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-radeon-rx-9070-gaming-oc-16gb-gddr6"
  },
  {
@@ -10762,7 +10762,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/96f7a624-7dcf-4848-a587-43ffe0ac2956/96f7a624-7dcf-4848-a587-43ffe0ac2956.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/96f7a624-7dcf-4848-a587-43ffe0ac2956/96f7a624-7dcf-4848-a587-43ffe0ac2956.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-biostar-nvidia-geforce-rtx-2060-super-8-gb-gddr6"
  },
  {
@@ -10779,7 +10779,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/667dcabd-1994-451e-a7c6-053c92ae2b41/667dcabd-1994-451e-a7c6-053c92ae2b41.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/667dcabd-1994-451e-a7c6-053c92ae2b41/667dcabd-1994-451e-a7c6-053c92ae2b41.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/msi-rtx-5060-8g-inspire-2x-oc-8gb-gddr7-graphics-card"
  },
  {
@@ -10796,7 +10796,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5d64e854-044f-4119-b54a-74dd65be99f4/5d64e854-044f-4119-b54a-74dd65be99f4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5d64e854-044f-4119-b54a-74dd65be99f4/5d64e854-044f-4119-b54a-74dd65be99f4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-geforce-gt-710-evo-2gb-gddr5-64-bit-e-zeze"
  },
  {
@@ -10813,7 +10813,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/44b5610c-1d53-464f-a21a-d34ffd007874/44b5610c-1d53-464f-a21a-d34ffd007874.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/44b5610c-1d53-464f-a21a-d34ffd007874/44b5610c-1d53-464f-a21a-d34ffd007874.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-arc-a310-low-profile-4gb-gddr6"
  },
  {
@@ -10830,7 +10830,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab7cde95-eadb-4737-b26f-97bd25a001b5/ab7cde95-eadb-4737-b26f-97bd25a001b5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab7cde95-eadb-4737-b26f-97bd25a001b5/ab7cde95-eadb-4737-b26f-97bd25a001b5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-geforce-rtx-3070-8gb-gddr6"
  },
  {
@@ -10847,7 +10847,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6b4635fd-86f1-4352-98db-e838112d7a9a/6b4635fd-86f1-4352-98db-e838112d7a9a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6b4635fd-86f1-4352-98db-e838112d7a9a/6b4635fd-86f1-4352-98db-e838112d7a9a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-geforce-gt-710-2gb-ddr3"
  },
  {
@@ -10864,7 +10864,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/41689300-05fa-4083-ba82-11de76e11b89/41689300-05fa-4083-ba82-11de76e11b89.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/41689300-05fa-4083-ba82-11de76e11b89/41689300-05fa-4083-ba82-11de76e11b89.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-dual-geforce-rtx-3050-oc-6gb-gddr6"
  },
  {
@@ -10881,7 +10881,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3b9c4561-d4ce-49a0-b0cb-d2a5ad7cddc9/3b9c4561-d4ce-49a0-b0cb-d2a5ad7cddc9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3b9c4561-d4ce-49a0-b0cb-d2a5ad7cddc9/3b9c4561-d4ce-49a0-b0cb-d2a5ad7cddc9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-3050-eco-8gb-gddr6"
  },
  {
@@ -10898,7 +10898,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/778d69fb-b250-4ae7-9b1b-0928e76f0af9/778d69fb-b250-4ae7-9b1b-0928e76f0af9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/778d69fb-b250-4ae7-9b1b-0928e76f0af9/778d69fb-b250-4ae7-9b1b-0928e76f0af9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-dual-nvidia-geforce-rtx-3050-6-gb-gddr6"
  },
  {
@@ -10915,7 +10915,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6e3112a3-8d96-4432-a91e-b08b14aefd48/6e3112a3-8d96-4432-a91e-b08b14aefd48.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6e3112a3-8d96-4432-a91e-b08b14aefd48/6e3112a3-8d96-4432-a91e-b08b14aefd48.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-geforce-rtx-3060-ti-8gb-gddr6x"
  },
  {
@@ -10932,7 +10932,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e9e8348a-79b4-4018-9c7a-1d4472def4d7/e9e8348a-79b4-4018-9c7a-1d4472def4d7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e9e8348a-79b4-4018-9c7a-1d4472def4d7/e9e8348a-79b4-4018-9c7a-1d4472def4d7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-gt-1030-4ghd4-lp-oc-4gb-ddr4"
  },
  {
@@ -10949,7 +10949,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f18f8d80-fbd4-4f52-a150-e8a1030f17bd/f18f8d80-fbd4-4f52-a150-e8a1030f17bd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f18f8d80-fbd4-4f52-a150-e8a1030f17bd/f18f8d80-fbd4-4f52-a150-e8a1030f17bd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-geforce-gt-1030-lp-2gb-gddr5"
  },
  {
@@ -10966,7 +10966,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e26bfa34-3c37-4b89-8fc8-43ec934abb61/e26bfa34-3c37-4b89-8fc8-43ec934abb61.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e26bfa34-3c37-4b89-8fc8-43ec934abb61/e26bfa34-3c37-4b89-8fc8-43ec934abb61.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-xfx-swift-amd-radeon-rx-9070xt-16gb-gddr6-pci-express-50-e-zeze"
  },
  {
@@ -10983,7 +10983,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e8bf1127-ff0f-4931-972c-c8f80ecff791/e8bf1127-ff0f-4931-972c-c8f80ecff791.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e8bf1127-ff0f-4931-972c-c8f80ecff791/e8bf1127-ff0f-4931-972c-c8f80ecff791.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-geforce-gtx-1050-ti-4g-gddr5"
  },
  {
@@ -11000,7 +11000,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/758871a5-a481-44d3-9a28-c84c4b463e3f/758871a5-a481-44d3-9a28-c84c4b463e3f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/758871a5-a481-44d3-9a28-c84c4b463e3f/758871a5-a481-44d3-9a28-c84c4b463e3f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-geforce-gt-1030-vn1034tb46-tb1ra-bs2-4gb-ddr4"
  },
  {
@@ -11017,7 +11017,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fd70a6ce-3423-4054-a283-4ae1a2c43d5a/fd70a6ce-3423-4054-a283-4ae1a2c43d5a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fd70a6ce-3423-4054-a283-4ae1a2c43d5a/fd70a6ce-3423-4054-a283-4ae1a2c43d5a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-gt-710-low-profile-2gb-ddr3"
  },
  {
@@ -11034,7 +11034,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f1fd6df1-0bf2-48f7-8154-82c8362d36ab/f1fd6df1-0bf2-48f7-8154-82c8362d36ab.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f1fd6df1-0bf2-48f7-8154-82c8362d36ab/f1fd6df1-0bf2-48f7-8154-82c8362d36ab.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-vga-nvidia-geforce-gt-1030-low-profile-d4-2gb-ddr4"
  },
  {
@@ -11051,7 +11051,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/05725678-4483-4648-bedf-396bb88f904d/05725678-4483-4648-bedf-396bb88f904d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/05725678-4483-4648-bedf-396bb88f904d/05725678-4483-4648-bedf-396bb88f904d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-geforce-gt730-4h-sl-2gd5-2gb-gddr5-2"
  },
  {
@@ -11068,7 +11068,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7a9898ab-3082-4725-9c6f-573bf48465bf/7a9898ab-3082-4725-9c6f-573bf48465bf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7a9898ab-3082-4725-9c6f-573bf48465bf/7a9898ab-3082-4725-9c6f-573bf48465bf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-nvidia-geforce-gt-710-2gb-ddr3"
  },
  {
@@ -11085,7 +11085,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ccf139e2-d82f-4a24-a262-84726545caeb/ccf139e2-d82f-4a24-a262-84726545caeb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ccf139e2-d82f-4a24-a262-84726545caeb/ccf139e2-d82f-4a24-a262-84726545caeb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-3050-oc-low-profile-6gb-gddr6"
  },
  {
@@ -11102,7 +11102,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/98e64814-4734-41eb-b0d6-ca9793f01206/98e64814-4734-41eb-b0d6-ca9793f01206.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/98e64814-4734-41eb-b0d6-ca9793f01206/98e64814-4734-41eb-b0d6-ca9793f01206.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-e-jashtme-gigabyte-aorus-rtx-5060-ti-ai-box-16gb-gddr7-thunderbolt-5-me-rgb-e-zeze"
  },
  {
@@ -11119,7 +11119,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3e4562b6-35d7-4add-a568-4aca7b2a55ea/3e4562b6-35d7-4add-a568-4aca7b2a55ea.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3e4562b6-35d7-4add-a568-4aca7b2a55ea/3e4562b6-35d7-4add-a568-4aca7b2a55ea.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-geforce-gt-730-2gb-ddr3-128-bit-e-zeze"
  },
  {
@@ -11136,7 +11136,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d19a69e9-a864-447d-9ac3-c7177b59f9c3/d19a69e9-a864-447d-9ac3-c7177b59f9c3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d19a69e9-a864-447d-9ac3-c7177b59f9c3/d19a69e9-a864-447d-9ac3-c7177b59f9c3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-nvidia-geforce-gt-710-2-gb-gddr3"
  },
  {
@@ -11153,7 +11153,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c3e5f5ce-3afd-4b35-b8ad-1bde485517ef/c3e5f5ce-3afd-4b35-b8ad-1bde485517ef.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c3e5f5ce-3afd-4b35-b8ad-1bde485517ef/c3e5f5ce-3afd-4b35-b8ad-1bde485517ef.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-gt-1030-low-profile-2gb-gddr5"
  },
  {
@@ -11170,7 +11170,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3f507ecf-7c6a-470e-90d2-3b297b97110e/3f507ecf-7c6a-470e-90d2-3b297b97110e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3f507ecf-7c6a-470e-90d2-3b297b97110e/3f507ecf-7c6a-470e-90d2-3b297b97110e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-inno3d-geforce-gt-1030-2gb-gddr5"
  },
  {
@@ -11187,7 +11187,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9d7d6ca2-fbbb-4473-b56c-638c6f9c80a8/9d7d6ca2-fbbb-4473-b56c-638c6f9c80a8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9d7d6ca2-fbbb-4473-b56c-638c6f9c80a8/9d7d6ca2-fbbb-4473-b56c-638c6f9c80a8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-geforce-gt-730-2gb-gddr5"
  },
  {
@@ -11204,7 +11204,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/db26982d-4b62-40a3-a111-a3443e31b8d9/db26982d-4b62-40a3-a111-a3443e31b8d9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/db26982d-4b62-40a3-a111-a3443e31b8d9/db26982d-4b62-40a3-a111-a3443e31b8d9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-biostar-geforce-rtx-2060-super-8gb-gddr6-256-bit-e-zeze"
  },
  {
@@ -11221,7 +11221,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f093e2e6-7f60-4e95-9e79-bcb6f446a784/f093e2e6-7f60-4e95-9e79-bcb6f446a784.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f093e2e6-7f60-4e95-9e79-bcb6f446a784/f093e2e6-7f60-4e95-9e79-bcb6f446a784.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-geforce-gt-730-2gb-ddr3"
  },
  {
@@ -11238,7 +11238,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7cce9d1b-c182-4add-8be3-ab6eb895f075/7cce9d1b-c182-4add-8be3-ab6eb895f075.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7cce9d1b-c182-4add-8be3-ab6eb895f075/7cce9d1b-c182-4add-8be3-ab6eb895f075.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-gt-730-4gb-ddr3"
  },
  {
@@ -11255,7 +11255,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/447ae484-d58c-4f1d-8900-eb0fed446d1e/447ae484-d58c-4f1d-8900-eb0fed446d1e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/447ae484-d58c-4f1d-8900-eb0fed446d1e/447ae484-d58c-4f1d-8900-eb0fed446d1e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-gt-1030-2ghd4-lp-oc-2gb-ddr4"
  },
  {
@@ -11272,7 +11272,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/70e4a56b-61a2-4f34-a40e-98f5fbe89f5e/70e4a56b-61a2-4f34-a40e-98f5fbe89f5e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/70e4a56b-61a2-4f34-a40e-98f5fbe89f5e/70e4a56b-61a2-4f34-a40e-98f5fbe89f5e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-biostar-nvidia-geforce-gt-730-4-gb-gddr3-vn7313th41"
  },
  {
@@ -11289,7 +11289,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6ea961d9-2a1d-4623-a140-438ad3842fcf/6ea961d9-2a1d-4623-a140-438ad3842fcf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6ea961d9-2a1d-4623-a140-438ad3842fcf/6ea961d9-2a1d-4623-a140-438ad3842fcf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-nvidia-geforce-gt-710-2gd3h-lp-2gb-ddr3"
  },
  {
@@ -11306,7 +11306,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5975dde1-a877-4702-bf60-05ce54133cc0/5975dde1-a877-4702-bf60-05ce54133cc0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5975dde1-a877-4702-bf60-05ce54133cc0/5975dde1-a877-4702-bf60-05ce54133cc0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-geforce-rtx-3060-12gb-gddr6"
  },
  {
@@ -11323,7 +11323,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0be22ef5-4dc0-43a4-a376-c8b994166e0f/0be22ef5-4dc0-43a4-a376-c8b994166e0f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0be22ef5-4dc0-43a4-a376-c8b994166e0f/0be22ef5-4dc0-43a4-a376-c8b994166e0f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-biostar-nvidia-geforce-gt-1030-4-gb-gddr4"
  },
  {
@@ -11340,7 +11340,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/feb4af5f-c193-48ab-b71b-ab4a82d1411d/feb4af5f-c193-48ab-b71b-ab4a82d1411d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/feb4af5f-c193-48ab-b71b-ab4a82d1411d/feb4af5f-c193-48ab-b71b-ab4a82d1411d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-prime-rtx5070-o12g-nvidia-geforce-rtx-5070-12-gb-gddr7"
  },
  {
@@ -11357,7 +11357,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c081b96b-a421-4026-9518-88c23ef21ca3/c081b96b-a421-4026-9518-88c23ef21ca3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c081b96b-a421-4026-9518-88c23ef21ca3/c081b96b-a421-4026-9518-88c23ef21ca3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-gt-710-2gb-ddr3-2"
  },
  {
@@ -11374,7 +11374,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fcfbcf1b-f700-467b-a9ef-5a8d5ac3ed76/fcfbcf1b-f700-467b-a9ef-5a8d5ac3ed76.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fcfbcf1b-f700-467b-a9ef-5a8d5ac3ed76/fcfbcf1b-f700-467b-a9ef-5a8d5ac3ed76.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-geforce-gt-1030-2gb-gddr5"
  },
  {
@@ -11391,7 +11391,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/84ccba64-4977-4ad6-8fca-f4d2615849b7/84ccba64-4977-4ad6-8fca-f4d2615849b7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/84ccba64-4977-4ad6-8fca-f4d2615849b7/84ccba64-4977-4ad6-8fca-f4d2615849b7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5050-d6-8g-8gb-gddr6-pci-e-50-e-zeze"
  },
  {
@@ -11408,7 +11408,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6c0969bc-dcc3-4c13-a930-1f3261fbcf53/6c0969bc-dcc3-4c13-a930-1f3261fbcf53.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6c0969bc-dcc3-4c13-a930-1f3261fbcf53/6c0969bc-dcc3-4c13-a930-1f3261fbcf53.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-gt-1030-2ghd4-2-gb-ddr4"
  },
  {
@@ -11425,7 +11425,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/537035fc-b539-4644-a73b-89fea624270a/537035fc-b539-4644-a73b-89fea624270a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/537035fc-b539-4644-a73b-89fea624270a/537035fc-b539-4644-a73b-89fea624270a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-geforce-gt-710-2gb-gddr5-evo"
  },
  {
@@ -11442,7 +11442,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0e37b6b3-dad9-4711-a8fd-46afc9d67d0e/0e37b6b3-dad9-4711-a8fd-46afc9d67d0e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0e37b6b3-dad9-4711-a8fd-46afc9d67d0e/0e37b6b3-dad9-4711-a8fd-46afc9d67d0e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-geforce-gt-1030-low-profile-2gb-gddr5"
  },
  {
@@ -11459,7 +11459,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/14ad7fc5-1643-4d00-acc5-0021c2e83eed/14ad7fc5-1643-4d00-acc5-0021c2e83eed.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/14ad7fc5-1643-4d00-acc5-0021c2e83eed/14ad7fc5-1643-4d00-acc5-0021c2e83eed.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-vga-nvidia-geforce-gt-730-2gb-gddr5"
  },
  {
@@ -11476,7 +11476,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f41adff-0461-41bd-9693-46be6260cbd3/4f41adff-0461-41bd-9693-46be6260cbd3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f41adff-0461-41bd-9693-46be6260cbd3/4f41adff-0461-41bd-9693-46be6260cbd3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-gt1030-2g-brk-2gb-e-zeze"
  },
  {
@@ -11493,7 +11493,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a10ba352-e25f-4b0e-936d-bc46481423fe/a10ba352-e25f-4b0e-936d-bc46481423fe.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a10ba352-e25f-4b0e-936d-bc46481423fe/a10ba352-e25f-4b0e-936d-bc46481423fe.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-biostar-nvidia-geforce-rtx-3060-ti-8-gb-gddr6"
  },
  {
@@ -11510,7 +11510,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/81fef8f8-13c0-4468-bcf4-a7b814ddf2a1/81fef8f8-13c0-4468-bcf4-a7b814ddf2a1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/81fef8f8-13c0-4468-bcf4-a7b814ddf2a1/81fef8f8-13c0-4468-bcf4-a7b814ddf2a1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-inno3d-geforce-rtx-5060-ti-twin-x2-8gb-gddr7-pci-express"
  },
  {
@@ -11527,7 +11527,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 300,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/369492cc-313d-4c38-bf58-19ab60fbd934/369492cc-313d-4c38-bf58-19ab60fbd934.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/369492cc-313d-4c38-bf58-19ab60fbd934/369492cc-313d-4c38-bf58-19ab60fbd934.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-gt-710-2gd3h-lp-2gb-ddr3-low-profile-e-zeze"
  },
  {
@@ -11544,7 +11544,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3ed6660d-a803-47f2-8911-9086a6439709/3ed6660d-a803-47f2-8911-9086a6439709.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3ed6660d-a803-47f2-8911-9086a6439709/3ed6660d-a803-47f2-8911-9086a6439709.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-3050-windforce-oc-v2-6gb-gddr6-hdmi-dp-e-zeze"
  },
  {
@@ -11561,7 +11561,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/de1b5846-d739-45c3-adbf-8ecdb52bb2d3/de1b5846-d739-45c3-adbf-8ecdb52bb2d3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/de1b5846-d739-45c3-adbf-8ecdb52bb2d3/de1b5846-d739-45c3-adbf-8ecdb52bb2d3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-radeon-rx-9070-challenger-16gb-semi-fanless"
  },
  {
@@ -11578,7 +11578,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d952f56c-e6fc-4a5d-b029-39079408df1c/d952f56c-e6fc-4a5d-b029-39079408df1c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d952f56c-e6fc-4a5d-b029-39079408df1c/d952f56c-e6fc-4a5d-b029-39079408df1c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-shadow-geforce-rtx-5070-ti-16gb-gddr7-pci-express-50-oc"
  },
  {
@@ -11595,7 +11595,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3ec6273-124d-4e8b-bb53-3e5f4f2d6c05/b3ec6273-124d-4e8b-bb53-3e5f4f2d6c05.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3ec6273-124d-4e8b-bb53-3e5f4f2d6c05/b3ec6273-124d-4e8b-bb53-3e5f4f2d6c05.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7-pci-express-e-bardhe"
  },
  {
@@ -11612,7 +11612,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3d4b12e4-42ff-4b8d-ba16-016540722760/3d4b12e4-42ff-4b8d-ba16-016540722760.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3d4b12e4-42ff-4b8d-ba16-016540722760/3d4b12e4-42ff-4b8d-ba16-016540722760.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-aorus-geforce-rtx-5080-master-ice-16gb-gddr7-e-bardhe"
  },
  {
@@ -11629,7 +11629,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 1000,
    "tier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c919cbb5-37e0-42d2-8649-67858f5c3f5c/c919cbb5-37e0-42d2-8649-67858f5c3f5c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c919cbb5-37e0-42d2-8649-67858f5c3f5c/c919cbb5-37e0-42d2-8649-67858f5c3f5c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-tuf-gaming-tuf-rtx5090-o32g-nvidia-geforce-rtx-5090-32gb-gddr7"
  },
  {
@@ -11646,7 +11646,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c2e99674-5c83-40d4-b83a-981735e76c49/c2e99674-5c83-40d4-b83a-981735e76c49.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c2e99674-5c83-40d4-b83a-981735e76c49/c2e99674-5c83-40d4-b83a-981735e76c49.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5070-solid-oc-nvidia-12-gb-gddr7"
  },
  {
@@ -11663,7 +11663,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f57b1c8-7e4e-4956-8bde-4a6bf9d41edb/5f57b1c8-7e4e-4956-8bde-4a6bf9d41edb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5f57b1c8-7e4e-4956-8bde-4a6bf9d41edb/5f57b1c8-7e4e-4956-8bde-4a6bf9d41edb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5080-gaming-oc-16g-16gb-gddr7-256bit"
  },
  {
@@ -11680,7 +11680,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 1000,
    "tier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9591d6ee-5fee-426c-a4a3-e5034578f64c/9591d6ee-5fee-426c-a4a3-e5034578f64c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9591d6ee-5fee-426c-a4a3-e5034578f64c/9591d6ee-5fee-426c-a4a3-e5034578f64c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-tuf-gaming-rtx-5090-32gb-gddr7-pcie-40-e-zeze"
  },
  {
@@ -11697,7 +11697,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fc76ee10-6c6c-45b7-8bff-ccfab409cfa7/fc76ee10-6c6c-45b7-8bff-ccfab409cfa7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fc76ee10-6c6c-45b7-8bff-ccfab409cfa7/fc76ee10-6c6c-45b7-8bff-ccfab409cfa7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-gaming-geforce-rtx-5070-12g-trio-oc-nvidia-12-gb-gddr7"
  },
  {
@@ -11714,7 +11714,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3520d8fd-3ef0-455b-a0af-8ae3ef36d21e/3520d8fd-3ef0-455b-a0af-8ae3ef36d21e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3520d8fd-3ef0-455b-a0af-8ae3ef36d21e/3520d8fd-3ef0-455b-a0af-8ae3ef36d21e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-sapphire-amd-radeon-rx-9070-pure-16gb-gddr6-argb-e-bardhe"
  },
  {
@@ -11731,7 +11731,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d35a0f6c-df89-4bcb-bfec-65018581628a/d35a0f6c-df89-4bcb-bfec-65018581628a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d35a0f6c-df89-4bcb-bfec-65018581628a/d35a0f6c-df89-4bcb-bfec-65018581628a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-rog-astral-rtx-5080-o16g-gaming-16gb-gddr7-pcie-e-zeze-2"
  },
  {
@@ -11748,7 +11748,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/60529db7-c5e9-4884-948d-bfd658052459/60529db7-c5e9-4884-948d-bfd658052459.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/60529db7-c5e9-4884-948d-bfd658052459/60529db7-c5e9-4884-948d-bfd658052459.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-prime-geforce-rtx-5060-oc-8-gb-2"
  },
  {
@@ -11765,7 +11765,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3136343-175d-4160-879b-953fd941f0a7/f3136343-175d-4160-879b-953fd941f0a7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3136343-175d-4160-879b-953fd941f0a7/f3136343-175d-4160-879b-953fd941f0a7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5080-solid-core-oc-nvidia-16-gb-gddr7"
  },
  {
@@ -11782,7 +11782,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fe89ac7d-8f8a-48d5-9e11-a7850664c97c/fe89ac7d-8f8a-48d5-9e11-a7850664c97c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fe89ac7d-8f8a-48d5-9e11-a7850664c97c/fe89ac7d-8f8a-48d5-9e11-a7850664c97c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-sapphire-amd-radeon-rx-9070-nitro-16gb-gddr6-argb"
  },
  {
@@ -11799,7 +11799,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/41bddcd6-7653-4d5c-8824-e5a91a68145f/41bddcd6-7653-4d5c-8824-e5a91a68145f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/41bddcd6-7653-4d5c-8824-e5a91a68145f/41bddcd6-7653-4d5c-8824-e5a91a68145f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5070-ti-eagle-oc-sff-16g-16gb-gddr7-pci-e-50"
  },
  {
@@ -11816,7 +11816,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/09b63257-ccd7-465d-ad98-20ee202669b9/09b63257-ccd7-465d-ad98-20ee202669b9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/09b63257-ccd7-465d-ad98-20ee202669b9/09b63257-ccd7-465d-ad98-20ee202669b9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-graphic-card-geforce-rtx-5060-ti-16g-shadow"
  },
  {
@@ -11833,7 +11833,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/668ca73d-ae20-4bdf-81c9-c013b9c1a371/668ca73d-ae20-4bdf-81c9-c013b9c1a371.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/668ca73d-ae20-4bdf-81c9-c013b9c1a371/668ca73d-ae20-4bdf-81c9-c013b9c1a371.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-dual-nvidia-geforce-rtx-3060-12-gb-gddr6"
  },
  {
@@ -11850,7 +11850,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/53099012-a9c9-4ea8-92bf-2638c4aa5ef1/53099012-a9c9-4ea8-92bf-2638c4aa5ef1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/53099012-a9c9-4ea8-92bf-2638c4aa5ef1/53099012-a9c9-4ea8-92bf-2638c4aa5ef1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5070-windforce-oc-sff-12g-12gb-gddr7-3"
  },
  {
@@ -11867,7 +11867,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f57f06ea-4644-439f-8f31-1261a2978c08/f57f06ea-4644-439f-8f31-1261a2978c08.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f57f06ea-4644-439f-8f31-1261a2978c08/f57f06ea-4644-439f-8f31-1261a2978c08.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-geforce-rtx-5070-ti-prime-oc-16gb-gddr7-2"
  },
  {
@@ -11884,7 +11884,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/42a63a23-28d7-4c36-8b0b-6bf17663fb88/42a63a23-28d7-4c36-8b0b-6bf17663fb88.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/42a63a23-28d7-4c36-8b0b-6bf17663fb88/42a63a23-28d7-4c36-8b0b-6bf17663fb88.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7"
  },
  {
@@ -11901,7 +11901,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/68b93781-7e81-420b-bda4-8fcdc9ff03fa/68b93781-7e81-420b-bda4-8fcdc9ff03fa.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/68b93781-7e81-420b-bda4-8fcdc9ff03fa/68b93781-7e81-420b-bda4-8fcdc9ff03fa.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5080-solid-oc-nvidia-16gb-gddr7"
  },
  {
@@ -11918,7 +11918,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c41b40d-f677-4432-905c-3d46c9c57af6/8c41b40d-f677-4432-905c-3d46c9c57af6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c41b40d-f677-4432-905c-3d46c9c57af6/8c41b40d-f677-4432-905c-3d46c9c57af6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-tuf-gaming-tuf-rtx5070ti-o16g-gaming-nvidia-geforce-rtx-5070-ti-16gb-gddr7-e-zeze"
  },
  {
@@ -11935,7 +11935,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 1000,
    "tier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/51c3fa3a-0e12-4511-9922-3b8b33051078/51c3fa3a-0e12-4511-9922-3b8b33051078.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/51c3fa3a-0e12-4511-9922-3b8b33051078/51c3fa3a-0e12-4511-9922-3b8b33051078.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-rog-strix-geforce-rtx-4090-btf-oc-24gb-gddr6x-2"
  },
  {
@@ -11952,7 +11952,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8f6e544e-7749-4b93-80c1-056fbfb63f0f/8f6e544e-7749-4b93-80c1-056fbfb63f0f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8f6e544e-7749-4b93-80c1-056fbfb63f0f/8f6e544e-7749-4b93-80c1-056fbfb63f0f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-palit-geforce-rtx-5060-dual-8gb-gddr7-pcie-50-3840-cuda-cores-128-bit-bus"
  },
  {
@@ -11969,7 +11969,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0ef87cff-aec2-4abd-bec9-3de80856927e/0ef87cff-aec2-4abd-bec9-3de80856927e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0ef87cff-aec2-4abd-bec9-3de80856927e/0ef87cff-aec2-4abd-bec9-3de80856927e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-aorus-nvidia-geforce-rtx-5080-xtreme-waterforce-wb-16gb"
  },
  {
@@ -11986,7 +11986,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/998c5d5b-e519-42b6-b264-6e369ca0f340/998c5d5b-e519-42b6-b264-6e369ca0f340.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/998c5d5b-e519-42b6-b264-6e369ca0f340/998c5d5b-e519-42b6-b264-6e369ca0f340.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-aorus-geforce-rtx-5080-xtreme-waterforce-16gb-gddr7-2805mhz-e-zeze"
  },
  {
@@ -12003,7 +12003,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/732109a7-9111-4934-86d8-58fbf476077d/732109a7-9111-4934-86d8-58fbf476077d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/732109a7-9111-4934-86d8-58fbf476077d/732109a7-9111-4934-86d8-58fbf476077d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/gigabyte-rtx-5060-ti-gaming-oc-8g-8gb-gddr7-graphics-card"
  },
  {
@@ -12020,7 +12020,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9ce6dc2e-ab93-4d94-92aa-0ed18c23a9ad/9ce6dc2e-ab93-4d94-92aa-0ed18c23a9ad.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9ce6dc2e-ab93-4d94-92aa-0ed18c23a9ad/9ce6dc2e-ab93-4d94-92aa-0ed18c23a9ad.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-dual-geforce-rtx-5070-12gb-gddr7-oc-edition"
  },
  {
@@ -12037,7 +12037,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/41951a4f-075d-4b1d-a434-95ccddfd9c12/41951a4f-075d-4b1d-a434-95ccddfd9c12.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/41951a4f-075d-4b1d-a434-95ccddfd9c12/41951a4f-075d-4b1d-a434-95ccddfd9c12.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-rog-strix-rtx-5070-oc-12gb-gddr7-nvidia-geforce-e-zeze"
  },
  {
@@ -12054,7 +12054,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6393b587-9f28-4909-9cba-444c3811f233/6393b587-9f28-4909-9cba-444c3811f233.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6393b587-9f28-4909-9cba-444c3811f233/6393b587-9f28-4909-9cba-444c3811f233.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-rtx-5060-8gb-ventus-2x-oc-2"
  },
  {
@@ -12071,7 +12071,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/58279f7c-7976-40fb-b776-197f45b3350b/58279f7c-7976-40fb-b776-197f45b3350b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/58279f7c-7976-40fb-b776-197f45b3350b/58279f7c-7976-40fb-b776-197f45b3350b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5060-ti-windforce-max-oc-8g-8gb-gddr7-pci-e-50-e-zeze"
  },
  {
@@ -12088,7 +12088,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b89b5adb-cbdd-4ae2-b6ba-10acf173e38b/b89b5adb-cbdd-4ae2-b6ba-10acf173e38b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b89b5adb-cbdd-4ae2-b6ba-10acf173e38b/b89b5adb-cbdd-4ae2-b6ba-10acf173e38b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5080-aorus-master-ice-16gb"
  },
  {
@@ -12105,7 +12105,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/683ee581-3b5e-4276-8d8e-9d67420d0af8/683ee581-3b5e-4276-8d8e-9d67420d0af8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/683ee581-3b5e-4276-8d8e-9d67420d0af8/683ee581-3b5e-4276-8d8e-9d67420d0af8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-xfx-mercury-amd-radeon-rx-9060xt-oc-16gb-gddr6-pci-express-50-e-bardhe"
  },
  {
@@ -12122,7 +12122,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dc921310-224d-4006-8dec-23d983d40a1d/dc921310-224d-4006-8dec-23d983d40a1d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dc921310-224d-4006-8dec-23d983d40a1d/dc921310-224d-4006-8dec-23d983d40a1d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5070-ti-solid-sff-oc-nvidia-16-gb-gddr7"
  },
  {
@@ -12139,7 +12139,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6b3e1f8f-c416-44a7-8efd-e6db87b3549d/6b3e1f8f-c416-44a7-8efd-e6db87b3549d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6b3e1f8f-c416-44a7-8efd-e6db87b3549d/6b3e1f8f-c416-44a7-8efd-e6db87b3549d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-sapphire-amd-radeon-rx-9070-xt-pure-16gb-gddr6-e-bardhe"
  },
  {
@@ -12156,7 +12156,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f9a484fd-1f41-4c78-8af8-01d61c5dea57/f9a484fd-1f41-4c78-8af8-01d61c5dea57.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f9a484fd-1f41-4c78-8af8-01d61c5dea57/f9a484fd-1f41-4c78-8af8-01d61c5dea57.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5070-eagle-ice-12gb-gddr7-28gbps-e-bardhe"
  },
  {
@@ -12173,7 +12173,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d294486d-4963-4cd7-a176-d350f90e756e/d294486d-4963-4cd7-a176-d350f90e756e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d294486d-4963-4cd7-a176-d350f90e756e/d294486d-4963-4cd7-a176-d350f90e756e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-gaming-geforce-rtx-5070-ti-16g-trio-oc-nvidia-16-gb-gddr7"
  },
  {
@@ -12190,7 +12190,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3c642ab8-3cb2-4275-8b68-baa4533646e9/3c642ab8-3cb2-4275-8b68-baa4533646e9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3c642ab8-3cb2-4275-8b68-baa4533646e9/3c642ab8-3cb2-4275-8b68-baa4533646e9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-nvidia-e-zeze"
  },
  {
@@ -12207,7 +12207,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4db55871-7c2c-47e2-a684-3064243a20f9/4db55871-7c2c-47e2-a684-3064243a20f9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4db55871-7c2c-47e2-a684-3064243a20f9/4db55871-7c2c-47e2-a684-3064243a20f9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-xfx-quicksilver-amd-radeon-rx-9070-oc-gaming-16gb-gddr6"
  },
  {
@@ -12224,7 +12224,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/703248e2-c21f-48c9-9da3-7b5bcfa192b7/703248e2-c21f-48c9-9da3-7b5bcfa192b7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/703248e2-c21f-48c9-9da3-7b5bcfa192b7/703248e2-c21f-48c9-9da3-7b5bcfa192b7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-dual-rtx5050-o8g-nvidia-geforce-rtx-5050-8gb-gddr6"
  },
  {
@@ -12241,7 +12241,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/50b7d4ff-928f-468b-b4db-65691649f92a/50b7d4ff-928f-468b-b4db-65691649f92a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/50b7d4ff-928f-468b-b4db-65691649f92a/50b7d4ff-928f-468b-b4db-65691649f92a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-radeon-rx-9070-xt-taichi-oc-16gb-gddr6-pci-express"
  },
  {
@@ -12258,7 +12258,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5b36337d-9f4e-45e6-8256-81766eb570de/5b36337d-9f4e-45e6-8256-81766eb570de.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5b36337d-9f4e-45e6-8256-81766eb570de/5b36337d-9f4e-45e6-8256-81766eb570de.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-radeon-rx-7600-steel-legend-8gb-oc"
  },
  {
@@ -12275,7 +12275,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/98fec89e-4708-4756-84c6-6dacc131c14c/98fec89e-4708-4756-84c6-6dacc131c14c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/98fec89e-4708-4756-84c6-6dacc131c14c/98fec89e-4708-4756-84c6-6dacc131c14c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16gb-gddr7-e-zeze"
  },
  {
@@ -12292,7 +12292,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4a339800-77ff-45be-8dcb-bdb2d698c621/4a339800-77ff-45be-8dcb-bdb2d698c621.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4a339800-77ff-45be-8dcb-bdb2d698c621/4a339800-77ff-45be-8dcb-bdb2d698c621.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-powercolor-hellhound-amd-radeon-rx-9070-xt-16-gb-gddr6-pcie-50"
  },
  {
@@ -12309,7 +12309,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e4a1baa6-cf7a-4140-83ca-6e1b57e2359f/e4a1baa6-cf7a-4140-83ca-6e1b57e2359f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e4a1baa6-cf7a-4140-83ca-6e1b57e2359f/e4a1baa6-cf7a-4140-83ca-6e1b57e2359f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-rtx-5070-ti-inspire-3x-oc-16gb-gddr7-pcie-40-e-zeze"
  },
  {
@@ -12326,7 +12326,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cc08ac24-783a-4b33-b712-a1bd95069e46/cc08ac24-783a-4b33-b712-a1bd95069e46.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cc08ac24-783a-4b33-b712-a1bd95069e46/cc08ac24-783a-4b33-b712-a1bd95069e46.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-pny-geforce-rtx-4060-ti-xlr8-gaming-verto-oc-dual-fan-8gb-gddr6"
  },
  {
@@ -12343,7 +12343,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/323a8bae-b91d-484f-b810-448971abe32f/323a8bae-b91d-484f-b810-448971abe32f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/323a8bae-b91d-484f-b810-448971abe32f/323a8bae-b91d-484f-b810-448971abe32f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5060-eagle-oc-ice-8g-8gb-gddr7-pci-e-50"
  },
  {
@@ -12360,7 +12360,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1e19985c-0c38-4f61-a60e-91e08f891c82/1e19985c-0c38-4f61-a60e-91e08f891c82.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1e19985c-0c38-4f61-a60e-91e08f891c82/1e19985c-0c38-4f61-a60e-91e08f891c82.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/zotac-gaming-rtx-5070-solid-12gb-gddr7-graphics-card"
  },
  {
@@ -12377,7 +12377,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c687c1c2-1226-4665-b1d2-8dec36c11dbc/c687c1c2-1226-4665-b1d2-8dec36c11dbc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c687c1c2-1226-4665-b1d2-8dec36c11dbc/c687c1c2-1226-4665-b1d2-8dec36c11dbc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5070-twin-edge-oc-nvidia-12-gb-gddr7"
  },
  {
@@ -12394,7 +12394,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b7f9e8c1-8f5b-4fe9-b5ab-63090f41fa53/b7f9e8c1-8f5b-4fe9-b5ab-63090f41fa53.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b7f9e8c1-8f5b-4fe9-b5ab-63090f41fa53/b7f9e8c1-8f5b-4fe9-b5ab-63090f41fa53.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-xfx-radeon-rx-7900-xt-20gb-gddr6"
  },
  {
@@ -12411,7 +12411,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8cbea8a7-6171-4c18-993e-244d0038e919/8cbea8a7-6171-4c18-993e-244d0038e919.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8cbea8a7-6171-4c18-993e-244d0038e919/8cbea8a7-6171-4c18-993e-244d0038e919.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5070-twin-edge-nvidia-12-gb-gddr7"
  },
  {
@@ -12428,7 +12428,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/795aa058-5caf-4769-bce7-2cc7643eee10/795aa058-5caf-4769-bce7-2cc7643eee10.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/795aa058-5caf-4769-bce7-2cc7643eee10/795aa058-5caf-4769-bce7-2cc7643eee10.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-inno3d-geforce-rtx-5080-x3-16gb-gddr7-triple-fan-e-zeze"
  },
  {
@@ -12445,7 +12445,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/31c6ce67-32b3-46b3-a7ca-21ba13e3cdef/31c6ce67-32b3-46b3-a7ca-21ba13e3cdef.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/31c6ce67-32b3-46b3-a7ca-21ba13e3cdef/31c6ce67-32b3-46b3-a7ca-21ba13e3cdef.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-rtx-3050-lp-e-6g-oc-6gb-gddr6-low-profile"
  },
  {
@@ -12462,7 +12462,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/35c4ee0f-9170-4693-8f90-7163c907dd1b/35c4ee0f-9170-4693-8f90-7163c907dd1b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/35c4ee0f-9170-4693-8f90-7163c907dd1b/35c4ee0f-9170-4693-8f90-7163c907dd1b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5080-aero-oc-sff-16g-16gb-gddr7"
  },
  {
@@ -12479,7 +12479,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/07591d5c-2ec5-4ea9-a8df-b5454ed00288/07591d5c-2ec5-4ea9-a8df-b5454ed00288.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/07591d5c-2ec5-4ea9-a8df-b5454ed00288/07591d5c-2ec5-4ea9-a8df-b5454ed00288.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-rtx-5060-ventus-2x-oc-8gb-gddr7-e-bardhe"
  },
  {
@@ -12496,7 +12496,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/893b0ed8-b7f7-49c6-a853-03e0c021c4f0/893b0ed8-b7f7-49c6-a853-03e0c021c4f0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/893b0ed8-b7f7-49c6-a853-03e0c021c4f0/893b0ed8-b7f7-49c6-a853-03e0c021c4f0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/msi-graphic-card-geforce-rtx-5070-ti-16gb-ventus-3"
  },
  {
@@ -12513,7 +12513,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0a3b51cc-6eee-4693-b467-6abd50d5a45f/0a3b51cc-6eee-4693-b467-6abd50d5a45f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0a3b51cc-6eee-4693-b467-6abd50d5a45f/0a3b51cc-6eee-4693-b467-6abd50d5a45f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5070-ti-aero-oc-16gb-gddr7-2"
  },
  {
@@ -12530,7 +12530,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d96ce61-6d53-4bae-96e4-44fd639f5ae7/7d96ce61-6d53-4bae-96e4-44fd639f5ae7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d96ce61-6d53-4bae-96e4-44fd639f5ae7/7d96ce61-6d53-4bae-96e4-44fd639f5ae7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-rtx-5050-gaming-oc-8gb-gddr6-e-zeze"
  },
  {
@@ -12547,7 +12547,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/90f13142-d4bc-4303-beb7-d44b0099cc13/90f13142-d4bc-4303-beb7-d44b0099cc13.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/90f13142-d4bc-4303-beb7-d44b0099cc13/90f13142-d4bc-4303-beb7-d44b0099cc13.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-xfx-mercury-amd-radeon-rx-9070xt-oc-16gb-gddr6-pci-express-50-e-zeze"
  },
  {
@@ -12564,7 +12564,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/da8073a4-dcbb-4765-94bc-803b9b96e26b/da8073a4-dcbb-4765-94bc-803b9b96e26b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/da8073a4-dcbb-4765-94bc-803b9b96e26b/da8073a4-dcbb-4765-94bc-803b9b96e26b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5080-windforce-sff-16gb-gddr7-pcie-50-e-zeze"
  },
  {
@@ -12581,7 +12581,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/006941ca-a5aa-4016-a85e-d0c950240804/006941ca-a5aa-4016-a85e-d0c950240804.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/006941ca-a5aa-4016-a85e-d0c950240804/006941ca-a5aa-4016-a85e-d0c950240804.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-tuf-gaming-tuf-rtx5080-o16g-gaming-nvidia-geforce-rtx-5080-16-gb-gddr7"
  },
  {
@@ -12598,7 +12598,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f4cf2ba-420f-4589-9997-dcaa64530710/4f4cf2ba-420f-4589-9997-dcaa64530710.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f4cf2ba-420f-4589-9997-dcaa64530710/4f4cf2ba-420f-4589-9997-dcaa64530710.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-prime-rtx5070-o12g-white-nvidia-geforce-rtx-5070-12gb-gddr7-e-bardhe"
  },
  {
@@ -12615,7 +12615,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c7d17cec-d822-46d8-96db-a23bb5a3a929/c7d17cec-d822-46d8-96db-a23bb5a3a929.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c7d17cec-d822-46d8-96db-a23bb5a3a929/c7d17cec-d822-46d8-96db-a23bb5a3a929.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-xfx-radeon-rx-9060-xt-oc-16gb-gddr6-e-bardhe"
  },
  {
@@ -12632,7 +12632,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/160c86cf-9093-4c84-8dd4-c2446e04aa20/160c86cf-9093-4c84-8dd4-c2446e04aa20.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/160c86cf-9093-4c84-8dd4-c2446e04aa20/160c86cf-9093-4c84-8dd4-c2446e04aa20.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asrock-steel-legend-radeon-rx9070-xt-16gb-gddr6-e-bardhe"
  },
  {
@@ -12649,7 +12649,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/50e43fa2-e724-4a05-9068-651b34741847/50e43fa2-e724-4a05-9068-651b34741847.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/50e43fa2-e724-4a05-9068-651b34741847/50e43fa2-e724-4a05-9068-651b34741847.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5060-ti-gaming-oc-8gb-gddr7-pcie-50"
  },
  {
@@ -12666,7 +12666,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8992870-5f46-4706-b7db-fcf0b7faf3a2/f8992870-5f46-4706-b7db-fcf0b7faf3a2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8992870-5f46-4706-b7db-fcf0b7faf3a2/f8992870-5f46-4706-b7db-fcf0b7faf3a2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5060-windforce-8gb-gddr7-128-bit"
  },
  {
@@ -12683,7 +12683,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9b7fa1b5-3eb6-44cb-84fc-06a0d2a7c1d4/9b7fa1b5-3eb6-44cb-84fc-06a0d2a7c1d4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9b7fa1b5-3eb6-44cb-84fc-06a0d2a7c1d4/9b7fa1b5-3eb6-44cb-84fc-06a0d2a7c1d4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-xfx-mercury-amd-radeon-rx-9070-xt-16gb-gddr6-gaming"
  },
  {
@@ -12700,7 +12700,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d81c9b86-5d02-424f-abcf-4901cfd46c59/d81c9b86-5d02-424f-abcf-4901cfd46c59.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d81c9b86-5d02-424f-abcf-4901cfd46c59/d81c9b86-5d02-424f-abcf-4901cfd46c59.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-4060-eagle-oc-8g-8-gb-gddr6-128-bit-boost-2505-mhz"
  },
  {
@@ -12717,7 +12717,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ea4a944a-923a-4c13-933f-a8293b68a7eb/ea4a944a-923a-4c13-933f-a8293b68a7eb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ea4a944a-923a-4c13-933f-a8293b68a7eb/ea4a944a-923a-4c13-933f-a8293b68a7eb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5080-aero-oc-sff-16gb-gddr7-pci-e-50-e-bardhe"
  },
  {
@@ -12734,7 +12734,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/37b400b2-0c8f-4e0b-b433-a455b38d5e97/37b400b2-0c8f-4e0b-b433-a455b38d5e97.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/37b400b2-0c8f-4e0b-b433-a455b38d5e97/37b400b2-0c8f-4e0b-b433-a455b38d5e97.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5070-ti-gaming-oc-16g-16gb-gddr7"
  },
  {
@@ -12751,7 +12751,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6ddac072-8473-46a7-b3ff-d07b1811291d/6ddac072-8473-46a7-b3ff-d07b1811291d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6ddac072-8473-46a7-b3ff-d07b1811291d/6ddac072-8473-46a7-b3ff-d07b1811291d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5060-aero-oc-8g-gddr7"
  },
  {
@@ -12768,7 +12768,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 1000,
    "tier": 5
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/decec248-f974-4ff2-9aca-0ba948fc3c9d/decec248-f974-4ff2-9aca-0ba948fc3c9d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/decec248-f974-4ff2-9aca-0ba948fc3c9d/decec248-f974-4ff2-9aca-0ba948fc3c9d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-rtx-5090-ventus-3x-oc-32-gb-gddr7-pcie-50"
  },
  {
@@ -12785,7 +12785,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a52d4f20-c2ab-42d2-b8d4-ac4ca453e38b/a52d4f20-c2ab-42d2-b8d4-ac4ca453e38b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a52d4f20-c2ab-42d2-b8d4-ac4ca453e38b/a52d4f20-c2ab-42d2-b8d4-ac4ca453e38b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5080-amp-extreme-infinity-nvidia-16-gb-gddr7"
  },
  {
@@ -12802,7 +12802,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/59653f8f-5929-48ce-981f-82993d3296cb/59653f8f-5929-48ce-981f-82993d3296cb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/59653f8f-5929-48ce-981f-82993d3296cb/59653f8f-5929-48ce-981f-82993d3296cb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-rtx-5080-ventus-3x-oc-16gb-gddr7-pcie-50"
  },
  {
@@ -12819,7 +12819,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/00300b71-574a-43d3-b8f9-cd36bd94be9b/00300b71-574a-43d3-b8f9-cd36bd94be9b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/00300b71-574a-43d3-b8f9-cd36bd94be9b/00300b71-574a-43d3-b8f9-cd36bd94be9b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-radeon-rx-9070-xt-prime-16gb-oc-2"
  },
  {
@@ -12836,7 +12836,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6315146a-2351-4b98-abec-20987bd5d7a5/6315146a-2351-4b98-abec-20987bd5d7a5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6315146a-2351-4b98-abec-20987bd5d7a5/6315146a-2351-4b98-abec-20987bd5d7a5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-xfx-radeon-rx-9060-xt-swift-triple-fan-16gb-oc"
  },
  {
@@ -12853,7 +12853,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5ed9186a-258d-4c0e-bfad-9d3bfa17b6e4/5ed9186a-258d-4c0e-bfad-9d3bfa17b6e4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5ed9186a-258d-4c0e-bfad-9d3bfa17b6e4/5ed9186a-258d-4c0e-bfad-9d3bfa17b6e4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-prime-geforce-rtx-5080-16gb-gddr7-e-zeze"
  },
  {
@@ -12870,7 +12870,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c4188bd-b24d-409e-96a6-b4148bc457f8/8c4188bd-b24d-409e-96a6-b4148bc457f8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8c4188bd-b24d-409e-96a6-b4148bc457f8/8c4188bd-b24d-409e-96a6-b4148bc457f8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-inno3d-geforce-rtx-5080-seria-x3-16gb-gddr7-256-bit"
  },
  {
@@ -12887,7 +12887,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d59e6dfe-327c-42ce-bfb6-c2a16267427d/d59e6dfe-327c-42ce-bfb6-c2a16267427d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d59e6dfe-327c-42ce-bfb6-c2a16267427d/d59e6dfe-327c-42ce-bfb6-c2a16267427d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5070-amp-white-edition-12gb-gddr7-icestorm-20-pcie-50"
  },
  {
@@ -12904,7 +12904,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/520eb9ca-a436-4617-9a95-447aeb6c8431/520eb9ca-a436-4617-9a95-447aeb6c8431.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/520eb9ca-a436-4617-9a95-447aeb6c8431/520eb9ca-a436-4617-9a95-447aeb6c8431.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-radeon-rx-9070-xt-gaming-16gb-gddr6-pci-express-2"
  },
  {
@@ -12921,7 +12921,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c3bcaec8-1b72-4982-9ef6-4f045ae45ade/c3bcaec8-1b72-4982-9ef6-4f045ae45ade.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c3bcaec8-1b72-4982-9ef6-4f045ae45ade/c3bcaec8-1b72-4982-9ef6-4f045ae45ade.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-rtx-5070-12g-shadow-2x-oc"
  },
  {
@@ -12938,7 +12938,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/48311234-af24-493a-92a2-c0b2cf870d32/48311234-af24-493a-92a2-c0b2cf870d32.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/48311234-af24-493a-92a2-c0b2cf870d32/48311234-af24-493a-92a2-c0b2cf870d32.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-sapphire-amd-radeon-rx-9070-xt-pulse-16gb-gddr6-rdna-4-2"
  },
  {
@@ -12955,7 +12955,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0d7b9edf-08c3-4783-953e-ac200ba833ae/0d7b9edf-08c3-4783-953e-ac200ba833ae.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0d7b9edf-08c3-4783-953e-ac200ba833ae/0d7b9edf-08c3-4783-953e-ac200ba833ae.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5060-ti-windforce-max-oc-8gb-gddr7-pci-express-50-e-zeze"
  },
  {
@@ -12972,7 +12972,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/329f9be7-db66-46c0-a582-81423333fe02/329f9be7-db66-46c0-a582-81423333fe02.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/329f9be7-db66-46c0-a582-81423333fe02/329f9be7-db66-46c0-a582-81423333fe02.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-proart-geforce-rtx-5070-ti-16gb-gddr7-pcie-40-e-zeze"
  },
  {
@@ -12989,7 +12989,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2299cf3d-ed75-4739-815a-e9de14598815/2299cf3d-ed75-4739-815a-e9de14598815.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2299cf3d-ed75-4739-815a-e9de14598815/2299cf3d-ed75-4739-815a-e9de14598815.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5080-aorus-master-16gb"
  },
  {
@@ -13006,7 +13006,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/487a4aa7-31f3-40aa-afa3-2f60303bdab6/487a4aa7-31f3-40aa-afa3-2f60303bdab6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/487a4aa7-31f3-40aa-afa3-2f60303bdab6/487a4aa7-31f3-40aa-afa3-2f60303bdab6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-msi-geforce-rtx-5060-ti-shadow-3x-oc-classic-8gb-gddr6-e-zeze"
  },
  {
@@ -13023,7 +13023,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 450,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/26dbdeb7-166d-4c5b-b373-1ea72e0f7673/26dbdeb7-166d-4c5b-b373-1ea72e0f7673.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/26dbdeb7-166d-4c5b-b373-1ea72e0f7673/26dbdeb7-166d-4c5b-b373-1ea72e0f7673.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-16gb-gddr6-e-bardhe"
  },
  {
@@ -13040,7 +13040,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/aefdabe4-5a0b-4913-8a80-e255d7f4635f/aefdabe4-5a0b-4913-8a80-e255d7f4635f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/aefdabe4-5a0b-4913-8a80-e255d7f4635f/aefdabe4-5a0b-4913-8a80-e255d7f4635f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-biostar-radeon-rx-7900-xt-20gb-gddr6"
  },
  {
@@ -13057,7 +13057,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5aa54150-e864-43f4-8863-69283ceb58c9/5aa54150-e864-43f4-8863-69283ceb58c9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5aa54150-e864-43f4-8863-69283ceb58c9/5aa54150-e864-43f4-8863-69283ceb58c9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-rog-astral-rtx-5080-o16g-16gb-gddr7-e-bardhe"
  },
  {
@@ -13074,7 +13074,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 1
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7194a386-83fa-4fed-aed9-cbaa3a91c6e8/7194a386-83fa-4fed-aed9-cbaa3a91c6e8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7194a386-83fa-4fed-aed9-cbaa3a91c6e8/7194a386-83fa-4fed-aed9-cbaa3a91c6e8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-dual-geforce-rtx-3050-oc-v2-8gb-gddr6-dual-rtx3050-o8g-v2"
  },
  {
@@ -13091,7 +13091,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fd5146d4-28fa-41bf-95d2-aec076cc54fe/fd5146d4-28fa-41bf-95d2-aec076cc54fe.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fd5146d4-28fa-41bf-95d2-aec076cc54fe/fd5146d4-28fa-41bf-95d2-aec076cc54fe.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5070-windforce-oc-sff-12gb-gddr7-pci-e-50"
  },
  {
@@ -13108,7 +13108,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/678282d7-40c3-4f70-bc07-29179dafc81a/678282d7-40c3-4f70-bc07-29179dafc81a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/678282d7-40c3-4f70-bc07-29179dafc81a/678282d7-40c3-4f70-bc07-29179dafc81a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-zotac-gaming-geforce-rtx-5060-amp-nvidia-8-gb-gddr7"
  },
  {
@@ -13125,7 +13125,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e39fbdd6-fa70-432e-92ab-59300ce5696b/e39fbdd6-fa70-432e-92ab-59300ce5696b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e39fbdd6-fa70-432e-92ab-59300ce5696b/e39fbdd6-fa70-432e-92ab-59300ce5696b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5060-oc-low-profile-8gb-gddr7-pcie-50-e-zeze"
  },
  {
@@ -13142,7 +13142,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4c5e7de0-730a-483d-ab7f-be64802ab456/4c5e7de0-730a-483d-ab7f-be64802ab456.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4c5e7de0-730a-483d-ab7f-be64802ab456/4c5e7de0-730a-483d-ab7f-be64802ab456.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5060-windforce-oc-8gb-gddr7-pcie-50"
  },
  {
@@ -13159,7 +13159,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f762a6a4-6ca7-4988-83a9-8b564e5d2d0b/f762a6a4-6ca7-4988-83a9-8b564e5d2d0b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f762a6a4-6ca7-4988-83a9-8b564e5d2d0b/f762a6a4-6ca7-4988-83a9-8b564e5d2d0b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-tuf-gaming-tuf-rtx-5060-8gb-gddr7-nvidia-geforce-e-zeze"
  },
  {
@@ -13176,7 +13176,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 600,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a7b86531-6afa-4680-a8a7-9ab67ae03725/a7b86531-6afa-4680-a8a7-9ab67ae03725.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a7b86531-6afa-4680-a8a7-9ab67ae03725/a7b86531-6afa-4680-a8a7-9ab67ae03725.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-n506tixeb-16gd-nvidia-geforce-rtx-5060-ti-16gb-gddr7-me-rgb"
  },
  {
@@ -13193,7 +13193,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 750,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/039eeef7-0a5d-430f-ace8-b4944fbe9485/039eeef7-0a5d-430f-ace8-b4944fbe9485.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/039eeef7-0a5d-430f-ace8-b4944fbe9485/039eeef7-0a5d-430f-ace8-b4944fbe9485.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-xfx-mercury-radeon-rx-9070-xt-oc-16gb-gddr6-pci-express-50-e-zeze"
  },
  {
@@ -13210,7 +13210,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 850,
    "tier": 4
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/75d2c080-a0f0-46f8-b3d6-3783f9483aba/75d2c080-a0f0-46f8-b3d6-3783f9483aba.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/75d2c080-a0f0-46f8-b3d6-3783f9483aba/75d2c080-a0f0-46f8-b3d6-3783f9483aba.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-aorus-geforce-rtx-5080-master-16gb-gddr7"
  },
  {
@@ -13227,7 +13227,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 650,
    "tier": 3
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ca9ca27d-5d83-4b5b-881b-bc2860702ef3/ca9ca27d-5d83-4b5b-881b-bc2860702ef3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ca9ca27d-5d83-4b5b-881b-bc2860702ef3/ca9ca27d-5d83-4b5b-881b-bc2860702ef3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/karte-grafike-gigabyte-geforce-rtx-5070-aero-oc-12gb-gddr7-pci-e-50-e-bardhe"
  },
  {
@@ -13244,7 +13244,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3c1833c7-66ed-4c25-814f-d7818acefaf1/3c1833c7-66ed-4c25-814f-d7818acefaf1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3c1833c7-66ed-4c25-814f-d7818acefaf1/3c1833c7-66ed-4c25-814f-d7818acefaf1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-gigabyte-geforce-rtx-5060-windforce-max-oc-8gb"
  },
  {
@@ -13261,7 +13261,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "recommendedPsuW": 550,
    "tier": 2
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9a65bf0d-a831-41c2-b423-cdc0df0822ff/9a65bf0d-a831-41c2-b423-cdc0df0822ff.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9a65bf0d-a831-41c2-b423-cdc0df0822ff/9a65bf0d-a831-41c2-b423-cdc0df0822ff.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kartele-grafike-msi-rtx-5060-8gb"
  },
  {
@@ -13275,7 +13275,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/aa09ff5b-aa74-4106-961b-7cbdd22bb989/aa09ff5b-aa74-4106-961b-7cbdd22bb989.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/aa09ff5b-aa74-4106-961b-7cbdd22bb989/aa09ff5b-aa74-4106-961b-7cbdd22bb989.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermalright-kg-850-850w"
  },
  {
@@ -13290,7 +13290,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5754b393-d68f-4d7f-9ce1-441b2563a0ac/5754b393-d68f-4d7f-9ce1-441b2563a0ac.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5754b393-d68f-4d7f-9ce1-441b2563a0ac/5754b393-d68f-4d7f-9ce1-441b2563a0ac.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-fspfortron-sfx-pro-ppa450aa00-sfx-450w"
  },
  {
@@ -13304,7 +13304,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d09cd375-136f-4d87-ab86-5add89359647/d09cd375-136f-4d87-ab86-5add89359647.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d09cd375-136f-4d87-ab86-5add89359647/d09cd375-136f-4d87-ab86-5add89359647.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-msi-mag-a850gl-pcie5-ii-850w-306-7zp8d11-ce0"
  },
  {
@@ -13319,7 +13319,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/81cd771d-17e2-46c7-9d17-0705af4fcbfc/81cd771d-17e2-46c7-9d17-0705af4fcbfc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/81cd771d-17e2-46c7-9d17-0705af4fcbfc/81cd771d-17e2-46c7-9d17-0705af4fcbfc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-aerocool-lux-750w-psu-aeropgsluxrgb-750"
  },
  {
@@ -13333,7 +13333,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/755e79a6-1acf-4187-9189-4b61aafc9cd8/755e79a6-1acf-4187-9189-4b61aafc9cd8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/755e79a6-1acf-4187-9189-4b61aafc9cd8/755e79a6-1acf-4187-9189-4b61aafc9cd8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pf750-204-pin-atx-750-w-2"
  },
  {
@@ -13347,7 +13347,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e97cf69a-3b07-4bbd-bd20-291d4c84be8f/e97cf69a-3b07-4bbd-bd20-291d4c84be8f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e97cf69a-3b07-4bbd-bd20-291d4c84be8f/e97cf69a-3b07-4bbd-bd20-291d4c84be8f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-preyon-eagle-power-gold-850w"
  },
  {
@@ -13361,7 +13361,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/521c145a-42f9-4b61-bea7-a30eb445e0a4/521c145a-42f9-4b61-bea7-a30eb445e0a4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/521c145a-42f9-4b61-bea7-a30eb445e0a4/521c145a-42f9-4b61-bea7-a30eb445e0a4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-msi-mag-a750gn-pcie5-750w-80-plus-gold"
  },
  {
@@ -13375,7 +13375,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/95e85204-4c88-4602-a0a4-7a875de6f266/95e85204-4c88-4602-a0a4-7a875de6f266.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/95e85204-4c88-4602-a0a4-7a875de6f266/95e85204-4c88-4602-a0a4-7a875de6f266.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-preyon-eagle-power-gold-atx-31-750w"
  },
  {
@@ -13389,7 +13389,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/490b354e-e6dc-4496-8ba5-424892a3775a/490b354e-e6dc-4496-8ba5-424892a3775a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/490b354e-e6dc-4496-8ba5-424892a3775a/490b354e-e6dc-4496-8ba5-424892a3775a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-preyon-eagle-power-gold-atx-31-1000w"
  },
  {
@@ -13403,7 +13403,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Titanium"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/eba615cf-1b4f-4b2c-9594-3846a66da7a8/eba615cf-1b4f-4b2c-9594-3846a66da7a8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/eba615cf-1b4f-4b2c-9594-3846a66da7a8/eba615cf-1b4f-4b2c-9594-3846a66da7a8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-prime-tx-1600-noctua-edition-1600w-80-plus-titanium-i-zi"
  },
  {
@@ -13417,7 +13417,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/294e1d7c-1944-4e18-926c-881cec7b4a64/294e1d7c-1944-4e18-926c-881cec7b4a64.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/294e1d7c-1944-4e18-926c-881cec7b4a64/294e1d7c-1944-4e18-926c-881cec7b4a64.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-aerocool-pgs-vx-600plus-600w"
  },
  {
@@ -13431,7 +13431,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9f2b3783-b7dd-416a-acf0-5f8905f77cd8/9f2b3783-b7dd-416a-acf0-5f8905f77cd8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9f2b3783-b7dd-416a-acf0-5f8905f77cd8/9f2b3783-b7dd-416a-acf0-5f8905f77cd8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-preyon-eagle-power-bronze-650w"
  },
  {
@@ -13445,7 +13445,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1937a3e7-90fc-4976-9da6-25e431d9bea3/1937a3e7-90fc-4976-9da6-25e431d9bea3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1937a3e7-90fc-4976-9da6-25e431d9bea3/1937a3e7-90fc-4976-9da6-25e431d9bea3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-chieftec-vega-m-ppg-750-c-750w-80-plus-gold-i-zi"
  },
  {
@@ -13459,7 +13459,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/737ca0a6-644f-4681-bb96-bc4a3227ebd1/737ca0a6-644f-4681-bb96-bc4a3227ebd1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/737ca0a6-644f-4681-bb96-bc4a3227ebd1/737ca0a6-644f-4681-bb96-bc4a3227ebd1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pl800d-800w-atx-31-80-plus-bronze-i-zi"
  },
  {
@@ -13473,7 +13473,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/72dd9d9f-33b9-4b1e-b991-3ab6397671f1/72dd9d9f-33b9-4b1e-b991-3ab6397671f1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/72dd9d9f-33b9-4b1e-b991-3ab6397671f1/72dd9d9f-33b9-4b1e-b991-3ab6397671f1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-be-quiet-dark-power-pro-13m-1600w"
  },
  {
@@ -13487,7 +13487,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/90db532f-cc25-4e64-8b45-58b74167fa9e/90db532f-cc25-4e64-8b45-58b74167fa9e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/90db532f-cc25-4e64-8b45-58b74167fa9e/90db532f-cc25-4e64-8b45-58b74167fa9e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-smart-bm3-ps-spd-0750mnfabe-3-atx-30-750w"
  },
  {
@@ -13502,7 +13502,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Platinum",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/304caf21-955e-45ff-a23d-8be290e1d394/304caf21-955e-45ff-a23d-8be290e1d394.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/304caf21-955e-45ff-a23d-8be290e1d394/304caf21-955e-45ff-a23d-8be290e1d394.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-gigabyte-aorus-elite-p1000w-ice-1000w-80-plus-platinum-modular-i-bardhe"
  },
  {
@@ -13516,7 +13516,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c6283297-fc1d-420a-8abf-31e6586b370c/c6283297-fc1d-420a-8abf-31e6586b370c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c6283297-fc1d-420a-8abf-31e6586b370c/c6283297-fc1d-420a-8abf-31e6586b370c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-smart-bm3-ps-spd-0850mnfabe-3-atx-30-850w"
  },
  {
@@ -13530,7 +13530,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/47f3ad49-e826-4c1d-860a-47576772c05a/47f3ad49-e826-4c1d-860a-47576772c05a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/47f3ad49-e826-4c1d-860a-47576772c05a/47f3ad49-e826-4c1d-860a-47576772c05a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pnc00m-1200w"
  },
  {
@@ -13545,7 +13545,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Platinum",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4cde05cb-7518-4b01-9915-cd7abdd84d8c/4cde05cb-7518-4b01-9915-cd7abdd84d8c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4cde05cb-7518-4b01-9915-cd7abdd84d8c/4cde05cb-7518-4b01-9915-cd7abdd84d8c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-gigabyte-ud1600pm-pg5-ai-top-1600w-80-plus-platinum-i-zi"
  },
  {
@@ -13560,7 +13560,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Silver",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f59dd015-1bef-4008-a323-774f99b4fe24/f59dd015-1bef-4008-a323-774f99b4fe24.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f59dd015-1bef-4008-a323-774f99b4fe24/f59dd015-1bef-4008-a323-774f99b4fe24.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-silverstone-1650-w"
  },
  {
@@ -13574,7 +13574,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ White"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/629ffb15-0ff6-4f6c-8b54-4ae1f02626e0/629ffb15-0ff6-4f6c-8b54-4ae1f02626e0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/629ffb15-0ff6-4f6c-8b54-4ae1f02626e0/629ffb15-0ff6-4f6c-8b54-4ae1f02626e0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-cooler-master-mwe-500-white-v2-500w-psu"
  },
  {
@@ -13588,7 +13588,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/91f5aeb0-aa82-40af-891c-12268983bc4d/91f5aeb0-aa82-40af-891c-12268983bc4d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/91f5aeb0-aa82-40af-891c-12268983bc4d/91f5aeb0-aa82-40af-891c-12268983bc4d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pn1000-d-1000-w-24-pin-atx"
  },
  {
@@ -13602,7 +13602,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e8d9935d-06fa-4102-9fa7-28b9c06de607/e8d9935d-06fa-4102-9fa7-28b9c06de607.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e8d9935d-06fa-4102-9fa7-28b9c06de607/e8d9935d-06fa-4102-9fa7-28b9c06de607.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-msi-mag-a650bn-650w-80plus-bronze-120mm-fan-i-zi"
  },
  {
@@ -13616,7 +13616,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8bc183de-cc25-4680-9098-369925a3936c/8bc183de-cc25-4680-9098-369925a3936c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8bc183de-cc25-4680-9098-369925a3936c/8bc183de-cc25-4680-9098-369925a3936c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-cooler-master-mwe-gold-850-v3-850w-80-plus-gold-i-zi"
  },
  {
@@ -13631,7 +13631,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/17b2ad8c-b726-43d7-ae78-cb207ef04cd1/17b2ad8c-b726-43d7-ae78-cb207ef04cd1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/17b2ad8c-b726-43d7-ae78-cb207ef04cd1/17b2ad8c-b726-43d7-ae78-cb207ef04cd1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-litepower-rgb-650w-psu-ps-ltp-0650nhsane-1"
  },
  {
@@ -13645,7 +13645,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bfc83b3f-8c84-4065-a284-7ab287129855/bfc83b3f-8c84-4065-a284-7ab287129855.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bfc83b3f-8c84-4065-a284-7ab287129855/bfc83b3f-8c84-4065-a284-7ab287129855.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-asus-prime-ap-850g-850w-80-plus-gold-i-zi-e-bardhe"
  },
  {
@@ -13659,7 +13659,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/13d2ae3b-ff2a-4958-bcbf-2202eac0ede0/13d2ae3b-ff2a-4958-bcbf-2202eac0ede0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/13d2ae3b-ff2a-4958-bcbf-2202eac0ede0/13d2ae3b-ff2a-4958-bcbf-2202eac0ede0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-gigabyte-ud850gm-pg5-v2-850w-80-plus-gold"
  },
  {
@@ -13673,7 +13673,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/eec5719e-241e-4f7d-b3d4-a5042391096d/eec5719e-241e-4f7d-b3d4-a5042391096d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/eec5719e-241e-4f7d-b3d4-a5042391096d/eec5719e-241e-4f7d-b3d4-a5042391096d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-cooler-master-gx-ii-gold-750-atx31-750w-80-plus-gold-i-zi"
  },
  {
@@ -13687,7 +13687,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0f4fb4b9-ce65-4ed3-8fee-a5e316a38bce/0f4fb4b9-ce65-4ed3-8fee-a5e316a38bce.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0f4fb4b9-ce65-4ed3-8fee-a5e316a38bce/0f4fb4b9-ce65-4ed3-8fee-a5e316a38bce.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-be-quiet-pure-power-13-m-750w-atx-31-i-zi"
  },
  {
@@ -13702,7 +13702,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ed9aa173-908f-486d-8c12-22b12312262a/ed9aa173-908f-486d-8c12-22b12312262a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ed9aa173-908f-486d-8c12-22b12312262a/ed9aa173-908f-486d-8c12-22b12312262a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-cooler-master-elite-nex-w700-mpw-7001-acbw-be1-atx-700w"
  },
  {
@@ -13716,7 +13716,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/eab197dd-eec3-4aae-b0aa-780ecc6b5c7c/eab197dd-eec3-4aae-b0aa-780ecc6b5c7c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/eab197dd-eec3-4aae-b0aa-780ecc6b5c7c/eab197dd-eec3-4aae-b0aa-780ecc6b5c7c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-asus-rog-strix-1000p-gaming-1000w-atx-31-pcie-50-i-zi-argjendte"
  },
  {
@@ -13731,7 +13731,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a7a53c72-79ae-4b5f-994c-22e25b9c6133/a7a53c72-79ae-4b5f-994c-22e25b9c6133.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a7a53c72-79ae-4b5f-994c-22e25b9c6133/a7a53c72-79ae-4b5f-994c-22e25b9c6133.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-vita-bpx-850-s-atx-850w"
  },
  {
@@ -13746,7 +13746,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/022e5ebd-17cf-4885-8301-d6de0f1b416c/022e5ebd-17cf-4885-8301-d6de0f1b416c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/022e5ebd-17cf-4885-8301-d6de0f1b416c/022e5ebd-17cf-4885-8301-d6de0f1b416c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-adata-xpg-core-reactor-ll-corereactorii850g-bkceu-850w"
  },
  {
@@ -13760,7 +13760,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/382b2eca-b887-49ce-8e06-d95097928c64/382b2eca-b887-49ce-8e06-d95097928c64.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/382b2eca-b887-49ce-8e06-d95097928c64/382b2eca-b887-49ce-8e06-d95097928c64.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pf350-r-pf350d-ha0b-eu-350w"
  },
  {
@@ -13775,7 +13775,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/250c6f5e-7f87-447e-ba85-c6bd1348b87f/250c6f5e-7f87-447e-ba85-c6bd1348b87f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/250c6f5e-7f87-447e-ba85-c6bd1348b87f/250c6f5e-7f87-447e-ba85-c6bd1348b87f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-sharkoon-rebel-p20-sfx-850w-modular-i-zi"
  },
  {
@@ -13789,7 +13789,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/af41c04f-1aa5-41f0-9c06-59fe4e295405/af41c04f-1aa5-41f0-9c06-59fe4e295405.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/af41c04f-1aa5-41f0-9c06-59fe4e295405/af41c04f-1aa5-41f0-9c06-59fe4e295405.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-be-quiet-pure-power-13-m-650w-atx-31-pcie-51-i-zi"
  },
  {
@@ -13804,7 +13804,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/591895fc-e63b-4dd5-b7be-a847695a7aac/591895fc-e63b-4dd5-b7be-a847695a7aac.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/591895fc-e63b-4dd5-b7be-a847695a7aac/591895fc-e63b-4dd5-b7be-a847695a7aac.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-chieftec-vega-ppg-850-c-850w-80-plus-gold-modular-i-zi"
  },
  {
@@ -13819,7 +13819,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/77d429f7-28f3-4ca6-a201-14325246275f/77d429f7-28f3-4ca6-a201-14325246275f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/77d429f7-28f3-4ca6-a201-14325246275f/77d429f7-28f3-4ca6-a201-14325246275f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-eon-zpu-700s-atx-700w"
  },
  {
@@ -13834,7 +13834,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/54b503eb-9259-49c2-b5bd-948c6143484d/54b503eb-9259-49c2-b5bd-948c6143484d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/54b503eb-9259-49c2-b5bd-948c6143484d/54b503eb-9259-49c2-b5bd-948c6143484d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-g12-gc-850-850w-80-plus-gold-i-zi-2"
  },
  {
@@ -13848,7 +13848,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c8ff3b78-dafc-4ec0-a847-feb3e4687242/c8ff3b78-dafc-4ec0-a847-feb3e4687242.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c8ff3b78-dafc-4ec0-a847-feb3e4687242/c8ff3b78-dafc-4ec0-a847-feb3e4687242.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pl750d-r-pl750d-fc0b-eu-750w"
  },
  {
@@ -13863,7 +13863,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/848322ea-f2d3-40ad-9409-a9151e982f85/848322ea-f2d3-40ad-9409-a9151e982f85.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/848322ea-f2d3-40ad-9409-a9151e982f85/848322ea-f2d3-40ad-9409-a9151e982f85.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-be-quiet-pure-power-12-1000w-atx-31-i-zi-2"
  },
  {
@@ -13878,7 +13878,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cce7e2c6-51d1-4eab-96fa-8201b8fea12e/cce7e2c6-51d1-4eab-96fa-8201b8fea12e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cce7e2c6-51d1-4eab-96fa-8201b8fea12e/cce7e2c6-51d1-4eab-96fa-8201b8fea12e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-smart-gpf-300p-tfx-300w"
  },
  {
@@ -13892,7 +13892,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/08faf2cc-76ea-46c4-a703-489dc74b8d82/08faf2cc-76ea-46c4-a703-489dc74b8d82.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/08faf2cc-76ea-46c4-a703-489dc74b8d82/08faf2cc-76ea-46c4-a703-489dc74b8d82.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-msi-mag-a750gl-pcie5-306-7zp8b11-ce0-atx-30-750w"
  },
  {
@@ -13906,7 +13906,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a67b126b-9d73-4b72-8fc2-205c088315e4/a67b126b-9d73-4b72-8fc2-205c088315e4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a67b126b-9d73-4b72-8fc2-205c088315e4/a67b126b-9d73-4b72-8fc2-205c088315e4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pf750-r-pf750d-ha0b-eu-750w"
  },
  {
@@ -13921,7 +13921,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3034a10f-638f-452e-a310-1b7fadc11f13/3034a10f-638f-452e-a310-1b7fadc11f13.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3034a10f-638f-452e-a310-1b7fadc11f13/3034a10f-638f-452e-a310-1b7fadc11f13.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-adata-xpg-core-reactor-ll-corereactorii750g-bkceu-750w"
  },
  {
@@ -13935,7 +13935,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1569deb-7f4e-4bda-b0de-c24aba3a6993/c1569deb-7f4e-4bda-b0de-c24aba3a6993.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1569deb-7f4e-4bda-b0de-c24aba3a6993/c1569deb-7f4e-4bda-b0de-c24aba3a6993.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/msi-mag-a750gl-pcie5-750w-80-plus-gold"
  },
  {
@@ -13950,7 +13950,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b5a5821e-e322-47fc-8cad-930692246ef2/b5a5821e-e322-47fc-8cad-930692246ef2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b5a5821e-e322-47fc-8cad-930692246ef2/b5a5821e-e322-47fc-8cad-930692246ef2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-focus-gx-850w-80-plus-gold-modular-i-zi"
  },
  {
@@ -13964,7 +13964,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1f30a61f-55b1-45e2-b4dd-0d4e90e52cb3/1f30a61f-55b1-45e2-b4dd-0d4e90e52cb3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1f30a61f-55b1-45e2-b4dd-0d4e90e52cb3/1f30a61f-55b1-45e2-b4dd-0d4e90e52cb3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-asus-tuf-gaming-gold-90ye00s0-b0na00-1200w-2"
  },
  {
@@ -13978,7 +13978,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7c926c88-45e9-433b-922a-e4f95065908b/7c926c88-45e9-433b-922a-e4f95065908b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7c926c88-45e9-433b-922a-e4f95065908b/7c926c88-45e9-433b-922a-e4f95065908b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-corsair-rme-series-rm750e-750w-80-plus-gold-i-bardhe"
  },
  {
@@ -13993,7 +13993,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3f2c945-f6f4-43c5-bf07-e60f6ef339c9/f3f2c945-f6f4-43c5-bf07-e60f6ef339c9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3f2c945-f6f4-43c5-bf07-e60f6ef339c9/f3f2c945-f6f4-43c5-bf07-e60f6ef339c9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-fuqie-lian-li-rs1000g-1000w-80-plus-gold-modular-i-zi"
  },
  {
@@ -14007,7 +14007,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7ad4bfce-cb04-4fec-9a73-83ac0e0d0a84/7ad4bfce-cb04-4fec-9a73-83ac0e0d0a84.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7ad4bfce-cb04-4fec-9a73-83ac0e0d0a84/7ad4bfce-cb04-4fec-9a73-83ac0e0d0a84.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-fspfortron-vita-gm-ppa10a4002-atx-30-1000w"
  },
  {
@@ -14022,7 +14022,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Platinum",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dbd726c2-996a-4ea0-8de4-b28b4eaec6fb/dbd726c2-996a-4ea0-8de4-b28b4eaec6fb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dbd726c2-996a-4ea0-8de4-b28b4eaec6fb/dbd726c2-996a-4ea0-8de4-b28b4eaec6fb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-asus-rog-loki-sfx-l-platinum-90ye00n1-b0na00-1000w-2"
  },
  {
@@ -14037,7 +14037,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ White",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e26b8bc6-9e0b-4d09-89ec-35338036e4cd/e26b8bc6-9e0b-4d09-89ec-35338036e4cd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e26b8bc6-9e0b-4d09-89ec-35338036e4cd/e26b8bc6-9e0b-4d09-89ec-35338036e4cd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizuesi-i-energjise-cooler-master-mwe-white-750w-v2-80-plus-standard-atx-i-zi"
  },
  {
@@ -14052,7 +14052,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0b5abace-12a1-4ded-8442-93ad2f5ca2f5/0b5abace-12a1-4ded-8442-93ad2f5ca2f5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0b5abace-12a1-4ded-8442-93ad2f5ca2f5/0b5abace-12a1-4ded-8442-93ad2f5ca2f5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-smart-gps-700a8-700w"
  },
  {
@@ -14066,7 +14066,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/32588a89-a770-4655-8b7f-1225c8a46727/32588a89-a770-4655-8b7f-1225c8a46727.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/32588a89-a770-4655-8b7f-1225c8a46727/32588a89-a770-4655-8b7f-1225c8a46727.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-seasonic-g12-gc-80-plus-gold-850w"
  },
  {
@@ -14080,7 +14080,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e5183c39-c63a-4f04-a4d7-acea5ad20b41/e5183c39-c63a-4f04-a4d7-acea5ad20b41.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e5183c39-c63a-4f04-a4d7-acea5ad20b41/e5183c39-c63a-4f04-a4d7-acea5ad20b41.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-rryme-tecnoware-free-silent-pro-650-650w-ventilator-i-qete-i-zi"
  },
  {
@@ -14094,7 +14094,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/56c26261-7a0f-4389-b7d5-038020dc5494/56c26261-7a0f-4389-b7d5-038020dc5494.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/56c26261-7a0f-4389-b7d5-038020dc5494/56c26261-7a0f-4389-b7d5-038020dc5494.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-proton-bdf-650c-atx-650w"
  },
  {
@@ -14109,7 +14109,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d690f631-256d-49b2-b40f-106d7d59f211/d690f631-256d-49b2-b40f-106d7d59f211.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d690f631-256d-49b2-b40f-106d7d59f211/d690f631-256d-49b2-b40f-106d7d59f211.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-aerocool-lux-850w"
  },
  {
@@ -14124,7 +14124,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b95be041-57c0-4d92-aacc-79ebe9f5e14f/b95be041-57c0-4d92-aacc-79ebe9f5e14f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b95be041-57c0-4d92-aacc-79ebe9f5e14f/b95be041-57c0-4d92-aacc-79ebe9f5e14f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-gigabyte-p450b-gp-p450b-atx-450w"
  },
  {
@@ -14139,7 +14139,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fe6962bf-f805-484b-b982-e48966f297c0/fe6962bf-f805-484b-b982-e48966f297c0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fe6962bf-f805-484b-b982-e48966f297c0/fe6962bf-f805-484b-b982-e48966f297c0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-aerocool-vx-plus-800w-aeropgsvx-800plus-80"
  },
  {
@@ -14154,7 +14154,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0b7228fb-b03b-4429-a330-6e4ddf674683/0b7228fb-b03b-4429-a330-6e4ddf674683.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0b7228fb-b03b-4429-a330-6e4ddf674683/0b7228fb-b03b-4429-a330-6e4ddf674683.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-focus-gx-1000w-80-gold-plotesisht-modular"
  },
  {
@@ -14169,7 +14169,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c776938a-6aa3-4072-9b7d-5b65ba0282c6/c776938a-6aa3-4072-9b7d-5b65ba0282c6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c776938a-6aa3-4072-9b7d-5b65ba0282c6/c776938a-6aa3-4072-9b7d-5b65ba0282c6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-be-quiet-pure-power-13-m-550w-modular-atx-i-zi"
  },
  {
@@ -14183,7 +14183,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Platinum"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ccadd945-b304-41ba-97f8-4062fe96b017/ccadd945-b304-41ba-97f8-4062fe96b017.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ccadd945-b304-41ba-97f8-4062fe96b017/ccadd945-b304-41ba-97f8-4062fe96b017.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-pc-phanteks-amp-gh-v2-1000w-80-plus-platinum-i-zi"
  },
  {
@@ -14197,7 +14197,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3a803593-6e23-409c-bb27-0391f65ec9ba/3a803593-6e23-409c-bb27-0391f65ec9ba.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3a803593-6e23-409c-bb27-0391f65ec9ba/3a803593-6e23-409c-bb27-0391f65ec9ba.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-toughpower-gf-a3-snow-ps-tpd-0850fnfage-n-atx-30-850w"
  },
  {
@@ -14212,7 +14212,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3ee2933b-96ca-4938-8d44-520d902b9263/3ee2933b-96ca-4938-8d44-520d902b9263.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3ee2933b-96ca-4938-8d44-520d902b9263/3ee2933b-96ca-4938-8d44-520d902b9263.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-cooler-master-mwe-gold-850-v2-850w-atx-31-modular-i-zi"
  },
  {
@@ -14226,7 +14226,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d02686c0-88a9-4602-85dc-9a512a8f750b/d02686c0-88a9-4602-85dc-9a512a8f750b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d02686c0-88a9-4602-85dc-9a512a8f750b/d02686c0-88a9-4602-85dc-9a512a8f750b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-aerocool-kcas-plus-gold-aeropgskcasrgb850-g-850w"
  },
  {
@@ -14241,7 +14241,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/10de6555-8e43-4211-a165-d5cb54c1cad8/10de6555-8e43-4211-a165-d5cb54c1cad8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/10de6555-8e43-4211-a165-d5cb54c1cad8/10de6555-8e43-4211-a165-d5cb54c1cad8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-aerocool-lux-750w-aerolux-750-80bronze"
  },
  {
@@ -14256,7 +14256,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e3a642d3-3b30-4843-8cad-aa69bc714cce/e3a642d3-3b30-4843-8cad-aa69bc714cce.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e3a642d3-3b30-4843-8cad-aa69bc714cce/e3a642d3-3b30-4843-8cad-aa69bc714cce.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/cooler-master-elite-gold-1200w-mpw-c001-afag-beu-1200w-80-gold-power-supply"
  },
  {
@@ -14270,7 +14270,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fceb4652-b8f6-4fa4-967f-423abdbb1f6e/fceb4652-b8f6-4fa4-967f-423abdbb1f6e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fceb4652-b8f6-4fa4-967f-423abdbb1f6e/fceb4652-b8f6-4fa4-967f-423abdbb1f6e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-core-gc-850-850w-80-plus-gold-atx-31-i-zi"
  },
  {
@@ -14284,7 +14284,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "SFX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6197c45c-d9ef-47bd-9126-f4fd6670affe/6197c45c-d9ef-47bd-9126-f4fd6670affe.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6197c45c-d9ef-47bd-9126-f4fd6670affe/6197c45c-d9ef-47bd-9126-f4fd6670affe.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-compact-csn-650c-sfx-650w"
  },
  {
@@ -14298,7 +14298,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Platinum"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ad33518f-0496-4df2-8577-fe33f6eb3bde/ad33518f-0496-4df2-8577-fe33f6eb3bde.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ad33518f-0496-4df2-8577-fe33f6eb3bde/ad33518f-0496-4df2-8577-fe33f6eb3bde.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-rryme-asus-rog-strix-1200w-atx-31-80-plus-platinum-i-zi"
  },
  {
@@ -14313,7 +14313,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4773aab0-be87-4e60-b841-c5fec17d701f/4773aab0-be87-4e60-b841-c5fec17d701f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4773aab0-be87-4e60-b841-c5fec17d701f/4773aab0-be87-4e60-b841-c5fec17d701f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-core-bc-650-650w-atx-31-i-zi"
  },
  {
@@ -14327,7 +14327,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8f08afa-ea38-4e28-a4b8-83477802e648/f8f08afa-ea38-4e28-a4b8-83477802e648.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8f08afa-ea38-4e28-a4b8-83477802e648/f8f08afa-ea38-4e28-a4b8-83477802e648.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-darkflash-pmt-850w-atx-31-80-plus-gold-i-zi"
  },
  {
@@ -14341,7 +14341,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/200ac084-130f-42f7-b2ba-b41b64912be6/200ac084-130f-42f7-b2ba-b41b64912be6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/200ac084-130f-42f7-b2ba-b41b64912be6/200ac084-130f-42f7-b2ba-b41b64912be6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-lian-li-edge-gold-850-850w-80-plus-gold-atx-31-pcie-51-i-zi"
  },
  {
@@ -14356,7 +14356,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7fd5c4fb-5242-41e8-9703-32b94dd08e44/7fd5c4fb-5242-41e8-9703-32b94dd08e44.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7fd5c4fb-5242-41e8-9703-32b94dd08e44/7fd5c4fb-5242-41e8-9703-32b94dd08e44.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-psf-400b-atx-400w"
  },
  {
@@ -14370,7 +14370,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Platinum"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/23cbcb56-b7ef-41d1-a3df-62b6b6147b6c/23cbcb56-b7ef-41d1-a3df-62b6b6147b6c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/23cbcb56-b7ef-41d1-a3df-62b6b6147b6c/23cbcb56-b7ef-41d1-a3df-62b6b6147b6c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-toughpower-pf3-ps-tpd-1050fnfape-3-atx-30-1050w"
  },
  {
@@ -14384,7 +14384,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7bd29f1c-8e24-4dc3-b52d-bc01fa427569/7bd29f1c-8e24-4dc3-b52d-bc01fa427569.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7bd29f1c-8e24-4dc3-b52d-bc01fa427569/7bd29f1c-8e24-4dc3-b52d-bc01fa427569.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-core-gx-atx-3-2024-650w-80-gold-i-zi"
  },
  {
@@ -14398,7 +14398,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3a9c5dd3-014c-4c98-b082-0faf1f874448/3a9c5dd3-014c-4c98-b082-0faf1f874448.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3a9c5dd3-014c-4c98-b082-0faf1f874448/3a9c5dd3-014c-4c98-b082-0faf1f874448.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-smart-bm3-ps-spd-0650mnfabe-3-atx-30-650w"
  },
  {
@@ -14412,7 +14412,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0dedaa88-dbab-44e2-97e9-011b93a37556/0dedaa88-dbab-44e2-97e9-011b93a37556.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0dedaa88-dbab-44e2-97e9-011b93a37556/0dedaa88-dbab-44e2-97e9-011b93a37556.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-adata-xpg-kyber-kyber850g-bkceu-atx-30-850w-2"
  },
  {
@@ -14426,7 +14426,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/caa807a7-a875-4997-ad8a-b43bbbe81e08/caa807a7-a875-4997-ad8a-b43bbbe81e08.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/caa807a7-a875-4997-ad8a-b43bbbe81e08/caa807a7-a875-4997-ad8a-b43bbbe81e08.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-toughpower-grand-rgb-ps-tpg-0650fpcgeu-r-atx-650w"
  },
  {
@@ -14440,7 +14440,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6dc47505-595a-4e11-8644-be425e36f90d/6dc47505-595a-4e11-8644-be425e36f90d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6dc47505-595a-4e11-8644-be425e36f90d/6dc47505-595a-4e11-8644-be425e36f90d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-aerocool-pgs-vx-700plus-700w-80-box"
  },
  {
@@ -14454,7 +14454,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/59003460-43e9-42cb-aa75-e44ee8c209f2/59003460-43e9-42cb-aa75-e44ee8c209f2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/59003460-43e9-42cb-aa75-e44ee8c209f2/59003460-43e9-42cb-aa75-e44ee8c209f2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-core-bbs-600s-600w"
  },
  {
@@ -14469,7 +14469,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/70a11439-4e6e-4578-b501-b40df5e096b1/70a11439-4e6e-4578-b501-b40df5e096b1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/70a11439-4e6e-4578-b501-b40df5e096b1/70a11439-4e6e-4578-b501-b40df5e096b1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-iarena-series-gpb-350s-atx-350w"
  },
  {
@@ -14483,7 +14483,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Platinum"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/54ab6784-89da-4065-a4ae-0a8ce6201d4b/54ab6784-89da-4065-a4ae-0a8ce6201d4b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/54ab6784-89da-4065-a4ae-0a8ce6201d4b/54ab6784-89da-4065-a4ae-0a8ce6201d4b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-zasilacz-ppx-1300fc-a3-atx-30-1300w"
  },
  {
@@ -14498,7 +14498,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7c2cc365-1916-4106-af90-583246f7d4a9/7c2cc365-1916-4106-af90-583246f7d4a9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7c2cc365-1916-4106-af90-583246f7d4a9/7c2cc365-1916-4106-af90-583246f7d4a9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-seasonic-vertex-gx-vertex-gx-1200-1200w"
  },
  {
@@ -14512,7 +14512,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d64c244c-17a7-4919-9d94-988675b6c44f/d64c244c-17a7-4919-9d94-988675b6c44f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d64c244c-17a7-4919-9d94-988675b6c44f/d64c244c-17a7-4919-9d94-988675b6c44f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-fspfortron-vita-gm-ppa6506602-atx-30-650w"
  },
  {
@@ -14527,7 +14527,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ White",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f223b247-4e84-4010-b728-eda578b67699/f223b247-4e84-4010-b728-eda578b67699.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f223b247-4e84-4010-b728-eda578b67699/f223b247-4e84-4010-b728-eda578b67699.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-i-rrymes-corsair-rm-white-series-rm850-850w-80-plus-gold"
  },
  {
@@ -14541,7 +14541,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/346a901f-225f-41c7-bf99-a38f778bbd5b/346a901f-225f-41c7-bf99-a38f778bbd5b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/346a901f-225f-41c7-bf99-a38f778bbd5b/346a901f-225f-41c7-bf99-a38f778bbd5b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-me-rryme-fsp-vita-bd-750w-atx-31-80-plus-bronze-pcie-51"
  },
  {
@@ -14556,7 +14556,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/30f774a8-f3ff-4e5b-a204-c1f653d10628/30f774a8-f3ff-4e5b-a204-c1f653d10628.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/30f774a8-f3ff-4e5b-a204-c1f653d10628/30f774a8-f3ff-4e5b-a204-c1f653d10628.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-smart-bfx-350bs-sfx-350w"
  },
  {
@@ -14571,7 +14571,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Platinum",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d029db53-344f-446c-9222-d9f2286880ec/d029db53-344f-446c-9222-d9f2286880ec.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d029db53-344f-446c-9222-d9f2286880ec/d029db53-344f-446c-9222-d9f2286880ec.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizim-energjie-cougar-polar-1200w-80-plus-platinum-modular-i-zi"
  },
  {
@@ -14585,7 +14585,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab09fba5-4d1b-4ec6-98e1-f3b48e2250d7/ab09fba5-4d1b-4ec6-98e1-f3b48e2250d7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab09fba5-4d1b-4ec6-98e1-f3b48e2250d7/ab09fba5-4d1b-4ec6-98e1-f3b48e2250d7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-zalman-gigamax-iii-zm750-gv3-atx-30-750w"
  },
  {
@@ -14600,7 +14600,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0a4ad75b-3e7c-4c48-82cd-a1f624371047/0a4ad75b-3e7c-4c48-82cd-a1f624371047.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0a4ad75b-3e7c-4c48-82cd-a1f624371047/0a4ad75b-3e7c-4c48-82cd-a1f624371047.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-core-bbs-500s-atx-500w"
  },
  {
@@ -14614,7 +14614,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1d0b0381-3ee1-4f80-b8dc-6ae7fdd61344/1d0b0381-3ee1-4f80-b8dc-6ae7fdd61344.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1d0b0381-3ee1-4f80-b8dc-6ae7fdd61344/1d0b0381-3ee1-4f80-b8dc-6ae7fdd61344.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-cooler-master-gx-ii-gold-850w-80-plus-gold-i-zi-2"
  },
  {
@@ -14628,7 +14628,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2fa973da-cf81-489a-aac7-1cd08e9085b3/2fa973da-cf81-489a-aac7-1cd08e9085b3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2fa973da-cf81-489a-aac7-1cd08e9085b3/2fa973da-cf81-489a-aac7-1cd08e9085b3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-cougar-gle-1000w-atx-31-80-plus-gold-2"
  },
  {
@@ -14643,7 +14643,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3a1ae8da-4e37-4575-9a8a-cd698fa7505a/3a1ae8da-4e37-4575-9a8a-cd698fa7505a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3a1ae8da-4e37-4575-9a8a-cd698fa7505a/3a1ae8da-4e37-4575-9a8a-cd698fa7505a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-adata-xpg-pylon-pylon550b-bkceu-atx-550w"
  },
  {
@@ -14658,7 +14658,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/acf65423-7ba0-4fa5-943a-a6bc355fc150/acf65423-7ba0-4fa5-943a-a6bc355fc150.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/acf65423-7ba0-4fa5-943a-a6bc355fc150/acf65423-7ba0-4fa5-943a-a6bc355fc150.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizim-energjie-seasonic-focus-gx-atx-3-2024-gx-1000-1000w-80-plus-gold-modular-i-zi"
  },
  {
@@ -14672,7 +14672,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/47957801-de26-4f35-80a8-4fc11c2024cf/47957801-de26-4f35-80a8-4fc11c2024cf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/47957801-de26-4f35-80a8-4fc11c2024cf/47957801-de26-4f35-80a8-4fc11c2024cf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-gigabyte-akyga-ak-b1-500-500w-204-pin-atx-atx-gray"
  },
  {
@@ -14686,7 +14686,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Platinum"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/12c1d668-744f-442c-8fa1-affe682309fb/12c1d668-744f-442c-8fa1-affe682309fb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/12c1d668-744f-442c-8fa1-affe682309fb/12c1d668-744f-442c-8fa1-affe682309fb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-phanteks-amp-gh-1200w-80-plus-platinum-i-bardhe"
  },
  {
@@ -14700,7 +14700,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d4af6656-2a13-4a81-81d4-af28d987dc15/d4af6656-2a13-4a81-81d4-af28d987dc15.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d4af6656-2a13-4a81-81d4-af28d987dc15/d4af6656-2a13-4a81-81d4-af28d987dc15.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-fspfortron-vita-gm-ppa7507902-atx-30-750w"
  },
  {
@@ -14715,7 +14715,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/aae94f02-ab47-4575-b849-75e74650610a/aae94f02-ab47-4575-b849-75e74650610a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/aae94f02-ab47-4575-b849-75e74650610a/aae94f02-ab47-4575-b849-75e74650610a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-lian-li-edge-gold-1200-1200w-80-plus-gold-atx-31-i-zi"
  },
  {
@@ -14729,7 +14729,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d737ea53-3fbd-46e8-9be9-6a0d2fcc370c/d737ea53-3fbd-46e8-9be9-6a0d2fcc370c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d737ea53-3fbd-46e8-9be9-6a0d2fcc370c/d737ea53-3fbd-46e8-9be9-6a0d2fcc370c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-endorfy-vero-l5-bronze-ey7a006-700w-2"
  },
  {
@@ -14743,7 +14743,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/40eea3ee-8d9b-419a-a761-88a2c94099f3/40eea3ee-8d9b-419a-a761-88a2c94099f3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/40eea3ee-8d9b-419a-a761-88a2c94099f3/40eea3ee-8d9b-419a-a761-88a2c94099f3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-be-quiet-straight-power-12-bn336-750w"
  },
  {
@@ -14757,7 +14757,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8963da52-07c4-4df3-95c9-1f3572ad6c55/8963da52-07c4-4df3-95c9-1f3572ad6c55.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8963da52-07c4-4df3-95c9-1f3572ad6c55/8963da52-07c4-4df3-95c9-1f3572ad6c55.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-gigabyte-p750gm-gp-p750gm-atx-750w"
  },
  {
@@ -14771,7 +14771,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c5c4e592-7ecc-4c1f-a718-32f6798d4ef6/c5c4e592-7ecc-4c1f-a718-32f6798d4ef6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c5c4e592-7ecc-4c1f-a718-32f6798d4ef6/c5c4e592-7ecc-4c1f-a718-32f6798d4ef6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-smart-ps-sps-0630mpcgeu-1-atx-630w"
  },
  {
@@ -14785,7 +14785,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a0657544-4c8a-4b40-a046-d2cea33fbb20/a0657544-4c8a-4b40-a046-d2cea33fbb20.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a0657544-4c8a-4b40-a046-d2cea33fbb20/a0657544-4c8a-4b40-a046-d2cea33fbb20.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-antec-neo-eco-ne850g-m-ec-0-761345-11763-0-atx-850w"
  },
  {
@@ -14799,7 +14799,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/add1d0a3-0cd0-4aad-8b7f-53c95ed566cd/add1d0a3-0cd0-4aad-8b7f-53c95ed566cd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/add1d0a3-0cd0-4aad-8b7f-53c95ed566cd/add1d0a3-0cd0-4aad-8b7f-53c95ed566cd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-atmos-cpx-850fc-atx-30-850w"
  },
  {
@@ -14813,7 +14813,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/99b3261d-97ef-44b0-bdae-4182f8f42e83/99b3261d-97ef-44b0-bdae-4182f8f42e83.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/99b3261d-97ef-44b0-bdae-4182f8f42e83/99b3261d-97ef-44b0-bdae-4182f8f42e83.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-cooler-master-mwe-bronze-v3-mpe-7501-acabw-3beu-750w"
  },
  {
@@ -14828,7 +14828,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0c2e9b2d-f82c-4ee1-8861-ab3a82a2cdf8/0c2e9b2d-f82c-4ee1-8861-ab3a82a2cdf8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0c2e9b2d-f82c-4ee1-8861-ab3a82a2cdf8/0c2e9b2d-f82c-4ee1-8861-ab3a82a2cdf8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-smart-gps-500a8-500w"
  },
  {
@@ -14842,7 +14842,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Platinum"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ce30f46c-d75c-44f8-9972-22bea5958bfb/ce30f46c-d75c-44f8-9972-22bea5958bfb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ce30f46c-d75c-44f8-9972-22bea5958bfb/ce30f46c-d75c-44f8-9972-22bea5958bfb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-cougar-polar-31pl105000p01-atx-1050w"
  },
  {
@@ -14856,7 +14856,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4be61fd3-9809-4632-99af-7310652cb1e0/4be61fd3-9809-4632-99af-7310652cb1e0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4be61fd3-9809-4632-99af-7310652cb1e0/4be61fd3-9809-4632-99af-7310652cb1e0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pn850m-r-pn850m-fc0b-eu-850w"
  },
  {
@@ -14871,7 +14871,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f4cb012b-9084-435d-8359-54a1b5d1d08e/f4cb012b-9084-435d-8359-54a1b5d1d08e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f4cb012b-9084-435d-8359-54a1b5d1d08e/f4cb012b-9084-435d-8359-54a1b5d1d08e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-pc-tecnoware-fal551fsp12-550w-atx-201-i-zi"
  },
  {
@@ -14886,7 +14886,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fded531c-dd93-4933-9843-054f04a980e2/fded531c-dd93-4933-9843-054f04a980e2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fded531c-dd93-4933-9843-054f04a980e2/fded531c-dd93-4933-9843-054f04a980e2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-asus-tuf-gaming-650w"
  },
  {
@@ -14901,7 +14901,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d28aa85e-d258-4e46-97a2-16e649bdaad2/d28aa85e-d258-4e46-97a2-16e649bdaad2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d28aa85e-d258-4e46-97a2-16e649bdaad2/d28aa85e-d258-4e46-97a2-16e649bdaad2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-smart-gpf-350p-tfx-350w"
  },
  {
@@ -14915,7 +14915,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b6053e54-849b-4c05-889a-ee5df7a48895/b6053e54-849b-4c05-889a-ee5df7a48895.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b6053e54-849b-4c05-889a-ee5df7a48895/b6053e54-849b-4c05-889a-ee5df7a48895.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-asus-prime-ap-750g-750w-80-plus-gold-i-zi-e-bardhe"
  },
  {
@@ -14930,7 +14930,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/faa8971c-a877-491a-8983-c09976fa177f/faa8971c-a877-491a-8983-c09976fa177f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/faa8971c-a877-491a-8983-c09976fa177f/faa8971c-a877-491a-8983-c09976fa177f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-be-quiet-pure-power-12-750w-80-plus-gold-atx-i-zi"
  },
  {
@@ -14945,7 +14945,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f6a8d30a-20fa-4ddc-9799-aaeb40f5a7b3/f6a8d30a-20fa-4ddc-9799-aaeb40f5a7b3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f6a8d30a-20fa-4ddc-9799-aaeb40f5a7b3/f6a8d30a-20fa-4ddc-9799-aaeb40f5a7b3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-iarena-gpb-450s-atx-450w"
  },
  {
@@ -14960,7 +14960,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4b27c7da-192b-4fdf-bdf2-da45468293b6/4b27c7da-192b-4fdf-bdf2-da45468293b6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4b27c7da-192b-4fdf-bdf2-da45468293b6/4b27c7da-192b-4fdf-bdf2-da45468293b6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-core-gx-850w-80-gold-modular-i-zi"
  },
  {
@@ -14975,7 +14975,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9f0031b0-fa9a-4d8d-a053-bc9d1f9c7af6/9f0031b0-fa9a-4d8d-a053-bc9d1f9c7af6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9f0031b0-fa9a-4d8d-a053-bc9d1f9c7af6/9f0031b0-fa9a-4d8d-a053-bc9d1f9c7af6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-gpa-650s-atx-650w"
  },
  {
@@ -14989,7 +14989,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1ff7b9c0-a1d4-4ae4-b099-5446205561fa/1ff7b9c0-a1d4-4ae4-b099-5446205561fa.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1ff7b9c0-a1d4-4ae4-b099-5446205561fa/1ff7b9c0-a1d4-4ae4-b099-5446205561fa.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-cougar-gst-850w-atx-31-80-plus-gold"
  },
  {
@@ -15003,7 +15003,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d94982ad-d40d-412e-82f3-ffb0fe87db03/d94982ad-d40d-412e-82f3-ffb0fe87db03.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d94982ad-d40d-412e-82f3-ffb0fe87db03/d94982ad-d40d-412e-82f3-ffb0fe87db03.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-msi-mag-a1000gl-pcie5-24-pin-1000w"
  },
  {
@@ -15018,7 +15018,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dfebaacf-02c5-4297-ab48-3608a8709c50/dfebaacf-02c5-4297-ab48-3608a8709c50.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dfebaacf-02c5-4297-ab48-3608a8709c50/dfebaacf-02c5-4297-ab48-3608a8709c50.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-aerocool-kcas-plus-gold-aeropgskcasrgb750-g-atx-750w"
  },
  {
@@ -15033,7 +15033,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c5d32551-acc2-4758-bb5e-415b613c43e7/c5d32551-acc2-4758-bb5e-415b613c43e7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c5d32551-acc2-4758-bb5e-415b613c43e7/c5d32551-acc2-4758-bb5e-415b613c43e7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-smart-rgb-ps-spr-0600nhsawe-1-atx-600w"
  },
  {
@@ -15047,7 +15047,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/62f09f2c-2ff2-42d6-80b6-11aa91b2a162/62f09f2c-2ff2-42d6-80b6-11aa91b2a162.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/62f09f2c-2ff2-42d6-80b6-11aa91b2a162/62f09f2c-2ff2-42d6-80b6-11aa91b2a162.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-asrock-pro-850g-850-w-atx-i-zi"
  },
  {
@@ -15062,7 +15062,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/32bec5ce-a7c7-4b9f-aebf-04ecd3b5feab/32bec5ce-a7c7-4b9f-aebf-04ecd3b5feab.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/32bec5ce-a7c7-4b9f-aebf-04ecd3b5feab/32bec5ce-a7c7-4b9f-aebf-04ecd3b5feab.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-eon-zpu-500s-atx-500w"
  },
  {
@@ -15076,7 +15076,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "SFX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/10e3bb81-4307-4a84-a365-4a957f26641e/10e3bb81-4307-4a84-a365-4a957f26641e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/10e3bb81-4307-4a84-a365-4a957f26641e/10e3bb81-4307-4a84-a365-4a957f26641e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-fspfortron-dagger-pro-atx-30-ppa8503900-sfx-atx-30-850w"
  },
  {
@@ -15090,7 +15090,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1f8dba83-65f6-46ee-9e85-4b200ffe8338/1f8dba83-65f6-46ee-9e85-4b200ffe8338.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1f8dba83-65f6-46ee-9e85-4b200ffe8338/1f8dba83-65f6-46ee-9e85-4b200ffe8338.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-gigabyte-ud750gm-pg5-gp-ud750gm-pg5-atx-30-750w"
  },
  {
@@ -15104,7 +15104,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ White"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3e2b3ea-b466-4149-a5c6-529b4f70c5ea/f3e2b3ea-b466-4149-a5c6-529b4f70c5ea.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f3e2b3ea-b466-4149-a5c6-529b4f70c5ea/f3e2b3ea-b466-4149-a5c6-529b4f70c5ea.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-core-gx-white-750w-atx-31-80-plus-gold-i-bardhe"
  },
  {
@@ -15118,7 +15118,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1e7c823-cc52-4195-9db2-a574faa10613/c1e7c823-cc52-4195-9db2-a574faa10613.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1e7c823-cc52-4195-9db2-a574faa10613/c1e7c823-cc52-4195-9db2-a574faa10613.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-thermaltake-toughpower-gt-850w-atx-31-i-zi"
  },
  {
@@ -15133,7 +15133,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "Standard",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1faa3424-a479-412b-a202-c410c1bad778/1faa3424-a479-412b-a202-c410c1bad778.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1faa3424-a479-412b-a202-c410c1bad778/1faa3424-a479-412b-a202-c410c1bad778.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-be-quiet-pure-power-12-850w-atx-31-pcie-51-i-zi"
  },
  {
@@ -15148,7 +15148,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Platinum",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e5f3383f-29dc-405b-82de-9ac15f396585/e5f3383f-29dc-405b-82de-9ac15f396585.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e5f3383f-29dc-405b-82de-9ac15f396585/e5f3383f-29dc-405b-82de-9ac15f396585.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-fsp-hydro-ptm-pro-1350w-atx-31-80-plus-platinum-modular"
  },
  {
@@ -15162,7 +15162,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Platinum"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/299693c3-a342-4371-89ba-faa7643658a2/299693c3-a342-4371-89ba-faa7643658a2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/299693c3-a342-4371-89ba-faa7643658a2/299693c3-a342-4371-89ba-faa7643658a2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizim-me-rryme-lian-li-sx-series-g9psx1000pb000eu-1000w-80-plus-platinum-i-zi"
  },
  {
@@ -15176,7 +15176,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/37adb669-0dde-4c7e-94aa-026102f75360/37adb669-0dde-4c7e-94aa-026102f75360.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/37adb669-0dde-4c7e-94aa-026102f75360/37adb669-0dde-4c7e-94aa-026102f75360.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-fsp-fortron-sp400-ad-350w-atx-bulk"
  },
  {
@@ -15191,7 +15191,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Titanium",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7961cfbd-a212-428f-8db5-3c49dc70ec8d/7961cfbd-a212-428f-8db5-3c49dc70ec8d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7961cfbd-a212-428f-8db5-3c49dc70ec8d/7961cfbd-a212-428f-8db5-3c49dc70ec8d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-seasonic-prime-fanless-tx-700-ssr-700tl-700w"
  },
  {
@@ -15205,7 +15205,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "SFX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/44064932-8424-424f-a3b4-3a6e3b07592b/44064932-8424-424f-a3b4-3a6e3b07592b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/44064932-8424-424f-a3b4-3a6e3b07592b/44064932-8424-424f-a3b4-3a6e3b07592b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-fspfortron-dagger-pro-ppa6504801-sfx-650w-2"
  },
  {
@@ -15220,7 +15220,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Platinum",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2d4e0590-5aa4-4000-b238-992f4fb28bb4/2d4e0590-5aa4-4000-b238-992f4fb28bb4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2d4e0590-5aa4-4000-b238-992f4fb28bb4/2d4e0590-5aa4-4000-b238-992f4fb28bb4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizuesi-i-energjise-be-quiet-power-zone-2-850w-atx-31-80-plus-platinum-i-zi"
  },
  {
@@ -15234,7 +15234,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "SFX",
    "efficiency": "80+ Silver"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cf820d02-d27d-414c-852f-cd3766090270/cf820d02-d27d-414c-852f-cd3766090270.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cf820d02-d27d-414c-852f-cd3766090270/cf820d02-d27d-414c-852f-cd3766090270.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-silverstone-sx700-lpt-sst-sx700-lpt-v11-sfx-l-700w"
  },
  {
@@ -15249,7 +15249,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6087e2f5-0190-44dc-894c-f1f9a366ce32/6087e2f5-0190-44dc-894c-f1f9a366ce32.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6087e2f5-0190-44dc-894c-f1f9a366ce32/6087e2f5-0190-44dc-894c-f1f9a366ce32.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-cooler-master-elite-gold-1000w-atx-31-80-plus-gold-modular"
  },
  {
@@ -15264,7 +15264,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Bronze",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/52d5d594-139a-4467-98bb-5bd1f480b4de/52d5d594-139a-4467-98bb-5bd1f480b4de.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/52d5d594-139a-4467-98bb-5bd1f480b4de/52d5d594-139a-4467-98bb-5bd1f480b4de.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizuesi-i-energjise-endorfy-vero-l5-bronze-600w-80-plus-bronze-atx-i-zi"
  },
  {
@@ -15279,7 +15279,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b9723e41-6e68-4a7e-8073-a7d73bb17ff9/b9723e41-6e68-4a7e-8073-a7d73bb17ff9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b9723e41-6e68-4a7e-8073-a7d73bb17ff9/b9723e41-6e68-4a7e-8073-a7d73bb17ff9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-core-gx-atx-3-2024-750w-80-gold-plotesisht-modular-i-zi"
  },
  {
@@ -15293,7 +15293,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f1798a4f-6f87-46fe-a135-c3b077078b8e/f1798a4f-6f87-46fe-a135-c3b077078b8e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f1798a4f-6f87-46fe-a135-c3b077078b8e/f1798a4f-6f87-46fe-a135-c3b077078b8e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-deepcool-pf600-r-pf600d-ha0b-eu-600w"
  },
  {
@@ -15308,7 +15308,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Platinum",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/28818d93-7533-4c45-863d-e627f6875c55/28818d93-7533-4c45-863d-e627f6875c55.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/28818d93-7533-4c45-863d-e627f6875c55/28818d93-7533-4c45-863d-e627f6875c55.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-cougar-polar-x2-1050w-80-plus-platinum-modular"
  },
  {
@@ -15322,7 +15322,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f96779c1-e2e8-4ec3-9ab9-10a058b3f943/f96779c1-e2e8-4ec3-9ab9-10a058b3f943.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f96779c1-e2e8-4ec3-9ab9-10a058b3f943/f96779c1-e2e8-4ec3-9ab9-10a058b3f943.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-lian-li-sp850-v2-850w-atx-31-gold-i-zi"
  },
  {
@@ -15337,7 +15337,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dcfbc640-b703-4500-9f66-f8c4df50ff82/dcfbc640-b703-4500-9f66-f8c4df50ff82.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dcfbc640-b703-4500-9f66-f8c4df50ff82/dcfbc640-b703-4500-9f66-f8c4df50ff82.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizuesi-i-energjise-be-quiet-pure-power-12-850w-atx-31-80-plus-gold-i-zi"
  },
  {
@@ -15352,7 +15352,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Platinum",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/494d9319-aceb-4209-b7a0-334334eff96b/494d9319-aceb-4209-b7a0-334334eff96b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/494d9319-aceb-4209-b7a0-334334eff96b/494d9319-aceb-4209-b7a0-334334eff96b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-asus-rog-loki-platinum-90ye00n4-b0na00-750w-2"
  },
  {
@@ -15367,7 +15367,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5bfa892c-cdbd-4b14-9147-fc42f4f1e20a/5bfa892c-cdbd-4b14-9147-fc42f4f1e20a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5bfa892c-cdbd-4b14-9147-fc42f4f1e20a/5bfa892c-cdbd-4b14-9147-fc42f4f1e20a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-seasonic-focus-gx-750w-atx-31-80-gold-plotesisht-modular-i-zi"
  },
  {
@@ -15382,7 +15382,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b652e289-c5a6-4ea4-9d98-4920bfb7b115/b652e289-c5a6-4ea4-9d98-4920bfb7b115.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b652e289-c5a6-4ea4-9d98-4920bfb7b115/b652e289-c5a6-4ea4-9d98-4920bfb7b115.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-asus-tuf-gaming-850w-80-plus-gold-modular-i-zi"
  },
  {
@@ -15396,7 +15396,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c324c723-7741-4a62-b63d-238f87cc8e95/c324c723-7741-4a62-b63d-238f87cc8e95.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c324c723-7741-4a62-b63d-238f87cc8e95/c324c723-7741-4a62-b63d-238f87cc8e95.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-msi-mag-a650bn-pcie5-ii-650w-80-plus-bronze-i-zi"
  },
  {
@@ -15411,7 +15411,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c2298eed-e6ab-418d-848c-107c27b0ea7a/c2298eed-e6ab-418d-848c-107c27b0ea7a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c2298eed-e6ab-418d-848c-107c27b0ea7a/c2298eed-e6ab-418d-848c-107c27b0ea7a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-deepcool-pf450-450w-80-plus-230v-eu-i-zi"
  },
  {
@@ -15425,7 +15425,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Bronze"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5c2ba48f-a896-4e96-b999-e148e4fee97f/5c2ba48f-a896-4e96-b999-e148e4fee97f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5c2ba48f-a896-4e96-b999-e148e4fee97f/5c2ba48f-a896-4e96-b999-e148e4fee97f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-smart-sps-730mpcbeu-atx-730w"
  },
  {
@@ -15439,7 +15439,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/325de462-220b-4677-8803-3b72207b6cd3/325de462-220b-4677-8803-3b72207b6cd3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/325de462-220b-4677-8803-3b72207b6cd3/325de462-220b-4677-8803-3b72207b6cd3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-thermaltake-toughpower-gf-a3-ps-tpd-0850fnfage-h-atx-30-850w"
  },
  {
@@ -15454,7 +15454,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+ Gold",
    "modular": "Full"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3923122a-241d-4b52-b0a4-f0a41922f8cc/3923122a-241d-4b52-b0a4-f0a41922f8cc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3923122a-241d-4b52-b0a4-f0a41922f8cc/3923122a-241d-4b52-b0a4-f0a41922f8cc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-xpg-core-reactor-ii-850w-atx-30-80-plus-gold-i-bardhe-2"
  },
  {
@@ -15468,7 +15468,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0bbb9262-d193-422c-98c7-8bd11ba00410/0bbb9262-d193-422c-98c7-8bd11ba00410.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0bbb9262-d193-422c-98c7-8bd11ba00410/0bbb9262-d193-422c-98c7-8bd11ba00410.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-gigabyte-p850gm-850w-gp-p850gm"
  },
  {
@@ -15482,7 +15482,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/379be2ab-ced2-4580-8e8b-9b347b6f1c26/379be2ab-ced2-4580-8e8b-9b347b6f1c26.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/379be2ab-ced2-4580-8e8b-9b347b6f1c26/379be2ab-ced2-4580-8e8b-9b347b6f1c26.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-polaris-pps-650fc-atx-650w"
  },
  {
@@ -15497,7 +15497,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "efficiency": "80+",
    "modular": "No"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/949e3f7c-e669-46bc-b5ff-83c6e4984237/949e3f7c-e669-46bc-b5ff-83c6e4984237.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/949e3f7c-e669-46bc-b5ff-83c6e4984237/949e3f7c-e669-46bc-b5ff-83c6e4984237.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-value-apb-700b8-atx-700w-2"
  },
  {
@@ -15511,7 +15511,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "Standard"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a96989ab-3a6c-4c4b-95c3-b460c8ae09e3/a96989ab-3a6c-4c4b-95c3-b460c8ae09e3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a96989ab-3a6c-4c4b-95c3-b460c8ae09e3/a96989ab-3a6c-4c4b-95c3-b460c8ae09e3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/furnizues-energjie-chieftec-vita-sm3-bpx-850-c-850w-atx"
  },
  {
@@ -15525,7 +15525,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/85df7c05-de40-42b6-a66b-3e737bcf0769/85df7c05-de40-42b6-a66b-3e737bcf0769.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/85df7c05-de40-42b6-a66b-3e737bcf0769/85df7c05-de40-42b6-a66b-3e737bcf0769.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-chieftec-polaris-pps-750fc-atx-750w"
  },
  {
@@ -15539,7 +15539,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Gold"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bb291b7e-82dd-4ae3-9263-769020fdc069/bb291b7e-82dd-4ae3-9263-769020fdc069.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bb291b7e-82dd-4ae3-9263-769020fdc069/bb291b7e-82dd-4ae3-9263-769020fdc069.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-seasonic-g12-gm-g12-gm-750-atx-750w"
  },
  {
@@ -15553,7 +15553,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "ATX",
    "efficiency": "80+ Silver"
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab1add97-4eb6-4d47-b233-faca4295a3b6/ab1add97-4eb6-4d47-b233-faca4295a3b6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ab1add97-4eb6-4d47-b233-faca4295a3b6/ab1add97-4eb6-4d47-b233-faca4295a3b6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/burim-energjie-silverstone-sst-st75f-pb-atx-750w"
  },
  {
@@ -15568,7 +15568,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/aafe6633-e169-4834-ae8b-ea5c82dec31b/aafe6633-e169-4834-ae8b-ea5c82dec31b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/aafe6633-e169-4834-ae8b-ea5c82dec31b/aafe6633-e169-4834-ae8b-ea5c82dec31b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/moduli-i-memories-patriot-viper-venom-ddr5-32gb-2x16gb-6000mhz-cl30-xmp-30"
  },
  {
@@ -15583,7 +15583,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b073f6af-ab7a-42ef-9f24-2c284c5f32a6/b073f6af-ab7a-42ef-9f24-2c284c5f32a6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b073f6af-ab7a-42ef-9f24-2c284c5f32a6/b073f6af-ab7a-42ef-9f24-2c284c5f32a6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-gskill-trident-z-rgb-ddr4-16-gb-3600-mhz-cl16-f4-3600c16d-16gtzrc"
  },
  {
@@ -15598,7 +15598,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4d636660-f2bd-41c7-a756-d6a37d11b122/4d636660-f2bd-41c7-a756-d6a37d11b122.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4d636660-f2bd-41c7-a756-d6a37d11b122/4d636660-f2bd-41c7-a756-d6a37d11b122.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-trident-z5-neo-rgb-ddr5-32-gb-6000mhz-cl30"
  },
  {
@@ -15613,7 +15613,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/76e4cce9-f535-47e7-9e81-0985a40154d5/76e4cce9-f535-47e7-9e81-0985a40154d5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/76e4cce9-f535-47e7-9e81-0985a40154d5/76e4cce9-f535-47e7-9e81-0985a40154d5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-16gb-ddr4-3200mts-cl16-e-zeze"
  },
  {
@@ -15628,7 +15628,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6400
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/82010c28-02c7-4b77-ba01-1db14b6c0245/82010c28-02c7-4b77-ba01-1db14b6c0245.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/82010c28-02c7-4b77-ba01-1db14b6c0245/82010c28-02c7-4b77-ba01-1db14b6c0245.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-patriot-viper-venom-pvv532g640c32k-32-gb-2-x-16-gb-ddr5-6400-mhz"
  },
  {
@@ -15643,7 +15643,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/32299460-c6a0-480e-8880-97fd13f16b1f/32299460-c6a0-480e-8880-97fd13f16b1f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/32299460-c6a0-480e-8880-97fd13f16b1f/32299460-c6a0-480e-8880-97fd13f16b1f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-8gb-ddr4-3200mhz-cl16-e-zeze"
  },
  {
@@ -15658,7 +15658,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6c11f7a5-9c3c-4b3f-8338-2ab89b37c0bd/6c11f7a5-9c3c-4b3f-8338-2ab89b37c0bd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6c11f7a5-9c3c-4b3f-8338-2ab89b37c0bd/6c11f7a5-9c3c-4b3f-8338-2ab89b37c0bd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-rgb-ddr5-8gb-5600mhz-cl36"
  },
  {
@@ -15673,7 +15673,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/904e5206-c875-4eb6-bbe3-e5c95929b723/904e5206-c875-4eb6-bbe3-e5c95929b723.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/904e5206-c875-4eb6-bbe3-e5c95929b723/904e5206-c875-4eb6-bbe3-e5c95929b723.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-32gb-ddr4-3200mhz-cl16-2x16gb-e-zeze"
  },
  {
@@ -15688,7 +15688,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6673cd86-93ee-43c8-8cb0-b0a3733d1573/6673cd86-93ee-43c8-8cb0-b0a3733d1573.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6673cd86-93ee-43c8-8cb0-b0a3733d1573/6673cd86-93ee-43c8-8cb0-b0a3733d1573.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-flare-x5-64gb-ddr5-6000mhz-dual-kit"
  },
  {
@@ -15703,7 +15703,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c4bf1966-2e52-491a-b6c2-0d0d4ea465fc/c4bf1966-2e52-491a-b6c2-0d0d4ea465fc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c4bf1966-2e52-491a-b6c2-0d0d4ea465fc/c4bf1966-2e52-491a-b6c2-0d0d4ea465fc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-operative-ram-goodram-irdm-32gb-2x-16gb-ddr5-6000mhz-cl30"
  },
  {
@@ -15718,7 +15718,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/538b129f-59f9-44bc-937e-6c3adccd91b5/538b129f-59f9-44bc-937e-6c3adccd91b5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/538b129f-59f9-44bc-937e-6c3adccd91b5/538b129f-59f9-44bc-937e-6c3adccd91b5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-16gb-ddr5-5200mts-dimm-e-zeze"
  },
  {
@@ -15733,7 +15733,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/68a7301f-d116-465a-9acf-3798a565597b/68a7301f-d116-465a-9acf-3798a565597b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/68a7301f-d116-465a-9acf-3798a565597b/68a7301f-d116-465a-9acf-3798a565597b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-16gb-ddr5-5600mts-kit-2x8gb-e-zeze"
  },
  {
@@ -15748,7 +15748,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2fe16cca-cf69-46f3-984e-da33a0b17b4d/2fe16cca-cf69-46f3-984e-da33a0b17b4d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2fe16cca-cf69-46f3-984e-da33a0b17b4d/2fe16cca-cf69-46f3-984e-da33a0b17b4d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-patriot-viper-steel-32gb-ddr4-3200mhz-kit-2x16gb-gri"
  },
  {
@@ -15763,7 +15763,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dfa4e810-02cd-4df5-967c-d1c555fdd98a/dfa4e810-02cd-4df5-967c-d1c555fdd98a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dfa4e810-02cd-4df5-967c-d1c555fdd98a/dfa4e810-02cd-4df5-967c-d1c555fdd98a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/module-te-memories-gskill-trident-z5-32gb-2x16gb-ddr5-6000-cl30-te-zeza-2"
  },
  {
@@ -15778,7 +15778,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ce5ba37e-133d-4d0f-9733-426355f4528f/ce5ba37e-133d-4d0f-9733-426355f4528f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ce5ba37e-133d-4d0f-9733-426355f4528f/ce5ba37e-133d-4d0f-9733-426355f4528f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/modul-i-memories-gskill-32gb-2-x-16gb-ddr5-6000mhz"
  },
  {
@@ -15793,7 +15793,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 4800
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/12502c6a-4c11-419e-8ea8-a89744200e10/12502c6a-4c11-419e-8ea8-a89744200e10.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/12502c6a-4c11-419e-8ea8-a89744200e10/12502c6a-4c11-419e-8ea8-a89744200e10.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-adata-premier-ddr5-udimm-8gb-4800mhz"
  },
  {
@@ -15808,7 +15808,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1bbce55-0f2f-4e2c-9301-0f165ed0cb5e/c1bbce55-0f2f-4e2c-9301-0f165ed0cb5e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1bbce55-0f2f-4e2c-9301-0f165ed0cb5e/c1bbce55-0f2f-4e2c-9301-0f165ed0cb5e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-gskill-ripjaws-v-ddr4-32-gb-3200-mhz-cl16-f4-3200c16d-32gvk"
  },
  {
@@ -15823,7 +15823,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f13f0616-c96a-4190-af19-2018c7559222/f13f0616-c96a-4190-af19-2018c7559222.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f13f0616-c96a-4190-af19-2018c7559222/f13f0616-c96a-4190-af19-2018c7559222.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-gskill-flare-x5-ddr5-32-gb-6000-mhz-cl36-f5-6000j3636f16gx2-fx5"
  },
  {
@@ -15838,7 +15838,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/65b3dd66-2ce6-4a2c-ba72-f0ce42add247/65b3dd66-2ce6-4a2c-ba72-f0ce42add247.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/65b3dd66-2ce6-4a2c-ba72-f0ce42add247/65b3dd66-2ce6-4a2c-ba72-f0ce42add247.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-trident-z-f4-3600c18d-32gtzn-32-gb-2-x-16-gb-ddr4-3600-mhz"
  },
  {
@@ -15853,7 +15853,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/07d05f58-d291-4b47-8da2-78c6f06bd35b/07d05f58-d291-4b47-8da2-78c6f06bd35b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/07d05f58-d291-4b47-8da2-78c6f06bd35b/07d05f58-d291-4b47-8da2-78c6f06bd35b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-expo-16gb-ddr5-6000mhz-e-zeze"
  },
  {
@@ -15868,7 +15868,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c61e802c-a637-4060-804e-3c0f58c5f23c/c61e802c-a637-4060-804e-3c0f58c5f23c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c61e802c-a637-4060-804e-3c0f58c5f23c/c61e802c-a637-4060-804e-3c0f58c5f23c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/modul-memorie-gskill-flare-x5-f5-6000j3038f8gh1-fx5-8gb-ddr5-6000-mts"
  },
  {
@@ -15883,7 +15883,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8a7af88e-9043-4493-a52f-4aa6c33b8379/8a7af88e-9043-4493-a52f-4aa6c33b8379.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8a7af88e-9043-4493-a52f-4aa6c33b8379/8a7af88e-9043-4493-a52f-4aa6c33b8379.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-ddr5-gskill-flare-x5-16gb-2x8gb-6000mts-cl30-i-zi"
  },
  {
@@ -15898,7 +15898,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 4800
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9e3d0453-8384-49a0-874d-3c808dce10e3/9e3d0453-8384-49a0-874d-3c808dce10e3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9e3d0453-8384-49a0-874d-3c808dce10e3/9e3d0453-8384-49a0-874d-3c808dce10e3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-crucial-ddr5-16gb-4800mhz-cl40"
  },
  {
@@ -15913,7 +15913,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/59bd6f2c-7a41-42cc-aa1d-306ac7c85ccf/59bd6f2c-7a41-42cc-aa1d-306ac7c85ccf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/59bd6f2c-7a41-42cc-aa1d-306ac7c85ccf/59bd6f2c-7a41-42cc-aa1d-306ac7c85ccf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-goodram-irdm-pro-deep-black-ddr4-32-gb-3600-mhz-cl18-irp-k3600d4v64l1832gdc"
  },
  {
@@ -15928,7 +15928,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b77410c9-5c59-4214-9bac-5afdbe398008/b77410c9-5c59-4214-9bac-5afdbe398008.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b77410c9-5c59-4214-9bac-5afdbe398008/b77410c9-5c59-4214-9bac-5afdbe398008.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-64gb-ddr4-3600mhz-cl18-kit-2x-dimm-e-zeze"
  },
  {
@@ -15943,7 +15943,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/19277a00-4045-4780-9609-64e72c547b2f/19277a00-4045-4780-9609-64e72c547b2f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/19277a00-4045-4780-9609-64e72c547b2f/19277a00-4045-4780-9609-64e72c547b2f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-adata-xpg-lancer-blade-ddr5-32-gb-6000-mhz-cl30-ax5u6000c3016g-dtlabbk"
  },
  {
@@ -15958,7 +15958,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a67e4f90-bd99-43b6-93c3-f2fd9ad69fc1/a67e4f90-bd99-43b6-93c3-f2fd9ad69fc1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a67e4f90-bd99-43b6-93c3-f2fd9ad69fc1/a67e4f90-bd99-43b6-93c3-f2fd9ad69fc1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-desktop-kingston-fury-beast-kf432c16bbk232-32gb-ddr4-3200mhz-i-zi"
  },
  {
@@ -15973,7 +15973,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b5df6adc-1608-4334-82e4-72ed598d3d9b/b5df6adc-1608-4334-82e4-72ed598d3d9b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b5df6adc-1608-4334-82e4-72ed598d3d9b/b5df6adc-1608-4334-82e4-72ed598d3d9b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-kingston-fury-beast-rgb-ddr5-16-gb-6000-mhz-cl30-kf560c30bbea-16"
  },
  {
@@ -15988,7 +15988,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9280eeb1-c317-41d8-9e0d-fafd54c1dd7e/9280eeb1-c317-41d8-9e0d-fafd54c1dd7e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9280eeb1-c317-41d8-9e0d-fafd54c1dd7e/9280eeb1-c317-41d8-9e0d-fafd54c1dd7e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-goodram-irdm-ddr5-32-gb-5600mhz-cl36-irdm-ddr5-ir-5600d564l3632g"
  },
  {
@@ -16003,7 +16003,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c5ca2831-7d07-4d9c-bd13-1fdcd7b01c2e/c5ca2831-7d07-4d9c-bd13-1fdcd7b01c2e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c5ca2831-7d07-4d9c-bd13-1fdcd7b01c2e/c5ca2831-7d07-4d9c-bd13-1fdcd7b01c2e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-trident-z-rgb-16gb-ddr4-2-x-8-gb-3200-mhz"
  },
  {
@@ -16018,7 +16018,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b595baa2-e3f4-4a95-969e-4f6f163399c0/b595baa2-e3f4-4a95-969e-4f6f163399c0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b595baa2-e3f4-4a95-969e-4f6f163399c0/b595baa2-e3f4-4a95-969e-4f6f163399c0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-kf560c30bbek2-32gb-ddr5-6000mhz-kit-2x16gb-e-zeze"
  },
  {
@@ -16033,7 +16033,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6400
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f401f9b-b980-42c8-af40-1ce5fbbaa728/4f401f9b-b980-42c8-af40-1ce5fbbaa728.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4f401f9b-b980-42c8-af40-1ce5fbbaa728/4f401f9b-b980-42c8-af40-1ce5fbbaa728.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-goodram-irdm-ddr5-32-gb-6400-mhz-cl32-ir-6400d564l32s32gdc"
  },
  {
@@ -16048,7 +16048,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/10dd46c3-3dfa-4e98-a361-fea9e23063a8/10dd46c3-3dfa-4e98-a361-fea9e23063a8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/10dd46c3-3dfa-4e98-a361-fea9e23063a8/10dd46c3-3dfa-4e98-a361-fea9e23063a8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/modul-i-memories-biostar-ddr4-storming-v-8gb-1-x-8gb-3200mhz"
  },
  {
@@ -16063,7 +16063,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/94c6714f-f53b-46b1-a707-d674dbf90526/94c6714f-f53b-46b1-a707-d674dbf90526.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/94c6714f-f53b-46b1-a707-d674dbf90526/94c6714f-f53b-46b1-a707-d674dbf90526.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-32gb-ddr5-6000mts-cl30-e-zeze"
  },
  {
@@ -16078,7 +16078,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6c15edf9-cf19-4aca-999a-bd03b88e1b8d/6c15edf9-cf19-4aca-999a-bd03b88e1b8d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6c15edf9-cf19-4aca-999a-bd03b88e1b8d/6c15edf9-cf19-4aca-999a-bd03b88e1b8d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-adata-xpg-gammix-d35-ddr4-16-gb-3200-mhz-cl16-ax4u32008g16a-dtbkd35"
  },
  {
@@ -16093,7 +16093,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/24eef4bc-e516-49e9-8ec8-26da6e55556b/24eef4bc-e516-49e9-8ec8-26da6e55556b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/24eef4bc-e516-49e9-8ec8-26da6e55556b/24eef4bc-e516-49e9-8ec8-26da6e55556b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-flare-x5-f5-6000j3636f32gx2-fx5-64gb-ddr5-6000mhz-e-zeze"
  },
  {
@@ -16108,7 +16108,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/56be139c-83f5-4c52-bbf5-3408025dcef0/56be139c-83f5-4c52-bbf5-3408025dcef0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/56be139c-83f5-4c52-bbf5-3408025dcef0/56be139c-83f5-4c52-bbf5-3408025dcef0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-crucial-pro-ddr4-32-gb-3200-mhz-cl22-cp2k16g4dfra32a"
  },
  {
@@ -16123,7 +16123,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4155af42-b66d-4813-ac79-1f34a569e739/4155af42-b66d-4813-ac79-1f34a569e739.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4155af42-b66d-4813-ac79-1f34a569e739/4155af42-b66d-4813-ac79-1f34a569e739.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-gskill-trident-z-neo-ddr4-32gb-3600mhz-cl18"
  },
  {
@@ -16138,7 +16138,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/85213bd1-4240-4463-aeb2-f65e58d6fa16/85213bd1-4240-4463-aeb2-f65e58d6fa16.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/85213bd1-4240-4463-aeb2-f65e58d6fa16/85213bd1-4240-4463-aeb2-f65e58d6fa16.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-trident-z5-royal-f5-6000j2836g16gx2-tr5s-32gb-ddr5-6000mhz-rgb"
  },
  {
@@ -16153,7 +16153,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/491a8f04-3845-4c39-981a-55a56fb7e5f0/491a8f04-3845-4c39-981a-55a56fb7e5f0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/491a8f04-3845-4c39-981a-55a56fb7e5f0/491a8f04-3845-4c39-981a-55a56fb7e5f0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-kingston-fury-renegade-rgb-ddr4-32-gb-3600-mhz-cl16-kf436c16rb12ak232"
  },
  {
@@ -16168,7 +16168,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cda9e1c5-b8d1-4f43-adc7-3bb69c6e0d74/cda9e1c5-b8d1-4f43-adc7-3bb69c6e0d74.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cda9e1c5-b8d1-4f43-adc7-3bb69c6e0d74/cda9e1c5-b8d1-4f43-adc7-3bb69c6e0d74.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-desktop-kingston-fury-beast-kf556c40bbk2-128gb-ddr5-5600mhz-e-zeze"
  },
  {
@@ -16183,7 +16183,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8113b249-f491-4fc0-aaa5-ae0bbdc2eafd/8113b249-f491-4fc0-aaa5-ae0bbdc2eafd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8113b249-f491-4fc0-aaa5-ae0bbdc2eafd/8113b249-f491-4fc0-aaa5-ae0bbdc2eafd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-aegis-f4-3200c16d-16gis-16-gb-2-x-8-gb-ddr4-3200-mhz"
  },
  {
@@ -16198,7 +16198,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5a5d6f10-84d5-427d-aad7-df7a19fb3697/5a5d6f10-84d5-427d-aad7-df7a19fb3697.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5a5d6f10-84d5-427d-aad7-df7a19fb3697/5a5d6f10-84d5-427d-aad7-df7a19fb3697.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-kingston-fury-beast-64gb-ddr5-6000mts-i-zi"
  },
  {
@@ -16213,7 +16213,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d09c33ce-858f-46d5-b61a-c19794e45e4d/d09c33ce-858f-46d5-b61a-c19794e45e4d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d09c33ce-858f-46d5-b61a-c19794e45e4d/d09c33ce-858f-46d5-b61a-c19794e45e4d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-trident-z5-neo-rgb-32gb-ddr5-5200mts-1x32gb-e-zeze"
  },
  {
@@ -16228,7 +16228,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 4800
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/89f4deea-ffc6-4edd-922f-c64fa1cf1113/89f4deea-ffc6-4edd-922f-c64fa1cf1113.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/89f4deea-ffc6-4edd-922f-c64fa1cf1113/89f4deea-ffc6-4edd-922f-c64fa1cf1113.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-pny-ddr5-8gb-4800mts-e-zeze"
  },
  {
@@ -16243,7 +16243,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d588d61e-0419-4987-a833-feb42d532d4f/d588d61e-0419-4987-a833-feb42d532d4f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d588d61e-0419-4987-a833-feb42d532d4f/d588d61e-0419-4987-a833-feb42d532d4f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-goodram-irdm-ddr5-ir-6000d564l30s32gdc-32-gb-2-x-16-gb-6000-mhz"
  },
  {
@@ -16258,7 +16258,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6400
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b06da088-6f1b-40c2-841e-a0755b60ebc7/b06da088-6f1b-40c2-841e-a0755b60ebc7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b06da088-6f1b-40c2-841e-a0755b60ebc7/b06da088-6f1b-40c2-841e-a0755b60ebc7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-crucial-ddr5-32gb-6400mhz-cudimm-per-desktop"
  },
  {
@@ -16273,7 +16273,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/36e56174-d994-44aa-bfd2-39e12e0b8780/36e56174-d994-44aa-bfd2-39e12e0b8780.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/36e56174-d994-44aa-bfd2-39e12e0b8780/36e56174-d994-44aa-bfd2-39e12e0b8780.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-patriot-viper-steel-ddr4-32-gb-3200-mhz-cl16-pvs432g320c6"
  },
  {
@@ -16288,7 +16288,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/082ec5ed-51cf-494b-914d-552af4da7e24/082ec5ed-51cf-494b-914d-552af4da7e24.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/082ec5ed-51cf-494b-914d-552af4da7e24/082ec5ed-51cf-494b-914d-552af4da7e24.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-kingston-fury-beast-ddr5-32-gb-5600-mhz-cl36-kf556c36bbek2-32"
  },
  {
@@ -16303,7 +16303,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 5200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c6a79ce8-d545-4cbc-b795-98c022d92253/c6a79ce8-d545-4cbc-b795-98c022d92253.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c6a79ce8-d545-4cbc-b795-98c022d92253/c6a79ce8-d545-4cbc-b795-98c022d92253.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-16gb-ddr5-5200mts-kit-2x8gb-cl40-e-zeze"
  },
  {
@@ -16318,7 +16318,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/662cf94f-fa00-4181-8ab1-acdb65d5fbc6/662cf94f-fa00-4181-8ab1-acdb65d5fbc6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/662cf94f-fa00-4181-8ab1-acdb65d5fbc6/662cf94f-fa00-4181-8ab1-acdb65d5fbc6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-adata-premier-ddr4-16-gb-3200-mhz-cl22-ad4u32008g22-dtgn"
  },
  {
@@ -16333,7 +16333,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/dd3fde4f-7bcf-40c7-b6de-6cc8c214f872/dd3fde4f-7bcf-40c7-b6de-6cc8c214f872.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/dd3fde4f-7bcf-40c7-b6de-6cc8c214f872/dd3fde4f-7bcf-40c7-b6de-6cc8c214f872.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-desktop-kingston-fury-beast-kf552c40bbk2-32-32gb-ddr5-5200mhz-i-zi"
  },
  {
@@ -16348,7 +16348,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a1ec5e3f-81d0-4d0c-b209-b37d2471ec3f/a1ec5e3f-81d0-4d0c-b209-b37d2471ec3f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a1ec5e3f-81d0-4d0c-b209-b37d2471ec3f/a1ec5e3f-81d0-4d0c-b209-b37d2471ec3f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-patriot-viper-steel-pvs416g320c6k-16-gb-ddr4-3200-mhz"
  },
  {
@@ -16363,7 +16363,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1c78cb5-4102-45c3-9b75-71720c6bd75b/c1c78cb5-4102-45c3-9b75-71720c6bd75b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c1c78cb5-4102-45c3-9b75-71720c6bd75b/c1c78cb5-4102-45c3-9b75-71720c6bd75b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-crucial-ct16g4sfra32at-16gb-ddr4-3200mhz-so-dimm"
  },
  {
@@ -16378,7 +16378,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d5e295ff-5310-428f-9e49-c929919f325c/d5e295ff-5310-428f-9e49-c929919f325c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d5e295ff-5310-428f-9e49-c929919f325c/d5e295ff-5310-428f-9e49-c929919f325c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-ddr5-gskill-flare-x5-16gb-6000mhz-amd-expo-i-zi"
  },
  {
@@ -16393,7 +16393,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 5200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/febf55ec-0317-47fc-9e3e-ee9e243ebb12/febf55ec-0317-47fc-9e3e-ee9e243ebb12.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/febf55ec-0317-47fc-9e3e-ee9e243ebb12/febf55ec-0317-47fc-9e3e-ee9e243ebb12.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-flare-x5-64gb-ddr5-5200mhz-2x32gb-e-zeze"
  },
  {
@@ -16408,7 +16408,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ce6514c1-e978-40d9-aed9-bdef976f60b9/ce6514c1-e978-40d9-aed9-bdef976f60b9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ce6514c1-e978-40d9-aed9-bdef976f60b9/ce6514c1-e978-40d9-aed9-bdef976f60b9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-gskill-ripjaws-s5-ddr5-32-gb-5600-mhz-cl36-f5-5600j3636c16gx2-rs5k"
  },
  {
@@ -16423,7 +16423,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/04f0c86c-0aa1-4566-975b-fa8f0ddf3fff/04f0c86c-0aa1-4566-975b-fa8f0ddf3fff.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/04f0c86c-0aa1-4566-975b-fa8f0ddf3fff/04f0c86c-0aa1-4566-975b-fa8f0ddf3fff.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-gskill-trident-z-rgb-f4-3200c16d-16gtzr-16-gb-2x8gb-ddr4-3200mhz-cl16"
  },
  {
@@ -16438,7 +16438,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/67bf6892-40b8-4d22-a812-9343016e8da6/67bf6892-40b8-4d22-a812-9343016e8da6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/67bf6892-40b8-4d22-a812-9343016e8da6/67bf6892-40b8-4d22-a812-9343016e8da6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-goodram-irdm-pro-deep-black-ddr4-16-gb-3600-mhz-cl18-irp-k3600d4v64l18s16gdc"
  },
  {
@@ -16453,7 +16453,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7eb485b4-92d6-447e-8e2d-05769b690bb8/7eb485b4-92d6-447e-8e2d-05769b690bb8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7eb485b4-92d6-447e-8e2d-05769b690bb8/7eb485b4-92d6-447e-8e2d-05769b690bb8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorje-operative-gskill-ripjaws-v-ddr4-16-gb3600mhz-cl16"
  },
  {
@@ -16468,7 +16468,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d480af6b-a529-4ea3-8d5e-dbededa783bf/d480af6b-a529-4ea3-8d5e-dbededa783bf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d480af6b-a529-4ea3-8d5e-dbededa783bf/d480af6b-a529-4ea3-8d5e-dbededa783bf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-ddr5-64gb-6000mts-rgb-e-zeze"
  },
  {
@@ -16483,7 +16483,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/abb92f2c-a105-4ed8-b78d-0dcde1a9fcb8/abb92f2c-a105-4ed8-b78d-0dcde1a9fcb8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/abb92f2c-a105-4ed8-b78d-0dcde1a9fcb8/abb92f2c-a105-4ed8-b78d-0dcde1a9fcb8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-gskill-ripjaws-s5-ddr5-32-gb-6000-mhz-cl36-f5-6000j3636f16gx2-rs5k"
  },
  {
@@ -16498,7 +16498,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d86a6aa-2452-406c-93cd-b2c65f0e9773/7d86a6aa-2452-406c-93cd-b2c65f0e9773.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d86a6aa-2452-406c-93cd-b2c65f0e9773/7d86a6aa-2452-406c-93cd-b2c65f0e9773.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-kingston-beast-ddr5-16-gb-6000-mhz-cl36-kf560c36bbe2-16-2"
  },
  {
@@ -16513,7 +16513,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6400
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/78866222-8501-46ad-910f-add47b790f8e/78866222-8501-46ad-910f-add47b790f8e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/78866222-8501-46ad-910f-add47b790f8e/78866222-8501-46ad-910f-add47b790f8e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-goodram-irdm-ddr5-32gb-2-x-16-gb-6400-mhz"
  },
  {
@@ -16528,7 +16528,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3db872ae-1771-40fc-9ad3-b45422ce2c20/3db872ae-1771-40fc-9ad3-b45422ce2c20.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3db872ae-1771-40fc-9ad3-b45422ce2c20/3db872ae-1771-40fc-9ad3-b45422ce2c20.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-kingston-fury-beast-32gb-ddr5-6000mts-cl30-rgb"
  },
  {
@@ -16543,7 +16543,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e1103297-3d1d-4ac2-ac20-a717eb46dbc6/e1103297-3d1d-4ac2-ac20-a717eb46dbc6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e1103297-3d1d-4ac2-ac20-a717eb46dbc6/e1103297-3d1d-4ac2-ac20-a717eb46dbc6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-desktop-corsair-vengeance-cmk32gx5m2b6000z30-32gb-ddr5-6000mhz-kit-2x16gb-gri"
  },
  {
@@ -16558,7 +16558,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/68378a92-f826-45c2-8a05-1d2ac1063cc5/68378a92-f826-45c2-8a05-1d2ac1063cc5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/68378a92-f826-45c2-8a05-1d2ac1063cc5/68378a92-f826-45c2-8a05-1d2ac1063cc5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-kingston-16gb-ddr4-3200mhz"
  },
  {
@@ -16573,7 +16573,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 2400
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/47a1a1e6-175c-4e31-b33d-2ad511c6b315/47a1a1e6-175c-4e31-b33d-2ad511c6b315.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/47a1a1e6-175c-4e31-b33d-2ad511c6b315/47a1a1e6-175c-4e31-b33d-2ad511c6b315.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-g-skill-ddr4-8-gb-2400-mhz-cl17"
  },
  {
@@ -16588,7 +16588,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3f934f1a-476c-48b5-b4ff-44cb618965ee/3f934f1a-476c-48b5-b4ff-44cb618965ee.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3f934f1a-476c-48b5-b4ff-44cb618965ee/3f934f1a-476c-48b5-b4ff-44cb618965ee.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-patriot-ddr4-so-dimm-8gb-3200mhz-e-zeze"
  },
  {
@@ -16603,7 +16603,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/13bc7613-7efe-4c85-8bd3-064281f715bd/13bc7613-7efe-4c85-8bd3-064281f715bd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/13bc7613-7efe-4c85-8bd3-064281f715bd/13bc7613-7efe-4c85-8bd3-064281f715bd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-kingston-fury-beast-32gb-ddr5-5600mts-kit-2x16gb-i-zi"
  },
  {
@@ -16618,7 +16618,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/6bee9fd6-b14b-4873-9178-ff76bb4cf2b5/6bee9fd6-b14b-4873-9178-ff76bb4cf2b5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/6bee9fd6-b14b-4873-9178-ff76bb4cf2b5/6bee9fd6-b14b-4873-9178-ff76bb4cf2b5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-kingston-fury-beast-ddr5-8-gb-5600-mhz-cl40-kf556c40bb-8"
  },
  {
@@ -16633,7 +16633,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2936641f-080a-4155-aa9b-7efc84bfc9d1/2936641f-080a-4155-aa9b-7efc84bfc9d1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2936641f-080a-4155-aa9b-7efc84bfc9d1/2936641f-080a-4155-aa9b-7efc84bfc9d1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-kingston-fury-beast-32gb-ddr5-5600mts-rgb-e-zeze"
  },
  {
@@ -16648,7 +16648,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6400
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8af3fb46-1280-40e1-87b9-7cd2309d2560/8af3fb46-1280-40e1-87b9-7cd2309d2560.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8af3fb46-1280-40e1-87b9-7cd2309d2560/8af3fb46-1280-40e1-87b9-7cd2309d2560.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-crucial-pro-overclocking-32gb-ddr5-6400mhz-udimm-e-bardhe"
  },
  {
@@ -16663,7 +16663,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 2400
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/717c88e0-6b17-46d1-a097-02c0ae6bfa26/717c88e0-6b17-46d1-a097-02c0ae6bfa26.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/717c88e0-6b17-46d1-a097-02c0ae6bfa26/717c88e0-6b17-46d1-a097-02c0ae6bfa26.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-goodram-ddr4-8-gb-2400-mhz-cl17-gr2400d464l17s8g"
  },
  {
@@ -16678,7 +16678,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a3a79951-8c2c-409f-9cd8-497a0bebe2b0/a3a79951-8c2c-409f-9cd8-497a0bebe2b0.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a3a79951-8c2c-409f-9cd8-497a0bebe2b0/a3a79951-8c2c-409f-9cd8-497a0bebe2b0.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-hpe-ram-32gb-ddr4-3200"
  },
  {
@@ -16693,7 +16693,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 5200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ed5c1385-1bf7-4dfa-8a46-f3386e3d66c2/ed5c1385-1bf7-4dfa-8a46-f3386e3d66c2.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ed5c1385-1bf7-4dfa-8a46-f3386e3d66c2/ed5c1385-1bf7-4dfa-8a46-f3386e3d66c2.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-flare-x5-f5-5200j4040a16gx2-fx5-ddr5-32gb-5200mhz-e-zeze"
  },
  {
@@ -16708,7 +16708,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 2666
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/469010f6-d59e-4bab-aa2e-a040e9357def/469010f6-d59e-4bab-aa2e-a040e9357def.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/469010f6-d59e-4bab-aa2e-a040e9357def/469010f6-d59e-4bab-aa2e-a040e9357def.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-patriot-signature-premium-psp416g2666kh1-16gb-ddr4-2666mhz-e-zeze"
  },
  {
@@ -16723,7 +16723,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7c4b4e67-4198-4e01-bf43-64d22fb71e52/7c4b4e67-4198-4e01-bf43-64d22fb71e52.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7c4b4e67-4198-4e01-bf43-64d22fb71e52/7c4b4e67-4198-4e01-bf43-64d22fb71e52.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-adata-xpg-lancer-blade-ddr5-16-gb-6000-mhz-cl30-ax5u6000c3016g-slabbk-2"
  },
  {
@@ -16738,7 +16738,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/78d60306-6aae-4f04-ad48-8191269d1468/78d60306-6aae-4f04-ad48-8191269d1468.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/78d60306-6aae-4f04-ad48-8191269d1468/78d60306-6aae-4f04-ad48-8191269d1468.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-kingston-fury-beast-ddr5-8-gb-6000-mhz-cl36-kf560c36bbe-8"
  },
  {
@@ -16753,7 +16753,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3ea07834-d82b-4f16-90a1-81b1bfc41338/3ea07834-d82b-4f16-90a1-81b1bfc41338.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3ea07834-d82b-4f16-90a1-81b1bfc41338/3ea07834-d82b-4f16-90a1-81b1bfc41338.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-kingston-fury-renegade-ddr4-16-gb-3200-mhz-cl16-kf432c16rb2k216"
  },
  {
@@ -16768,7 +16768,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 2400
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/48e50802-5ff6-4d5d-99b7-6104bc06836f/48e50802-5ff6-4d5d-99b7-6104bc06836f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/48e50802-5ff6-4d5d-99b7-6104bc06836f/48e50802-5ff6-4d5d-99b7-6104bc06836f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-patriot-signature-psd48g24002s-8gb-ddr4-2400mhz-so-dimm"
  },
  {
@@ -16783,7 +16783,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 7600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5db1a058-5c17-4031-be34-03668dd9dead/5db1a058-5c17-4031-be34-03668dd9dead.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5db1a058-5c17-4031-be34-03668dd9dead/5db1a058-5c17-4031-be34-03668dd9dead.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-goodram-irdm-ddr5-16gb-7600mhz-cl36-e-zeze"
  },
  {
@@ -16798,7 +16798,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f351f17f-85b9-4c89-9a7a-e019c4b99efa/f351f17f-85b9-4c89-9a7a-e019c4b99efa.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f351f17f-85b9-4c89-9a7a-e019c4b99efa/f351f17f-85b9-4c89-9a7a-e019c4b99efa.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-goodram-irdm-ddr5-r-5600d564l36s16g-16gb-5600mhz-e-zeze"
  },
  {
@@ -16813,7 +16813,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9c9d5e1b-2a4c-4f70-be9a-c4eb63a4c0d6/9c9d5e1b-2a4c-4f70-be9a-c4eb63a4c0d6.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9c9d5e1b-2a4c-4f70-be9a-c4eb63a4c0d6/9c9d5e1b-2a4c-4f70-be9a-c4eb63a4c0d6.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-patriot-signature-line-psd432g3200k-32gb-ddr4-3200mhz-e-zeze"
  },
  {
@@ -16828,7 +16828,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 3600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/73d53137-06e4-49c2-8f69-5f0234ba8df5/73d53137-06e4-49c2-8f69-5f0234ba8df5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/73d53137-06e4-49c2-8f69-5f0234ba8df5/73d53137-06e4-49c2-8f69-5f0234ba8df5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-ripjaws-v-f4-3600c18d-16gvk-16-gb-2-x-8-gb-ddr4-3600-mhz"
  },
  {
@@ -16843,7 +16843,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b4919814-5f59-4dca-86c1-004a76c6867b/b4919814-5f59-4dca-86c1-004a76c6867b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b4919814-5f59-4dca-86c1-004a76c6867b/b4919814-5f59-4dca-86c1-004a76c6867b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-patriot-viper-steel-ddr4-64-gb-3200-mhz-cl16-pvs464g320c6k"
  },
  {
@@ -16858,7 +16858,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/04ef91e3-5732-4546-84e1-c244622ea85d/04ef91e3-5732-4546-84e1-c244622ea85d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/04ef91e3-5732-4546-84e1-c244622ea85d/04ef91e3-5732-4546-84e1-c244622ea85d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-gskill-flare-x5-f5-6000j3038f16gh2-fx5-32gb-ddr5-6000mts-2x16gb-e-zeze"
  },
  {
@@ -16873,7 +16873,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/12d10bad-8062-45fe-994a-7c2e37d8d149/12d10bad-8062-45fe-994a-7c2e37d8d149.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/12d10bad-8062-45fe-994a-7c2e37d8d149/12d10bad-8062-45fe-994a-7c2e37d8d149.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-silicon-power-xpower-zenith-ddr4-8gb-3200mhz-cl16-gri"
  },
  {
@@ -16888,7 +16888,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2495c2c5-bd2d-41c9-bd30-a8eec0acee94/2495c2c5-bd2d-41c9-bd30-a8eec0acee94.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2495c2c5-bd2d-41c9-bd30-a8eec0acee94/2495c2c5-bd2d-41c9-bd30-a8eec0acee94.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-adata-premier-16gb-ddr5-5600mhz-11v"
  },
  {
@@ -16903,7 +16903,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3ee0ca79-e08d-48c8-b2cc-3d34f0d7ea52/3ee0ca79-e08d-48c8-b2cc-3d34f0d7ea52.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3ee0ca79-e08d-48c8-b2cc-3d34f0d7ea52/3ee0ca79-e08d-48c8-b2cc-3d34f0d7ea52.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-memorie-lenovo-ddr4-8-gb-3200-mhz-ddr4"
  },
  {
@@ -16918,7 +16918,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/3d48118c-d7d0-448c-a33e-4a8a5bc2acce/3d48118c-d7d0-448c-a33e-4a8a5bc2acce.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/3d48118c-d7d0-448c-a33e-4a8a5bc2acce/3d48118c-d7d0-448c-a33e-4a8a5bc2acce.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-pny-ddr4-16gb-3200mhz-so-dimm"
  },
  {
@@ -16933,7 +16933,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 3200
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/38482167-751c-44be-8fc3-86434f9d7bca/38482167-751c-44be-8fc3-86434f9d7bca.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/38482167-751c-44be-8fc3-86434f9d7bca/38482167-751c-44be-8fc3-86434f9d7bca.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-gskill-trident-z-rgb-ddr4-16-gb-3200-mhz-cl16-f4-3200c16d-16gtzrx"
  },
  {
@@ -16948,7 +16948,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 2666
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2dfba677-c01c-4270-9961-cddfba18bece/2dfba677-c01c-4270-9961-cddfba18bece.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2dfba677-c01c-4270-9961-cddfba18bece/2dfba677-c01c-4270-9961-cddfba18bece.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ram-memoria-dell-ddr4-2666-mhz-cl21-32-gb"
  },
  {
@@ -16963,7 +16963,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 4800
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d696373-31af-47e8-8f4f-164c3c88f526/7d696373-31af-47e8-8f4f-164c3c88f526.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7d696373-31af-47e8-8f4f-164c3c88f526/7d696373-31af-47e8-8f4f-164c3c88f526.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-transcend-jm4800ale-32g-32gb-ddr5-4800mhz-jeshile"
  },
  {
@@ -16978,7 +16978,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb0d8207-2ba4-47b7-89f5-82532e473f38/fb0d8207-2ba4-47b7-89f5-82532e473f38.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/fb0d8207-2ba4-47b7-89f5-82532e473f38/fb0d8207-2ba4-47b7-89f5-82532e473f38.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-32gb-5600mts-ddr5-cl40-dimm-2-x-16-gb-beast"
  },
  {
@@ -16993,7 +16993,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 2,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d914367f-ae11-4a01-9dd2-b7473b25e81a/d914367f-ae11-4a01-9dd2-b7473b25e81a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d914367f-ae11-4a01-9dd2-b7473b25e81a/d914367f-ae11-4a01-9dd2-b7473b25e81a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-fury-beast-16gb-ddr5-6000mts-kit-2x8gb-cl36-e-zeze"
  },
  {
@@ -17008,7 +17008,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 5600
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/d0208a91-107b-4da0-8319-2e4bdf0570da/d0208a91-107b-4da0-8319-2e4bdf0570da.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/d0208a91-107b-4da0-8319-2e4bdf0570da/d0208a91-107b-4da0-8319-2e4bdf0570da.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/memorie-ram-kingston-valueram-8gb-ddr5-5600-mts"
  },
  {
@@ -17023,7 +17023,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "modules": 1,
    "speedMts": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/49e4821c-b5ea-41c4-ba45-07c736295675/49e4821c-b5ea-41c4-ba45-07c736295675.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/49e4821c-b5ea-41c4-ba45-07c736295675/49e4821c-b5ea-41c4-ba45-07c736295675.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/modul-memorie-gskill-aegis-f5-6000j3636f16gx1-is-16gb-ddr5-6000mhz"
  },
  {
@@ -17037,7 +17037,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 512
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5879bc87-78a9-4541-9606-083463b024fb/5879bc87-78a9-4541-9606-083463b024fb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5879bc87-78a9-4541-9606-083463b024fb/5879bc87-78a9-4541-9606-083463b024fb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-silicon-power-p34a60-m2-512gb-pci-express-slc-nvme-2"
  },
  {
@@ -17051,7 +17051,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4cb11717-9e27-4178-8bf4-1f125db4b231/4cb11717-9e27-4178-8bf4-1f125db4b231.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4cb11717-9e27-4178-8bf4-1f125db4b231/4cb11717-9e27-4178-8bf4-1f125db4b231.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-kingston-nv3-1tb-m2-nvme-pcie-40-x4"
  },
  {
@@ -17065,7 +17065,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 128
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/94c2f6e0-fc33-4320-b6d6-9aeebacf5893/94c2f6e0-fc33-4320-b6d6-9aeebacf5893.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/94c2f6e0-fc33-4320-b6d6-9aeebacf5893/94c2f6e0-fc33-4320-b6d6-9aeebacf5893.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-hiksemi-hikvision-hs-ssd-e100-128gb-25-sata-iii-i-brendshem"
  },
  {
@@ -17079,7 +17079,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 128
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/62584fa1-2077-4605-ab74-636db1881f8e/62584fa1-2077-4605-ab74-636db1881f8e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/62584fa1-2077-4605-ab74-636db1881f8e/62584fa1-2077-4605-ab74-636db1881f8e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-i-brendshem-hiksemi-wave-s-25-sata-iii-128gb"
  },
  {
@@ -17093,7 +17093,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 512
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/219269cc-dbef-4861-b2ff-97711fb6e900/219269cc-dbef-4861-b2ff-97711fb6e900.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/219269cc-dbef-4861-b2ff-97711fb6e900/219269cc-dbef-4861-b2ff-97711fb6e900.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ssd-i-brendshem-patriot-p210-512gb-sata-iii-25-e-zeze"
  },
  {
@@ -17107,7 +17107,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 256
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/36119fb6-ae1b-47d6-afb5-16d109223b41/36119fb6-ae1b-47d6-afb5-16d109223b41.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/36119fb6-ae1b-47d6-afb5-16d109223b41/36119fb6-ae1b-47d6-afb5-16d109223b41.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-patriot-p210-256gb-25-sata-iii-520-mbs-i-zi"
  },
  {
@@ -17121,7 +17121,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3111ea4-556e-4753-a27a-0a8b0a907efc/b3111ea4-556e-4753-a27a-0a8b0a907efc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b3111ea4-556e-4753-a27a-0a8b0a907efc/b3111ea4-556e-4753-a27a-0a8b0a907efc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-goodram-cx400-1tb-25-sata-iii"
  },
  {
@@ -17135,7 +17135,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 480
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0dfda222-b16c-4cd9-8aac-4a5f66f5219c/0dfda222-b16c-4cd9-8aac-4a5f66f5219c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0dfda222-b16c-4cd9-8aac-4a5f66f5219c/0dfda222-b16c-4cd9-8aac-4a5f66f5219c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-kingston-a400-480gb-25-sata-iii-tlc-2"
  },
  {
@@ -17149,7 +17149,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 8000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/39a7879e-24b4-4f9a-9bdc-a994d7215519/39a7879e-24b4-4f9a-9bdc-a994d7215519.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/39a7879e-24b4-4f9a-9bdc-a994d7215519/39a7879e-24b4-4f9a-9bdc-a994d7215519.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-seagate-barracuda-8tb-35-sata-iii"
  },
  {
@@ -17163,7 +17163,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 512
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2f8ae62-47ea-46af-8320-f678b6a2de00/a2f8ae62-47ea-46af-8320-f678b6a2de00.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/a2f8ae62-47ea-46af-8320-f678b6a2de00/a2f8ae62-47ea-46af-8320-f678b6a2de00.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-verbatim-vi550-512-gb-25-sata-iii-49352"
  },
  {
@@ -17177,7 +17177,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 4000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e5ea6b64-022d-488f-84e5-ef6d161e968a/e5ea6b64-022d-488f-84e5-ef6d161e968a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e5ea6b64-022d-488f-84e5-ef6d161e968a/e5ea6b64-022d-488f-84e5-ef6d161e968a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-seagate-barracuda-4tb-35-sata-iii-st4000dm004"
  },
  {
@@ -17191,7 +17191,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/78c8e1ca-c5d2-4659-8eec-4191e29e3681/78c8e1ca-c5d2-4659-8eec-4191e29e3681.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/78c8e1ca-c5d2-4659-8eec-4191e29e3681/78c8e1ca-c5d2-4659-8eec-4191e29e3681.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/hard-disk-wd-viola-6tb-256mb-35-sata"
  },
  {
@@ -17205,7 +17205,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 256
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e0c1f089-07c0-4d87-b144-a8dab80a973c/e0c1f089-07c0-4d87-b144-a8dab80a973c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e0c1f089-07c0-4d87-b144-a8dab80a973c/e0c1f089-07c0-4d87-b144-a8dab80a973c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-patriot-p300-256gb-m2-pcie-nvme"
  },
  {
@@ -17219,7 +17219,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 4000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8b6adea6-f173-4d9f-aa13-3d3cb78e730c/8b6adea6-f173-4d9f-aa13-3d3cb78e730c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8b6adea6-f173-4d9f-aa13-3d3cb78e730c/8b6adea6-f173-4d9f-aa13-3d3cb78e730c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-toshiba-p300-4tb-35-sata-iii"
  },
  {
@@ -17233,7 +17233,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 512
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/32ff33c6-efef-4366-956c-7255a74f630d/32ff33c6-efef-4366-956c-7255a74f630d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/32ff33c6-efef-4366-956c-7255a74f630d/32ff33c6-efef-4366-956c-7255a74f630d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-verbatim-vi3000-512gb-m2-2280-pci-e-x4-gen4-nvme"
  },
  {
@@ -17247,7 +17247,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 128
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cfb7c8b2-db23-4418-a1b3-c93105aacf8a/cfb7c8b2-db23-4418-a1b3-c93105aacf8a.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cfb7c8b2-db23-4418-a1b3-c93105aacf8a/cfb7c8b2-db23-4418-a1b3-c93105aacf8a.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-silicon-power-a55-128gb-m2-sata"
  },
  {
@@ -17261,7 +17261,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 256
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5e863aee-d68f-4a86-952e-e3f72169251f/5e863aee-d68f-4a86-952e-e3f72169251f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5e863aee-d68f-4a86-952e-e3f72169251f/5e863aee-d68f-4a86-952e-e3f72169251f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-hiksemi-hikvision-hs-ssd-wave-s-256gb-25-sata-iii-i-brendshem"
  },
  {
@@ -17275,7 +17275,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 2050
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ba8cd0b0-2e42-485e-aa12-10403b4f402b/ba8cd0b0-2e42-485e-aa12-10403b4f402b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ba8cd0b0-2e42-485e-aa12-10403b4f402b/ba8cd0b0-2e42-485e-aa12-10403b4f402b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-goodram-cx400-gen2-205-tb-25-sata-iii-e-zeze"
  },
  {
@@ -17289,7 +17289,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 2000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b5062938-8f2b-471c-8d9a-1f3efe872650/b5062938-8f2b-471c-8d9a-1f3efe872650.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b5062938-8f2b-471c-8d9a-1f3efe872650/b5062938-8f2b-471c-8d9a-1f3efe872650.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-wd-blue-2tb-35-sata-iii-wd20earz"
  },
  {
@@ -17303,7 +17303,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/239cd4f8-4569-44df-bc67-63340c76d884/239cd4f8-4569-44df-bc67-63340c76d884.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/239cd4f8-4569-44df-bc67-63340c76d884/239cd4f8-4569-44df-bc67-63340c76d884.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-i-brendshem-ssd-samsung-990-1tb-m2-nvme-pcie-40-i-zi"
  },
  {
@@ -17317,7 +17317,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 2048
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/255bbcd1-7ef4-4ef7-a2cc-fd83be255d8b/255bbcd1-7ef4-4ef7-a2cc-fd83be255d8b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/255bbcd1-7ef4-4ef7-a2cc-fd83be255d8b/255bbcd1-7ef4-4ef7-a2cc-fd83be255d8b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-hiksemi-hikvision-hs-ssd-e100-2048gb-25-sata-iii-i-brendshem"
  },
  {
@@ -17331,7 +17331,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4356819b-ceae-4de2-9044-0a468b1f3e3f/4356819b-ceae-4de2-9044-0a468b1f3e3f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4356819b-ceae-4de2-9044-0a468b1f3e3f/4356819b-ceae-4de2-9044-0a468b1f3e3f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-seagate-barracuda-1tb-35-sata-iii"
  },
  {
@@ -17345,7 +17345,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 4000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/88204274-f2eb-4ad2-a29b-e6c05c6c3f90/88204274-f2eb-4ad2-a29b-e6c05c6c3f90.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/88204274-f2eb-4ad2-a29b-e6c05c6c3f90/88204274-f2eb-4ad2-a29b-e6c05c6c3f90.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/hard-disk-i-brendshem-western-digital-wd-blue-wd40ezzx-4tb-35-sata-6gbs"
  },
  {
@@ -17359,7 +17359,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8cb9f22-a9f8-4357-b370-ad9d23cd838c/f8cb9f22-a9f8-4357-b370-ad9d23cd838c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f8cb9f22-a9f8-4357-b370-ad9d23cd838c/f8cb9f22-a9f8-4357-b370-ad9d23cd838c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/ssd-i-brendshem-lexar-nm620-1tb-m2-pcie-30-nvme-e-zeze"
  },
  {
@@ -17373,7 +17373,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ac5b110d-d614-49bc-a6e4-68e05930e7b8/ac5b110d-d614-49bc-a6e4-68e05930e7b8.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ac5b110d-d614-49bc-a6e4-68e05930e7b8/ac5b110d-d614-49bc-a6e4-68e05930e7b8.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/hard-disk-toshiba-p300-6-tb-35-sata-iii"
  },
  {
@@ -17387,7 +17387,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 2000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/558c2786-2651-4888-912a-19e1a65aeffa/558c2786-2651-4888-912a-19e1a65aeffa.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/558c2786-2651-4888-912a-19e1a65aeffa/558c2786-2651-4888-912a-19e1a65aeffa.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-seagate-barracuda-st2000dm008-2tb-35-sata-iii-2"
  },
  {
@@ -17401,7 +17401,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 4000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/aafeea5e-6f34-4bb6-a5a2-c0d09fb63da1/aafeea5e-6f34-4bb6-a5a2-c0d09fb63da1.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/aafeea5e-6f34-4bb6-a5a2-c0d09fb63da1/aafeea5e-6f34-4bb6-a5a2-c0d09fb63da1.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disku-wd-black-gaming-4tb-35-sata-iii-wd4006fzbx"
  },
  {
@@ -17415,7 +17415,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b6855ed9-dcdf-4c24-9233-d74c27bb0dbe/b6855ed9-dcdf-4c24-9233-d74c27bb0dbe.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b6855ed9-dcdf-4c24-9233-d74c27bb0dbe/b6855ed9-dcdf-4c24-9233-d74c27bb0dbe.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-samsung-870-evo-1tb-25-sata-6-gbps"
  },
  {
@@ -17429,7 +17429,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 8000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5ec9bbfc-bb00-4d61-8ef2-e7c8b2cd76e9/5ec9bbfc-bb00-4d61-8ef2-e7c8b2cd76e9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5ec9bbfc-bb00-4d61-8ef2-e7c8b2cd76e9/5ec9bbfc-bb00-4d61-8ef2-e7c8b2cd76e9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/hard-disk-western-digital-wd-gold-8tb-sata-35"
  },
  {
@@ -17443,7 +17443,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 480
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/5edf11ab-d325-4184-941d-ba587a01af80/5edf11ab-d325-4184-941d-ba587a01af80.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/5edf11ab-d325-4184-941d-ba587a01af80/5edf11ab-d325-4184-941d-ba587a01af80.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-adata-ultimate-su630-480gb-25-sata"
  },
  {
@@ -17457,7 +17457,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 512
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9bc7aa57-1e0d-4d4b-86ca-2fd8fa40f138/9bc7aa57-1e0d-4d4b-86ca-2fd8fa40f138.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9bc7aa57-1e0d-4d4b-86ca-2fd8fa40f138/9bc7aa57-1e0d-4d4b-86ca-2fd8fa40f138.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-adata-legend-710-512gb-m2-pcie-30"
  },
  {
@@ -17471,7 +17471,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 20000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/b194dc7e-6e9b-4518-b90b-8fd68516ccbd/b194dc7e-6e9b-4518-b90b-8fd68516ccbd.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/b194dc7e-6e9b-4518-b90b-8fd68516ccbd/b194dc7e-6e9b-4518-b90b-8fd68516ccbd.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-i-brendshem-toshiba-mg11aca20te-20tb-35-sata-iii"
  },
  {
@@ -17485,7 +17485,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c7a31b35-9b1a-49e9-9666-892e1a11ff66/c7a31b35-9b1a-49e9-9666-892e1a11ff66.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c7a31b35-9b1a-49e9-9666-892e1a11ff66/c7a31b35-9b1a-49e9-9666-892e1a11ff66.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-wd-blue-6tb-35-sata-iii"
  },
  {
@@ -17499,7 +17499,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 2000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e89aac5e-f333-473d-9736-cc5668cef470/e89aac5e-f333-473d-9736-cc5668cef470.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e89aac5e-f333-473d-9736-cc5668cef470/e89aac5e-f333-473d-9736-cc5668cef470.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-seagate-barracuda-2tb-25-sata-iii-st2000lm015"
  },
  {
@@ -17513,7 +17513,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 240
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/4cc51867-d1e5-4e98-afaf-9888cb841aeb/4cc51867-d1e5-4e98-afaf-9888cb841aeb.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/4cc51867-d1e5-4e98-afaf-9888cb841aeb/4cc51867-d1e5-4e98-afaf-9888cb841aeb.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-patriot-burst-elite-240gb-sata-iii-450mbs-i-zi"
  },
  {
@@ -17527,7 +17527,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 8000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/0d100634-c539-4e3f-b661-604c07ec4961/0d100634-c539-4e3f-b661-604c07ec4961.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/0d100634-c539-4e3f-b661-604c07ec4961/0d100634-c539-4e3f-b661-604c07ec4961.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-wd-blue-8tb-35-sata-iii-wd80eaaz"
  },
  {
@@ -17541,7 +17541,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 128
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f1f10367-4149-4a4b-8e53-2de87320a284/f1f10367-4149-4a4b-8e53-2de87320a284.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f1f10367-4149-4a4b-8e53-2de87320a284/f1f10367-4149-4a4b-8e53-2de87320a284.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-patriot-memory-p220-128gb-25-sata-iii"
  },
  {
@@ -17555,7 +17555,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 256
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cfc6689a-5923-4074-b710-a298aeb6e45b/cfc6689a-5923-4074-b710-a298aeb6e45b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cfc6689a-5923-4074-b710-a298aeb6e45b/cfc6689a-5923-4074-b710-a298aeb6e45b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-goodram-cx400-gen2-256-gb-25-sata-iii-e-zeze"
  },
  {
@@ -17569,7 +17569,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 320
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f719e4dd-9b15-45b8-99fa-a776ebc5afdf/f719e4dd-9b15-45b8-99fa-a776ebc5afdf.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f719e4dd-9b15-45b8-99fa-a776ebc5afdf/f719e4dd-9b15-45b8-99fa-a776ebc5afdf.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/hard-disk-i-brendshem-hgst-travelstar-z5k320-hts543232a7a384-320gb-25-sata-3gbs"
  },
  {
@@ -17583,7 +17583,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 4000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f95aec0f-de45-44d1-8128-74ece8ec7b4f/f95aec0f-de45-44d1-8128-74ece8ec7b4f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f95aec0f-de45-44d1-8128-74ece8ec7b4f/f95aec0f-de45-44d1-8128-74ece8ec7b4f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/wd-blue-sa510-wds400t3b0a-00c7k0-ssd-4-tb-sata-6gbs"
  },
  {
@@ -17597,7 +17597,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/113ac252-5eb2-4777-bf04-d97eda1b4c53/113ac252-5eb2-4777-bf04-d97eda1b4c53.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/113ac252-5eb2-4777-bf04-d97eda1b4c53/113ac252-5eb2-4777-bf04-d97eda1b4c53.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-patriot-p210-1tb-25-sata3"
  },
  {
@@ -17611,7 +17611,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ed48a3ea-e587-4109-9e87-5b8c2f168a93/ed48a3ea-e587-4109-9e87-5b8c2f168a93.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ed48a3ea-e587-4109-9e87-5b8c2f168a93/ed48a3ea-e587-4109-9e87-5b8c2f168a93.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/hard-disk-barracuda-6tb-35-sata-iii-st6000dm003"
  },
  {
@@ -17625,7 +17625,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/bcb11e17-613e-459f-aee6-bcd610548921/bcb11e17-613e-459f-aee6-bcd610548921.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/bcb11e17-613e-459f-aee6-bcd610548921/bcb11e17-613e-459f-aee6-bcd610548921.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-patriot-memory-p220-1-tb-25-sata-iii-e-zeze"
  },
  {
@@ -17639,7 +17639,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 256
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/82faa300-689b-42e6-804b-11bae3052bac/82faa300-689b-42e6-804b-11bae3052bac.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/82faa300-689b-42e6-804b-11bae3052bac/82faa300-689b-42e6-804b-11bae3052bac.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-hiksemi-hikvision-hs-ssd-e100-256gb-25-sata-iii-i-brendshem"
  },
  {
@@ -17653,7 +17653,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/35f1d16d-7acd-40a3-bb16-041e44d34ba7/35f1d16d-7acd-40a3-bb16-041e44d34ba7.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/35f1d16d-7acd-40a3-bb16-041e44d34ba7/35f1d16d-7acd-40a3-bb16-041e44d34ba7.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-msi-spatium-m461-m2-1tb-pcie-gen4x4-nvme"
  },
  {
@@ -17667,7 +17667,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 240
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/e70fc8e7-d1e9-482b-b072-ce8c80e90000/e70fc8e7-d1e9-482b-b072-ce8c80e90000.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/e70fc8e7-d1e9-482b-b072-ce8c80e90000/e70fc8e7-d1e9-482b-b072-ce8c80e90000.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-hiksemi-hikvision-hs-ssd-c100-240gb-25-sata-iii-i-brendshem"
  },
  {
@@ -17681,7 +17681,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 3000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2bfb6af7-497f-4622-8a38-577d93dd7ed5/2bfb6af7-497f-4622-8a38-577d93dd7ed5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2bfb6af7-497f-4622-8a38-577d93dd7ed5/2bfb6af7-497f-4622-8a38-577d93dd7ed5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-seagate-barracuda-3tb-35-sata-iii"
  },
  {
@@ -17695,7 +17695,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 4000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/9367d39a-aa9e-4a87-9155-574820665d7e/9367d39a-aa9e-4a87-9155-574820665d7e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/9367d39a-aa9e-4a87-9155-574820665d7e/9367d39a-aa9e-4a87-9155-574820665d7e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-wd-blue-4tb-35-sata-iii"
  },
  {
@@ -17709,7 +17709,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 1024
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/16873e36-ddbb-47bc-9f30-1fab855fd84f/16873e36-ddbb-47bc-9f30-1fab855fd84f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/16873e36-ddbb-47bc-9f30-1fab855fd84f/16873e36-ddbb-47bc-9f30-1fab855fd84f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-hiksemi-hikvision-hs-ssd-wave-prop-1024gb-m2-2280-pcie-nvme-i-brendshem"
  },
  {
@@ -17723,7 +17723,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 500
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/8a68ea42-d20c-46b3-9438-3dc4a0a59e0c/8a68ea42-d20c-46b3-9438-3dc4a0a59e0c.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/8a68ea42-d20c-46b3-9438-3dc4a0a59e0c/8a68ea42-d20c-46b3-9438-3dc4a0a59e0c.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/kingston-nv3-ssd-500-gb-pcie-40-x4-nvme"
  },
  {
@@ -17737,7 +17737,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 500
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/054bb193-64ef-49a7-bd80-7933f1266398/054bb193-64ef-49a7-bd80-7933f1266398.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/054bb193-64ef-49a7-bd80-7933f1266398/054bb193-64ef-49a7-bd80-7933f1266398.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-xpg-spectrix-s20g-500gb-m2-nvme"
  },
  {
@@ -17751,7 +17751,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 2000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/f02e6b73-f404-4f2a-8acb-239133984d55/f02e6b73-f404-4f2a-8acb-239133984d55.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/f02e6b73-f404-4f2a-8acb-239133984d55/f02e6b73-f404-4f2a-8acb-239133984d55.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-samsung-990-pro-2tb-m2-pcie-40"
  },
  {
@@ -17765,7 +17765,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 8000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/62ea858c-66e1-4d76-8863-5c60fe84c353/62ea858c-66e1-4d76-8863-5c60fe84c353.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/62ea858c-66e1-4d76-8863-5c60fe84c353/62ea858c-66e1-4d76-8863-5c60fe84c353.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/hard-disk-seagate-hdd-35-8tb-sata-iii-6gbs-7200-rpm"
  },
  {
@@ -17779,7 +17779,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 2000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1ac42b6f-1ed8-44c5-b96c-57f327038668/1ac42b6f-1ed8-44c5-b96c-57f327038668.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1ac42b6f-1ed8-44c5-b96c-57f327038668/1ac42b6f-1ed8-44c5-b96c-57f327038668.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-lexar-nm620-2tb-m2-pcie-30-x4"
  },
  {
@@ -17793,7 +17793,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 2000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/c8ce58a2-ce98-4f7d-ad0e-f782675dcda3/c8ce58a2-ce98-4f7d-ad0e-f782675dcda3.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/c8ce58a2-ce98-4f7d-ad0e-f782675dcda3/c8ce58a2-ce98-4f7d-ad0e-f782675dcda3.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/intel-660p-2tb-nvme-internal-m2-ssd"
  },
  {
@@ -17807,7 +17807,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/48fe9969-816f-448b-984c-6fe6d63d0afc/48fe9969-816f-448b-984c-6fe6d63d0afc.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/48fe9969-816f-448b-984c-6fe6d63d0afc/48fe9969-816f-448b-984c-6fe6d63d0afc.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-wd-blue-1tb-35-sata-iii"
  },
  {
@@ -17821,7 +17821,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 3000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/1fef7040-93e6-4d0d-9a5e-d65c767e5a91/1fef7040-93e6-4d0d-9a5e-d65c767e5a91.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/1fef7040-93e6-4d0d-9a5e-d65c767e5a91/1fef7040-93e6-4d0d-9a5e-d65c767e5a91.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-wd-blue-3tb-35-sata-iii-wd30ezaz"
  },
  {
@@ -17835,7 +17835,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 512
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/91b106d9-aa0e-419e-9f39-45d80d1175ff/91b106d9-aa0e-419e-9f39-45d80d1175ff.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/91b106d9-aa0e-419e-9f39-45d80d1175ff/91b106d9-aa0e-419e-9f39-45d80d1175ff.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-hiksemi-hikvision-hs-ssd-e100-512gb-25-sata-iii-i-brendshem"
  },
  {
@@ -17849,7 +17849,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "2.5\"",
    "capacityGb": 240
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2ed01fbd-8160-4feb-92c0-9e3674675d0b/2ed01fbd-8160-4feb-92c0-9e3674675d0b.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2ed01fbd-8160-4feb-92c0-9e3674675d0b/2ed01fbd-8160-4feb-92c0-9e3674675d0b.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-kingston-hyperx-fury-rgb-240gb-25-sata-i-brendshem"
  },
  {
@@ -17863,7 +17863,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 6000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/ecec2787-12f3-40d2-bc26-a1a4c82b2b85/ecec2787-12f3-40d2-bc26-a1a4c82b2b85.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/ecec2787-12f3-40d2-bc26-a1a4c82b2b85/ecec2787-12f3-40d2-bc26-a1a4c82b2b85.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-wd-black-gaming-6tb-35-sata-iii"
  },
  {
@@ -17877,7 +17877,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 16000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7009ce55-667a-49e2-86c8-52fcb444744f/7009ce55-667a-49e2-86c8-52fcb444744f.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7009ce55-667a-49e2-86c8-52fcb444744f/7009ce55-667a-49e2-86c8-52fcb444744f.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-i-brendshem-toshiba-mg09-16tb-7200rpm-35-sata-iii"
  },
  {
@@ -17891,7 +17891,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 2000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/acc0e015-dc17-40d5-8637-2b257e2a638d/acc0e015-dc17-40d5-8637-2b257e2a638d.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/acc0e015-dc17-40d5-8637-2b257e2a638d/acc0e015-dc17-40d5-8637-2b257e2a638d.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/samsung-970-evo-plus-mz-v7s2t0bw-ssd-2-tb-pcie-30-x4-nvme"
  },
  {
@@ -17905,7 +17905,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "3.5\"",
    "capacityGb": 4000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7293dc14-01c5-4f15-9895-a3f79bf004c9/7293dc14-01c5-4f15-9895-a3f79bf004c9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7293dc14-01c5-4f15-9895-a3f79bf004c9/7293dc14-01c5-4f15-9895-a3f79bf004c9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-hdd-wd-black-gaming-4tb-35-sata-iii"
  },
  {
@@ -17919,7 +17919,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2a840d13-425f-4626-b797-62029c3073c9/2a840d13-425f-4626-b797-62029c3073c9.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2a840d13-425f-4626-b797-62029c3073c9/2a840d13-425f-4626-b797-62029c3073c9.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-adata-1tb-m2-pci-express-40-3d-nand-nvme"
  },
  {
@@ -17933,7 +17933,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 2000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/cc63204a-5318-4fb8-ac29-1fa0e35a8cd4/cc63204a-5318-4fb8-ac29-1fa0e35a8cd4.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/cc63204a-5318-4fb8-ac29-1fa0e35a8cd4/cc63204a-5318-4fb8-ac29-1fa0e35a8cd4.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-lexar-nq790-2-tb-m2-nvme-pcie-40-e-zeze"
  },
  {
@@ -17947,7 +17947,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 1000
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/7e01e4c3-ac02-4fcb-a675-29247a156a3e/7e01e4c3-ac02-4fcb-a675-29247a156a3e.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/7e01e4c3-ac02-4fcb-a675-29247a156a3e/7e01e4c3-ac02-4fcb-a675-29247a156a3e.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/wd-black-sn750-ssd-1-tb-pcie-30-x4-nvme"
  },
  {
@@ -17961,7 +17961,7 @@ export const SCRAPED: (SeedPart & { category: Category })[] = [
    "formFactor": "M.2",
    "capacityGb": 128
   },
-  "imageUrl": "https://50cdn.gjirafamall.tech/images/2422159a-ffae-4a7d-b265-fc55e92fb5d5/2422159a-ffae-4a7d-b265-fc55e92fb5d5.jpeg",
+  "imageUrl": "https://50cdn.gjirafamall.tech/images/2422159a-ffae-4a7d-b265-fc55e92fb5d5/2422159a-ffae-4a7d-b265-fc55e92fb5d5.jpeg?width=400",
   "sourceUrl": "https://gjirafa50.com/disk-ssd-adata-xpg-gammix-s10-128gb-m2-nvme-i-brendshem"
  }
 ];
