@@ -1,7 +1,8 @@
-import { BadRequestException, Body, Controller, Get, NotFoundException, Param, ParseUUIDPipe, Patch, UseGuards } from '@nestjs/common';
+import { BadRequestException, Body, Controller, Get, HttpCode, NotFoundException, Param, ParseUUIDPipe, Patch, Post, UseGuards } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { AdminGuard } from '../auth/admin.guard';
+import { AuthService } from '../auth/auth.service';
 import { UserId } from '../auth/auth.guard';
 import { Build, BUILD_STATUSES } from '../builds/build.entity';
 import { ROLES, User, toPublic } from '../users/user.entity';
@@ -13,6 +14,7 @@ export class AdminController {
   constructor(
     @InjectRepository(User) private readonly users: Repository<User>,
     @InjectRepository(Build) private readonly builds: Repository<Build>,
+    private readonly auth: AuthService,
   ) {}
 
   /** GET /api/admin/users — every account with its info and number of orders */
@@ -44,6 +46,13 @@ export class AdminController {
     if (!user) throw new NotFoundException('User not found');
     user.role = body.role as User['role'];
     return toPublic(await this.users.save(user));
+  }
+
+  /** POST /api/admin/users/:id/resend-verification — shows Gmail's exact error if sending fails */
+  @Post('users/:id/resend-verification')
+  @HttpCode(200)
+  resendVerification(@Param('id', ParseUUIDPipe) id: string) {
+    return this.auth.resendVerification(id, true);
   }
 
   /** GET /api/admin/orders — every order, newest first, with who placed it and where it goes */

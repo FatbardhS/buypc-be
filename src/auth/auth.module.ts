@@ -27,6 +27,6 @@ import { MailService } from '../mail/mail.service';
   ],
   controllers: [AuthController],
   providers: [AuthService, AuthGuard, AdminGuard, MailService],
-  exports: [AuthGuard, AdminGuard, JwtModule, TypeOrmModule],
+  exports: [AuthService, AuthGuard, AdminGuard, JwtModule, TypeOrmModule],
 })
 export class AuthModule {}

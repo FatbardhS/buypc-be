@@ -1,4 +1,4 @@
-import { BadRequestException, ConflictException, Injectable, Logger, ServiceUnavailableException, UnauthorizedException } from '@nestjs/common';
+import { BadRequestException, ConflictException, Injectable, NotFoundException, Logger, ServiceUnavailableException, UnauthorizedException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
@@ -64,7 +64,7 @@ export class AuthService {
     );
     // Both emails go out together; awaited because a serverless function stops after responding
     await Promise.all([
-      user.emailVerified ? Promise.resolve(true) : this.sendVerification(user),
+      user.emailVerified ? Promise.resolve(null) : this.sendVerification(user),
       this.notifyAdmins(user),
     ]);
     return this.issue(user);
@@ -122,31 +122,42 @@ export class AuthService {
   }
 
   /** POST /auth/resend-verification: emails a new confirmation link to the logged-in user */
-  async resendVerification(userId: string): Promise<{ sent: boolean }> {
+  /**
+   * Sends the confirmation link again. Users call it for themselves; admins can call it for anyone
+   * (adminView) and then see Gmail's exact error when sending fails.
+   */
+  async resendVerification(userId: string, adminView = false): Promise<{ sent: boolean }> {
     const user = await this.users.findOneBy({ id: userId });
-    if (!user) throw new UnauthorizedException();
-    if (user.emailVerified) return { sent: false };
+    if (!user) throw adminView ? new NotFoundException('User not found') : new UnauthorizedException();
+    if (user.emailVerified) {
+      if (adminView) throw new BadRequestException('This email is already confirmed');
+      return { sent: false };
+    }
     const last = this.lastResend.get(userId) ?? 0;
     if (Date.now() - last < 60_000) {
       throw new BadRequestException('A confirmation email was just sent. Wait a minute before asking again.');
     }
     this.lastResend.set(userId, Date.now());
-    if (!(await this.sendVerification(user))) {
+    const error = await this.sendVerification(user);
+    if (error) {
       this.lastResend.delete(userId);
-      throw new ServiceUnavailableException('Could not send the email right now. Try again in a few minutes.');
+      throw new ServiceUnavailableException(
+        adminView ? `Gmail did not accept the email: ${error}` : 'Could not send the email right now. Try again in a few minutes.',
+      );
     }
     return { sent: true };
   }
 
-  /** False when the email couldn't be sent (the account still works; the user can ask again) */
-  private async sendVerification(user: User): Promise<boolean> {
+  /** Null when sent, otherwise the reason (the account still works; the user can ask again) */
+  private async sendVerification(user: User): Promise<string | null> {
     const token = await this.jwt.signAsync({ sub: user.id, email: user.email, purpose: VERIFY_PURPOSE }, { expiresIn: '24h' });
     try {
       await this.mail.sendVerification(user.email, user.name, token);
-      return true;
+      return null;
     } catch (err) {
-      this.logger.error(`Could not send confirmation email to ${user.email}: ${(err as Error).message}`);
-      return false;
+      const reason = (err as Error).message;
+      this.logger.error(`Could not send confirmation email to ${user.email}: ${reason}`);
+      return reason;
     }
   }
 

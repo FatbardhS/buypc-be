@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { Transporter, createTransport } from 'nodemailer';
+import { SendMailOptions, Transporter, createTransport } from 'nodemailer';
 
 /**
  * Sends email through Gmail (GMAIL_USER + GMAIL_APP_PASSWORD, a Google "app password").
@@ -22,6 +22,12 @@ export class MailService {
     this.appUrl = (config.get<string>('APP_URL') ?? 'http://localhost:4200').replace(/\/$/, '');
   }
 
+  /** Sends and logs the result, so the server logs show every email that went out */
+  private async send(message: SendMailOptions): Promise<void> {
+    const info = await this.transport!.sendMail(message);
+    this.logger.log(`Sent "${message.subject}" to ${[message.to].flat().join(", ")}: ${info.response}`);
+  }
+
   /** True when real emails go out */
   get enabled(): boolean {
     return !!this.transport;
@@ -34,7 +40,7 @@ export class MailService {
       return;
     }
     const safeName = name.replace(/[<>&"]/g, '');
-    await this.transport.sendMail({
+    await this.send({
       from: this.from,
       to,
       subject: 'Confirm your email for BYPC',
@@ -63,7 +69,7 @@ export class MailService {
     // The name and email are typed by the visitor, so they're escaped before going into the email
     const name = escapeHtml(user.name);
     const email = escapeHtml(user.email);
-    await this.transport.sendMail({
+    await this.send({
       from: this.from,
       to,
       subject: `New BYPC sign-up: ${user.name.replace(/[\r\n]+/g, ' ').slice(0, 80)}`,
