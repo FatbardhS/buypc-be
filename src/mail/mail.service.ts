@@ -48,4 +48,42 @@ export class MailService {
 </div>`,
     });
   }
+
+  /** "New sign-up" notice for the admins */
+  async sendNewUserNotice(
+    to: string[],
+    user: { name: string; email: string; createdAt: Date; total: number },
+  ): Promise<void> {
+    const when = user.createdAt.toLocaleString('en-GB', { timeZone: 'Europe/Belgrade', dateStyle: 'medium', timeStyle: 'short' });
+    const adminLink = `${this.appUrl}/admin`;
+    if (!this.transport) {
+      this.logger.warn(`Email not configured. New sign-up: ${user.name} <${user.email}> (notice for ${to.join(', ')})`);
+      return;
+    }
+    // The name and email are typed by the visitor, so they're escaped before going into the email
+    const name = escapeHtml(user.name);
+    const email = escapeHtml(user.email);
+    await this.transport.sendMail({
+      from: this.from,
+      to,
+      subject: `New BYPC sign-up: ${user.name.replace(/[\r\n]+/g, ' ').slice(0, 80)}`,
+      text: `Someone just created a BYPC account.\n\nName: ${user.name}\nEmail: ${user.email}\nWhen: ${when}\nAccounts in total: ${user.total}\n\nSee all users: ${adminLink}`,
+      html: `<div style="font-family:Arial,sans-serif;max-width:480px;margin:auto;color:#111">
+  <h2 style="margin:0 0 12px">New sign-up</h2>
+  <p>Someone just created a BYPC account.</p>
+  <table style="border-collapse:collapse;margin:16px 0;font-size:14px">
+    <tr><td style="padding:4px 16px 4px 0;color:#555">Name</td><td style="padding:4px 0"><b>${name}</b></td></tr>
+    <tr><td style="padding:4px 16px 4px 0;color:#555">Email</td><td style="padding:4px 0">${email}</td></tr>
+    <tr><td style="padding:4px 16px 4px 0;color:#555">When</td><td style="padding:4px 0">${when}</td></tr>
+    <tr><td style="padding:4px 16px 4px 0;color:#555">Accounts in total</td><td style="padding:4px 0">${user.total}</td></tr>
+  </table>
+  <p style="margin:24px 0"><a href="${adminLink}" style="background:#22d3ee;color:#061014;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:bold">Open the admin panel</a></p>
+  <p style="font-size:12px;color:#777">You get this because your email is in ADMIN_EMAILS.</p>
+</div>`,
+    });
+  }
+}
+
+function escapeHtml(value: string): string {
+  return value.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
 }

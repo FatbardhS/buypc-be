@@ -62,8 +62,24 @@ export class AuthService {
         emailVerified: !this.mail.enabled,
       }),
     );
-    if (!user.emailVerified) await this.sendVerification(user);
+    // Both emails go out together; awaited because a serverless function stops after responding
+    await Promise.all([
+      user.emailVerified ? Promise.resolve(true) : this.sendVerification(user),
+      this.notifyAdmins(user),
+    ]);
     return this.issue(user);
+  }
+
+  /** Emails every ADMIN_EMAILS address that someone new signed up. Never blocks the sign-up. */
+  private async notifyAdmins(user: User): Promise<void> {
+    const to = [...this.adminEmails].filter((e) => e !== user.email);
+    if (!to.length) return;
+    try {
+      const total = await this.users.count();
+      await this.mail.sendNewUserNotice(to, { name: user.name, email: user.email, createdAt: user.createdAt, total });
+    } catch (err) {
+      this.logger.error(`Could not send the new-user notice for ${user.email}: ${(err as Error).message}`);
+    }
   }
 
   async login(body: { email?: unknown; password?: unknown }): Promise<AuthResponse> {
