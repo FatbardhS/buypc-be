@@ -6,16 +6,19 @@ export interface SeedPart<C extends Category = Category> {
   name: string;
   price: number;
   specs: SpecsByCategory[C];
+  imageUrl?: string | null;
+  sourceUrl?: string | null;
 }
 
-type Catalog = { [C in Category]: SeedPart<C>[] };
+export type Catalog = { [C in Category]: SeedPart<C>[] };
 
 const ATX_ALL = ['ATX', 'Micro-ATX', 'Mini-ITX'] as const;
 const ALL_SOCKETS = ['AM4', 'AM5', 'LGA1700', 'LGA1851'] as const;
 
 /**
  * Real, widely available parts. Dimensions, sockets and power figures come from
- * manufacturer spec sheets; prices are approximate USD street prices.
+ * manufacturer spec sheets. Prices are in EUR: the gjirafa50.com price when the scraper matched
+ * the part (src/seed/scraped.data.ts, CURATED_FROM_SHOP), otherwise an estimate.
  */
 export const CATALOG: Catalog = {
   case: [

@@ -30,4 +30,12 @@ export class Part {
 
   @Column({ type: 'jsonb' })
   specs: AnySpecs;
+
+  /** Product picture (hosted by the shop) */
+  @Column({ type: 'varchar', length: 500, nullable: true })
+  imageUrl: string | null;
+
+  /** Where the price and picture came from */
+  @Column({ type: 'varchar', length: 500, nullable: true })
+  sourceUrl: string | null;
 }

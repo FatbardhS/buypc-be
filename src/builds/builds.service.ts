@@ -26,7 +26,7 @@ export class BuildsService {
   }
 
   /** Saves a finished build as an order. Rejects missing or incompatible parts. */
-  async create(ids: unknown, name?: string): Promise<Build> {
+  async create(userId: string, ids: unknown, name?: string): Promise<Build> {
     const selection = await this.parts.resolveSelection(ids);
 
     // A graphics card is optional when the processor has built-in graphics
@@ -42,6 +42,7 @@ export class BuildsService {
     }
 
     const build = this.builds.create({
+      userId,
       name: (typeof name === 'string' && name.trim().slice(0, 120)) || `My ${selection.cpu!.name} build`,
       items: CATEGORIES.filter((category) => selection[category]).map((category) => {
         const part = selection[category]!;
@@ -53,12 +54,12 @@ export class BuildsService {
     return this.builds.save(build);
   }
 
-  findAll(): Promise<Build[]> {
-    return this.builds.find({ order: { createdAt: 'DESC' } });
+  findAll(userId: string): Promise<Build[]> {
+    return this.builds.find({ where: { userId }, order: { createdAt: 'DESC' } });
   }
 
-  async findOne(id: string): Promise<Build> {
-    const build = await this.builds.findOneBy({ id });
+  async findOne(userId: string, id: string): Promise<Build> {
+    const build = await this.builds.findOneBy({ id, userId });
     if (!build) throw new NotFoundException('Build not found');
     return build;
   }

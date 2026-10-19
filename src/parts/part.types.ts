@@ -85,7 +85,8 @@ export interface PsuSpecs {
   wattage: number;
   formFactor: PsuFormFactor;
   efficiency: string;
-  modular: 'Full' | 'Semi' | 'No';
+  /** Unknown for some shop listings */
+  modular?: 'Full' | 'Semi' | 'No';
 }
 
 export interface RamSpecs {
@@ -97,7 +98,7 @@ export interface RamSpecs {
 
 export interface StorageSpecs {
   interface: 'NVMe' | 'SATA';
-  formFactor: 'M.2' | '2.5"';
+  formFactor: 'M.2' | '2.5"' | '3.5"';
   capacityGb: number;
 }
 

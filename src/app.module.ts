@@ -3,6 +3,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PartsModule } from './parts/parts.module';
 import { BuildsModule } from './builds/builds.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -21,6 +22,7 @@ import { BuildsModule } from './builds/builds.module';
         synchronize: true,
       }),
     }),
+    AuthModule,
     PartsModule,
     BuildsModule,
   ],

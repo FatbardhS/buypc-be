@@ -3,3 +3,8 @@
 .env
 *.log
 .vercel
+
+.vercel
+.env*
+
+scripts/scrape/.cache

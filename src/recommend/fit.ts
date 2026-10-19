@@ -203,7 +203,10 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
         : level === 'overkill' ? `More space than ${job} usually needs`
         : `${gb(s.capacityGb)} is plenty for ${job}`;
       let extra = 0;
-      if (s.interface === 'SATA') {
+      if (s.formFactor === '3.5"') {
+        note += '. Hard drive: much slower, best as extra space next to an SSD';
+        extra = 2;
+      } else if (s.interface === 'SATA') {
         note += '. Slower than an NVMe drive';
         extra = 1;
       }

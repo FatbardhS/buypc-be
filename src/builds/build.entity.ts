@@ -1,4 +1,5 @@
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, CreateDateColumn, Entity, Index, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { User } from '../users/user.entity';
 import type { Category } from '../parts/part.types';
 
 const numeric = {
@@ -19,6 +20,15 @@ export interface BuildItem {
 export class Build {
   @PrimaryGeneratedColumn('uuid')
   id: string;
+
+  /** Who placed the order. Null only for orders placed before accounts existed. */
+  @Index()
+  @Column({ type: 'uuid', nullable: true })
+  userId: string | null;
+
+  @ManyToOne(() => User, { onDelete: 'CASCADE', nullable: true })
+  @JoinColumn({ name: 'userId' })
+  user?: User;
 
   @Column({ type: 'varchar', length: 120 })
   name: string;

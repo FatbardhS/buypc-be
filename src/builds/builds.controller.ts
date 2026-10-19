@@ -1,5 +1,6 @@
-import { Body, Controller, Get, Param, ParseUUIDPipe, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, ParseUUIDPipe, Post, UseGuards } from '@nestjs/common';
 import { BuildsService } from './builds.service';
+import { AuthGuard, UserId } from '../auth/auth.guard';
 
 @Controller('builds')
 export class BuildsController {
@@ -13,17 +14,21 @@ export class BuildsController {
 
   /** POST /api/builds  { name?: string, selection: { ...all 8 categories } } */
   @Post()
-  create(@Body() body: { selection?: unknown; name?: string }) {
-    return this.builds.create(body?.selection, body?.name);
+  @UseGuards(AuthGuard)
+  create(@UserId() userId: string, @Body() body: { selection?: unknown; name?: string }) {
+    return this.builds.create(userId, body?.selection, body?.name);
   }
 
+  /** The logged-in user's orders */
   @Get()
-  findAll() {
-    return this.builds.findAll();
+  @UseGuards(AuthGuard)
+  findAll(@UserId() userId: string) {
+    return this.builds.findAll(userId);
   }
 
   @Get(':id')
-  findOne(@Param('id', ParseUUIDPipe) id: string) {
-    return this.builds.findOne(id);
+  @UseGuards(AuthGuard)
+  findOne(@UserId() userId: string, @Param('id', ParseUUIDPipe) id: string) {
+    return this.builds.findOne(userId, id);
   }
 }
