@@ -4,10 +4,11 @@ import { JwtModule } from '@nestjs/jwt';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from '../users/user.entity';
 import { AuthController } from './auth.controller';
+import { AdminGuard } from './admin.guard';
 import { AuthGuard } from './auth.guard';
 import { AuthService } from './auth.service';
 
-/** Global so any controller can use AuthGuard. */
+/** Global so any controller can use AuthGuard / AdminGuard and the users repository. */
 @Global()
 @Module({
   imports: [
@@ -24,7 +25,7 @@ import { AuthService } from './auth.service';
     }),
   ],
   controllers: [AuthController],
-  providers: [AuthService, AuthGuard],
-  exports: [AuthGuard, JwtModule],
+  providers: [AuthService, AuthGuard, AdminGuard],
+  exports: [AuthGuard, AdminGuard, JwtModule, TypeOrmModule],
 })
 export class AuthModule {}

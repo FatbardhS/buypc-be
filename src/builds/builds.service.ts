@@ -2,6 +2,7 @@ import { BadRequestException, Injectable, NotFoundException } from '@nestjs/comm
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Build } from './build.entity';
+import { User, hasDeliveryInfo } from '../users/user.entity';
 import { PartsService } from '../parts/parts.service';
 import { CATEGORIES, CpuSpecs } from '../parts/part.types';
 import { checkSelection, estimatePower, Selection } from '../compatibility/compatibility';
@@ -10,6 +11,7 @@ import { checkSelection, estimatePower, Selection } from '../compatibility/compa
 export class BuildsService {
   constructor(
     @InjectRepository(Build) private readonly builds: Repository<Build>,
+    @InjectRepository(User) private readonly users: Repository<User>,
     private readonly parts: PartsService,
   ) {}
 
@@ -27,6 +29,11 @@ export class BuildsService {
 
   /** Saves a finished build as an order. Rejects missing or incompatible parts. */
   async create(userId: string, ids: unknown, name?: string): Promise<Build> {
+    const user = await this.users.findOneBy({ id: userId });
+    if (!user || !hasDeliveryInfo(user)) {
+      throw new BadRequestException({ message: 'Add your phone, address and city in My info before ordering', code: 'DELIVERY_INFO_MISSING' });
+    }
+
     const selection = await this.parts.resolveSelection(ids);
 
     // A graphics card is optional when the processor has built-in graphics

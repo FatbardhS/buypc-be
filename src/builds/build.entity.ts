@@ -16,6 +16,9 @@ export interface BuildItem {
   price: number;
 }
 
+export const BUILD_STATUSES = ['placed', 'processing', 'shipped', 'delivered', 'cancelled'] as const;
+export type BuildStatus = (typeof BUILD_STATUSES)[number];
+
 @Entity('builds')
 export class Build {
   @PrimaryGeneratedColumn('uuid')
@@ -34,7 +37,7 @@ export class Build {
   name: string;
 
   @Column({ type: 'varchar', length: 20, default: 'placed' })
-  status: 'placed' | 'processing' | 'shipped' | 'delivered';
+  status: BuildStatus;
 
   @Column({ type: 'jsonb' })
   items: BuildItem[];

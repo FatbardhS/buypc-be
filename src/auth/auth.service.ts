@@ -1,15 +1,10 @@
 import { BadRequestException, ConflictException, Injectable, UnauthorizedException } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { User } from '../users/user.entity';
+import { PublicUser, User, toPublic } from '../users/user.entity';
 import { hashPassword, verifyPassword } from './password';
-
-export interface PublicUser {
-  id: string;
-  name: string;
-  email: string;
-}
 
 export interface AuthResponse {
   token: string;
@@ -20,10 +15,21 @@ const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 @Injectable()
 export class AuthService {
+  /** Emails that are made admin when they register or log in (ADMIN_EMAILS, comma-separated) */
+  private readonly adminEmails: Set<string>;
+
   constructor(
     @InjectRepository(User) private readonly users: Repository<User>,
     private readonly jwt: JwtService,
-  ) {}
+    config: ConfigService,
+  ) {
+    this.adminEmails = new Set(
+      (config.get<string>('ADMIN_EMAILS') ?? '')
+        .split(',')
+        .map((e) => e.trim().toLowerCase())
+        .filter(Boolean),
+    );
+  }
 
   async register(body: { name?: unknown; email?: unknown; password?: unknown }): Promise<AuthResponse> {
     const name = typeof body?.name === 'string' ? body.name.trim() : '';
@@ -39,7 +45,12 @@ export class AuthService {
     }
 
     const user = await this.users.save(
-      this.users.create({ name, email, passwordHash: await hashPassword(password) }),
+      this.users.create({
+        name,
+        email,
+        passwordHash: await hashPassword(password),
+        role: this.adminEmails.has(email) ? 'admin' : 'user',
+      }),
     );
     return this.issue(user);
   }
@@ -57,21 +68,23 @@ export class AuthService {
     if (!user || !(await verifyPassword(password, user.passwordHash))) {
       throw new UnauthorizedException('Wrong email or password');
     }
+    // Accounts that existed before their email was added to ADMIN_EMAILS
+    if (this.adminEmails.has(email) && user.role !== 'admin') {
+      user.role = 'admin';
+      await this.users.update(user.id, { role: 'admin' });
+    }
     return this.issue(user);
   }
 
   async findPublic(id: string): Promise<PublicUser> {
     const user = await this.users.findOneBy({ id });
     if (!user) throw new UnauthorizedException();
-    return this.toPublic(user);
+    return toPublic(user);
   }
 
   private async issue(user: User): Promise<AuthResponse> {
+    // Only the id goes in the token; the role is always read from the database
     const token = await this.jwt.signAsync({ sub: user.id });
-    return { token, user: this.toPublic(user) };
-  }
-
-  private toPublic(user: User): PublicUser {
-    return { id: user.id, name: user.name, email: user.email };
+    return { token, user: toPublic(user) };
   }
 }
