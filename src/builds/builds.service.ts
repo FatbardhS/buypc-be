@@ -30,7 +30,11 @@ export class BuildsService {
   /** Saves a finished build as an order. Rejects missing or incompatible parts. */
   async create(userId: string, ids: unknown, name?: string): Promise<Build> {
     const user = await this.users.findOneBy({ id: userId });
-    if (!user || !hasDeliveryInfo(user)) {
+    if (!user) throw new BadRequestException('Please log in again');
+    if (!user.emailVerified) {
+      throw new BadRequestException({ message: 'Confirm your email before ordering. Check your inbox for the link.', code: 'EMAIL_NOT_VERIFIED' });
+    }
+    if (!hasDeliveryInfo(user)) {
       throw new BadRequestException({ message: 'Add your phone, address and city in My info before ordering', code: 'DELIVERY_INFO_MISSING' });
     }
 

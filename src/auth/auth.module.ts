@@ -7,6 +7,7 @@ import { AuthController } from './auth.controller';
 import { AdminGuard } from './admin.guard';
 import { AuthGuard } from './auth.guard';
 import { AuthService } from './auth.service';
+import { MailService } from '../mail/mail.service';
 
 /** Global so any controller can use AuthGuard / AdminGuard and the users repository. */
 @Global()
@@ -25,7 +26,7 @@ import { AuthService } from './auth.service';
     }),
   ],
   controllers: [AuthController],
-  providers: [AuthService, AuthGuard, AdminGuard],
+  providers: [AuthService, AuthGuard, AdminGuard, MailService],
   exports: [AuthGuard, AdminGuard, JwtModule, TypeOrmModule],
 })
 export class AuthModule {}

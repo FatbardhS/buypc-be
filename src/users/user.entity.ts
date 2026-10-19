@@ -19,6 +19,10 @@ export class User {
   @Column({ type: 'varchar', length: 200, select: false })
   passwordHash: string;
 
+  /** Set when the user opens the link in the confirmation email. Needed before ordering. */
+  @Column({ type: 'boolean', default: false })
+  emailVerified: boolean;
+
   /** "admin" can open the admin panel; checked against the database on every admin request */
   @Column({ type: 'varchar', length: 10, default: 'user' })
   role: Role;
@@ -38,11 +42,11 @@ export class User {
 }
 
 /** What the API returns about a user (never the password hash) */
-export type PublicUser = Pick<User, 'id' | 'name' | 'email' | 'role' | 'phone' | 'address' | 'city'>;
+export type PublicUser = Pick<User, 'id' | 'name' | 'email' | 'emailVerified' | 'role' | 'phone' | 'address' | 'city'>;
 
 export function toPublic(user: User): PublicUser {
-  const { id, name, email, role, phone, address, city } = user;
-  return { id, name, email, role, phone, address, city };
+  const { id, name, email, emailVerified, role, phone, address, city } = user;
+  return { id, name, email, emailVerified, role, phone, address, city };
 }
 
 /** Phone, address and city are all needed to deliver an order */
