@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { In, Repository } from 'typeorm';
 import { Part } from './part.entity';
 import { CATEGORIES, Category, CpuSpecs, isCategory } from './part.types';
-import { Selection, estimatePower, issuesFor } from '../compatibility/compatibility';
+import { Selection, estimatePower, issuesFor, notesFor } from '../compatibility/compatibility';
 import { buildTargets, parseProfile } from '../recommend/profile';
 import { Fit, FitContext, bestCpuBySocket, builtInGraphicsFit, fitFor } from '../recommend/fit';
 
@@ -14,6 +14,8 @@ export interface PartOption {
   part: Part;
   compatible: boolean;
   issues: string[];
+  /** Heads-ups that don't block the pick (e.g. may need a BIOS update) */
+  notes: string[];
   fit?: Fit;
   recommended: boolean;
 }
@@ -83,6 +85,7 @@ export class PartsService {
         part,
         compatible: issues.length === 0,
         issues,
+        notes: issues.length ? [] : notesFor(part, earlier),
         fit: targets && fitFor(part, targets, earlier, ctx),
         recommended: false,
       };

@@ -201,3 +201,50 @@ export function checkSelection(selection: Selection): Partial<Record<Category, s
 
   return result;
 }
+
+// ---------- Notes (don't block a pick) ----------
+
+/**
+ * Older chipsets run newer processors only after a BIOS update. Shops usually stock updated
+ * boards, so this is a heads-up, not an incompatibility.
+ */
+const BIOS_UPDATE_RULES: { socket: string; chipsets: RegExp; cpu: RegExp; label: string }[] = [
+  { socket: 'AM4', chipsets: /^(A320|B350|X370|B450|X470)$/, cpu: /Ryzen \d (4|5)\d{3}/, label: 'Ryzen 4000/5000' },
+  { socket: 'AM5', chipsets: /^(A620|B650E?|X670E?)$/, cpu: /Ryzen \d (8|9)\d{3}/, label: 'Ryzen 8000/9000' },
+  { socket: 'LGA1700', chipsets: /^(H610|B660|H670|Z690)$/, cpu: /Core i\d-1[34]\d{3}/, label: 'Intel 13th/14th gen' },
+];
+
+function pairNotes(a: Part, b: Part): string[] {
+  const board = a.category === 'motherboard' ? a : b.category === 'motherboard' ? b : undefined;
+  const cpu = a.category === 'cpu' ? a : b.category === 'cpu' ? b : undefined;
+  if (!board || !cpu) return [];
+
+  const { socket, chipset } = specs<MotherboardSpecs>(board);
+  if (specs<CpuSpecs>(cpu).socket !== socket) return [];
+  const rule = BIOS_UPDATE_RULES.find((r) => r.socket === socket && r.chipsets.test(chipset) && r.cpu.test(cpu.name));
+  return rule
+    ? [`May need a BIOS update: ${chipset} boards run ${rule.label} processors after a BIOS update. Ask the shop to check before buying.`]
+    : [];
+}
+
+/** Heads-ups for `candidate` next to the other picks (the part still fits) */
+export function notesFor(candidate: Part, selection: Selection): string[] {
+  return CATEGORIES.flatMap((category) => {
+    const other = selection[category];
+    return other && category !== candidate.category ? pairNotes(candidate, other) : [];
+  });
+}
+
+/** Notes for a whole build, reported on the later step of each pair (like checkSelection) */
+export function noteSelection(selection: Selection): Partial<Record<Category, string[]>> {
+  const result: Partial<Record<Category, string[]>> = {};
+  CATEGORIES.forEach((category, index) => {
+    const part = selection[category];
+    if (!part) return;
+    const earlier: Selection = {};
+    for (const prev of CATEGORIES.slice(0, index)) if (selection[prev]) earlier[prev] = selection[prev];
+    const notes = notesFor(part, earlier);
+    if (notes.length) result[category] = notes;
+  });
+  return result;
+}

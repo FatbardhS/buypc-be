@@ -5,7 +5,7 @@ import { Build } from './build.entity';
 import { User, hasDeliveryInfo } from '../users/user.entity';
 import { PartsService } from '../parts/parts.service';
 import { CATEGORIES, CpuSpecs } from '../parts/part.types';
-import { checkSelection, estimatePower, Selection } from '../compatibility/compatibility';
+import { checkSelection, estimatePower, noteSelection, Selection } from '../compatibility/compatibility';
 
 @Injectable()
 export class BuildsService {
@@ -19,7 +19,7 @@ export class BuildsService {
     const totalPrice = Math.round(
       CATEGORIES.reduce((sum, c) => sum + (selection[c]?.price ?? 0), 0) * 100,
     ) / 100;
-    return { issues: checkSelection(selection), power: estimatePower(selection), totalPrice };
+    return { issues: checkSelection(selection), notes: noteSelection(selection), power: estimatePower(selection), totalPrice };
   }
 
   /** Validates a (possibly partial) build without saving it. */
