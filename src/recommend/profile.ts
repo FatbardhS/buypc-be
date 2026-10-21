@@ -41,7 +41,15 @@ export interface Targets {
   cpuBrand?: CpuBrand;
   /** Plain-language description, e.g. "gaming at 1440p · 240Hz" */
   label: string;
+  /**
+   * Demanding uses (gaming, video & photo, architecture, engineering): recommend the strong end
+   * of what suits the job instead of the cheapest part that is just enough.
+   */
+  performance: boolean;
 }
+
+/** Uses where buyers want a strong PC, not a budget one */
+const PERFORMANCE_USES: Use[] = ['gaming', 'creative', 'architecture', 'engineering'];
 
 const r = (min: number, ideal: number, max: number): Range => ({ min, ideal, max });
 const clamp = (n: number) => Math.min(5, Math.max(1, n));
@@ -56,7 +64,7 @@ const RES_LABEL: Record<Resolution, string> = { '1080p': '1080p', '1440p': '1440
  * Gaming: resolution sets how hard the graphics card works per frame, refresh rate sets how many
  * frames per second it (and the processor) must deliver. High refresh rates are processor-heavy.
  */
-function gamingTargets(resolution: Resolution, hz: RefreshRate): Omit<Targets, 'label'> {
+function gamingTargets(resolution: Resolution, hz: RefreshRate): Omit<Targets, 'label' | 'performance'> {
   const gpuBase = { '1080p': 2, '1440p': 3, '4k': 5 }[resolution];
   const gpuBoost = hz <= 60 ? -1 : hz <= 144 ? 0 : hz <= 360 ? 1 : 2;
   const gpuIdeal = clamp(gpuBase + gpuBoost);
@@ -67,13 +75,14 @@ function gamingTargets(resolution: Resolution, hz: RefreshRate): Omit<Targets, '
   const midRam = resolution === '1440p' || hz >= 240;
   return {
     cpuGaming: cpuIdeal === 5 ? r(4, 5, 5) : around(cpuIdeal, 1, 2),
-    gpuTier: gpuIdeal === 5 ? r(4, 5, 5) : around(gpuIdeal),
+    // Entry-level cards (GT 1030, RTX 3050 class) are never right for gaming
+    gpuTier: gpuIdeal === 5 ? r(4, 5, 5) : r(Math.max(2, clamp(gpuIdeal - 1)), Math.max(2, gpuIdeal), clamp(gpuIdeal + 1)),
     ramGb: bigRam ? r(32, 32, 64) : midRam ? r(16, 32, 32) : r(16, 16, 32),
     storageGb: resolution === '4k' ? r(1000, 2000, 2000) : r(1000, 1000, 2000),
   };
 }
 
-function targetsFor(use: Use, resolution: Resolution, hz: RefreshRate): Omit<Targets, 'label'> {
+function targetsFor(use: Use, resolution: Resolution, hz: RefreshRate): Omit<Targets, 'label' | 'performance'> {
   switch (use) {
     case 'office':
       // Word, Excel, PowerPoint, browsing: built-in graphics and 16GB are plenty
@@ -117,7 +126,7 @@ export function buildTargets(profile: Profile): Targets {
   // Office work is covered by any other use, so it only counts on its own
   const uses = profile.uses.length > 1 ? profile.uses.filter((u) => u !== 'office') : profile.uses;
 
-  let combined: Omit<Targets, 'label'> | undefined;
+  let combined: Omit<Targets, 'label' | 'performance'> | undefined;
   for (const use of uses) {
     const t = targetsFor(use, resolution, hz);
     combined = !combined
@@ -136,6 +145,7 @@ export function buildTargets(profile: Profile): Targets {
   return {
     ...combined!,
     cpuBrand: profile.cpuBrand,
+    performance: uses.some((u) => PERFORMANCE_USES.includes(u)),
     label: uses.map((u) => labelFor(u, resolution, hz)).join(' and ') + brand,
   };
 }

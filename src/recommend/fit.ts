@@ -31,11 +31,26 @@ export interface Fit {
 
 const specs = <T>(part: Part) => part.specs as T;
 
-function rate(value: number, range: Range): { level: FitLevel; score: number } {
+function rate(value: number, range: Range, aim = range.ideal): { level: FitLevel; score: number } {
   if (value < range.min) return { level: 'weak', score: 100 + (range.min - value) };
   if (value > range.max) return { level: 'overkill', score: 50 + (value - range.max) };
-  return { level: 'good', score: Math.abs(value - range.ideal) };
+  return { level: 'good', score: Math.abs(value - aim) };
 }
+
+/**
+ * What to aim for inside the "good" range. Office: the ideal (cheapest that's enough).
+ * Demanding uses: one class above the ideal, so the PC is strong rather than just enough.
+ * `cap` keeps flagship prices for when the job really needs them (4K, top refresh rates).
+ */
+function aimFor(range: Range, t: Targets, cap = 5): number {
+  if (!t.performance) return range.ideal;
+  return Math.min(range.max, Math.max(range.ideal, Math.min(cap, range.ideal + 1)));
+}
+
+/** Budget motherboard chipsets (AMD A-series and B840, Intel H-series) */
+const BUDGET_CHIPSET = /^(A\d{3}|H\d{3}|B840)$/;
+/** 0 = Gold or better, higher = cheaper power supply */
+const efficiencyPenalty = (e: string) => (/gold|platinum|titanium/i.test(e) ? 0 : /bronze/i.test(e) ? 1 : 2);
 
 const BRAND_NAMES = { amd: 'AMD', intel: 'Intel' } as const;
 const socketBrand = (socket: string): 'amd' | 'intel' => (socket.startsWith('AM') ? 'amd' : 'intel');
@@ -79,6 +94,11 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
           ? { level: 'good', note: 'Compact and affordable, perfect for an office PC', score: 0 }
           : { level: 'good', note: 'Roomy case, more space than an office PC needs', score: 1 };
       }
+      if (t.performance) {
+        // Room for a long graphics card and a big radiator
+        const score = (c.maxGpuLengthMm >= 360 ? 0 : 1) + (c.maxRadiatorMm >= 360 ? 0 : 1);
+        return { level: 'good', note: `Good airflow and plenty of room for ${job}`, score };
+      }
       return { level: 'good', note: `Good airflow and plenty of room for ${job}`, score: c.maxGpuLengthMm >= 360 ? 0 : 1 };
     }
 
@@ -101,6 +121,10 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
         // Prefer the platform with the best processor for the job, then the cheapest board + processor
         score = cpu.score + (part.price + cpu.price) / 10000;
       }
+      if (t.performance) {
+        // Budget A/H chipsets cut corners (power delivery, fewer M.2 slots, no tuning)
+        if (BUDGET_CHIPSET.test(m.chipset)) score += 1;
+      }
       if (t.gpuTier.max === 0 && part.price > 200) {
         return { level: 'overkill', note: 'Lots of extra features an office PC won\'t use', score: 50 + score };
       }
@@ -113,8 +137,8 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
         return { level: 'other', note: `An ${BRAND_NAMES[socketBrand(c.socket)]} processor; you chose ${BRAND_NAMES[t.cpuBrand]}`, score: 200 };
       }
       const ratings = [
-        t.cpuGaming && rate(c.gamingTier, t.cpuGaming),
-        t.cpuWork && rate(c.workTier, t.cpuWork),
+        t.cpuGaming && rate(c.gamingTier, t.cpuGaming, aimFor(t.cpuGaming, t)),
+        t.cpuWork && rate(c.workTier, t.cpuWork, aimFor(t.cpuWork, t)),
       ].filter((x): x is { level: FitLevel; score: number } => !!x);
       const level: FitLevel = ratings.some((x) => x.level === 'weak')
         ? 'weak'
@@ -146,6 +170,13 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
       if (c.type === 'Liquid' && tdp < 150) {
         return { level: 'overkill', note: 'An air cooler is enough for your processor', score: 50 };
       }
+      if (t.performance) {
+        // More cooling headroom = quieter and faster under long loads
+        // About twice the processor's heat: quiet under long loads without paying for more
+        const aim = Math.min(280, Math.max(180, tdp * 2));
+        if (c.tdpRatingW < tdp * 1.3) return { level: 'weak', note: 'Only just enough for your processor; it will run loud', score: 100 };
+        return { level: 'good', note: 'Keeps your processor cool and quiet under heavy load', score: Math.abs(Math.min(c.tdpRatingW, 300) - aim) / 100 };
+      }
       if (c.type === 'Air' && c.tdpRatingW > Math.max(tdp * 2.5, 180)) {
         return { level: 'overkill', note: 'Bigger than your processor needs', score: 50 };
       }
@@ -163,7 +194,7 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
           ? { level: 'good', note: 'Your processor has no built-in graphics, so a basic card is enough', score: g.tier }
           : { level: 'overkill', note: `Far more than ${job} needs`, score: 50 + g.tier };
       }
-      const { level, score } = rate(g.tier, t.gpuTier);
+      const { level, score } = rate(g.tier, t.gpuTier, aimFor(t.gpuTier, t, t.gpuTier.ideal >= 5 ? 5 : 4));
       let note =
         level === 'weak' ? `Too slow for ${job}`
         : level === 'overkill' ? `More power than ${job} needs, so you can save money`
@@ -182,12 +213,16 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
       if (p.wattage > Math.max(recommendedPsuW + 300, recommendedPsuW * 1.4)) {
         return { level: 'overkill', note: `More power than your parts need (${recommendedPsuW}W is enough)`, score: 50 };
       }
-      return { level: 'good', note: 'Enough safe power for your parts, with room to spare', score: (p.wattage - recommendedPsuW) / 100 };
+      let score = (p.wattage - recommendedPsuW) / 100;
+      if (t.performance) score += efficiencyPenalty(p.efficiency) * 2 + (p.modular === 'No' ? 0.5 : 0);
+      return { level: 'good', note: 'Enough safe power for your parts, with room to spare', score };
     }
 
     case 'ram': {
       const r = specs<RamSpecs>(part);
-      const { level, score } = rate(r.capacityGb, t.ramGb);
+      // Strong builds get at least 32GB; 64GB+ only where the job's ideal already asks for it
+      const aim = t.performance ? Math.min(t.ramGb.max, Math.max(t.ramGb.ideal, 32)) : t.ramGb.ideal;
+      const { level, score } = rate(r.capacityGb, t.ramGb, aim);
       const note =
         level === 'weak' ? `Not enough memory for ${job} (we suggest ${t.ramGb.ideal}GB)`
         : level === 'overkill' ? `More memory than ${job} needs`
@@ -197,7 +232,7 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
 
     case 'storage': {
       const s = specs<StorageSpecs>(part);
-      const { level, score } = rate(s.capacityGb, t.storageGb);
+      const { level, score } = rate(s.capacityGb, t.storageGb, t.performance ? t.storageGb.max : t.storageGb.ideal);
       let note =
         level === 'weak' ? `Small for ${job}; you may run out of space`
         : level === 'overkill' ? `More space than ${job} usually needs`
