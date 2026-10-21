@@ -1,6 +1,7 @@
 import { Body, Controller, Get, HttpCode, Post, UseGuards } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { AuthGuard, UserId } from './auth.guard';
+import { ClientIp } from '../security/client-ip';
 
 @Controller('auth')
 export class AuthController {
@@ -8,22 +9,22 @@ export class AuthController {
 
   /** POST /api/auth/register  { name, email, password } */
   @Post('register')
-  register(@Body() body: { name?: unknown; email?: unknown; password?: unknown }) {
-    return this.auth.register(body);
+  register(@Body() body: { name?: unknown; email?: unknown; password?: unknown }, @ClientIp() ip: string) {
+    return this.auth.register(body, ip);
   }
 
   /** POST /api/auth/login  { email, password } */
   @Post('login')
   @HttpCode(200)
-  login(@Body() body: { email?: unknown; password?: unknown }) {
-    return this.auth.login(body);
+  login(@Body() body: { email?: unknown; password?: unknown }, @ClientIp() ip: string) {
+    return this.auth.login(body, ip);
   }
 
   /** POST /api/auth/verify-email  { token } — from the link in the confirmation email */
   @Post('verify-email')
   @HttpCode(200)
-  verifyEmail(@Body() body: { token?: unknown }) {
-    return this.auth.verifyEmail(body?.token);
+  verifyEmail(@Body() body: { token?: unknown }, @ClientIp() ip: string) {
+    return this.auth.verifyEmail(body?.token, ip);
   }
 
   /** POST /api/auth/resend-verification — sends the confirmation email again */

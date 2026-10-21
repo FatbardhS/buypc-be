@@ -19,7 +19,8 @@ export class AdminGuard implements CanActivate {
     await this.auth.canActivate(context);
     const { userId } = context.switchToHttp().getRequest<{ userId: string }>();
     const user = await this.users.findOneBy({ id: userId });
-    if (user?.role !== 'admin') throw new ForbiddenException('Admins only');
+    // A confirmed email too: an admin email typed in by someone else never opens the panel
+    if (user?.role !== 'admin' || !user.emailVerified) throw new ForbiddenException('Admins only');
     return true;
   }
 }

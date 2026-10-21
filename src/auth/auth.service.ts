@@ -6,6 +6,7 @@ import { Repository } from 'typeorm';
 import { PublicUser, User, toPublic } from '../users/user.entity';
 import { hashPassword, verifyPassword } from './password';
 import { MailService } from '../mail/mail.service';
+import { RateLimitService } from '../security/rate-limit.service';
 
 /** Marks confirmation-link tokens so they can't be used to log in (and login tokens can't confirm) */
 export const VERIFY_PURPOSE = 'verify-email';
@@ -16,12 +17,16 @@ export interface AuthResponse {
 }
 
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+/** Longer passwords would only make hashing slow (a denial-of-service lever) */
+const MAX_PASSWORD = 128;
+const MINUTE = 60;
+const HOUR = 60 * MINUTE;
 
 @Injectable()
 export class AuthService {
   private readonly logger = new Logger(AuthService.name);
-  /** Last resend per user, so the Gmail account can't be used to spam (per server instance) */
-  private readonly lastResend = new Map<string, number>();
+  /** Compared against when the email doesn't exist, so a login takes as long either way */
+  private dummyHash?: Promise<string>;
   /** Emails that are made admin when they register or log in (ADMIN_EMAILS, comma-separated) */
   private readonly adminEmails: Set<string>;
 
@@ -29,6 +34,7 @@ export class AuthService {
     @InjectRepository(User) private readonly users: Repository<User>,
     private readonly jwt: JwtService,
     private readonly mail: MailService,
+    private readonly limits: RateLimitService,
     config: ConfigService,
   ) {
     this.adminEmails = new Set(
@@ -39,7 +45,7 @@ export class AuthService {
     );
   }
 
-  async register(body: { name?: unknown; email?: unknown; password?: unknown }): Promise<AuthResponse> {
+  async register(body: { name?: unknown; email?: unknown; password?: unknown }, ip: string): Promise<AuthResponse> {
     const name = typeof body?.name === 'string' ? body.name.trim() : '';
     const email = typeof body?.email === 'string' ? body.email.trim().toLowerCase() : '';
     const password = typeof body?.password === 'string' ? body.password : '';
@@ -47,6 +53,11 @@ export class AuthService {
     if (!name || name.length > 120) throw new BadRequestException('Enter your name');
     if (!EMAIL.test(email) || email.length > 254) throw new BadRequestException('Enter a valid email');
     if (password.length < 8) throw new BadRequestException('Password must be at least 8 characters');
+    if (password.length > MAX_PASSWORD) throw new BadRequestException(`Password can be at most ${MAX_PASSWORD} characters`);
+
+    // Stops mass sign-ups (each one sends emails from the shop's Gmail)
+    await this.limits.hit(`register-ip:${ip}`, 10, HOUR, 'Too many accounts created from your network.');
+    await this.limits.hit('register-all', 100, HOUR, 'Sign-ups are paused for a moment.');
 
     if (await this.users.existsBy({ email })) {
       throw new ConflictException('An account with this email already exists');
@@ -57,9 +68,10 @@ export class AuthService {
         name,
         email,
         passwordHash: await hashPassword(password),
-        role: this.adminEmails.has(email) ? 'admin' : 'user',
         // Without a mailbox configured nobody could confirm, so accounts start confirmed
         emailVerified: !this.mail.enabled,
+        // Admin only once the email is proven (see verifyEmail), never just by typing it in
+        role: !this.mail.enabled && this.adminEmails.has(email) ? 'admin' : 'user',
       }),
     );
     // Both emails go out together; awaited because a serverless function stops after responding
@@ -82,9 +94,17 @@ export class AuthService {
     }
   }
 
-  async login(body: { email?: unknown; password?: unknown }): Promise<AuthResponse> {
-    const email = typeof body?.email === 'string' ? body.email.trim().toLowerCase() : '';
+  async login(body: { email?: unknown; password?: unknown }, ip: string): Promise<AuthResponse> {
+    const email = typeof body?.email === 'string' ? body.email.trim().toLowerCase().slice(0, 254) : '';
     const password = typeof body?.password === 'string' ? body.password : '';
+    if (!email || !password || password.length > MAX_PASSWORD) throw new UnauthorizedException('Wrong email or password');
+
+    // Password guessing: 8 wrong tries per account, 30 per network, then a 15-minute pause
+    const accountKey = `login-fail:${email}`;
+    const ipKey = `login-fail-ip:${ip}`;
+    const message = 'Too many wrong passwords.';
+    await this.limits.check(accountKey, 8, message);
+    await this.limits.check(ipKey, 30, message);
 
     const user = await this.users
       .createQueryBuilder('user')
@@ -92,19 +112,34 @@ export class AuthService {
       .where('user.email = :email', { email })
       .getOne();
 
-    if (!user || !(await verifyPassword(password, user.passwordHash))) {
+    // Always hash once, so the reply time doesn't reveal whether the email has an account
+    const valid = await verifyPassword(password, user?.passwordHash ?? (await this.getDummyHash()));
+    if (!user || !valid) {
+      await Promise.all([this.limits.record(accountKey, 15 * MINUTE), this.limits.record(ipKey, 15 * MINUTE)]);
       throw new UnauthorizedException('Wrong email or password');
     }
-    // Accounts that existed before their email was added to ADMIN_EMAILS
-    if (this.adminEmails.has(email) && user.role !== 'admin') {
-      user.role = 'admin';
-      await this.users.update(user.id, { role: 'admin' });
-    }
+    await this.limits.reset(accountKey);
+
+    await this.promoteIfAdmin(user);
     return this.issue(user);
   }
 
+  /** ADMIN_EMAILS accounts become admin, but only once their email is confirmed */
+  private async promoteIfAdmin(user: User): Promise<void> {
+    if (user.emailVerified && this.adminEmails.has(user.email) && user.role !== 'admin') {
+      user.role = 'admin';
+      await this.users.update(user.id, { role: 'admin' });
+    }
+  }
+
+  private getDummyHash(): Promise<string> {
+    this.dummyHash ??= hashPassword('not-a-real-password');
+    return this.dummyHash;
+  }
+
   /** POST /auth/verify-email: marks the email confirmed when the link's token is valid */
-  async verifyEmail(token: unknown): Promise<PublicUser> {
+  async verifyEmail(token: unknown, ip: string): Promise<PublicUser> {
+    await this.limits.hit(`verify-ip:${ip}`, 30, 15 * MINUTE);
     let payload: { sub: string; email: string; purpose?: string };
     try {
       payload = await this.jwt.verifyAsync(typeof token === 'string' ? token : '');
@@ -118,10 +153,10 @@ export class AuthService {
       user.emailVerified = true;
       await this.users.update(user.id, { emailVerified: true });
     }
+    await this.promoteIfAdmin(user);
     return toPublic(user);
   }
 
-  /** POST /auth/resend-verification: emails a new confirmation link to the logged-in user */
   /**
    * Sends the confirmation link again. Users call it for themselves; admins can call it for anyone
    * (adminView) and then see Gmail's exact error when sending fails.
@@ -133,14 +168,12 @@ export class AuthService {
       if (adminView) throw new BadRequestException('This email is already confirmed');
       return { sent: false };
     }
-    const last = this.lastResend.get(userId) ?? 0;
-    if (Date.now() - last < 60_000) {
-      throw new BadRequestException('A confirmation email was just sent. Wait a minute before asking again.');
-    }
-    this.lastResend.set(userId, Date.now());
+    // Once a minute and 10 a day per account, so the shop's Gmail can't be used to spam someone
+    await this.limits.hit(`resend:${userId}`, 1, MINUTE, 'A confirmation email was just sent.');
+    await this.limits.hit(`resend-day:${userId}`, 10, 24 * HOUR, 'Too many confirmation emails today.');
     const error = await this.sendVerification(user);
     if (error) {
-      this.lastResend.delete(userId);
+      await this.limits.reset(`resend:${userId}`);
       throw new ServiceUnavailableException(
         adminView ? `Gmail did not accept the email: ${error}` : 'Could not send the email right now. Try again in a few minutes.',
       );
