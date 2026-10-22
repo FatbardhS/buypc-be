@@ -12,6 +12,13 @@ export class BuildsController {
     return this.builds.check(body?.selection);
   }
 
+  /** POST /api/builds/parts  { items: [{ partId, quantity }] } — the parts shop's cart */
+  @Post('parts')
+  @UseGuards(AuthGuard)
+  createPartsOrder(@UserId() userId: string, @Body() body: { items?: unknown }) {
+    return this.builds.createPartsOrder(userId, body?.items);
+  }
+
   /** POST /api/builds  { name?: string, selection: { ...all 8 categories } } */
   @Post()
   @UseGuards(AuthGuard)

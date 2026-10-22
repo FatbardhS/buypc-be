@@ -13,11 +13,17 @@ export interface BuildItem {
   partId: number;
   brand: string;
   name: string;
+  /** Price of one */
   price: number;
+  /** Parts orders can have more than one of a part; full builds always 1 */
+  quantity?: number;
 }
 
 export const BUILD_STATUSES = ['placed', 'processing', 'shipped', 'delivered', 'cancelled'] as const;
 export type BuildStatus = (typeof BUILD_STATUSES)[number];
+
+/** A whole PC from the builder, or loose parts from the parts shop */
+export type OrderKind = 'build' | 'parts';
 
 @Entity('builds')
 export class Build {
@@ -39,12 +45,16 @@ export class Build {
   @Column({ type: 'varchar', length: 20, default: 'placed' })
   status: BuildStatus;
 
+  @Column({ type: 'varchar', length: 10, default: 'build' })
+  kind: OrderKind;
+
   @Column({ type: 'jsonb' })
   items: BuildItem[];
 
   @Column({ type: 'numeric', precision: 10, scale: 2, transformer: numeric })
   totalPrice: number;
 
+  /** 0 for parts orders */
   @Column({ type: 'int' })
   estimatedPowerW: number;
 

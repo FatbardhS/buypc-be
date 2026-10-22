@@ -24,6 +24,10 @@ export interface PartOption {
 export class PartsService {
   constructor(@InjectRepository(Part) private readonly parts: Repository<Part>) {}
 
+  findByIds(ids: number[]): Promise<Part[]> {
+    return ids.length ? this.parts.findBy({ id: In(ids) }) : Promise.resolve([]);
+  }
+
   findByCategory(category: Category): Promise<Part[]> {
     return this.parts.find({ where: { category }, order: { price: 'ASC' } });
   }
