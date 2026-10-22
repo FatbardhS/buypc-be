@@ -4,11 +4,12 @@ import { Part } from './part.entity';
 import { PartsController } from './parts.controller';
 import { PartsService } from './parts.service';
 import { PartsSeeder } from '../seed/parts.seeder';
+import { PrebuiltsService } from './prebuilts';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Part])],
   controllers: [PartsController],
-  providers: [PartsService, PartsSeeder],
+  providers: [PartsService, PartsSeeder, PrebuiltsService],
   exports: [PartsService],
 })
 export class PartsModule {}

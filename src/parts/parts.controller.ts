@@ -1,10 +1,20 @@
 import { BadRequestException, Body, Controller, Get, Post, Query } from '@nestjs/common';
 import { PartsService } from './parts.service';
+import { PrebuiltsService } from './prebuilts';
 import { CATEGORIES, isCategory } from './part.types';
 
 @Controller('parts')
 export class PartsController {
-  constructor(private readonly parts: PartsService) {}
+  constructor(
+    private readonly parts: PartsService,
+    private readonly prebuilts: PrebuiltsService,
+  ) {}
+
+  /** GET /api/parts/prebuilts — the home page's ready-made builds, assembled from the live catalog */
+  @Get('prebuilts')
+  prebuiltList() {
+    return this.prebuilts.list();
+  }
 
   @Get('categories')
   categories() {
