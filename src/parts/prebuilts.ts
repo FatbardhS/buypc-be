@@ -16,11 +16,11 @@ interface PrebuiltDefinition {
 
 /** The prebuilt picks on the home page */
 const PREBUILTS: PrebuiltDefinition[] = [
-  { id: 'creator-pro', name: 'Creator Pro', tagline: 'Video & photo editing', profile: { uses: ['creative'], resolution: '1440p' }, featured: true },
-  { id: 'starter', name: 'Starter', tagline: '1080p gaming', profile: { uses: ['gaming'], resolution: '1080p', refreshHz: 144 } },
-  { id: 'ultra-4k', name: 'Ultra 4K', tagline: '4K gaming & streaming', profile: { uses: ['gaming'], resolution: '4k', refreshHz: 144 } },
-  { id: 'allrounder', name: 'Allrounder', tagline: '1440p gaming', profile: { uses: ['gaming'], resolution: '1440p', refreshHz: 144 } },
-  { id: 'workstation', name: 'Workstation', tagline: '3D, video & AI', profile: { uses: ['architecture'], resolution: '1440p' } },
+  { id: 'creator-pro', name: 'Prism', tagline: 'Video & photo editing', profile: { uses: ['creative'], resolution: '1440p' }, featured: true },
+  { id: 'starter', name: 'Spark', tagline: '1080p gaming', profile: { uses: ['gaming'], resolution: '1080p', refreshHz: 144 } },
+  { id: 'ultra-4k', name: 'Titan', tagline: '4K gaming & streaming', profile: { uses: ['gaming'], resolution: '4k', refreshHz: 144 } },
+  { id: 'allrounder', name: 'Vortex', tagline: '1440p gaming', profile: { uses: ['gaming'], resolution: '1440p', refreshHz: 144 } },
+  { id: 'workstation', name: 'Atlas', tagline: '3D, video & AI', profile: { uses: ['architecture'], resolution: '1440p' } },
 ];
 
 export interface Prebuilt {
