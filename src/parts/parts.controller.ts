@@ -18,10 +18,13 @@ export class PartsController {
     return this.prebuilts.list();
   }
 
-  /** POST /api/parts/budget  { budget: 1300, use?: 'gaming' } — the strongest compatible PC for that money */
+  /**
+   * POST /api/parts/budget  { budget: 1300, use?: 'gaming', selection?: { case: 3 }, builtInGraphics?: true, cpuBrand?: 'amd' }
+   * — the strongest compatible PC for that money, keeping any parts already picked
+   */
   @Post('budget')
-  budgetBuild(@Body() body: { budget?: unknown; use?: unknown }) {
-    return this.budget.build(body?.budget, body?.use);
+  budgetBuild(@Body() body: { budget?: unknown; use?: unknown; selection?: unknown; builtInGraphics?: unknown; cpuBrand?: unknown }) {
+    return this.budget.build(body?.budget, body?.use, body?.selection, body?.builtInGraphics, body?.cpuBrand);
   }
 
   @Get('categories')

@@ -94,7 +94,12 @@ function cheapest(parts: Part[], selection: Selection, decent: (p: Part) => bool
 export class BudgetService {
   constructor(private readonly parts: PartsService) {}
 
-  async build(rawBudget: unknown, rawUse: unknown): Promise<Prebuilt> {
+  /**
+   * `selection` holds parts the buyer already picked in the builder; they stay and the rest is
+   * planned around them. `builtInGraphics` means they chose no graphics card. `cpuBrand` limits
+   * the processors to AMD or Intel.
+   */
+  async build(rawBudget: unknown, rawUse: unknown, rawSelection?: unknown, builtIn?: unknown, rawBrand?: unknown): Promise<Prebuilt> {
     const budget = Number(rawBudget);
     if (!Number.isFinite(budget) || budget < MIN_BUDGET || budget > MAX_BUDGET) {
       throw new BadRequestException(`Budget must be between €${MIN_BUDGET} and €${MAX_BUDGET}`);
@@ -102,9 +107,17 @@ export class BudgetService {
     const use: Use = (USES as readonly string[]).includes(rawUse as string) ? (rawUse as Use) : 'gaming';
     const w = WEIGHTS[use];
     const cap = CAPS[use];
+    const locked = await this.parts.resolveSelection(rawSelection);
+    const noGraphicsCard = builtIn === true;
+    const brand = rawBrand === 'amd' || rawBrand === 'intel' ? rawBrand : undefined;
 
     const all = {} as Record<Category, Part[]>;
     await Promise.all(CATEGORIES.map(async (c) => (all[c] = await this.parts.findByCategory(c))));
+    for (const c of CATEGORIES) if (locked[c]) all[c] = [locked[c]];
+    if (noGraphicsCard) all.gpu = [];
+    if (brand && !locked.cpu) {
+      all.cpu = all.cpu.filter((p) => specs<CpuSpecs>(p).socket.startsWith('AM') === (brand === 'amd'));
+    }
 
     // Per socket, so every platform keeps its own candidates (boards cost differently)
     const sockets = [...new Set(all.cpu.map((p) => specs<CpuSpecs>(p).socket))];
@@ -158,7 +171,7 @@ export class BudgetService {
         if (!rams.length) continue;
 
         const gpuChoices: (Part | undefined)[] = [...gpus];
-        if (c.integratedGraphics) gpuChoices.unshift(undefined);
+        if (c.integratedGraphics && !locked.gpu) gpuChoices.unshift(undefined);
 
         for (const gpu of gpuChoices) {
           if (gpu && issuesFor(gpu, { ...base, cooler }).length) continue;
@@ -223,7 +236,11 @@ export class BudgetService {
     }
 
     if (!best) {
-      throw new BadRequestException(`We couldn't put a working PC together for €${Math.round(budget)}. Try a bigger budget.`);
+      throw new BadRequestException(
+        Object.keys(locked).length
+          ? `With the parts you picked so far, a working PC costs more than €${Math.round(budget)}. Raise the budget or change a part.`
+          : `We couldn't put a working PC together for €${Math.round(budget)}. Try a bigger budget.`,
+      );
     }
     const selection = best.selection;
     // Safety net: the search only uses compatible parts, but check the whole build once more
