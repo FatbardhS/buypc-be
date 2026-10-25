@@ -1,6 +1,7 @@
 import { BadRequestException, Body, Controller, Get, Post, Query } from '@nestjs/common';
 import { PartsService } from './parts.service';
 import { PrebuiltsService } from './prebuilts';
+import { BudgetService } from './budget';
 import { CATEGORIES, isCategory } from './part.types';
 
 @Controller('parts')
@@ -8,12 +9,19 @@ export class PartsController {
   constructor(
     private readonly parts: PartsService,
     private readonly prebuilts: PrebuiltsService,
+    private readonly budget: BudgetService,
   ) {}
 
   /** GET /api/parts/prebuilts — the home page's ready-made builds, assembled from the live catalog */
   @Get('prebuilts')
   prebuiltList() {
     return this.prebuilts.list();
+  }
+
+  /** POST /api/parts/budget  { budget: 1300, use?: 'gaming' } — the strongest compatible PC for that money */
+  @Post('budget')
+  budgetBuild(@Body() body: { budget?: unknown; use?: unknown }) {
+    return this.budget.build(body?.budget, body?.use);
   }
 
   @Get('categories')

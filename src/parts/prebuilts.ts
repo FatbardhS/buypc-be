@@ -33,6 +33,8 @@ export interface Prebuilt {
   parts: Partial<Record<Category, Part>>;
   builtInGraphics: boolean;
   totalPrice: number;
+  /** Heads-up for the buyer, e.g. when a budget is too tight for the job */
+  note?: string;
   /** Short headline specs, e.g. ["Ryzen 9 7900X", "Radeon RX 7800 XT", "32GB DDR5"] */
   highlights: string[];
 }
