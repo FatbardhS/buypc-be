@@ -24,7 +24,7 @@ export class BuildsService {
 
   /** Validates a (possibly partial) build without saving it. */
   async check(ids: unknown) {
-    return this.summarize(await this.parts.resolveSelection(ids));
+    return this.summarize(await this.parts.resolveSelection(ids, { skipMissing: true }));
   }
 
   /** Every order needs a confirmed email and somewhere to deliver it */

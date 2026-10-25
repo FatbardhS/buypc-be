@@ -27,6 +27,19 @@ export class PartsController {
     return this.budget.build(body?.budget, body?.use, body?.selection, body?.builtInGraphics, body?.cpuBrand);
   }
 
+  /**
+   * POST /api/parts/lookup  { ids: [12, 40] } — the current version of these parts. Parts no longer
+   * sold are simply missing, so the site can drop them from saved builds and carts.
+   */
+  @Post('lookup')
+  lookup(@Body() body: { ids?: unknown }) {
+    const ids = body?.ids;
+    if (!Array.isArray(ids) || ids.length > 100 || !ids.every((id) => Number.isInteger(id))) {
+      throw new BadRequestException('ids must be a list of at most 100 part ids');
+    }
+    return this.parts.findByIds(ids as number[]);
+  }
+
   @Get('categories')
   categories() {
     return CATEGORIES;

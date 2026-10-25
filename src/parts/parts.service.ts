@@ -32,8 +32,12 @@ export class PartsService {
     return this.parts.find({ where: { category }, order: { price: 'ASC' } });
   }
 
-  /** Turns `{ case: 3, cpu: 12 }` into full Part objects, checking each id belongs to its category. */
-  async resolveSelection(ids: unknown): Promise<Selection> {
+  /**
+   * Turns `{ case: 3, cpu: 12 }` into full Part objects, checking each id belongs to its category.
+   * With `skipMissing`, parts that are no longer in the catalog (a build saved before a price
+   * update) are left out instead of failing; ordering never skips them.
+   */
+  async resolveSelection(ids: unknown, { skipMissing = false } = {}): Promise<Selection> {
     if (ids === undefined || ids === null) return {};
     if (typeof ids !== 'object' || Array.isArray(ids)) {
       throw new BadRequestException('selection must be an object of { category: partId }');
@@ -52,6 +56,7 @@ export class PartsService {
     const selection: Selection = {};
     for (const [category, id] of entries) {
       const part = byId.get(id as number);
+      if (!part && skipMissing) continue;
       if (!part || part.category !== category) {
         throw new BadRequestException(`Part ${id} is not a valid ${category}`);
       }
@@ -66,7 +71,7 @@ export class PartsService {
    * single best match is flagged `recommended` and moved to the top.
    */
   async options(category: Category, ids: unknown, rawProfile?: unknown) {
-    const selection = await this.resolveSelection(ids);
+    const selection = await this.resolveSelection(ids, { skipMissing: true });
     // Only parts picked in earlier steps constrain this step
     const earlier: Selection = {};
     for (const prev of CATEGORIES.slice(0, CATEGORIES.indexOf(category))) {

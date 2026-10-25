@@ -107,7 +107,7 @@ export class BudgetService {
     const use: Use = (USES as readonly string[]).includes(rawUse as string) ? (rawUse as Use) : 'gaming';
     const w = WEIGHTS[use];
     const cap = CAPS[use];
-    const locked = await this.parts.resolveSelection(rawSelection);
+    const locked = await this.parts.resolveSelection(rawSelection, { skipMissing: true });
     const noGraphicsCard = builtIn === true;
     const brand = rawBrand === 'amd' || rawBrand === 'intel' ? rawBrand : undefined;
 
