@@ -353,7 +353,9 @@ const sized = (url) => (url.includes('50cdn.gjirafamall.tech') && !url.includes(
 
 // ---------- Matching shop listings to the hand-checked catalog ----------
 
-const STOP = new Set(['edition', 'the', 'gaming', 'wifi', 'with', 'and', 'black', 'white', 'reference', 'founders', 'low', 'profile', 'ssd', 'sata', 'nvme', 'oc']);
+const STOP = new Set(['edition', 'the', 'gaming', 'wifi', 'with', 'and', 'black', 'white', 'low', 'profile', 'ssd', 'sata', 'nvme', 'oc']);
+/** Words that make a different model; a shop listing with one our name lacks is another product */
+const VARIANT = new Set(['pro', 'plus', 'btf', 'ice', 'ac', 'r2', 'rgb', 'argb', 'spectrum', 'v2', 'v3', 'ti', 'super', 'xt', 'xtx', 'mini', 'max', 'lite', 'se', 'evo', 'elite', 'ultra', 'prime', 'tuf', 'dual', 'strix', 'trio', 'ventus', 'gaming x']);
 const tokens = (s) => s.toLowerCase().replace(/[()]/g, ' ').split(/[\s,/-]+/).filter((x) => x && !STOP.has(x));
 
 async function curatedCatalog() {
@@ -381,9 +383,10 @@ function matchCurated(curated, listings) {
       if (!hits.length) hits = pool.filter((p) => cpuKey(p.name) === key);
     } else {
       const need = tokens(`${c.brand} ${c.name}`);
+      const needSet = new Set(need);
       hits = pool.filter((p) => {
         const have = new Set(tokens(p.name));
-        return need.every((x) => have.has(x));
+        return need.every((x) => have.has(x)) && ![...have].some((x) => VARIANT.has(x) && !needSet.has(x));
       });
     }
     const best = hits.filter((p) => p.image).sort((a, b) => a.price - b.price)[0];

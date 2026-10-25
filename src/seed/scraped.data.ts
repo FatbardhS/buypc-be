@@ -10,20 +10,10 @@ export const CURATED_FROM_SHOP: Record<string, { price: number; imageUrl: string
     "imageUrl": "https://50cdn.gjirafamall.tech/images/3a0cb9c7-d44c-4e48-bc61-4b2d707e8334/3a0cb9c7-d44c-4e48-bc61-4b2d707e8334.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/kuti-kompjuteri-nzxt-h5-flow-mid-tower-xham-i-temperuar-e-bardhe"
   },
-  "case/lian-li-o11-dynamic-evo": {
-    "price": 199.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/5ed0a82f-fca6-460b-8a28-51f789074f76/5ed0a82f-fca6-460b-8a28-51f789074f76.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/kase-lian-li-o11-dynamic-evo-rgb-midi-tower"
-  },
   "case/fractal-north": {
     "price": 134.5,
     "imageUrl": "https://50cdn.gjirafamall.tech/images/54624e7e-2338-41b4-83cb-e222da225870/54624e7e-2338-41b4-83cb-e222da225870.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/kase-fractal-design-north-chalk-white-mid-tower-e-bardhe"
-  },
-  "motherboard/gigabyte-b550m-ds3h": {
-    "price": 99.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/c379acd9-a19a-45f5-9b40-095b7ecd07d6/c379acd9-a19a-45f5-9b40-095b7ecd07d6.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b550m-ds3h-ac-r2-amd-am4-ddr4-wi-fi-5"
   },
   "motherboard/asrock-b650m-hdv-m2": {
     "price": 119.5,
@@ -34,11 +24,6 @@ export const CURATED_FROM_SHOP: Record<string, { price: number; imageUrl: string
     "price": 179.5,
     "imageUrl": "https://50cdn.gjirafamall.tech/images/83de35f9-de0f-41bd-81af-bb6b872d64e0/83de35f9-de0f-41bd-81af-bb6b872d64e0.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/pllake-ame-asus-rog-strix-b550-f-gaming-wifi-ii-amd-b550-socket-am4-atx"
-  },
-  "motherboard/gigabyte-b650m-aorus-elite-ax": {
-    "price": 177.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/00c7c6af-44d3-46b7-b6cc-8fd7fbfd6d54/00c7c6af-44d3-46b7-b6cc-8fd7fbfd6d54.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/pllake-ame-gigabyte-b650m-aorus-elite-ax-ice-amd-b650-socket-am5-4-slota-bluetooth-wi-fi-6-micro-atx"
   },
   "motherboard/asus-tuf-z790-plus": {
     "price": 249.5,
@@ -106,44 +91,14 @@ export const CURATED_FROM_SHOP: Record<string, { price: number; imageUrl: string
     "sourceUrl": "https://gjirafa50.com/ftohes-thermalright-peerless-assassin-120-se-extrem-i-zi"
   },
   "cooler/cooler-master-hyper-212-black": {
-    "price": 19.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/050bdd52-ba63-438d-a3c2-c3635223ed46/050bdd52-ba63-438d-a3c2-c3635223ed46.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/ftohes-cpu-cooler-master-hyper-212-spectrum-v3-120mm-argb-i-zi"
+    "price": 32.5,
+    "imageUrl": "https://50cdn.gjirafamall.tech/images/43e85b4f-3582-4e2a-b978-9fbce85ccad6/43e85b4f-3582-4e2a-b978-9fbce85ccad6.jpeg?width=400",
+    "sourceUrl": "https://gjirafa50.com/ftohes-cpu-cooler-master-hyper-212-black-120mm-ajer-i-zi"
   },
   "cooler/noctua-nh-d15-g2": {
     "price": 189.5,
     "imageUrl": "https://50cdn.gjirafamall.tech/images/9abfb181-0e59-4fe3-ba74-5885b6e13d9b/9abfb181-0e59-4fe3-ba74-5885b6e13d9b.jpeg?width=400",
     "sourceUrl": "https://gjirafa50.com/ftohes-per-procesor-noctua-nh-d15-g2-hbc-14-cm"
-  },
-  "cooler/arctic-liquid-freezer-iii-280": {
-    "price": 95.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/1dd73f52-4710-4e4d-b02c-129e4133e0d5/1dd73f52-4710-4e4d-b02c-129e4133e0d5.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/ftohes-uji-cpu-arctic-liquid-freezer-iii-pro-280-radiator-280mm-multi-compatible-i-zi"
-  },
-  "cooler/arctic-liquid-freezer-iii-360": {
-    "price": 99.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/dccad3bb-719d-45d1-8f0d-9613f42fd020/dccad3bb-719d-45d1-8f0d-9613f42fd020.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/sistem-ftohes-me-uje-arctic-liquid-freezer-iii-pro-360-radiator-360mm-3-ventilatore-i-zi"
-  },
-  "cooler/nzxt-kraken-240": {
-    "price": 128.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/359f409f-09a5-4f12-b4a3-d06f95bc063f/359f409f-09a5-4f12-b4a3-d06f95bc063f.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/ftohes-uji-procesori-nzxt-kraken-plus-rgb-240-aio-240mm-i-bardhe"
-  },
-  "gpu/nvidia-rtx-5070-fe": {
-    "price": 819.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/4f4cf2ba-420f-4589-9997-dcaa64530710/4f4cf2ba-420f-4589-9997-dcaa64530710.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/karte-grafike-asus-prime-rtx5070-o12g-white-nvidia-geforce-rtx-5070-12gb-gddr7-e-bardhe"
-  },
-  "gpu/asus-rog-strix-rtx-4090": {
-    "price": 2824.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/51c3fa3a-0e12-4511-9922-3b8b33051078/51c3fa3a-0e12-4511-9922-3b8b33051078.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-rog-strix-geforce-rtx-4090-btf-oc-24gb-gddr6x-2"
-  },
-  "gpu/nvidia-rtx-5090-fe": {
-    "price": 5369.5,
-    "imageUrl": "https://50cdn.gjirafamall.tech/images/c919cbb5-37e0-42d2-8649-67858f5c3f5c/c919cbb5-37e0-42d2-8649-67858f5c3f5c.jpeg?width=400",
-    "sourceUrl": "https://gjirafa50.com/kartele-grafike-asus-tuf-gaming-tuf-rtx5090-o32g-nvidia-geforce-rtx-5090-32gb-gddr7"
   },
   "storage/samsung-990-pro-1tb": {
     "price": 189,

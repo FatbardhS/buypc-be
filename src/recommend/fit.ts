@@ -224,8 +224,8 @@ export function fitFor(part: Part, t: Targets, earlier: Selection, ctx: FitConte
       const aim = t.performance ? Math.min(t.ramGb.max, Math.max(t.ramGb.ideal, 32)) : t.ramGb.ideal;
       const { level, score } = rate(r.capacityGb, t.ramGb, aim);
       const note =
-        level === 'weak' ? `Not enough memory for ${job} (we suggest ${t.ramGb.ideal}GB)`
-        : level === 'overkill' ? `More memory than ${job} needs`
+        level === 'weak' ? `Not enough RAM for ${job} (we suggest ${t.ramGb.ideal}GB)`
+        : level === 'overkill' ? `More RAM than ${job} needs`
         : `${r.capacityGb}GB is right for ${job}`;
       return { level, note, score: score / 16 };
     }
